@@ -1,0 +1,43 @@
+{
+  "connectionStatus": "Status",
+  "playersOnline": "Players Online",
+  "hrefs": {
+    "createAccount": "Create an account.",
+    "forgotPassword": "Forgot password?",
+    "enterAsGuest": "Enter as a guest.",
+    "resendVerificationEmail": "Resend verification email.",
+    "haveAccount": "Already have an account? ",
+    "signIn": "Sign in",
+    "goHome": "Go Home."
+  },
+  "messages": {
+    "attemptAutoLogin_WelcomeBack": "Welcome back",
+    "attemptAutoLogin_AttemptAuto": "Attempting to automatically log you back in...",
+    "attemptAutoLogin_Cancel": "Click here to cancel"
+  },
+  "oAuthButton": {
+    "discord": "Sign in with Discord"
+  },
+  "guestForm": {
+    "welcomeMessage": "Welcome to PianoRhythm!",
+    "usernameInputMessage": "What's your nickname?",
+    "buttons": { "enter": "Enter", "register": "Register", "login":"Login" }
+  },
+  "resendVerificationEmailForm": {
+    "header": "Resend Email Verification",
+    "onSubmitInfoToast": "If there's an account associated with that email, then an account verification email will be sent. Thank you."
+  },
+  "forgotPasswordForm": {
+    "header": "Forgot Password"
+  },
+  "loginForm": {
+    "header": "Login"
+  },
+  "registerForm": {
+    "labels": {
+      "tos1": "I agree that I'm at least 13 and have read the",
+      "tos2": "Terms of Use"
+    },
+    "submitButton": "Register"
+  }
+}

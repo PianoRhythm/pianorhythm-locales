@@ -1,0 +1,28 @@
+{
+  "name": "pianorhythm_locales",
+  "version": "1.0.0",
+  "description": "PianoRhythm i18n",
+  "main": "index.js",
+  "scripts": {
+    "validate": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://OakBot@bitbucket.org/pianorhythm/pianorhythm_locales.git"
+  },
+  "keywords": [
+    "pianorhythm",
+    "v3",
+    "piano",
+    "multiplayer",
+    "music",
+    "locales"
+  ],
+  "author": "Oak",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/pianorhythm/pianorhythm_locales#readme",
+  "dependencies": {
+    "ajv": "^7.1.1",
+    "jsonschema": "^1.4.0"
+  }
+}

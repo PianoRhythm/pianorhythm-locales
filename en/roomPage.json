@@ -1,0 +1,72 @@
+{
+  "common": {
+    "labels": {
+      "transpose": "Transpose",
+      "octave": "Octave",
+      "tools": "Tools",
+      "room": "Room",
+      "create": "Create",
+      "update": "Update",
+      "roomName": "Name",
+      "menuBasic": "Basic",
+      "menuAdvanced": "Advanced"
+    }
+  },
+  "modals": {
+    "room": {
+      "labels": {
+        "onlyOwnerCanPlay": "Only owner can play",
+        "onlyOwnerCanChat": "Only owner can chat",
+        "allowGuests": "Allow guests",
+        "onlyMods": "Only Allow Moderators",
+        "allowBlackMidi": "Allow Black Midi",
+        "maxPlayers": "Max Players",
+        "makeRoomPrivate": "Make room private"
+      },
+      "tooltips": {
+        "onlyOwnerCanPlay": "Only owner can play music (work in progress). <br>(Other users can still play locally but only the owner will be heard by everyone)",
+        "onlyOwnerCanChat": "Only owner can send chat messages",
+        "allowGuests": "If disabled, prevents guests from entering your room",
+        "onlyMods": "Only allow moderators to join. (Option is not visibile to non moderators)",
+        "allowBlackMidi": "Enabling this will allow players to play black midis or play large amounts of notes without the server temporarily muting them for excessive playing. <br> <br>(Room owners have a higher note quota limit)",
+        "maxPlayers": "Set the max players that can be in the room",
+        "makeRoomPrivate": "Make room private",
+        "roomName": "(Optional) Set the name of the room.",
+        "roomPassword": "(Optional) Set a password for the room."
+      }
+    }
+  },
+  "sideBar": {
+    "usersTab": "Users",
+    "friendsTab": "Pals",
+    "roomsTab": "Rooms"
+  },
+  "bottomBar": {
+    "buttons": {
+      "newRoom": "New Room",
+      "roomSettings": "Room Settings",
+      "settings": "Settings",
+      "midi": "MIDI",
+      "modDashboard": "Mod Dashboard",
+      "volume": "Volume",
+      "sustain": "Sustain",
+      "logout": "Logout"
+    },
+    "tooltips": {
+      "newRoom": "Create a new room",
+      "roomSettings": "Change the settings for the room",
+      "settings": "Change user settings",
+      "midi": "Set the MIDI I/O",
+      "modDashboard": "Moderator Dashboard",
+      "volume": "Click me to toggle muting!",
+      "sustain": "Toggle the sustain",
+      "sustainActive": "Active",
+      "logout": "Log out of"
+    },
+    "messages": {
+      "logoutPressed": "Are you sure you want to log out?",
+      "logoutPressed_Confirm": "Yes!",
+      "logoutPressed_Cancel": "No, sorry..."
+    }
+  }
+}
