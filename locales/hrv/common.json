@@ -1,0 +1,16 @@
+{
+  "labels" : {
+    "username": "Korisnicko ime",
+    "password": "Lozinka",
+    "email": "email",
+    "confirmpassword": "confirm password",
+    "on": "On",
+    "off": "Off"
+  },
+  "buttons": {
+    "submit": "Submit"
+  },
+  "errorMessages": {
+    "webGLNotSupported": "Sorry, certain features, such as WebGL, are not supported on this browser. <br>Please update your browser if you can."
+  }
+}
