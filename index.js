@@ -10,7 +10,7 @@ const ajv = new Ajv({
 let commonSchema = require("./schema/common")
 const commonValidate = ajv.compile(commonSchema)
 
-let data = require("./en/common.json")
+let data = require("./locales/en/common.json")
 
 if (!commonValidate(data)) {
   console.error(commonValidate.errors)
