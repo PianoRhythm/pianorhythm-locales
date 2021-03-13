@@ -68,5 +68,29 @@
       "logoutPressed_Confirm": "Yes!",
       "logoutPressed_Cancel": "No, sorry..."
     }
+  },
+  "components": {
+    "metronome": {
+      "tooltips": {
+        "player": "Click to play/pause the metronome",
+        "bpm_desc": "“Beats per minute” (or BPM) indicates the number of beats in one minute.",
+        "timesignature_desc": "A time signature tells you how the music is to be counted. <br><br>The top number of the time signature tells you <i>how many</i> beats to count. <br><br>The bottom number tells you what kind of note to count.",
+        "beat_remove": "Remove a beat from the measure",
+        "beat_add": "Add a beat to the measure",
+        "tempo_desc_general": "Describes the tempo (in italian). Tempo is the speed or pace of a given piece.",
+        "tempo_desc_larghissimo": "extremely slow, slower than largo",
+        "tempo_desc_largo": "very slow and broad",
+        "tempo_desc_grave": "very slow",
+        "tempo_desc_lento": "slow",
+        "tempo_desc_adagio": "slow",
+        "tempo_desc_andante": "walking pace",
+        "tempo_desc_moderato": "moderately",
+        "tempo_desc_allegretto": "moderately fast, slightly slower than allegro",
+        "tempo_desc_allegro": "fast",
+        "tempo_desc_vivace": "fast and lively",
+        "tempo_desc_presto": "very fast",
+        "tempo_desc_prestissimo": "extremely fast, faster than presto"
+      }
+    }
   }
 }

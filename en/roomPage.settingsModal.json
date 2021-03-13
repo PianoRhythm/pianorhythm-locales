@@ -166,7 +166,8 @@
             "tgl_enableVelocity": "Enable velocity",
             "sld_velocityMuting": "Velocity Muting",
             "tgl_enableVelocityBoost": "Enable velocity boost",
-            "sld_velocityBoost": "Velocity Boost"
+            "sld_velocityBoost": "Velocity Boost",
+            "lbl_metronome": "Metronome Audio Sample"
           },
           "tooltips": {
             "lbl_enableAudioToOutput": "If checked and any output devices are active, then audio will only be emitted to the output device and not within PianoRhythm's audio engine",
@@ -175,7 +176,8 @@
             "tgl_enableVelocity": "If unchecked, the raw velocity values from the source will not be used. Instead it'll be set to the max value (127)",
             "sld_velocityMuting": "Mute notes with a velocity that is less than or equal to the meter value.",
             "tgl_enableVelocityBoost": "Boosts incoming raw velocity values",
-            "sld_velocityBoost": "Adds additional value to raw velocity"
+            "sld_velocityBoost": "Adds additional value to raw velocity",
+            "lbl_metronome": "Select the audio sample type to use for the metronome"
           }
         }
       }

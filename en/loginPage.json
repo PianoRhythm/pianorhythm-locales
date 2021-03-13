@@ -35,8 +35,8 @@
   },
   "registerForm": {
     "labels": {
-      "tos1": "I agree that I'm at least 13 and have read the",
-      "tos2": "Terms of Use"
+      "tos1": "I agree that I'm at least 13 and I have read the",
+      "tos2": "Terms of Use and Conditions"
     },
     "submitButton": "Register"
   }
