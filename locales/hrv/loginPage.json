@@ -1,43 +1,43 @@
 {
   "connectionStatus": "Status",
-  "playersOnline": "Players Online",
+  "playersOnline": "Aktivni igrači",
   "hrefs": {
-    "createAccount": "Create an account.",
-    "forgotPassword": "Forgot password?",
-    "enterAsGuest": "Enter as a guest.",
-    "resendVerificationEmail": "Resend verification email.",
-    "haveAccount": "Already have an account? ",
-    "signIn": "Sign in",
-    "goHome": "Go Home."
+    "createAccount": "Izradi račun.",
+    "forgotPassword": "Zaboravljena lozinka?",
+    "enterAsGuest": "Uđite kao gost.",
+    "resendVerificationEmail": "Ponovno pošalji email za potvrdu.",
+    "haveAccount": "Već imate račun?",
+    "signIn": "Prijavi se",
+    "goHome": "Idi na naslovnicu."
   },
   "messages": {
-    "attemptAutoLogin_WelcomeBack": "Welcome back",
-    "attemptAutoLogin_AttemptAuto": "Attempting to automatically log you back in...",
-    "attemptAutoLogin_Cancel": "Click here to cancel"
+    "attemptAutoLogin_WelcomeBack": "Dobrodošli natrag",
+    "attemptAutoLogin_AttemptAuto": "Pokušavamo Vas ponovno prijaviti...",
+    "attemptAutoLogin_Cancel": "Kliknite ovdje da otkažete"
   },
   "oAuthButton": {
-    "discord": "Sign in with Discord"
+    "discord": "Prijavi se putem Discorda"
   },
   "guestForm": {
-    "welcomeMessage": "Welcome to PianoRhythm!",
-    "usernameInputMessage": "What's your nickname?",
-    "buttons": { "enter": "Enter", "register": "Register", "login":"Login" }
+    "welcomeMessage": "Dobrodošli na PianoRhythm!",
+    "usernameInputMessage": "Koji je tvoj nadimak?",
+    "buttons": { "enter": "Potvrdi", "register": "Registracija", "login":"Prijava" }
   },
   "resendVerificationEmailForm": {
-    "header": "Resend Email Verification",
-    "onSubmitInfoToast": "If there's an account associated with that email, then an account verification email will be sent. Thank you."
+    "header": "Ponovno pošalji potvrdni email",
+    "onSubmitInfoToast": "Ako postoji račun povezan sa tom email adresom, tada će biti poslan potvrdni email. Hvala."
   },
   "forgotPasswordForm": {
-    "header": "Forgot Password"
+    "header": "Zaboravljena lozinka"
   },
   "loginForm": {
-    "header": "Login"
+    "header": "Prijava"
   },
   "registerForm": {
     "labels": {
-      "tos1": "I agree that I'm at least 13 and I have read the",
-      "tos2": "Terms of Use and Conditions"
+      "tos1": "Slažem se da imam najmanje 13 i da sam pročitao/la",
+      "tos2": "Uvjeti Korištenja"
     },
-    "submitButton": "Register"
+    "submitButton": "Registracija"
   }
 }

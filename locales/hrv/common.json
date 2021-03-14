@@ -1,16 +1,16 @@
 {
   "labels" : {
-    "username": "Korisnicko ime",
+    "username": "Korisničko ime",
     "password": "Lozinka",
-    "email": "email",
-    "confirmpassword": "confirm password",
-    "on": "On",
-    "off": "Off"
+    "email": "Email",
+    "confirmpassword": "Potvrdite lozinku",
+    "on": "Uključeno",
+    "off": "Isključeno"
   },
   "buttons": {
-    "submit": "Submit"
+    "submit": "Potvrdi"
   },
   "errorMessages": {
-    "webGLNotSupported": "Sorry, certain features, such as WebGL, are not supported on this browser. <br>Please update your browser if you can."
+    "webGLNotSupported": "Žao nam je, određene značajke, kao što je WebGL, nisu podržane na ovom pretraživaču. <br>Molimo vas da nadogradite svoj pretraživač ako možete."
   }
 }

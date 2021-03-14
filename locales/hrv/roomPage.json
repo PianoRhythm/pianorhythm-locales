@@ -1,95 +1,95 @@
 {
   "common": {
     "labels": {
-      "transpose": "Transpose",
-      "octave": "Octave",
-      "tools": "Tools",
-      "room": "Room",
-      "create": "Create",
-      "update": "Update",
-      "roomName": "Name",
-      "menuBasic": "Basic",
-      "menuAdvanced": "Advanced"
+      "transpose": "Transponirati",
+      "octave": "Oktava",
+      "tools": "Alati",
+      "room": "Soba",
+      "create": "Izradi",
+      "update": "Ažuriraj",
+      "roomName": "Ime",
+      "menuBasic": "Osnovno",
+      "menuAdvanced": "Napredno"
     }
   },
   "modals": {
     "room": {
       "labels": {
-        "onlyOwnerCanPlay": "Only owner can play",
-        "onlyOwnerCanChat": "Only owner can chat",
-        "allowGuests": "Allow guests",
-        "onlyMods": "Only Allow Moderators",
-        "allowBlackMidi": "Allow Black Midi",
-        "maxPlayers": "Max Players",
-        "makeRoomPrivate": "Make room private"
+        "onlyOwnerCanPlay": "Samo vlasnik može svirati",
+        "onlyOwnerCanChat": "Samo vlasnik može pričati",
+        "allowGuests": "Dopusti goste",
+        "onlyMods": "Dopusti samo Moderatore",
+        "allowBlackMidi": "Dopusti Black Midi",
+        "maxPlayers": "Maksimalno igrača",
+        "makeRoomPrivate": "Napravi sobu privatnom"
       },
       "tooltips": {
-        "onlyOwnerCanPlay": "Only owner can play music (work in progress). <br>(Other users can still play locally but only the owner will be heard by everyone)",
-        "onlyOwnerCanChat": "Only owner can send chat messages",
-        "allowGuests": "If disabled, prevents guests from entering your room",
-        "onlyMods": "Only allow moderators to join. (Option is not visibile to non moderators)",
-        "allowBlackMidi": "Enabling this will allow players to play black midis or play large amounts of notes without the server temporarily muting them for excessive playing. <br> <br>(Room owners have a higher note quota limit)",
-        "maxPlayers": "Set the max players that can be in the room",
-        "makeRoomPrivate": "Make room private",
-        "roomName": "(Optional) Set the name of the room.",
-        "roomPassword": "(Optional) Set a password for the room."
+        "onlyOwnerCanPlay": "Samo vlasnik može puštati glazbu (rad u tijeku). <br>(Drugi korisnici i dalje mogu svirati lokalno, ali svi će čuti samo vlasnika)",
+        "onlyOwnerCanChat": "Samo vlasnik može slati poruke",
+        "allowGuests": "Ako je onemogućeno, spriječava ulazak gostiju u sobu",
+        "onlyMods": "Dopusti pridruživanje samo Moderatorima. (Osoba nije vidljiva ne-moderatorima)",
+        "allowBlackMidi": "Omogućavanje ovoga će dopustiti igračima da koriste black midi ili da sviraju veliki broj nota bez da ih server za stalno ogluši zbog pretjeranog sviranja. <br> <br>(Vlasnici soba imaju veći limit nota)",
+        "maxPlayers": "Postavi maksimalan broj igrača koji mogu biti u sobi",
+        "makeRoomPrivate": "Napravi sobu privatnom",
+        "roomName": "(Opcionalno) Postavi ime sobe.",
+        "roomPassword": "(Opcionalno) Postavi lozinku sobe."
       }
     }
   },
   "sideBar": {
-    "usersTab": "Users",
-    "friendsTab": "Pals",
-    "roomsTab": "Rooms"
+    "usersTab": "Korisnici",
+    "friendsTab": "Prijatelji",
+    "roomsTab": "Sobe"
   },
   "bottomBar": {
     "buttons": {
-      "newRoom": "New Room",
-      "roomSettings": "Room Settings",
-      "settings": "Settings",
+      "newRoom": "Nova Soba",
+      "roomSettings": "Postavke Sobe",
+      "settings": "Postavke",
       "midi": "MIDI",
-      "modDashboard": "Mod Dashboard",
-      "volume": "Volume",
-      "sustain": "Sustain",
-      "logout": "Logout"
+      "modDashboard": "Moderatorska kontrolna ploča",
+      "volume": "Jačina",
+      "sustain": "Sustain pedala",
+      "logout": "Odjavi se"
     },
     "tooltips": {
-      "newRoom": "Create a new room",
-      "roomSettings": "Change the settings for the room",
-      "settings": "Change user settings",
-      "midi": "Set the MIDI I/O",
-      "modDashboard": "Moderator Dashboard",
-      "volume": "Click me to toggle muting!",
-      "sustain": "Toggle the sustain",
-      "sustainActive": "Active",
-      "logout": "Log out of"
+      "newRoom": "Izradi novu sobu",
+      "roomSettings": "Promijeni opcije sobe",
+      "settings": "Promijeni korisničke postavke",
+      "midi": "Postavi MIDI U/I",
+      "modDashboard": "Moderatorska kontrolna ploča",
+      "volume": "Klikni me za aktivaciju oglušivanja!",
+      "sustain": "Aktiviraj sustain",
+      "sustainActive": "Aktivno",
+      "logout": "Odjavi se iz"
     },
     "messages": {
-      "logoutPressed": "Are you sure you want to log out?",
-      "logoutPressed_Confirm": "Yes!",
-      "logoutPressed_Cancel": "No, sorry..."
+      "logoutPressed": "Jeste sigurni da se želite odjaviti?",
+      "logoutPressed_Confirm": "Da!",
+      "logoutPressed_Cancel": "Ne, žao mi je..."
     }
   },
   "components": {
     "metronome": {
       "tooltips": {
-        "player": "Click to play/pause the metronome",
-        "bpm_desc": "“Beats per minute” (or BPM) indicates the number of beats in one minute.",
-        "timesignature_desc": "A time signature tells you how the music is to be counted. <br><br>The top number of the time signature tells you <i>how many</i> beats to count. <br><br>The bottom number tells you what kind of note to count.",
-        "beat_remove": "Remove a beat from the measure",
-        "beat_add": "Add a beat to the measure",
-        "tempo_desc_general": "Describes the tempo (in italian). Tempo is the speed or pace of a given piece.",
-        "tempo_desc_larghissimo": "extremely slow, slower than largo",
-        "tempo_desc_largo": "very slow and broad",
-        "tempo_desc_grave": "very slow",
-        "tempo_desc_lento": "slow",
-        "tempo_desc_adagio": "slow",
-        "tempo_desc_andante": "walking pace",
-        "tempo_desc_moderato": "moderately",
-        "tempo_desc_allegretto": "moderately fast, slightly slower than allegro",
-        "tempo_desc_allegro": "fast",
-        "tempo_desc_vivace": "fast and lively",
-        "tempo_desc_presto": "very fast",
-        "tempo_desc_prestissimo": "extremely fast, faster than presto"
+        "player": "Klikni za reprodukciju/pauzu metronoma",
+        "bpm_desc": "â€œOtkucaji u minutiâ€ (ili BPM) Označava broj otkucaja u minuti.",
+        "timesignature_desc": "Takt govori kako se glazba prebrojava. <br><br>Gornji broj takta govori <i>koliko</i> se otkucaja prebrojava. <br><br>Donji broj govori koja se vrsta note prebrojava.",
+        "beat_remove": "Ukloni ritam od mjere",
+        "beat_add": "Dodaj ritam mjeri",
+        "tempo_desc_general": "Opisuje tempo(u talijanskom). Tempo je brzina ili korak nekog određenog dijela.",
+        "tempo_desc_larghissimo": "iznimno sporo, sporije nego largo",
+        "tempo_desc_largo": "jako sporo i široko",
+        "tempo_desc_grave": "jako sporo",
+        "tempo_desc_lento": "sporo",
+        "tempo_desc_adagio": "sporo",
+        "tempo_desc_andante": "korak hoda",
+        "tempo_desc_moderato": "umjereno",
+        "tempo_desc_allegretto": "umjereno brzo, znatno sporije nego allegro",
+        "tempo_desc_allegro": "brzo",
+        "tempo_desc_vivace": "brzo i živo",
+        "tempo_desc_presto": "jako brzo",
+        "tempo_desc_prestissimo": "iznimno brzo, brže nego presto"
       }
     }
   }
