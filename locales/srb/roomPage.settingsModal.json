@@ -1,0 +1,200 @@
+{
+  "messages": {
+    "audioSettingNotSupportedV3": "Билешка: Тренутно, већина аудио поставки није примењива на v3",
+    "changeWillTakeEffectOnNextRestart": "Промене ће да ступе на снагу идућим поновним покретањем.",
+    "changesSaved": "Промене спремљене."
+  },
+  "menus": {
+    "general": {
+      "header": "Генерално",
+      "subMenus": {
+        "language": {
+          "label": "Језик",
+          "elements": {
+            "lbl_languageSelect": "Одабир језика"
+          },
+          "tooltips": {
+            "lbl_languageSelect": "Одабери задани језик за PianoRhythm."
+          }
+        }
+      }
+    },
+    "online": {
+      "header": "Активно",
+      "subMenus": {
+        "multiplayer": {
+          "label": "Више играча",
+          "elements": {
+            "hdr_multiplayerSettings": "Поставке випе играча",
+            "lbl_userColor": "Боја корисника",
+            "btn_userColorReset": "Ресетирај боју",
+            "btn_userColorSubmit": "Потврди боју",
+            "tgl_showMyCursor": "Покажи мој показивач",
+            "tgl_sendWhoistyping": "Пошаљи ТкоПише",
+            "tgl_disableWhispers": "Омогућо шаптање"
+          },
+          "tooltips": {
+            "hdr_multiplayerSettings": "Постави опције везане за више играча.",
+            "lbl_userColor": "Постави своју корисничку боју",
+            "btn_userColorReset": "",
+            "btn_userColorSubmit": "",
+            "tgl_showMyCursor": "Постави хоће твој показивач да буде видљив другима",
+            "tgl_sendWhoistyping": "Постави хоће ли други играчи да виде када пишеш.",
+            "tgl_disableWhispers": "Онемогући шаптање. Не можете да шаптате другима ни други вама."
+          }
+        },
+        "discord": {
+          "label": "Discord",
+          "elements": {
+            "hdr_discordSettings": "Опције Discorda",
+            "swtch_syncDiscordMessages": "Сиnхронизуј поруке Discord Lobbya"
+          },
+          "tooltips": {
+            "hdr_discordSettings": "Постави поставке везане за Discord.",
+            "swtch_syncDiscordMessages": "Постави хоће ли поруке Discorda да буду синhronizovane у главном lobbyu."
+          }
+        },
+        "input": {
+          "label": "Ulazi",
+          "elements": {
+            "hdr_keyboardSettings": "Опције тастатуре",
+            "lbl_pianoKeylayout": "Распоред клавирских типки",
+            "lbl_keyboardMaplayout": "Распоред мапе типковнице",
+            "drp_keyboards": "Типковнице",
+            "lbl_shortcutBinds": "Повежи пречац",
+            "btn_openKeybinder": "Отвори пречац за типке"
+          },
+          "tooltips": {
+            "hdr_keyboardSettings": "Постави опције везане за типковницу.",
+            "lbl_pianoKeylayout": "Постави распоред клавирских типки за клавир.",
+            "lbl_keyboardMaplayout": "Постави точно улазно мапирање типки.",
+            "lbl_shortcutBinds": "Постави везивање најчешћих пречаца ."
+          }
+        }
+      }
+    },
+    "graphics": {
+      "header": "Графика",
+      "subMenus": {
+        "general": {
+          "label": "Генералнo",
+          "elements": {
+            "hdr_engine": "Графика фонта",
+            "lbl_engine": "Фонт",
+            "lbl_maxFPS": "Максимално FPSа"
+          },
+          "tooltips": {
+            "lbl_engine": "Намести између 2D, 3D, или без графичког фонта.",
+            "lbl_maxFPS": "Одабери максималан број сличица за приказивање механизма у секунди."
+          }
+        },
+        "ui": {
+          "label": "UI",
+          "elements": {
+            "hdr_displays": "Покажи",
+            "tgl_fps": "Покажи FPS",
+            "tgl_ping": "Покажи ping",
+            "tgl_instDock": "Покажи инструментално пристаниште",
+            "tgl_userCursors": "Покажи кориснички миш",
+            "tgl_whoistyping": "Покажи ТкоПише",
+            "hdr_chat": "Chat",
+            "tgle_displayChat": "Покажи поруке разговора"
+          },
+          "tooltips": {
+            "hdr_displays": "Покажи поруке одређених UI елемената",
+            "tgl_fps": "Покажии мерач FPSa екрана",
+            "tgl_ping": "Покажи приказ pinga",
+            "tgl_instDock": "Покажи приказ инструменталног пристаништа",
+            "tgl_userCursors": "Покажи приказ миша од других корисника",
+            "tgl_whoistyping": "Покажи приказивање када други корисници пишу",
+            "hdr_chat": "Сличне UI поставке за поруке Chata",
+            "tgle_displayChat": "Покажи приказ порука Chata"
+          }
+        },
+        "blob": {
+          "label": "Лопта",
+          "elements": {
+            "hdr_displays": "Покажи",
+            "tgl_blobs": "Покажи лопту",
+            "tgl_garden": "Пoкажи врт"
+          },
+          "tooltips": {
+            "hdr_displays": "Покажи приказ екрана од повезаних елемената лоптe.",
+            "tgl_blobs": "Уклључи приказ лопте.",
+            "tgl_garden": "Укључи приказ врта лопте."
+          }
+        }
+      }
+    },
+    "audio": {
+      "header": "Audio",
+      "subMenus": {
+        "soundfont": {
+          "label": "Soundfont",
+          "messages": {
+            "soundfontLoading": "Молимо Вас да причекате док се тонови звука не учитају!"
+          },
+          "elements": {
+            "hdr_generalSettings": "Генералне поставке",
+            "lbl_audioEngine": "Звучни Фонт",
+            "tgl_enableDrums": "Омогући бубњарски канал",
+            "hdr_v3Audio": "V3 Звукови",
+            "lbl_soundfonts": "Фонтови Звука",
+            "lbl_initalBuffersize": "Почетна величина међуспремника",
+            "tgl_showDebuglogs": "Прикажи записнике изведбе отклањања грешака",
+            "tgl_useAudioWorklet": "Користи Audio радну површину"
+          },
+          "tooltips": {
+            "lbl_audioEngine": "Одабери задани звучни механизам. <br> (Ступа на снагу након идућег поновног покретанја)",
+            "tgl_enableDrums": "Када је омогућено, ово ће да допусти свиранје звука удараљки на каналу 9 (нулта-базa-индекса)",
+            "hdr_v3Audio": "Опције специфичне за V3 Audio Engine",
+            "lbl_soundfonts": "Одабери задани звучни фонт",
+            "lbl_initalBuffersize": "Објашњење долази ускоро. (Ступа на снагу након идућег поновног покретанја)",
+            "tgl_showDebuglogs": "Када је омогућено, ово ће да изнесе записнике изведбе на конзолу",
+            "tgl_useAudioWorklet": "Када је омогућено, ово ће да учита V3 audio mehanizam у засебну нит у процесу аудио радне површине. <br> Требало би да побољша перформансе. (Ступа на снагу када се апликација поново покрене)"
+          }
+        },
+        "midi": {
+          "label": "Midi",
+          "elements": {
+            "hdr_inputOutput": "Улаз / Излаз",
+            "lbl_enableAudioToOutput": "Омогући звук само за излаз",
+            "hrd_generalEffects": "Опћи учинци",
+            "tgl_mousePosVelocity": "Положај миша одређује гласноћу звука",
+            "sld_sustainCutoff": "Прекид sustaina",
+            "hdr_velocityEffects": "Учинци јачине звука",
+            "tgl_enableVelocity": "Омогући јачину звука",
+            "sld_velocityMuting": "Оглуши јачину звука",
+            "tgl_enableVelocityBoost": "Омогући побољшанје јачине звука",
+            "sld_velocityBoost": "Побољшанје јачине звука",
+            "lbl_metronome": "Audio узорак metronoma"
+          },
+          "tooltips": {
+            "lbl_enableAudioToOutput": "Ако је означено и ако је ити један излазни уређај активан, звук ће да се емитира само на излазни уређај, а не унутар звучног PianoRhythm механизма",
+            "tgl_mousePosVelocity": "То ће да омогући да полажај миша одрежује јачину звука уноса типковнице рачунала. <br> <br> Што је ваш миш ниже претраживачком простору, то ће ваше ноте да се гласније чују",
+            "sld_sustainCutoff": "Поставите граничну тачку отпуштања за ноте које дуго трају. (Високи постотак = краће трајанје нота)",
+            "tgl_enableVelocity": "Ако се не означи, вредности сирове брзине из извора неће да се користе. Уместо тога ће да буде постављена на максималну вредност (127)",
+            "sld_velocityMuting": "Оглуши ноте које инају јачину мању или једнаку од вредности пројила.",
+            "tgl_enableVelocityBoost": "Појачава улазне вредности сирове јачине звука",
+            "sld_velocityBoost": "Додаје додатну вредност сировој јачини звука.",
+            "lbl_metronome": "одаберите врсту audio узорка који ћете да користите за metronom"
+          }
+        }
+      }
+    },
+    "other": {
+      "header": "Друго",
+      "subMenus": {
+        "changelog": {
+          "label": "Попис Промена"
+        },
+        "credits": {
+          "label": "Заслуге",
+          "messages": {
+            "error_FailedToGetData": "Дохваћање података није успелo..."
+          }
+        }
+      }
+    }
+  }
+}
