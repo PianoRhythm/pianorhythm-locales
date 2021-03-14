@@ -1,0 +1,16 @@
+{
+  "labels" : {
+    "username": "Korisničko ime",
+    "password": "Lozinka",
+    "email": "Email",
+    "confirmpassword": "Potvrdite lozinku",
+    "on": "Uključeno",
+    "off": "Isključeno"
+  },
+  "buttons": {
+    "submit": "Potvrdi"
+  },
+  "errorMessages": {
+    "webGLNotSupported": "Žao nam je, određene značajke, kao što je WebGL, nisu podržane na ovom pretraživaču. <br>Molimo vas da nadogradite svoj pretraživač ako možete."
+  }
+}

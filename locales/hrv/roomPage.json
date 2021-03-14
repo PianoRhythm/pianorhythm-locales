@@ -1,0 +1,96 @@
+{
+  "common": {
+    "labels": {
+      "transpose": "Transponirati",
+      "octave": "Oktava",
+      "tools": "Alati",
+      "room": "Soba",
+      "create": "Izradi",
+      "update": "Ažuriraj",
+      "roomName": "Ime",
+      "menuBasic": "Osnovno",
+      "menuAdvanced": "Napredno"
+    }
+  },
+  "modals": {
+    "room": {
+      "labels": {
+        "onlyOwnerCanPlay": "Samo vlasnik može svirati",
+        "onlyOwnerCanChat": "Samo vlasnik može pričati",
+        "allowGuests": "Dopusti goste",
+        "onlyMods": "Dopusti samo Moderatore",
+        "allowBlackMidi": "Dopusti Black Midi",
+        "maxPlayers": "Maksimalno igrača",
+        "makeRoomPrivate": "Napravi sobu privatnom"
+      },
+      "tooltips": {
+        "onlyOwnerCanPlay": "Samo vlasnik može puštati glazbu (rad u tijeku). <br>(Drugi korisnici i dalje mogu svirati lokalno, ali svi će čuti samo vlasnika)",
+        "onlyOwnerCanChat": "Samo vlasnik može slati poruke",
+        "allowGuests": "Ako je onemogućeno, spriječava ulazak gostiju u sobu",
+        "onlyMods": "Dopusti pridruživanje samo Moderatorima. (Osoba nije vidljiva ne-moderatorima)",
+        "allowBlackMidi": "Omogućavanje ovoga će dopustiti igračima da koriste black midi ili da sviraju veliki broj nota bez da ih server za stalno ogluši zbog pretjeranog sviranja. <br> <br>(Vlasnici soba imaju veći limit nota)",
+        "maxPlayers": "Postavi maksimalan broj igrača koji mogu biti u sobi",
+        "makeRoomPrivate": "Napravi sobu privatnom",
+        "roomName": "(Opcionalno) Postavi ime sobe.",
+        "roomPassword": "(Opcionalno) Postavi lozinku sobe."
+      }
+    }
+  },
+  "sideBar": {
+    "usersTab": "Korisnici",
+    "friendsTab": "Prijatelji",
+    "roomsTab": "Sobe"
+  },
+  "bottomBar": {
+    "buttons": {
+      "newRoom": "Nova Soba",
+      "roomSettings": "Postavke Sobe",
+      "settings": "Postavke",
+      "midi": "MIDI",
+      "modDashboard": "Moderatorska kontrolna ploča",
+      "volume": "Jačina",
+      "sustain": "Sustain pedala",
+      "logout": "Odjavi se"
+    },
+    "tooltips": {
+      "newRoom": "Izradi novu sobu",
+      "roomSettings": "Promijeni opcije sobe",
+      "settings": "Promijeni korisničke postavke",
+      "midi": "Postavi MIDI U/I",
+      "modDashboard": "Moderatorska kontrolna ploča",
+      "volume": "Klikni me za aktivaciju oglušivanja!",
+      "sustain": "Aktiviraj sustain",
+      "sustainActive": "Aktivno",
+      "logout": "Odjavi se iz"
+    },
+    "messages": {
+      "logoutPressed": "Jeste sigurni da se želite odjaviti?",
+      "logoutPressed_Confirm": "Da!",
+      "logoutPressed_Cancel": "Ne, žao mi je..."
+    }
+  },
+  "components": {
+    "metronome": {
+      "tooltips": {
+        "player": "Klikni za reprodukciju/pauzu metronoma",
+        "bpm_desc": "â€œOtkucaji u minutiâ€ (ili BPM) Označava broj otkucaja u minuti.",
+        "timesignature_desc": "Takt govori kako se glazba prebrojava. <br><br>Gornji broj takta govori <i>koliko</i> se otkucaja prebrojava. <br><br>Donji broj govori koja se vrsta note prebrojava.",
+        "beat_remove": "Ukloni ritam od mjere",
+        "beat_add": "Dodaj ritam mjeri",
+        "tempo_desc_general": "Opisuje tempo(u talijanskom). Tempo je brzina ili korak nekog određenog dijela.",
+        "tempo_desc_larghissimo": "iznimno sporo, sporije nego largo",
+        "tempo_desc_largo": "jako sporo i široko",
+        "tempo_desc_grave": "jako sporo",
+        "tempo_desc_lento": "sporo",
+        "tempo_desc_adagio": "sporo",
+        "tempo_desc_andante": "korak hoda",
+        "tempo_desc_moderato": "umjereno",
+        "tempo_desc_allegretto": "umjereno brzo, znatno sporije nego allegro",
+        "tempo_desc_allegro": "brzo",
+        "tempo_desc_vivace": "brzo i živo",
+        "tempo_desc_presto": "jako brzo",
+        "tempo_desc_prestissimo": "iznimno brzo, brže nego presto"
+      }
+    }
+  }
+}
