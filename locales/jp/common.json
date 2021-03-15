@@ -1,0 +1,16 @@
+{
+  "labels" : {
+    "username": "ユーザーネーム",
+    "password": "パスワード",
+    "email": "メールアドレス",
+    "confirmpassword": "パスワードの確認",
+    "on": "オン",
+    "off": "オフ"
+  },
+  "buttons": {
+    "submit": "送信する"
+  },
+  "errorMessages": {
+    "webGLNotSupported": "Sorry, certain features, such as WebGL, are not supported on this browser. <br>Please update your browser if you can."
+  }
+}
