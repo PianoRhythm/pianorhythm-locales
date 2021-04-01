@@ -61,7 +61,8 @@
       "volume": "Click me to toggle muting!",
       "sustain": "Toggle the sustain",
       "sustainActive": "Active",
-      "logout": "Log out of"
+      "logout": "Log out of",
+      "menu": "Click here for more menu items!"
     },
     "messages": {
       "logoutPressed": "Are you sure you want to log out?",
