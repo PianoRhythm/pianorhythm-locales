@@ -22,7 +22,8 @@
         "allowBlackMidi": "Allow Black Midi",
         "maxPlayers": "Max Players",
         "makeRoomPrivate": "Make room private",
-        "filterProfanity": "Filter Profanity"
+        "filterProfanity": "Filter Profanity",
+        "welcomeMessage": "Welcome message"
       },
       "tooltips": {
         "onlyOwnerCanPlay": "Only owner can play music (work in progress). <br>(Other users can still play locally but only the owner will be heard by everyone)",
@@ -34,7 +35,8 @@
         "makeRoomPrivate": "Make room private",
         "roomName": "(Optional) Set the name of the room.",
         "roomPassword": "(Optional) Set a password for the room.",
-        "filterProfanity": "Filtered profanities such as curse words will be censored. They'll appear in asterisks. e.g,'****'"
+        "filterProfanity": "Filtered profanities such as curse words will be censored. They'll appear in asterisks. e.g,'****'",
+        "welcomeMessage": "This message will be displayed to users who enter your room. You can write some rules or say something warm and nice."
       }
     }
   },
