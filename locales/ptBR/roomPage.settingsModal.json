@@ -1,0 +1,200 @@
+{
+  "messages": {
+    "audioSettingNotSupportedV3": "Nota: Atualmente, a maioria das configurações de áudio não são aplicáveis na v3",
+    "changeWillTakeEffectOnNextRestart": "As alterações serão aplicadas ao reiniciar.",
+    "changesSaved": "Alterações salvas."
+  },
+  "menus": {
+    "general": {
+      "header": "Em Geral",
+      "subMenus": {
+        "language": {
+          "label": "Idioma",
+          "elements": {
+            "lbl_languageSelect": "Selecionar Idioma"
+          },
+          "tooltips": {
+            "lbl_languageSelect": "Define o idioma padrão do PianoRhythm."
+          }
+        }
+      }
+    },
+    "online": {
+      "header": "Online",
+      "subMenus": {
+        "multiplayer": {
+          "label": "Multijogador",
+          "elements": {
+            "hdr_multiplayerSettings": "Configurações de Multijogador",
+            "lbl_userColor": "Cor do Usuário",
+            "btn_userColorReset": "Redefinir Cor",
+            "btn_userColorSubmit": "Salvar Cor",
+            "tgl_showMyCursor": "Mostrar cursor",
+            "tgl_sendWhoistyping": "Mostrar se estou digitando",
+            "tgl_disableWhispers": "Desativar sussurros"
+          },
+          "tooltips": {
+            "hdr_multiplayerSettings": "Define as configurações relacionadas ao multijogador.",
+            "lbl_userColor": "Define a cor do seu usuário",
+            "btn_userColorReset": "",
+            "btn_userColorSubmit": "",
+            "tgl_showMyCursor": "O seu cursor é exibido para outras pessoas",
+            "tgl_sendWhoistyping": "Outros usuários sabem quando você está digitando.",
+            "tgl_disableWhispers": "Desative o sussurro. Você não pode sussurrar para os outros jogadores e vice-versa."
+          }
+        },
+        "discord": {
+          "label": "Discord",
+          "elements": {
+            "hdr_discordSettings": "Configurações do Discord",
+            "swtch_syncDiscordMessages": "Sincronizar mensagens do Discord ao lobby"
+          },
+          "tooltips": {
+            "hdr_discordSettings": "Define as configurações relacionadas ao Discord.",
+            "swtch_syncDiscordMessages": "As mensagens do Discord são sincronizadas no lobby principal."
+          }
+        },
+        "input": {
+          "label": "Controles",
+          "elements": {
+            "hdr_keyboardSettings": "Configurações do Teclado",
+            "lbl_pianoKeylayout": "Layout das Teclas",
+            "lbl_keyboardMaplayout": "Layout do Teclado",
+            "drp_keyboards": "Teclados",
+            "lbl_shortcutBinds": "Teclas de Atalho",
+            "btn_openKeybinder": "Abrir Atalhos"
+          },
+          "tooltips": {
+            "hdr_keyboardSettings": "Define as configurações relacionadas ao teclado.",
+            "lbl_pianoKeylayout": "Define o layout do teclado para o piano.",
+            "lbl_keyboardMaplayout": "Define o mapeamento do teclado",
+            "lbl_shortcutBinds": "Crie teclas de atalhos comuns."
+          }
+        }
+      }
+    },
+    "graphics": {
+      "header": "Gráficos",
+      "subMenus": {
+        "general": {
+          "label": "Em Geral",
+          "elements": {
+            "hdr_engine": "Engine Gráfica",
+            "lbl_engine": "Engine",
+            "lbl_maxFPS": "Máximo FPS"
+          },
+          "tooltips": {
+            "lbl_engine": "Alterne entre 2D, 3D ou nenhuma engine gráfica.",
+            "lbl_maxFPS": "Selecione a taxa máxima de quadros por segundo."
+          }
+        },
+        "ui": {
+          "label": "UI",
+          "elements": {
+            "hdr_displays": "Tela",
+            "tgl_fps": "Exibir FPS",
+            "tgl_ping": "Exibir Ping",
+            "tgl_instDock": "Exibir dock de instrumentos",
+            "tgl_userCursors": "Exibir cursor de usuários",
+            "tgl_whoistyping": "Exibir quem está digitando",
+            "hdr_chat": "Chat",
+            "tgle_displayChat": "Mensagens do bate-papo"
+          },
+          "tooltips": {
+            "hdr_displays": "Alterna certos elementos da Interface",
+            "tgl_fps": "Medidor do seu FPS",
+            "tgl_ping": "Mostra a exibição do seu ping",
+            "tgl_instDock": "Exibe o dock do instrumento",
+            "tgl_userCursors": "Mostrar os cursores de outros usuários",
+            "tgl_whoistyping": "Alternar quando outros usuários estiverem digitando",
+            "hdr_chat": "Configurações da UI relacionadas a mensagens do bate-papo ",
+            "tgle_displayChat": "Alternar a exibição de mensagens de bate-papo"
+          }
+        },
+        "blob": {
+          "label": "Blob",
+          "elements": {
+            "hdr_displays": "Tela",
+            "tgl_blobs": "Exibir Blobs",
+            "tgl_garden": "Exibir Jardim"
+          },
+          "tooltips": {
+            "hdr_displays": "Alternar as exibições de certos elementos relacionados ao Blob.",
+            "tgl_blobs": "Alterne a exibição dos blobs.",
+            "tgl_garden": "Alterne a exibição do jardim."
+          }
+        }
+      }
+    },
+    "audio": {
+      "header": "Audio",
+      "subMenus": {
+        "soundfont": {
+          "label": "Soundfont",
+          "messages": {
+            "soundfontLoading": "Por favor aguarde enquanto o soundfont carrega!"
+          },
+          "elements": {
+            "hdr_generalSettings": "Configurações Gerais",
+            "lbl_audioEngine": "Audio Engine",
+            "tgl_enableDrums": "Habilitar canal de Bateria",
+            "hdr_v3Audio": "V3 Audio",
+            "lbl_soundfonts": "Soundfonts",
+            "lbl_initalBuffersize": "Tamanho inicial do buffer",
+            "tgl_showDebuglogs": "Mostrar logs de desempenho de depuração",
+            "tgl_useAudioWorklet": "Usar AudioWorklet"
+          },
+          "tooltips": {
+            "lbl_audioEngine": "Selecione a engine de áudio padrão. <br> (Tem efeito na próxima reinicialização)",
+            "tgl_enableDrums": "Quando ativado, permitirá que sons de percussão sejam reproduzidos no canal 9 (zero-index base)",
+            "hdr_v3Audio": "Configurações específicas para a emgine de áudio V3",
+            "lbl_soundfonts": "Selecione o soundfont padrão",
+            "lbl_initalBuffersize": "O tamanho do buffer é a quantidade de tempo que o computador leva para processar qualquer sinal de áudio de entrada. (Tem efeito na próxima reinicialização)",
+            "tgl_showDebuglogs": "Gera logs de desempenho para o console",
+            "tgl_useAudioWorklet": "Carregará o mecanismo de áudio V3 em um thread separado em um processo de worklet de áudio. <br> Deve melhorar o desempenho. (Tem efeito na próxima reinicialização)"
+          }
+        },
+        "midi": {
+          "label": "Midi",
+          "elements": {
+            "hdr_inputOutput": "Input / Output",
+            "lbl_enableAudioToOutput": "Habilitar áudio para apenas saída",
+            "hrd_generalEffects": "Efeitos Gerais",
+            "tgl_mousePosVelocity": "A posição do mouse determina a velocidade",
+            "sld_sustainCutoff": "Cortar Sustain",
+            "hdr_velocityEffects": "Efeitos de velocidade",
+            "tgl_enableVelocity": "Ativar velocidade",
+            "sld_velocityMuting": "Silenciar velocidade",
+            "tgl_enableVelocityBoost": "Habilitar aumento de velocidade",
+            "sld_velocityBoost": "Velocidade",
+            "lbl_metronome": "Áudio do metrônomo"
+          },
+          "tooltips": {
+            "lbl_enableAudioToOutput": "Se todos os dispositivos de saída estiverem ativos, o áudio só será enviado para o dispositivo de saída e não para o PianoRhythm",
+            "tgl_mousePosVelocity": "Isso permitirá que a posição do mouse determine a velocidade do piano ao teclado do seu computador. <br> <br> Quanto mais próximo o mouse estiver da parte inferior da janela do navegador, mais altas serão as notas",
+            "sld_sustainCutoff": "Define o ponto de corte para notas do sustain. (Maior porcentagem = menor sustain)",
+            "tgl_enableVelocity": "Se desmarcado, os valores de velocidade da fonte não serão usados. Em vez disso, será definido para o valor máximo (127)",
+            "sld_velocityMuting": "Silencie as notas com uma velocidade menor ou igual ao valor do medidor.",
+            "tgl_enableVelocityBoost": "Aumenta os valores de velocidade de entrada",
+            "sld_velocityBoost": "Adiciona valor adicional à velocidade",
+            "lbl_metronome": "Selecione o tipo de áudio para usar no metrônomo"
+          }
+        }
+      }
+    },
+    "other": {
+      "header": "Outros",
+      "subMenus": {
+        "changelog": {
+          "label": "Atualizações"
+        },
+        "credits": {
+          "label": "Créditos",
+          "messages": {
+            "error_FailedToGetData": "Falha ao obter dados..."
+          }
+        }
+      }
+    }
+  }
+}
