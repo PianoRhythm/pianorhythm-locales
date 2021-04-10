@@ -1,0 +1,101 @@
+{
+  "common": {
+    "labels": {
+      "transpose": "Transpor",
+      "octave": "Oitava",
+      "tools": "Ferramentas",
+      "room": "sala",
+      "create": "Criar",
+      "update": "Atualizar",
+      "roomName": "Nome",
+      "menuBasic": "Simples",
+      "menuAdvanced": "Avançado"
+    }
+  },
+  "modals": {
+    "room": {
+      "labels": {
+        "onlyOwnerCanPlay": "Apenas o dono pode jogar",
+        "onlyOwnerCanChat": "Apenas o dono pode conversar",
+        "allowGuests": "Permitir convidados",
+        "onlyMods": "Permitir apenas Moderadores",
+        "allowBlackMidi": "Permitir Black Midi",
+        "maxPlayers": "Máximo de Jogadores",
+        "makeRoomPrivate": "Sala privada",
+        "filterProfanity": "Filtrar palavrões",
+        "welcomeMessage": "Mensagem de boas vinda"
+      },
+      "tooltips": {
+        "onlyOwnerCanPlay": "Apenas o dono da sala pode tocar música (em progresso). <br>(Outros usuários ainda podem jogar, mas apenas o dono será ouvido por todos)",
+        "onlyOwnerCanChat": "Apenas o dono da sala pode enviar mensagens de bate-papo",
+        "allowGuests": "Se desativado, impede a entrada de convidados em sua sala", 
+        "onlyMods": "Permitir apenas a entrada de moderadores. (A opção não é visível para usuários comuns)",
+        "allowBlackMidi": "Habilitar isso permitirá que os jogadores reproduzam Black Midi ou grandes quantidades de notas sem que o servidor os silencie temporariamente. <br> <br>(Dono da sala tem um limite de nota maior)",
+        "maxPlayers": "Define o máximo de jogadores da sala",
+        "makeRoomPrivate": "Tornar a sala privada",
+        "roomName": "(Opcional) Define o nome da sala.",
+        "roomPassword": "(Opcional) Define uma senha para a sala.",
+        "filterProfanity": "Palavrões serão censurados. Eles vão aparecer em asteriscos. Exemplo, '****'",
+        "welcomeMessage": "Essa mensagem será exibida para os usuários que entrarem na sua sala. Você pode escrever algumas regras ou dizer algo gentil e fofo. "
+      }
+    }
+  },
+  "sideBar": {
+    "usersTab": "Usuários",
+    "friendsTab": "Amigos",
+    "roomsTab": "Salas"
+  },
+  "bottomBar": {
+    "buttons": {
+      "newRoom": "Criar Sala",
+      "roomSettings": "Preferências da Sala",
+      "settings": "Configurações",
+      "midi": "MIDI",
+      "modDashboard": "Painel de Moderador",
+      "volume": "Volume",
+      "sustain": "Sustain",
+      "logout": "Sair"
+    },
+    "tooltips": {
+      "newRoom": "Criar uma nova sala",
+      "roomSettings": "Alterar as configurações da sala",
+      "settings": "Alterar as configurações de usuário",
+      "midi": "Definir o MIDI I/O",
+      "modDashboard": "Painel de Moderador",
+      "volume": "Clique aqui para ativar/desativar o som!",
+      "sustain": "Ativar o sustain",
+      "sustainActive": "Ativado",
+      "logout": "Sair da sua conta",
+      "menu": "Clique aqui para mais itens do menu!"
+    },
+    "messages": {
+      "logoutPressed": "Tem certeza que deseja sair?",
+      "logoutPressed_Confirm": "Sim!",
+      "logoutPressed_Cancel": "Não, desculpa..."
+    }
+  },
+  "components": {
+    "metronome": {
+      "tooltips": {
+        "player": "Clique para reproduzir/pausar o metrônomo",
+        "bpm_desc": "“Batimentos por minuto” (ou BPM) indica o número de batidas em um minuto.",
+        "timesignature_desc": "Uma fórmula de compasso que indica o tempo correto da música. <br><br>O número superior da fórmula diz a você <i>quantas</i> batidas contar. <br><br>O número inferior indica que tipo de nota contar.",
+        "beat_remove": "Remove uma batida do compasso",
+        "beat_add": "Adiciona uma batida ao compasso",
+        "tempo_desc_general": "Descreve o tempo (em italiano). Tempo é a velocidade ou ritmo de uma peça.",
+        "tempo_desc_larghissimo": "extremamente lento, mais lento do que largo",
+        "tempo_desc_largo": "muito lento e amplo",
+        "tempo_desc_grave": "muito lento",
+        "tempo_desc_lento": "lento",
+        "tempo_desc_adagio": "lento",
+        "tempo_desc_andante": "ritmo andante",
+        "tempo_desc_moderato": "moderadamente",
+        "tempo_desc_allegretto": "moderadamente rápido, mais lento que allegro",
+        "tempo_desc_allegro": "rápido",
+        "tempo_desc_vivace": "rápido e animado",
+        "tempo_desc_presto": "muito rápido",
+        "tempo_desc_prestissimo": "extremamente rápido, mais rápido do que presto"
+      }
+    }
+  }
+}

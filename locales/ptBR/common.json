@@ -1,0 +1,16 @@
+{
+  "labels" : {
+    "username": "Usuário",
+    "password": "Senha",
+    "email": "Email",
+    "confirmpassword": "Confirmar senha",
+    "on": "Ativado",
+    "off": "Desativado"
+  },
+  "buttons": {
+    "submit": "Enviar"
+  },
+  "errorMessages": {
+    "webGLNotSupported": "Desculpe, alguns recursos, como WebGL, não são compatíveis com este navegador. <br>Por favor, atualize seu navegador se puder."
+  }
+}

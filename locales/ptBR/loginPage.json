@@ -1,0 +1,43 @@
+{
+  "connectionStatus": "Status",
+  "playersOnline": "Jogadores Online",
+  "hrefs": {
+    "createAccount": "Criar uma conta.",
+    "forgotPassword": "Esqueceu sua senha?",
+    "enterAsGuest": "Entrar como convidado.",
+    "resendVerificationEmail": "Reenviar e-mail de confirmação.",
+    "haveAccount": "Já possui uma conta?",
+    "signIn": "Entrar",
+    "goHome": "Voltar."
+  },
+  "messages": {
+    "attemptAutoLogin_WelcomeBack": "Bem-vindo",
+    "attemptAutoLogin_AttemptAuto": "Conectando você de volta...",
+    "attemptAutoLogin_Cancel": "Clique aqui para cancelar"
+  },
+  "oAuthButton": {
+    "discord": "Entrar com o Discord"
+  },
+  "guestForm": {
+    "welcomeMessage": "Bem-vindo ao PianoRhythm!",
+    "usernameInputMessage": "Qual o seu nome?",
+    "buttons": { "enter": "Entrar", "register": "Registrar", "login":"Conectar" }
+  },
+  "resendVerificationEmailForm": {
+    "header": "Reenviar e-mail de confirmação",
+    "onSubmitInfoToast": "Se houver uma conta associada a esse e-mail, um e-mail de verificação será enviado. Obrigado."
+  },
+  "forgotPasswordForm": {
+    "header": "Esqueci a senha"
+  },
+  "loginForm": {
+    "header": "Login"
+  },
+  "registerForm": {
+    "labels": {
+      "tos1": "Eu concordo que tenho pelo menos 13 anos e li os",
+      "tos2": "Termos de Uso e Condições"
+    },
+    "submitButton": "Registrar"
+  }
+}
