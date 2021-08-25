@@ -54,7 +54,10 @@
       "modDashboard": "Mod Dashboard",
       "volume": "Volume",
       "sustain": "Sustain",
-      "logout": "Logout"
+      "logout": "Logout",
+      "sheetMusic": "Sheet Music",
+      "sheetMusicUpload": "Sheet Music - Upload",
+      "docs": "Documentation"
     },
     "tooltips": {
       "newRoom": "Create a new room",
@@ -66,7 +69,10 @@
       "sustain": "Toggle the sustain",
       "sustainActive": "Active",
       "logout": "Log out of",
-      "menu": "Click here for more menu items!"
+      "menu": "Click here for more menu items!",
+      "sheetMusic": "Display the sheet music repository",
+      "sheetMusicUpload": "Upload sheet music to the repository",
+      "docs": "Documentation/Help"
     },
     "messages": {
       "logoutPressed": "Are you sure you want to log out?",
