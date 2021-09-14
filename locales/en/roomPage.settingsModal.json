@@ -62,13 +62,15 @@
             "lbl_keyboardMaplayout": "Keyboard Map Layout",
             "drp_keyboards": "Keyboards",
             "lbl_shortcutBinds": "Shortcut Binds",
-            "btn_openKeybinder": "Open Keybinder"
+            "btn_openKeybinder": "Open Keybinder",
+            "tgl_keyboard_toggleyz": "Switch Y and Z keys"
           },
           "tooltips": {
             "hdr_keyboardSettings": "Set keyboard related settings.",
             "lbl_pianoKeylayout": "Set the keyboard piano layout for the piano.",
             "lbl_keyboardMaplayout": "Set the correct keyboard input mapping.",
-            "lbl_shortcutBinds": "Create bindings to common shortcuts."
+            "lbl_shortcutBinds": "Create bindings to common shortcuts.",
+            "tgl_keyboard_toggleyz": "For certain keyboard layouts, switching the mapping of the Y and Z keyboards aligns more naturally."
           }
         }
       }
@@ -98,7 +100,9 @@
             "tgl_userCursors": "Toggle user cursors",
             "tgl_whoistyping": "Toggle WhoIsTyping",
             "hdr_chat": "Chat",
-            "tgle_displayChat": "Display chat messages"
+            "tgle_displayChat": "Display chat messages",
+            "sld_chatMsgsHeightOffset": "Chat Messages Height Offset",
+            "tgl_display3DStats": "Display 3D Stats"
           },
           "tooltips": {
             "hdr_displays": "Toggle the displays of certain UI elements",
@@ -108,7 +112,9 @@
             "tgl_userCursors": "Toggle displaying other users' cursors",
             "tgl_whoistyping": "Toggle displaying when other users' are typing",
             "hdr_chat": "Related UI settings for chat messages",
-            "tgle_displayChat": "Toggle displaying chat messages"
+            "tgle_displayChat": "Toggle displaying chat messages",
+            "sld_chatMsgsHeightOffset": "Set the height offset of the chatmessages container",
+            "tgl_display3DStats": "Toggle displaying extra stats/info about the 3d scene"
           }
         },
         "blob": {
