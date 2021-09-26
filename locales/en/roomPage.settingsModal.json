@@ -31,16 +31,26 @@
             "btn_userColorSubmit": "Submit Color",
             "tgl_showMyCursor": "Show my cursor",
             "tgl_sendWhoistyping": "Send WhoIsTyping",
-            "tgl_disableWhispers": "Disable whispers"
+            "tgl_disableWhispers": "Disable whispers",
+            "hdr_notifications": "Notificatons",
+            "tgl_friendsOnlineStatus": "Friends Online Status",
+            "tgl_friendsOfflineStatus": "Friends Offline Status",
+            "tgl_sheetMusicChanges": "Sheet Music Changes",
+            "tgl_emitMyStatusToFriends": "Emit My Status to Friends"
           },
           "tooltips": {
             "hdr_multiplayerSettings": "Set multiplayer related settings.",
             "lbl_userColor": "Set your user color",
             "btn_userColorReset": "",
             "btn_userColorSubmit": "",
-            "tgl_showMyCursor": "Toggle whether your cursor is displayed to others",
+            "hdr_notifications": "Toggle what server notifications you receive.",
+            "tgl_showMyCursor": "Toggle whether your cursor is displayed to others.",
             "tgl_sendWhoistyping": "Toggle whether other users know when you're typing.",
-            "tgl_disableWhispers": "Disable whispering. You can't whisper to others and vice versa."
+            "tgl_disableWhispers": "Disable whispering. You can't whisper to others and vice versa.",
+            "tgl_friendsOnlineStatus": "Get notified when a friend comes online",
+            "tgl_friendsOfflineStatus": "Get notified when a friend goes offline",
+            "tgl_emitMyStatusToFriends": "Allow friends to know of your status changes. (Online, Offline, etc)",
+            "tgl_sheetMusicChanges": "Get notification emails whenever a change happens to your uploaded sheet music."
           }
         },
         "discord": {
