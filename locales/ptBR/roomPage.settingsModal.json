@@ -32,15 +32,25 @@
             "tgl_showMyCursor": "Mostrar cursor",
             "tgl_sendWhoistyping": "Mostrar se estou digitando",
             "tgl_disableWhispers": "Desativar sussurros"
+            "hdr_notifications": "Notificações",
+            "tgl_friendsOnlineStatus": "Status Amigos Online",
+            "tgl_friendsOfflineStatus": "Status Amigos Offline",
+            "tgl_sheetMusicChanges": "Mudanças na partitura",
+            "tgl_emitMyStatusToFriends": "Mostrar meu status para amigos"
           },
           "tooltips": {
             "hdr_multiplayerSettings": "Define as configurações relacionadas ao multijogador.",
             "lbl_userColor": "Define a cor do seu usuário",
             "btn_userColorReset": "",
             "btn_userColorSubmit": "",
+            "hdr_notifications": "Alterar quais notificações do server você recebe.",
             "tgl_showMyCursor": "O seu cursor é exibido para outras pessoas",
             "tgl_sendWhoistyping": "Outros usuários sabem quando você está digitando.",
             "tgl_disableWhispers": "Desative o sussurro. Você não pode sussurrar para os outros jogadores e vice-versa."
+            "tgl_friendsOnlineStatus": "Seja notificado quando um amigo ficar online.",
+            "tgl_friendsOfflineStatus": "Seja notificado quando um amigo ficar offline",
+            "tgl_emitMyStatusToFriends": "Permitir que seus amigos saibam quando seus status for alterado. (Disponível, Offline, etc)",
+            "tgl_sheetMusicChanges": "Receber notificações por email quando houver uma mudança em uma partitura que foi enviada por você."
           }
         },
         "discord": {
@@ -62,13 +72,15 @@
             "lbl_keyboardMaplayout": "Layout do Teclado",
             "drp_keyboards": "Teclados",
             "lbl_shortcutBinds": "Teclas de Atalho",
-            "btn_openKeybinder": "Abrir Atalhos"
+            "btn_openKeybinder": "Abrir Atalhos",
+            "tgl_keyboard_toggleyz": "Alternar teclas Y e Z"
           },
           "tooltips": {
             "hdr_keyboardSettings": "Define as configurações relacionadas ao teclado.",
             "lbl_pianoKeylayout": "Define o layout do teclado para o piano.",
             "lbl_keyboardMaplayout": "Define o mapeamento do teclado",
-            "lbl_shortcutBinds": "Crie teclas de atalhos comuns."
+            "lbl_shortcutBinds": "Crie teclas de atalhos comuns.",
+            "tgl_keyboard_toggleyz": "Para algums layouts de teclado, trocar o mapeamento das teclas Y e Z pode fazer com que se alinhem mais naturalmente no teclado."
           }
         }
       }
@@ -98,7 +110,9 @@
             "tgl_userCursors": "Exibir cursor de usuários",
             "tgl_whoistyping": "Exibir quem está digitando",
             "hdr_chat": "Chat",
-            "tgle_displayChat": "Mensagens do bate-papo"
+            "tgle_displayChat": "Mensagens do bate-papo",
+            "sld_chatMsgsHeightOffset": "Compensação da altura das mensagens do bate-papo",
+            "tgl_display3DStats": "Mostrar estatísticas 3D"
           },
           "tooltips": {
             "hdr_displays": "Alterna certos elementos da Interface",
@@ -108,7 +122,9 @@
             "tgl_userCursors": "Mostrar os cursores de outros usuários",
             "tgl_whoistyping": "Alternar quando outros usuários estiverem digitando",
             "hdr_chat": "Configurações da UI relacionadas a mensagens do bate-papo ",
-            "tgle_displayChat": "Alternar a exibição de mensagens de bate-papo"
+            "tgle_displayChat": "Alternar a exibição de mensagens de bate-papo",
+            "sld_chatMsgsHeightOffset": "Definir o deslocamento da altura das mensagens no chat",
+            "tgl_display3DStats": "Alternar a exibição de estatísticas/informações extras sobre o cenário 3D"
           }
         },
         "blob": {
