@@ -46,7 +46,7 @@
             "hdr_notifications": "Alterar quais notificações do server você recebe.",
             "tgl_showMyCursor": "O seu cursor é exibido para outras pessoas",
             "tgl_sendWhoistyping": "Outros usuários sabem quando você está digitando.",
-            "tgl_disableWhispers": "Desative o sussurro. Você não pode sussurrar para os outros jogadores e vice-versa."
+            "tgl_disableWhispers": "Desative o sussurro. Você não pode sussurrar para os outros jogadores e vice-versa.",
             "tgl_friendsOnlineStatus": "Seja notificado quando um amigo ficar online.",
             "tgl_friendsOfflineStatus": "Seja notificado quando um amigo ficar offline",
             "tgl_emitMyStatusToFriends": "Permitir que seus amigos saibam quando seus status for alterado. (Disponível, Offline, etc)",
