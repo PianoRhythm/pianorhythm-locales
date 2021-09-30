@@ -16,7 +16,8 @@
     "attemptAutoLogin_Cancel": "Clique aqui para cancelar"
   },
   "oAuthButton": {
-    "discord": "Entrar com o Discord"
+    "discord": "Entrar com o Discord",
+    "google": "Entrar com o Google"
   },
   "guestForm": {
     "welcomeMessage": "Bem-vindo ao PianoRhythm!",
