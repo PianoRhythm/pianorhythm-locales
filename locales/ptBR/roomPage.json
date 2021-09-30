@@ -54,7 +54,10 @@
       "modDashboard": "Painel de Moderador",
       "volume": "Volume",
       "sustain": "Sustain",
-      "logout": "Sair"
+      "logout": "Sair",
+      "sheetMusic": "Partituras",
+      "sheetMusicUpload": "Enviar - Partituras",
+      "docs": "Documentação"
     },
     "tooltips": {
       "newRoom": "Criar uma nova sala",
@@ -66,7 +69,10 @@
       "sustain": "Ativar o sustain",
       "sustainActive": "Ativado",
       "logout": "Sair da sua conta",
-      "menu": "Clique aqui para mais itens do menu!"
+      "menu": "Clique aqui para mais itens do menu!",
+      "sheetMusic": "Mostrar o repositório de partituras",		
+	  "sheetMusicUpload": "Enviar partitura para o repositório",		
+	  "docs": "Documentação/Ajuda"
     },
     "messages": {
       "logoutPressed": "Tem certeza que deseja sair?",
