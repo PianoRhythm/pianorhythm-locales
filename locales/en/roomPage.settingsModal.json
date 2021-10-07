@@ -22,6 +22,24 @@
     "online": {
       "header": "Online",
       "subMenus": {
+        "my account": {
+          "label": "My Account",
+          "elements": {
+            "hdr_myAccount": "My Account",
+            "hdr_passwordAndAuthentication": "Password and Authentication",
+            "hdr_accountManagement": "Account Management",
+            "tgl_enable2fa": "Two-Factor Authentication",
+            "btn_changePassword": "Change Password",
+            "btn_deleteAccount": "Delete Account",
+            "txt_passwordChangeSubText": "Enter your current password a new password",
+            "txt_emailChangeSubText": "Enter the new email address and your password"
+          },
+          "tooltips": {
+            "tgl_enable2fa": "Add an extra layer of security with two-factor authentication (2FA).",
+            "hdr_passwordAndAuthentication": "Password and Authentication",
+            "hdr_accountManagement": "Account Management"
+          }
+        },
         "multiplayer": {
           "label": "Multiplayer",
           "elements": {
@@ -111,7 +129,10 @@
             "tgl_whoistyping": "Toggle WhoIsTyping",
             "hdr_chat": "Chat",
             "tgle_displayChat": "Display chat messages",
+            "tgle_keepChatInFocus": "Keep Chat in Focus",
             "sld_chatMsgsHeightOffset": "Chat Messages Height Offset",
+            "sld_chatMsg2DOpacity": "Chat Messages Default Opacity (2D Mode)",
+            "sld_chatMsg3DOpacity": "Chat Messages Default Opacity (3D Mode)",
             "tgl_display3DStats": "Display 3D Stats"
           },
           "tooltips": {
@@ -124,7 +145,10 @@
             "hdr_chat": "Related UI settings for chat messages",
             "tgle_displayChat": "Toggle displaying chat messages",
             "sld_chatMsgsHeightOffset": "Set the height offset of the chatmessages container",
-            "tgl_display3DStats": "Toggle displaying extra stats/info about the 3d scene"
+            "tgl_display3DStats": "Toggle displaying extra stats/info about the 3d scene",
+            "tgle_keepChatInFocus": "Toggle whether to keep the chat in focus after submitting a message",
+            "sld_chatMsg2DOpacity": "Set the default opacity of the chat messages when it's unfocused. (2D mode)",
+            "sld_chatMsg3DOpacity": "Set the default opacity of the chat messages when it's unfocused. (3D mode)"
           }
         },
         "blob": {

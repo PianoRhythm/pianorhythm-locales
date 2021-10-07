@@ -8,7 +8,10 @@
     "off": "Off"
   },
   "buttons": {
-    "submit": "Submit"
+    "submit": "Submit",
+    "reveal": "Reveal",
+    "hide": "Hide",
+    "edit": "Edit"
   },
   "errorMessages": {
     "webGLNotSupported": "Sorry, certain features, such as WebGL, are not supported on this browser. <br>Please update your browser if you can."
