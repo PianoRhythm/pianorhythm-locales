@@ -31,7 +31,10 @@
             "tgl_enable2fa": "Two-Factor Authentication",
             "btn_changePassword": "Change Password",
             "btn_deleteAccount": "Delete Account",
-            "txt_passwordChangeSubText": "Enter your current password a new password",
+            "txt_passwordChangeSubText": "Enter your current password and the new password",
+            "txt_deleteAccountSubText": "Are you really sure? All of your account data will be permanently deleted",
+            "txt_onIncorrectDeleteInputField": "Please make sure you typed correctly in the input field.",
+            "txt_confirmPasswordSubText": "Please enter and confirm your password",
             "txt_emailChangeSubText": "Enter the new email address and your password"
           },
           "tooltips": {

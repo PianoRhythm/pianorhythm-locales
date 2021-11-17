@@ -8,11 +8,20 @@
       "create": "Create",
       "update": "Update",
       "roomName": "Name",
+      "roomID": "ID",
       "menuBasic": "Basic",
-      "menuAdvanced": "Advanced"
+      "menuAdvanced": "Advanced",
+      "created": "Created"
     }
   },
   "modals": {
+    "roomInfo": {
+      "labels": {
+        "metaAutoRemove": "Auto Remove",
+        "metaPersistent": "Persistent",
+        "metaUnique": "Unique"
+      }
+    },
     "room": {
       "labels": {
         "onlyOwnerCanPlay": "Only owner can play",
