@@ -34,6 +34,9 @@
   "loginForm": {
     "header": "Login"
   },
+  "twoFactorAuth": {
+    "header": "Two-Factor Authentication"
+  },
   "registerForm": {
     "labels": {
       "tos1": "I agree that I'm at least 13 and I have read the",

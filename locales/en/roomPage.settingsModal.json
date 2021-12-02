@@ -28,6 +28,7 @@
             "hdr_myAccount": "My Account",
             "hdr_passwordAndAuthentication": "Password and Authentication",
             "hdr_accountManagement": "Account Management",
+            "hdr_security": "Security",
             "tgl_enable2fa": "Two-Factor Authentication",
             "btn_changePassword": "Change Password",
             "btn_deleteAccount": "Delete Account",
@@ -41,6 +42,10 @@
             "tgl_enable2fa": "Add an extra layer of security with two-factor authentication (2FA).",
             "hdr_passwordAndAuthentication": "Password and Authentication",
             "hdr_accountManagement": "Account Management"
+          },
+          "messages": {
+            "on2faDisable":
+              "After disabling two-factor authentication, logging in to your account will require password-only protection. Do you wish to continue with disabling two-factor authentication?"
           }
         },
         "multiplayer": {
