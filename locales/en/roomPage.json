@@ -9,6 +9,7 @@
       "update": "Update",
       "roomName": "Name",
       "roomID": "ID",
+      "roomOwner": "Owner",
       "menuBasic": "Basic",
       "menuAdvanced": "Advanced",
       "created": "Created"
@@ -32,7 +33,11 @@
         "maxPlayers": "Max Players",
         "makeRoomPrivate": "Make room private",
         "filterProfanity": "Filter Profanity",
-        "welcomeMessage": "Welcome message"
+        "welcomeMessage": "Welcome message",
+        "hostRoom": "Self Host Room",
+        "selfHostRegion": "Region",
+        "hostContinentCode": "Host Continent Code",
+        "hostCountryCode": "Host Country Code"
       },
       "tooltips": {
         "onlyOwnerCanPlay": "Only owner can play music (work in progress). <br>(Other users can still play locally but only the owner will be heard by everyone)",
@@ -45,7 +50,9 @@
         "roomName": "(Optional) Set the name of the room.",
         "roomPassword": "(Optional) Set a password for the room.",
         "filterProfanity": "Filtered profanities such as curse words will be censored. They'll appear in asterisks. e.g,'****'",
-        "welcomeMessage": "This message will be displayed to users who enter your room. You can write some rules or say something warm and nice."
+        "welcomeMessage": "This message will be displayed to users who enter your room. You can write some rules or say something warm and nice.",
+        "hostRoom": "Choose this option if you would rather host the room on your machine. This will create a P2P environment upon which users will connect directly to your machine.",
+        "selfHostRegion": "The general area that your machine is located. PianoRhythm will try to guess where you are but you can set it manually if you choose."
       }
     }
   },
