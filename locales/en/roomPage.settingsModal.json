@@ -230,6 +230,20 @@
         }
       }
     },
+    "billing": {
+      "header": "Billing",
+      "subMenus": {
+        "subscription": {
+          "label": "Subcription",
+          "elements": {
+            "lbl_languageSelect": "Language Select"
+          },
+          "tooltips": {
+            "lbl_languageSelect": "Set the default language for PianoRhythm."
+          }
+        }
+      }
+    },
     "other": {
       "header": "Other",
       "subMenus": {
