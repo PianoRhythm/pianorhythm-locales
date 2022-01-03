@@ -39,6 +39,7 @@
             "txt_emailChangeSubText": "Enter the new email address and your password"
           },
           "tooltips": {
+            "hdr_myAccount": "Account Information",
             "tgl_enable2fa": "Add an extra layer of security with two-factor authentication (2FA).",
             "hdr_passwordAndAuthentication": "Password and Authentication",
             "hdr_accountManagement": "Account Management"
