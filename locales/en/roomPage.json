@@ -59,7 +59,24 @@
   "sideBar": {
     "usersTab": "Users",
     "friendsTab": "Pals",
-    "roomsTab": "Rooms"
+    "roomsTab": "Rooms",
+    "general": {
+      "hasPendingFriendRequests": "You have {{count}} pending friend request(s)!",
+      "noFriendsFound": "No friends found. Feels bad, bro...",
+      "noRoomsFound": "No rooms found...",
+      "noFriends_line1": "Looks a bit lonely, here.",
+      "noFriends_line2_clientIsGuest": "Sign in to add some friends!",
+      "noFriends_line2_clientIsMember": "Add some friends!",
+      "searchRooms": "Search rooms...",
+      "unknownLocation": "Sorry, the location is unknown."
+    },
+    "tooltips": {
+      "usersTab": "The lists of users in the room.",
+      "friendsTab": "The list of all of your friends!",
+      "roomsTab": "The list of all the public rooms.",
+      "passwordProtected": "Password protected",
+      "roomSelfHosted": "<br>This room is being self hosted by a user. <br>The location is: <b>({{continent}}, {{country}})</b>"
+    }
   },
   "bottomBar": {
     "buttons": {
@@ -118,6 +135,58 @@
         "tempo_desc_presto": "very fast",
         "tempo_desc_prestissimo": "extremely fast, faster than presto"
       }
+    }
+  },
+  "instrumentDock": {
+    "inputButtons": {
+      "slotMode": "Slot Mode {{mode}}",
+      "tools": "Tools",
+      "tooltips": {
+        "transpose": "Set the transpose. Click to reset.",
+        "octave": "Set the octave. Click to reset.",
+        "slotMode": "Set the slot mode for the piano layout",
+        "tools": "A list of tools and features."
+      }
+    },
+    "toolNames": {
+      "InstrumentSelection": "Instrument Selection",
+      "ChannelDisplayMode": "Channel Display Mode",
+      "ClearInstruments": "Clear Instruments",
+      "ResetToDefault": "Reset to Default",
+      "ToggleKeyboardMappingDisplay": "Toggle Keyboard Map",
+      "ToggleMetronomeDisplay": "Toggle Metronome",
+      "ToggleSheetMusicViewer": "Toggle SheetMusic Viewer",
+      "MidiMusic": "MIDI Music",
+      "tooltips": {
+        "InstrumentSelection": "Display the instrument selection. {{key}}",
+        "ChannelDisplayMode": "Toggle the display of the channel slots. (4x4x4x4), (8x8), or (16)",
+        "ToggleKeyboardMappingDisplay": "Display a keyboard mapping overlay on the piano. {{key}}",
+        "ToggleMetronomeDisplay": "Toggle the display of the metronome. {{key}}",
+        "ToggleSheetMusicViewer": "Toggle the display of the sheet music viewer. {{key}}",
+        "ClearInstruments": "Clear all the midi instruments loaded.",
+        "ResetToDefault": "Reset the midi channels and controls to the default configuration."
+      }
+    }
+  },
+  "errorMessages": {
+    "failedToCreateRoomWithReason": "Failed to create room: {{reason}}",
+    "failedToJoinRoom": "Something went wrong. Failed to join room...",
+    "joinRoomFail": {
+      "RoomFull": "Failed to enter the room because it's full.",
+      "QueuedToJoinRoom": "You are already queued to join this room.",
+      "AlreadyInRoom": "You are already in this room.",
+      "NoGuests": "Failed to enter because the room does not allow guests.",
+      "IncorrectPassword": "Failed to enter because of an incorrect password.",
+      "NotAllowed": "Failed to enter because you're not allowed."
+    }
+  },
+  "generalMessages": {
+    "enterRoomPassword": "Please enter the room's password!",
+    "openingExternalLinks": "Be careful about opening external links. Are you really sure you want to open this?",
+    "roomWithWarnings": {
+      "text1": "This room has the following settings enabled",
+      "text2": "Are you sure you want to join?",
+      "dontShowAgain": "Don't show this message again."
     }
   }
 }

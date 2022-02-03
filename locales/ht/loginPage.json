@@ -1,0 +1,51 @@
+{
+  "connectionStatus": "Estati",
+  "playersOnline": "Jwè sou entènèt",
+  "hrefs": {
+    "createAccount": "Kreye yon kont.",
+    "forgotPassword": "Ou bliye modpas?",
+    "enterAsGuest": "Antre kòm envite.",
+    "resendVerificationEmail": "Revoye imèl verifikasyon.",
+    "haveAccount": "Deja genyen yon kont?",
+    "signIn": "Enskri",
+    "goHome": "Ale lakay."
+  },
+  "messages": {
+    "attemptAutoLogin_WelcomeBack": "Bon retou",
+    "attemptAutoLogin_AttemptAuto": "Eseye otomatikman konekte ou ankò...",
+    "attemptAutoLogin_Cancel": "Klike la a pou anile"
+  },
+  "oAuthButton": {
+    "discord": "Konekte ak Discord",
+    "google": "Konekte ak Google"
+  },
+  "guestForm": {
+    "welcomeMessage": "Byenveni nan PianoRhythm!",
+    "usernameInputMessage": "Ki non ou?",
+    "buttons": {
+      "enter": "Antre",
+      "register": "Enskri",
+      "login": "Ouvri sesyon an"
+    }
+  },
+  "resendVerificationEmailForm": {
+    "header": "Revoye Imèl Verifikasyon",
+    "onSubmitInfoToast": "Si gen yon kont ki asosye ak imèl sa a, yo pral voye yon imèl verifikasyon kont. Mèsi."
+  },
+  "forgotPasswordForm": {
+    "header": "Bliye Modpas"
+  },
+  "loginForm": {
+    "header": "Ouvri sesyon an"
+  },
+  "twoFactorAuth": {
+    "header": "De-faktè Otantifikasyon"
+  },
+  "registerForm": {
+    "labels": {
+      "tos1": "Mwen dakò ke mwen gen omwen 13 e mwen te li a",
+      "tos2": "Kondisyon pou Itilizasyon ak Kondisyon yo"
+    },
+    "submitButton": "Enskri"
+  }
+}

@@ -1,0 +1,192 @@
+{
+  "common": {
+    "labels": {
+      "transpose": "바꾸어 놓다",
+      "octave": "옥타브",
+      "tools": "도구",
+      "room": "방",
+      "create": "만들다",
+      "update": "업데이트",
+      "roomName": "이름",
+      "roomID": "ID",
+      "roomOwner": "소유자",
+      "menuBasic": "기초적인",
+      "menuAdvanced": "고급의",
+      "created": "만들어진"
+    }
+  },
+  "modals": {
+    "roomInfo": {
+      "labels": {
+        "metaAutoRemove": "자동 제거",
+        "metaPersistent": "지속성 있는",
+        "metaUnique": "독특한"
+      }
+    },
+    "room": {
+      "labels": {
+        "onlyOwnerCanPlay": "소유자만 플레이할 수 있습니다.",
+        "onlyOwnerCanChat": "소유자만 채팅할 수 있습니다.",
+        "allowGuests": "손님 허용",
+        "onlyMods": "중재자만 허용",
+        "allowBlackMidi": "블랙 미디 허용",
+        "maxPlayers": "최대 플레이어",
+        "makeRoomPrivate": "방을 비공개로 설정",
+        "filterProfanity": "욕설 필터링",
+        "welcomeMessage": "환영 메시지",
+        "hostRoom": "셀프 호스트 룸",
+        "selfHostRegion": "지역",
+        "hostContinentCode": "호스트 대륙 코드",
+        "hostCountryCode": "호스트 국가 코드"
+      },
+      "tooltips": {
+        "onlyOwnerCanPlay": "소유자만 음악을 재생할 수 있습니다(작업 중).<br> (다른 사용자는 여전히 로컬에서 플레이할 수 있지만 소유자만 모든 사람이 들을 수 있음)",
+        "onlyOwnerCanChat": "소유자만 채팅 메시지를 보낼 수 있습니다.",
+        "allowGuests": "비활성화된 경우 손님이 방에 들어가는 것을 방지합니다.",
+        "onlyMods": "중재자만 참여하도록 허용합니다. (비 중재자에게는 옵션이 표시되지 않음)",
+        "allowBlackMidi": "이것을 활성화하면 서버가 과도한 연주를 위해 일시적으로 음소거하지 않고도 플레이어가 블랙 미디스를 연주하거나 많은 양의 음을 연주할 수 있습니다.<br><br> (방 소유자는 메모 할당량 한도가 더 높음)",
+        "maxPlayers": "방에 있을 수 있는 최대 플레이어 설정",
+        "makeRoomPrivate": "방을 비공개로 설정",
+        "roomName": "(선택사항) 방의 이름을 설정합니다.",
+        "roomPassword": "(선택사항) 방의 비밀번호를 설정합니다.",
+        "filterProfanity": "욕설 등 필터링된 욕설은 검열됩니다. 별표로 표시됩니다. 예: '****'",
+        "welcomeMessage": "이 메시지는 방에 입장하는 사용자에게 표시됩니다. 몇 가지 규칙을 작성하거나 따뜻하고 좋은 말을 할 수 있습니다.",
+        "hostRoom": "컴퓨터에서 회의실을 호스팅하려면 이 옵션을 선택합니다. 이렇게 하면 사용자가 컴퓨터에 직접 연결할 P2P 환경이 생성됩니다.",
+        "selfHostRegion": "기계가 있는 일반적인 영역입니다. PianoRhythm은 현재 위치를 추측하려고 시도하지만 원하는 경우 수동으로 설정할 수 있습니다."
+      }
+    }
+  },
+  "sideBar": {
+    "usersTab": "사용자",
+    "friendsTab": "친구",
+    "roomsTab": "객실",
+    "tooltips": {
+      "usersTab": "채팅방의 사용자 목록입니다.",
+      "friendsTab": "모든 친구 목록!",
+      "roomsTab": "모든 공용 공간의 목록입니다.",
+      "roomSelfHosted": "<br>이 방은 사용자가 직접 호스팅하고 있습니다.<br> 위치: <b>( {{continent}} , {{country}} )</b>",
+      "passwordProtected": "비밀번호로 보호됨"
+    },
+    "general": {
+      "hasPendingFriendRequests": "보류 중인 친구 요청이 {{count}}",
+      "noRoomsFound": "검색된 방이 없습니다...",
+      "noFriends_line1": "여기 좀 외로워 보이네요.",
+      "noFriends_line2_clientIsGuest": "친구를 추가하려면 로그인하세요!",
+      "noFriends_line2_clientIsMember": "친구 추가!",
+      "noFriendsFound": "친구를 찾을 수 없습니다. 기분 나빠, 형...",
+      "searchRooms": "방 검색...",
+      "unknownLocation": "죄송합니다. 위치를 알 수 없습니다."
+    }
+  },
+  "bottomBar": {
+    "buttons": {
+      "newRoom": "새 방",
+      "roomSettings": "방 설정",
+      "settings": "설정",
+      "midi": "미디",
+      "modDashboard": "모드 대시보드",
+      "volume": "용량",
+      "sustain": "지속시키다",
+      "logout": "로그 아웃",
+      "sheetMusic": "망할 음악",
+      "sheetMusicUpload": "악보 - 업로드",
+      "docs": "선적 서류 비치"
+    },
+    "tooltips": {
+      "newRoom": "새 방 만들기",
+      "roomSettings": "방의 설정 변경",
+      "settings": "사용자 설정 변경",
+      "midi": "MIDI I/O 설정",
+      "modDashboard": "중재자 대시보드",
+      "volume": "음소거를 전환하려면 저를 클릭하세요!",
+      "sustain": "서스테인 전환",
+      "sustainActive": "활동적인",
+      "logout": "로그아웃",
+      "menu": "더 많은 메뉴 항목을 보려면 여기를 클릭하십시오!",
+      "sheetMusic": "악보 저장소 표시",
+      "sheetMusicUpload": "저장소에 악보 업로드",
+      "docs": "문서/도움말"
+    },
+    "messages": {
+      "logoutPressed": "로그아웃하시겠습니까?",
+      "logoutPressed_Confirm": "네!",
+      "logoutPressed_Cancel": "아니, 미안..."
+    }
+  },
+  "components": {
+    "metronome": {
+      "tooltips": {
+        "player": "메트로놈을 재생/일시 중지하려면 클릭하십시오.",
+        "bpm_desc": "\"Beats per minute\"(또는 BPM)은 1분 동안의 비트 수를 나타냅니다.",
+        "timesignature_desc": "박자는 음악을 계산하는 방법을 알려줍니다.<br><br> 박자 기호의 맨 위 숫자는 <i>몇</i> 박을 세어야 하는지 알려줍니다.<br><br> 맨 아래 숫자는 계산할 음표의 종류를 알려줍니다.",
+        "beat_remove": "소절에서 비트 제거",
+        "beat_add": "박자에 박자를 더하다",
+        "tempo_desc_general": "템포를 설명합니다(이탈리아어). 템포는 주어진 곡의 속도 또는 속도입니다.",
+        "tempo_desc_larghissimo": "매우 느리다, 라르고보다 느리다",
+        "tempo_desc_largo": "매우 느리고 광범위하다",
+        "tempo_desc_grave": "아주 느린",
+        "tempo_desc_lento": "느린",
+        "tempo_desc_adagio": "느린",
+        "tempo_desc_andante": "걷는 속도",
+        "tempo_desc_moderato": "적당히",
+        "tempo_desc_allegretto": "알레그로보다 약간 빠르게, 약간 느림",
+        "tempo_desc_allegro": "빠른",
+        "tempo_desc_vivace": "빠르고 활기찬",
+        "tempo_desc_presto": "매우 빠르게",
+        "tempo_desc_prestissimo": "매우 빠르고 presto보다 빠름"
+      }
+    }
+  },
+  "errorMessages": {
+    "joinRoomFail": {
+      "RoomFull": "방이 꽉 차서 들어가지 못했습니다.",
+      "QueuedToJoinRoom": "이 채팅방에 참여하기 위해 이미 대기 중입니다.",
+      "AlreadyInRoom": "당신은 이미 이 방에 있습니다.",
+      "NoGuests": "객실이 손님을 허용하지 않아 입장하지 못했습니다.",
+      "IncorrectPassword": "잘못된 비밀번호로 인해 입력에 실패했습니다.",
+      "NotAllowed": "허용되지 않아 입장하지 못했습니다."
+    },
+    "failedToCreateRoomWithReason": "방 생성 실패: {{reason}}",
+    "failedToJoinRoom": "문제가 발생했습니다. 채팅방에 참여하지 못했습니다..."
+  },
+  "generalMessages": {
+    "enterRoomPassword": "방의 비밀번호를 입력해주세요!",
+    "roomWithWarnings": {
+      "text1": "이 방에는 다음 설정이 사용 설정되어 있습니다.",
+      "text2": "가입하시겠습니까?",
+      "dontShowAgain": "이 메시지를 다시 표시하지 마십시오."
+    },
+    "openingExternalLinks": "외부 링크를 열 때 주의하십시오. 정말로 이것을 여시겠습니까?"
+  },
+  "instrumentDock": {
+    "toolNames": {
+      "InstrumentSelection": "악기 선택",
+      "ChannelDisplayMode": "채널 표시 모드",
+      "ClearInstruments": "악기 지우기",
+      "ResetToDefault": "기본값으로 재설정",
+      "ToggleKeyboardMappingDisplay": "토글 키보드 맵",
+      "ToggleMetronomeDisplay": "메트로놈 토글",
+      "ToggleSheetMusicViewer": "Toggle SheetMusic 뷰어",
+      "MidiMusic": "미디 음악",
+      "tooltips": {
+        "InstrumentSelection": "기기 선택을 표시합니다. {{key}}",
+        "ChannelDisplayMode": "채널 슬롯의 표시를 토글합니다. (4x4x4x4), (8x8) 또는 (16)",
+        "ToggleKeyboardMappingDisplay": "피아노에 키보드 매핑 오버레이를 표시합니다. {{key}}",
+        "ToggleMetronomeDisplay": "메트로놈 표시를 전환합니다. {{key}}",
+        "ToggleSheetMusicViewer": "악보 뷰어 표시를 전환합니다. {{key}}",
+        "ClearInstruments": "로드된 모든 미디 악기를 지웁니다.",
+        "ResetToDefault": "미디 채널과 컨트롤을 기본 구성으로 재설정합니다."
+      }
+    },
+    "inputButtons": {
+      "slotMode": "슬롯 모드 {{mode}}",
+      "tools": "도구",
+      "tooltips": {
+        "transpose": "조옮김을 설정합니다. 재설정하려면 클릭하세요.",
+        "octave": "옥타브를 설정합니다. 재설정하려면 클릭하세요.",
+        "slotMode": "피아노 레이아웃에 대한 슬롯 모드 설정",
+        "tools": "도구 및 기능 목록입니다."
+      }
+    }
+  }
+}

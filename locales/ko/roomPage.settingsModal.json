@@ -1,0 +1,286 @@
+{
+  "messages": {
+    "audioSettingNotSupportedV3": "참고: 현재 대부분의 오디오 설정은 v3에 적용되지 않습니다.",
+    "changeWillTakeEffectOnNextRestart": "변경 사항은 다음에 다시 시작할 때 적용됩니다.",
+    "changesSaved": "변경 사항이 저장되었습니다.",
+    "userColorUpdated": "사용자 색상을 성공적으로 업데이트했습니다!"
+  },
+  "menus": {
+    "general": {
+      "header": "일반적인",
+      "subMenus": {
+        "language": {
+          "label": "언어",
+          "elements": {
+            "lbl_languageSelect": "언어 선택"
+          },
+          "tooltips": {
+            "lbl_languageSelect": "PianoRhythm의 기본 언어를 설정합니다."
+          }
+        }
+      }
+    },
+    "online": {
+      "header": "온라인",
+      "subMenus": {
+        "my account": {
+          "label": "내 계정",
+          "elements": {
+            "hdr_myAccount": "내 계정",
+            "hdr_passwordAndAuthentication": "비밀번호 및 인증",
+            "hdr_accountManagement": "계정 관리",
+            "hdr_security": "보안",
+            "tgl_enable2fa": "이중 인증",
+            "btn_changePassword": "비밀번호 변경",
+            "btn_deleteAccount": "계정 삭제",
+            "txt_passwordChangeSubText": "현재 비밀번호와 새 비밀번호를 입력하세요.",
+            "txt_deleteAccountSubText": "정말 확신합니까? 모든 계정 데이터가 영구적으로 삭제됩니다.",
+            "txt_onIncorrectDeleteInputField": "입력 필드에 올바르게 입력했는지 확인하십시오.",
+            "txt_confirmPasswordSubText": "비밀번호를 입력하고 확인하세요",
+            "txt_emailChangeSubText": "새 이메일 주소와 비밀번호를 입력하세요"
+          },
+          "tooltips": {
+            "hdr_myAccount": "계정 정보",
+            "tgl_enable2fa": "이중 인증(2FA)으로 보안 계층을 추가하십시오.",
+            "hdr_passwordAndAuthentication": "비밀번호 및 인증",
+            "hdr_accountManagement": "계정 관리"
+          },
+          "messages": {
+            "on2faDisable": "이중 인증을 비활성화한 후 계정에 로그인하려면 암호 전용 보호가 필요합니다. 2단계 인증을 계속 비활성화하시겠습니까?"
+          }
+        },
+        "multiplayer": {
+          "label": "멀티플레이어",
+          "elements": {
+            "hdr_multiplayerSettings": "멀티플레이어 설정",
+            "lbl_userColor": "사용자 색상",
+            "btn_userColorReset": "색상 재설정",
+            "btn_userColorSubmit": "색상 제출",
+            "tgl_showMyCursor": "내 커서 표시",
+            "tgl_sendWhoistyping": "WhoIstyping 보내기",
+            "tgl_disableWhispers": "귓속말 비활성화",
+            "hdr_notifications": "알림",
+            "tgl_friendsOnlineStatus": "친구 온라인 상태",
+            "tgl_friendsOfflineStatus": "친구 오프라인 상태",
+            "tgl_sheetMusicChanges": "악보 변경 사항",
+            "tgl_emitMyStatusToFriends": "친구에게 내 상태 보내기"
+          },
+          "tooltips": {
+            "hdr_multiplayerSettings": "멀티플레이어 관련 설정을 지정합니다.",
+            "lbl_userColor": "사용자 색상 설정",
+            "btn_userColorReset": "색상 재설정",
+            "btn_userColorSubmit": "색상을 업데이트하십시오!",
+            "hdr_notifications": "수신하는 서버 알림을 전환합니다.",
+            "tgl_showMyCursor": "커서를 다른 사람에게 표시할지 여부를 전환합니다.",
+            "tgl_sendWhoistyping": "입력할 때 다른 사용자가 알 수 있는지 여부를 전환합니다.",
+            "tgl_disableWhispers": "귓속말을 비활성화합니다. 다른 사람에게 속삭일 수 없으며 그 반대도 마찬가지입니다.",
+            "tgl_friendsOnlineStatus": "친구가 온라인 상태가 되면 알림 받기",
+            "tgl_friendsOfflineStatus": "친구가 오프라인 상태가 되면 알림 받기",
+            "tgl_emitMyStatusToFriends": "친구가 상태 변경 사항을 알 수 있도록 허용합니다. (온라인, 오프라인 등)",
+            "tgl_sheetMusicChanges": "업로드한 악보에 변경 사항이 발생할 때마다 알림 이메일을 받습니다."
+          }
+        },
+        "discord": {
+          "label": "불화",
+          "elements": {
+            "hdr_discordSettings": "디스코드 설정",
+            "swtch_syncDiscordMessages": "Discord 로비 메시지 동기화"
+          },
+          "tooltips": {
+            "hdr_discordSettings": "디스코드 관련 설정을 합니다.",
+            "swtch_syncDiscordMessages": "Discord 메시지가 메인 로비에서 동기화되는지 여부를 토글합니다."
+          }
+        },
+        "input": {
+          "label": "입력",
+          "elements": {
+            "hdr_keyboardSettings": "키보드 설정",
+            "lbl_pianoKeylayout": "피아노 건반 레이아웃",
+            "lbl_keyboardMaplayout": "키보드 맵 레이아웃",
+            "drp_keyboards": "키보드",
+            "lbl_shortcutBinds": "바로 가기 바인딩",
+            "btn_openKeybinder": "키바인더 열기",
+            "tgl_keyboard_toggleyz": "Y 및 Z 키 전환"
+          },
+          "tooltips": {
+            "hdr_keyboardSettings": "키보드 관련 설정을 지정합니다.",
+            "lbl_pianoKeylayout": "피아노의 건반 피아노 레이아웃을 설정합니다.",
+            "lbl_keyboardMaplayout": "올바른 키보드 입력 매핑을 설정하십시오.",
+            "lbl_shortcutBinds": "일반적인 바로 가기에 대한 바인딩을 만듭니다.",
+            "tgl_keyboard_toggleyz": "특정 키보드 레이아웃의 경우 Y 및 Z 키보드 매핑을 전환하면 더 자연스럽게 정렬됩니다."
+          }
+        }
+      }
+    },
+    "graphics": {
+      "header": "제도법",
+      "subMenus": {
+        "general": {
+          "label": "일반적인",
+          "elements": {
+            "hdr_engine": "그래픽 엔진",
+            "lbl_engine": "엔진",
+            "lbl_maxFPS": "최대 FPS"
+          },
+          "tooltips": {
+            "lbl_engine": "2D, 3D 또는 그래픽 엔진 없음 간에 전환합니다.",
+            "lbl_maxFPS": "렌더링 엔진의 최대 프레임 속도를 선택합니다."
+          }
+        },
+        "ui": {
+          "label": "UI",
+          "elements": {
+            "hdr_displays": "디스플레이",
+            "tgl_fps": "FPS 토글",
+            "tgl_ping": "핑 전환",
+            "tgl_instDock": "계기 도크 전환",
+            "tgl_userCursors": "사용자 커서 전환",
+            "tgl_whoistyping": "후이즈타이핑 토글",
+            "hdr_chat": "채팅",
+            "tgle_displayChat": "채팅 메시지 표시",
+            "tgle_keepChatInFocus": "채팅에 집중하세요",
+            "sld_chatMsgsHeightOffset": "채팅 메시지 높이 오프셋",
+            "sld_chatMsg2DOpacity": "채팅 메시지 기본 불투명도(2D 모드)",
+            "sld_chatMsg3DOpacity": "채팅 메시지 기본 불투명도(3D 모드)",
+            "tgl_display3DStats": "3D 통계 표시"
+          },
+          "tooltips": {
+            "hdr_displays": "특정 UI 요소의 표시 전환",
+            "tgl_fps": "FPS 디스플레이 미터 전환",
+            "tgl_ping": "Ping 디스플레이 전환",
+            "tgl_instDock": "계기 도크 디스플레이 전환",
+            "tgl_userCursors": "다른 사용자의 커서 표시 전환",
+            "tgl_whoistyping": "다른 사용자가 입력할 때 표시 전환",
+            "hdr_chat": "채팅 메시지 관련 UI 설정",
+            "tgle_displayChat": "채팅 메시지 표시 전환",
+            "sld_chatMsgsHeightOffset": "chatmessages 컨테이너의 높이 오프셋 설정",
+            "tgl_display3DStats": "3D 장면에 대한 추가 통계/정보 표시 전환",
+            "tgle_keepChatInFocus": "메시지를 제출한 후 채팅에 초점을 유지할지 여부를 전환합니다.",
+            "sld_chatMsg2DOpacity": "초점이 맞지 않을 때 채팅 메시지의 기본 불투명도를 설정합니다. (2D 모드)",
+            "sld_chatMsg3DOpacity": "초점이 맞지 않을 때 채팅 메시지의 기본 불투명도를 설정합니다. (3D 모드)"
+          }
+        },
+        "blob": {
+          "label": "얼룩",
+          "elements": {
+            "hdr_displays": "디스플레이",
+            "tgl_blobs": "얼룩 토글",
+            "tgl_garden": "토글 가든"
+          },
+          "tooltips": {
+            "hdr_displays": "특정 얼룩 관련 요소의 표시를 전환합니다.",
+            "tgl_blobs": "얼룩 표시를 전환합니다.",
+            "tgl_garden": "얼룩의 정원 표시를 전환합니다."
+          }
+        }
+      }
+    },
+    "audio": {
+      "header": "오디오",
+      "subMenus": {
+        "soundfont": {
+          "label": "사운드폰트",
+          "messages": {
+            "soundfontLoading": "사운드폰트가 로드되는 동안 기다려 주십시오!"
+          },
+          "elements": {
+            "hdr_generalSettings": "일반 설정",
+            "lbl_audioEngine": "오디오 엔진",
+            "tgl_enableDrums": "드럼 채널 활성화",
+            "hdr_v3Audio": "V3 오디오",
+            "lbl_soundfonts": "사운드폰트",
+            "lbl_initalBuffersize": "초기 버퍼 크기",
+            "tgl_showDebuglogs": "디버그 성능 로그 표시",
+            "tgl_useAudioWorklet": "AudioWorklet 사용"
+          },
+          "tooltips": {
+            "lbl_audioEngine": "기본 오디오 엔진을 선택합니다.<br> (다음 재시작 시 적용됨)",
+            "tgl_enableDrums": "활성화하면 채널 9(제로 인덱스 베이스)에서 퍼커션 사운드를 재생할 수 있습니다.",
+            "hdr_v3Audio": "V3 오디오 엔진 관련 설정",
+            "lbl_soundfonts": "기본 사운드 글꼴 선택",
+            "lbl_initalBuffersize": "곧 설명이 나옵니다. (다음 재시작 시 적용됨)",
+            "tgl_showDebuglogs": "활성화하면 콘솔에 성능 로그가 출력됩니다.",
+            "tgl_useAudioWorklet": "활성화되면 V3의 오디오 엔진을 오디오 워크렛 프로세스의 별도 스레드에 로드합니다.<br> 성능을 향상시켜야 합니다. (앱 재시작 시 적용)"
+          }
+        },
+        "midi": {
+          "label": "미디",
+          "elements": {
+            "hdr_inputOutput": "입출력",
+            "lbl_enableAudioToOutput": "오디오만 출력 가능",
+            "hrd_generalEffects": "일반 효과",
+            "tgl_mousePosVelocity": "마우스 위치가 속도를 결정합니다",
+            "sld_sustainCutoff": "서스테인 컷오프",
+            "hdr_velocityEffects": "속도 효과",
+            "tgl_enableVelocity": "속도 활성화",
+            "sld_velocityMuting": "벨로시티 뮤팅",
+            "tgl_enableVelocityBoost": "속도 향상 활성화",
+            "sld_velocityBoost": "속도 부스트",
+            "lbl_metronome": "메트로놈 오디오 샘플"
+          },
+          "tooltips": {
+            "lbl_enableAudioToOutput": "선택하고 출력 장치가 활성화되면 오디오는 PianoRhythm의 오디오 엔진이 아닌 출력 장치로만 방출됩니다.",
+            "tgl_mousePosVelocity": "이렇게 하면 마우스 위치에 따라 컴퓨터 키보드 입력 속도가 결정됩니다.<br><br> 마우스가 브라우저 창 하단에 가까울수록 메모가 더 커집니다.",
+            "sld_sustainCutoff": "지속음의 릴리스 컷오프 포인트를 설정합니다. (높은 비율 = 더 짧은 서스테인)",
+            "tgl_enableVelocity": "선택하지 않으면 소스의 원시 속도 값이 사용되지 않습니다. 대신 최대 값(127)으로 설정됩니다.",
+            "sld_velocityMuting": "미터 값보다 작거나 같은 벨로시티로 음소거.",
+            "tgl_enableVelocityBoost": "들어오는 원시 속도 값을 높입니다.",
+            "sld_velocityBoost": "원시 속도에 추가 가치 추가",
+            "lbl_metronome": "메트로놈에 사용할 오디오 샘플 유형 선택"
+          }
+        }
+      }
+    },
+    "billing": {
+      "header": "청구",
+      "subMenus": {
+        "subscription": {
+          "label": "구독",
+          "elements": {
+            "lbl_languageSelect": "언어 선택"
+          },
+          "tooltips": {
+            "lbl_languageSelect": "PianoRhythm의 기본 언어를 설정합니다."
+          }
+        }
+      },
+      "messages": {
+        "autoRenewInfo": "<b style=\"color:white;\">{{billingDate}}</b> 일에 자동으로 갱신되며 <b style=\"color:white;\">{{currencyText}}</b> 이 청구 <b style=\"color:white;\">됩니다.</b>",
+        "subText": "현재 구독 중입니다. 언제든지 취소하거나 업데이트할 수 있습니다.",
+        "checkout_Created": "새 탭이 열렸습니다. 거기서 계속 체크아웃하세요!",
+        "checkout_Success": "결제 성공!",
+        "checkout_Cancelled": "세션을 취소했습니다.",
+        "checkout_ResumePlan": "취소된 구독을 재개하려고 합니다. </br></br>확실합니까?",
+        "checkout_Confirm": "체크아웃하고 프리미엄 플랜에 가입하려고 합니다. </br></br>확실합니까?",
+        "subscription_cancellationFail": "죄송합니다. 문제가 발생했습니다. 구독을 취소하지 못했습니다.",
+        "subscription_Updated": "구독 계획을 성공적으로 업데이트했습니다!",
+        "cancellation_InProcess": "현재 구독이 <b>취소</b> 되었으므로 자동 갱신되지 않습니다. <b style=\"color:white;\">{{billingDate}}</b> 까지 혜택을 계속 받을 수 있습니다.",
+        "cancellation_Confirm": "가셔서 죄송합니다, {{username}} !.</br>귀하의 프로 플랜 구독은 <b>{{planBillingDate}}</b> 까지 지불됩니다.</br></br> 구독 취소를 계속하려면 아래 <b>에서 &quot;구독 취소&quot;를 선택하십시오.</b>",
+        "cancellation_Success": "구독을 성공적으로 취소했습니다."
+      },
+      "buttons": {
+        "checkout": "스트라이프로 결제",
+        "cancelSubscription": "구독 취소",
+        "cancellation_InProcess": "Stripe로 구독 재개"
+      },
+      "labels": {
+        "billingInfo": "결제 정보",
+        "cancelSubscription": "구독 취소"
+      }
+    },
+    "other": {
+      "header": "다른",
+      "subMenus": {
+        "changelog": {
+          "label": "변경 로그"
+        },
+        "credits": {
+          "label": "크레딧",
+          "messages": {
+            "error_FailedToGetData": "데이터를 가져오지 못했습니다..."
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,192 @@
+{
+  "common": {
+    "labels": {
+      "transpose": "Transpor",
+      "octave": "Oitava",
+      "tools": "Ferramentas",
+      "room": "Sala",
+      "create": "Crio",
+      "update": "Atualizar",
+      "roomName": "Nome",
+      "roomID": "identificação",
+      "roomOwner": "Proprietário",
+      "menuBasic": "Básico",
+      "menuAdvanced": "Avançado",
+      "created": "Criado"
+    }
+  },
+  "modals": {
+    "roomInfo": {
+      "labels": {
+        "metaAutoRemove": "Remoção automática",
+        "metaPersistent": "Persistente",
+        "metaUnique": "Único"
+      }
+    },
+    "room": {
+      "labels": {
+        "onlyOwnerCanPlay": "Somente o dono pode jogar",
+        "onlyOwnerCanChat": "Apenas o proprietário pode conversar",
+        "allowGuests": "Permitir convidados",
+        "onlyMods": "Permitir apenas moderadores",
+        "allowBlackMidi": "Permitir Midi Preto",
+        "maxPlayers": "Máximo de jogadores",
+        "makeRoomPrivate": "Tornar o quarto privado",
+        "filterProfanity": "Filtrar palavrões",
+        "welcomeMessage": "Mensagem de boas-vindas",
+        "hostRoom": "Quarto Self Host",
+        "selfHostRegion": "Região",
+        "hostContinentCode": "Código do continente anfitrião",
+        "hostCountryCode": "Código do país anfitrião"
+      },
+      "tooltips": {
+        "onlyOwnerCanPlay": "Apenas o proprietário pode tocar música (trabalho em andamento).<br> (Outros usuários ainda podem jogar localmente, mas apenas o proprietário será ouvido por todos)",
+        "onlyOwnerCanChat": "Somente o proprietário pode enviar mensagens de bate-papo",
+        "allowGuests": "Se desativado, impede que os hóspedes entrem no seu quarto",
+        "onlyMods": "Permitir que apenas moderadores participem. (A opção não é visível para não moderadores)",
+        "allowBlackMidi": "Ativar isso permitirá que os jogadores toquem midis pretos ou toquem grandes quantidades de notas sem que o servidor os silencie temporariamente por tocar excessivamente.<br><br> (Os proprietários de salas têm um limite de cota de notas mais alto)",
+        "maxPlayers": "Defina o máximo de jogadores que podem estar na sala",
+        "makeRoomPrivate": "Tornar o quarto privado",
+        "roomName": "(Opcional) Defina o nome da sala.",
+        "roomPassword": "(Opcional) Defina uma senha para a sala.",
+        "filterProfanity": "Profanidades filtradas, como palavrões, serão censuradas. Eles aparecerão em asteriscos. por exemplo,'****'",
+        "welcomeMessage": "Esta mensagem será exibida para os usuários que entrarem em sua sala. Você pode escrever algumas regras ou dizer algo caloroso e agradável.",
+        "hostRoom": "Escolha esta opção se preferir hospedar a sala em sua máquina. Isso criará um ambiente P2P no qual os usuários se conectarão diretamente à sua máquina.",
+        "selfHostRegion": "A área geral em que sua máquina está localizada. O PianoRhythm tentará adivinhar onde você está, mas você pode configurá-lo manualmente, se desejar."
+      }
+    }
+  },
+  "sideBar": {
+    "usersTab": "Comercial",
+    "friendsTab": "Parceiros",
+    "roomsTab": "quartos",
+    "tooltips": {
+      "usersTab": "As listas de usuários na sala.",
+      "friendsTab": "A lista de todos os seus amigos!",
+      "roomsTab": "A lista de todas as salas públicas.",
+      "roomSelfHosted": "<br>Esta sala está sendo auto-hospedada por um usuário.<br> A localização é: <b>( {{continent}} , {{country}} )</b>",
+      "passwordProtected": "Protegido por senha"
+    },
+    "general": {
+      "hasPendingFriendRequests": "Você tem {{count}} solicitações de amizade pendentes!",
+      "noRoomsFound": "Nenhum quarto encontrado...",
+      "noFriends_line1": "Parece um pouco solitário, aqui.",
+      "noFriends_line2_clientIsGuest": "Faça login para adicionar alguns amigos!",
+      "noFriends_line2_clientIsMember": "Adicione alguns amigos!",
+      "noFriendsFound": "Nenhum amigo encontrado. Dá uma sensação ruim, irmão...",
+      "searchRooms": "Pesquisar quartos...",
+      "unknownLocation": "Desculpe, a localização é desconhecida."
+    }
+  },
+  "bottomBar": {
+    "buttons": {
+      "newRoom": "Nova sala",
+      "roomSettings": "Configurações da sala",
+      "settings": "Configurações",
+      "midi": "MIDI",
+      "modDashboard": "Painel de Mods",
+      "volume": "Volume",
+      "sustain": "Sustentar",
+      "logout": "Sair",
+      "sheetMusic": "Partitura",
+      "sheetMusicUpload": "Partituras - Carregar",
+      "docs": "Documentação"
+    },
+    "tooltips": {
+      "newRoom": "Criar uma nova sala",
+      "roomSettings": "Alterar as configurações da sala",
+      "settings": "Alterar as configurações do usuário",
+      "midi": "Defina a E/S MIDI",
+      "modDashboard": "Painel do moderador",
+      "volume": "Clique em mim para alternar o silenciamento!",
+      "sustain": "Alternar a sustentação",
+      "sustainActive": "Ativo",
+      "logout": "Sair de",
+      "menu": "Clique aqui para mais itens do cardápio!",
+      "sheetMusic": "Exibir o repositório de partituras",
+      "sheetMusicUpload": "Carregar partituras para o repositório",
+      "docs": "Documentação/Ajuda"
+    },
+    "messages": {
+      "logoutPressed": "Tem certeza que deseja sair?",
+      "logoutPressed_Confirm": "Sim!",
+      "logoutPressed_Cancel": "Não, desculpe..."
+    }
+  },
+  "components": {
+    "metronome": {
+      "tooltips": {
+        "player": "Clique para reproduzir/pausar o metrônomo",
+        "bpm_desc": "“Batidas por minuto” (ou BPM) indica o número de batidas em um minuto.",
+        "timesignature_desc": "Uma assinatura de tempo informa como a música deve ser contada.<br><br> O número superior da fórmula de <i>compasso informa quantas</i> batidas devem ser contadas.<br><br> O número inferior informa que tipo de nota contar.",
+        "beat_remove": "Remover uma batida da medida",
+        "beat_add": "Adicione uma batida à medida",
+        "tempo_desc_general": "Descreve o andamento (em italiano). Tempo é a velocidade ou ritmo de uma determinada peça.",
+        "tempo_desc_larghissimo": "extremamente lento, mais lento que largo",
+        "tempo_desc_largo": "muito lento e amplo",
+        "tempo_desc_grave": "muito devagar",
+        "tempo_desc_lento": "lento",
+        "tempo_desc_adagio": "lento",
+        "tempo_desc_andante": "ritmo de caminhada",
+        "tempo_desc_moderato": "moderadamente",
+        "tempo_desc_allegretto": "moderadamente rápido, ligeiramente mais lento que allegro",
+        "tempo_desc_allegro": "velozes",
+        "tempo_desc_vivace": "rápido e animado",
+        "tempo_desc_presto": "muito rápido",
+        "tempo_desc_prestissimo": "extremamente rápido, mais rápido que presto"
+      }
+    }
+  },
+  "errorMessages": {
+    "joinRoomFail": {
+      "RoomFull": "Falha ao entrar na sala porque está cheia.",
+      "QueuedToJoinRoom": "Você já está na fila para entrar nesta sala.",
+      "AlreadyInRoom": "Você já está nesta sala.",
+      "NoGuests": "Falha ao entrar porque o quarto não permite hóspedes.",
+      "IncorrectPassword": "Falha ao entrar devido a uma senha incorreta.",
+      "NotAllowed": "Falha ao entrar porque você não tem permissão."
+    },
+    "failedToCreateRoomWithReason": "Falha ao criar sala: {{reason}}",
+    "failedToJoinRoom": "Algo deu errado. Falha ao entrar na sala..."
+  },
+  "generalMessages": {
+    "enterRoomPassword": "Por favor, digite a senha da sala!",
+    "roomWithWarnings": {
+      "text1": "Esta sala tem as seguintes configurações ativadas",
+      "text2": "Tem certeza de que deseja participar?",
+      "dontShowAgain": "Não mostre esta mensagem novamente."
+    },
+    "openingExternalLinks": "Tenha cuidado ao abrir links externos. Tem certeza de que deseja abrir isso?"
+  },
+  "instrumentDock": {
+    "toolNames": {
+      "InstrumentSelection": "Seleção de Instrumentos",
+      "ChannelDisplayMode": "Modo de exibição de canal",
+      "ClearInstruments": "Limpar instrumentos",
+      "ResetToDefault": "Restaurar ao padrão",
+      "ToggleKeyboardMappingDisplay": "Alternar mapa do teclado",
+      "ToggleMetronomeDisplay": "Alternar metrônomo",
+      "ToggleSheetMusicViewer": "Toggle SheetMusic Viewer",
+      "MidiMusic": "Música MIDI",
+      "tooltips": {
+        "InstrumentSelection": "Exibe a seleção do instrumento. {{key}}",
+        "ChannelDisplayMode": "Alterne a exibição dos slots de canal. (4x4x4x4), (8x8) ou (16)",
+        "ToggleKeyboardMappingDisplay": "Exiba uma sobreposição de mapeamento de teclado no piano. {{key}}",
+        "ToggleMetronomeDisplay": "Alterne a exibição do metrônomo. {{key}}",
+        "ToggleSheetMusicViewer": "Alterne a exibição do visualizador de partituras. {{key}}",
+        "ClearInstruments": "Limpe todos os instrumentos midi carregados.",
+        "ResetToDefault": "Redefina os canais e controles midi para a configuração padrão."
+      }
+    },
+    "inputButtons": {
+      "slotMode": "Modo de slot {{mode}}",
+      "tools": "Ferramentas",
+      "tooltips": {
+        "transpose": "Defina a transposição. Clique para redefinir.",
+        "octave": "Defina a oitava. Clique para redefinir.",
+        "slotMode": "Defina o modo de slot para o layout do piano",
+        "tools": "Uma lista de ferramentas e recursos."
+      }
+    }
+  }
+}

@@ -1,0 +1,192 @@
+{
+  "common": {
+    "labels": {
+      "transpose": "转置",
+      "octave": "八度",
+      "tools": "工具",
+      "room": "房间",
+      "create": "创建",
+      "update": "更新",
+      "roomName": "名称",
+      "roomID": "ID",
+      "roomOwner": "所有者",
+      "menuBasic": "基本的",
+      "menuAdvanced": "先进的",
+      "created": "已创建"
+    }
+  },
+  "modals": {
+    "roomInfo": {
+      "labels": {
+        "metaAutoRemove": "自动移除",
+        "metaPersistent": "执着的",
+        "metaUnique": "独特的"
+      }
+    },
+    "room": {
+      "labels": {
+        "onlyOwnerCanPlay": "只有主人可以玩",
+        "onlyOwnerCanChat": "只有所有者可以聊天",
+        "allowGuests": "允许客人",
+        "onlyMods": "只允许版主",
+        "allowBlackMidi": "允许黑色迷笛",
+        "maxPlayers": "最大玩家",
+        "makeRoomPrivate": "将房间设为私密",
+        "filterProfanity": "过滤脏话",
+        "welcomeMessage": "欢迎留言",
+        "hostRoom": "自助主机房",
+        "selfHostRegion": "地区",
+        "hostContinentCode": "主机大陆代码",
+        "hostCountryCode": "东道国代码"
+      },
+      "tooltips": {
+        "onlyOwnerCanPlay": "只有所有者可以播放音乐（正在进行中）。<br> （其他用户仍然可以在本地播放，但只有所有者会被所有人听到）",
+        "onlyOwnerCanChat": "只有所有者可以发送聊天消息",
+        "allowGuests": "如果禁用，则阻止客人进入您的房间",
+        "onlyMods": "只允许版主加入。 （选项对非版主不可见）",
+        "allowBlackMidi": "启用此功能将允许玩家演奏黑色 midis 或演奏大量音符，而服务器不会因过度演奏而暂时将其静音。<br><br> （房主有更高的笔记配额限制）",
+        "maxPlayers": "设置可以在房间里的最大玩家数",
+        "makeRoomPrivate": "将房间设为私密",
+        "roomName": "（可选）设置房间名称。",
+        "roomPassword": "（可选）设置房间密码。",
+        "filterProfanity": "过滤后的脏话（例如脏话）将被审查。它们将出现在星号中。例如，'****'",
+        "welcomeMessage": "此消息将显示给进入您房间的用户。你可以写一些规则或者说一些温暖和好听的话。",
+        "hostRoom": "如果您希望在您的机器上托管房间，请选择此选项。这将创建一个 P2P 环境，用户将在该环境上直接连接到您的计算机。",
+        "selfHostRegion": "您的机器所在的一般区域。 PianoRhythm 会尝试猜测您在哪里，但如果您愿意，您可以手动设置它。"
+      }
+    }
+  },
+  "sideBar": {
+    "usersTab": "用户",
+    "friendsTab": "好朋友",
+    "roomsTab": "房间",
+    "tooltips": {
+      "usersTab": "房间中的用户列表。",
+      "friendsTab": "你所有朋友的名单！",
+      "roomsTab": "所有公共房间的列表。",
+      "roomSelfHosted": "<br>该房间由用户自行托管。<br>位置是： <b>( {{continent}} , {{country}} )</b>",
+      "passwordProtected": "密码保护"
+    },
+    "general": {
+      "hasPendingFriendRequests": "您有{{count}}待处理的好友请求！",
+      "noRoomsFound": "没有找到房间...",
+      "noFriends_line1": "看这里，有点寂寞。",
+      "noFriends_line2_clientIsGuest": "登录以添加一些朋友！",
+      "noFriends_line2_clientIsMember": "添加一些朋友！",
+      "noFriendsFound": "没有找到朋友。心情不好，兄弟...",
+      "searchRooms": "搜索房间...",
+      "unknownLocation": "抱歉，地点不详。"
+    }
+  },
+  "bottomBar": {
+    "buttons": {
+      "newRoom": "新房间",
+      "roomSettings": "房间设置",
+      "settings": "设置",
+      "midi": "MIDI",
+      "modDashboard": "模组仪表板",
+      "volume": "体积",
+      "sustain": "维持",
+      "logout": "登出",
+      "sheetMusic": "乐谱",
+      "sheetMusicUpload": "乐谱 - 上传",
+      "docs": "文档"
+    },
+    "tooltips": {
+      "newRoom": "创建一个新房间",
+      "roomSettings": "更改房间的设置",
+      "settings": "更改用户设置",
+      "midi": "设置 MIDI I/O",
+      "modDashboard": "主持人仪表板",
+      "volume": "点击我切换静音！",
+      "sustain": "切换延音",
+      "sustainActive": "积极的",
+      "logout": "登出",
+      "menu": "点击这里查看更多菜单项！",
+      "sheetMusic": "显示乐谱库",
+      "sheetMusicUpload": "将乐谱上传到存储库",
+      "docs": "文档/帮助"
+    },
+    "messages": {
+      "logoutPressed": "您确定要退出吗？",
+      "logoutPressed_Confirm": "是的！",
+      "logoutPressed_Cancel": "不，对不起……"
+    }
+  },
+  "components": {
+    "metronome": {
+      "tooltips": {
+        "player": "点击播放/暂停节拍器",
+        "bpm_desc": "“Beats per minute”（或 BPM）表示一分钟内的节拍数。",
+        "timesignature_desc": "拍号告诉您如何计算音乐。<br><br>拍号的顶部数字告诉您要计算<i>多少拍子。</i><br><br>底部的数字告诉您要计数的音符类型。",
+        "beat_remove": "从小节中删除一个节拍",
+        "beat_add": "为小节添加节拍",
+        "tempo_desc_general": "描述节奏（意大利语）。节奏是给定作品的速度或节奏。",
+        "tempo_desc_larghissimo": "极慢，比 largo 慢",
+        "tempo_desc_largo": "非常缓慢和广泛",
+        "tempo_desc_grave": "非常慢",
+        "tempo_desc_lento": "慢的",
+        "tempo_desc_adagio": "慢的",
+        "tempo_desc_andante": "步行速度",
+        "tempo_desc_moderato": "适度",
+        "tempo_desc_allegretto": "速度适中，比 allegro 稍慢",
+        "tempo_desc_allegro": "快速地",
+        "tempo_desc_vivace": "快活",
+        "tempo_desc_presto": "非常快",
+        "tempo_desc_prestissimo": "极快，比 presto 更快"
+      }
+    }
+  },
+  "errorMessages": {
+    "joinRoomFail": {
+      "RoomFull": "由于房间已满，无法进入房间。",
+      "QueuedToJoinRoom": "您已排队加入此房间。",
+      "AlreadyInRoom": "你已经在这个房间里了。",
+      "NoGuests": "由于房间不允许客人进入，因此无法进入。",
+      "IncorrectPassword": "由于密码错误，无法进入。",
+      "NotAllowed": "无法进入，因为您不被允许。"
+    },
+    "failedToCreateRoomWithReason": "创建房间失败： {{reason}}",
+    "failedToJoinRoom": "出问题了。加入房间失败..."
+  },
+  "generalMessages": {
+    "enterRoomPassword": "请输入房间密码！",
+    "roomWithWarnings": {
+      "text1": "此房间启用了以下设置",
+      "text2": "你确定要加入吗？",
+      "dontShowAgain": "不再显示此消息。"
+    },
+    "openingExternalLinks": "小心打开外部链接。你确定要打开这个吗？"
+  },
+  "instrumentDock": {
+    "toolNames": {
+      "InstrumentSelection": "仪器选择",
+      "ChannelDisplayMode": "频道显示模式",
+      "ClearInstruments": "清除仪器",
+      "ResetToDefault": "重置为默认",
+      "ToggleKeyboardMappingDisplay": "切换键盘映射",
+      "ToggleMetronomeDisplay": "切换节拍器",
+      "ToggleSheetMusicViewer": "切换工作表音乐查看器",
+      "MidiMusic": "MIDI音乐",
+      "tooltips": {
+        "InstrumentSelection": "显示仪器选择。 {{key}}",
+        "ChannelDisplayMode": "切换通道插槽的显示。 (4x4x4x4)、(8x8) 或 (16)",
+        "ToggleKeyboardMappingDisplay": "在钢琴上显示键盘映射覆盖。 {{key}}",
+        "ToggleMetronomeDisplay": "切换节拍器的显示。 {{key}}",
+        "ToggleSheetMusicViewer": "切换乐谱查看器的显示。 {{key}}",
+        "ClearInstruments": "清除所有加载的 MIDI 乐器。",
+        "ResetToDefault": "将 MIDI 通道和控件重置为默认配置。"
+      }
+    },
+    "inputButtons": {
+      "slotMode": "插槽模式{{mode}}",
+      "tools": "工具",
+      "tooltips": {
+        "transpose": "设置转置。单击以重置。",
+        "octave": "设置八度。单击以重置。",
+        "slotMode": "设置钢琴布局的插槽模式",
+        "tools": "工具和功能列表。"
+      }
+    }
+  }
+}

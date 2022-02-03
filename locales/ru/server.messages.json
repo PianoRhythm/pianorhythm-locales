@@ -1,0 +1,26 @@
+{
+  "websocket": {
+    "clientConnect_Init": "Подключение... Пожалуйста, подождите!",
+    "clientConnect_ResponseDelayed": "Это занимает немного больше времени, чем обычно. Пожалуйста, держись!",
+    "clientConnect_Success": "Соединение установлено!",
+    "clientConnect_SessionExists": "Другой сеанс уже существует. Отключение. Пожалуйста, попробуйте еще раз.",
+    "clientConnect_DisconnectCauseAnotherSessionExists": "Другой сеанс пытается подключиться. Отключение!"
+  },
+  "room": {
+    "messages": {
+      "clientDeletesChatMessage_Success": "Вы удалили сообщение чата.",
+      "clientDeletesChatMessage_Fail": "Извините, похоже, что это сообщение чата не существует. :пожимаю плечами:",
+      "newRoomOwner": "Теперь вы [b]новый владелец [r]этой комнаты! :улыбка:",
+      "roomUpdates": {
+        "isPasswordProtected": "[i]Комната теперь защищена паролем...",
+        "passwordRemoved": "[i]Пароль удален..."
+      }
+    }
+  },
+  "generalMessages": {
+    "login_success": "Вы успешно вошли в систему, <b>{{username}}</b> . Добро пожаловать!"
+  },
+  "errorMessages": {
+    "unknown_error": "Неизвестная ошибка сервера..."
+  }
+}

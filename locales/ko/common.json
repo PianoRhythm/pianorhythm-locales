@@ -1,0 +1,31 @@
+{
+  "labels": {
+    "username": "사용자 이름",
+    "password": "비밀번호",
+    "email": "이메일",
+    "confirmpassword": "비밀번호 확인",
+    "on": "켜짐",
+    "off": "끄다"
+  },
+  "buttons": {
+    "submit": "제출하다",
+    "reveal": "드러내다",
+    "hide": "숨다",
+    "edit": "편집하다",
+    "modal_Confirm": "예, 들어가게 해주세요!",
+    "modal_Confirm2": "예, 부탁합니다!",
+    "modal_Deny": "신경 쓰지 마..."
+  },
+  "errorMessages": {
+    "webGLNotSupported": "죄송합니다. WebGL과 같은 특정 기능은 이 브라우저에서 지원되지 않습니다.<br> 가능하면 브라우저를 업데이트하십시오.",
+    "midiFileSizeIsTooBig": "파일 크기가 너무 큽니다!",
+    "dropValidMidiFile": "유효한 미디 파일을 삭제하십시오!"
+  },
+  "generalMessages": {
+    "serverConnected": "{{appName}} 연결됨",
+    "passwordResetSuccess": "비밀번호가 성공적으로 변경되었습니다. 로그인을 진행하시면 됩니다. :)",
+    "forgotPasswordSuccess": "해당 이메일과 연결된 계정이 있는 경우 비밀번호 재설정 이메일이 전송됩니다. 감사합니다!",
+    "registerSuccess": "확인 이메일이 사용되었습니다. 스팸 폴더도 확인하십시오.",
+    "dropAnyValidMidiFile": "재생하려면 유효한 .midi 파일을 삭제하세요!"
+  }
+}

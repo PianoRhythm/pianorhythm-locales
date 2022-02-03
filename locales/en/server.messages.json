@@ -1,0 +1,26 @@
+﻿{
+  "websocket": {
+    "clientConnect_Init": "Connecting... Please wait!",
+    "clientConnect_ResponseDelayed": "It's taking a bit longer than usual. Please hold on!",
+    "clientConnect_Success": "Connection established!",
+    "clientConnect_SessionExists": "Another session already exists. Disconnecting. Please try again.",
+    "clientConnect_DisconnectCauseAnotherSessionExists": "Another session is trying to connect. Disconnecting!"
+  },
+  "room": {
+    "messages": {
+      "clientDeletesChatMessage_Success": "You have deleted the chat message.",
+      "clientDeletesChatMessage_Fail": "Sorry, looks like that chat message doesn't exist. :shrug:",
+      "newRoomOwner": "You are now the [b]new owner [r]of this room! :smile:",
+      "roomUpdates": {
+        "isPasswordProtected": "[i]Room is now password protected...",
+        "passwordRemoved": "[i]Password removed..."
+      }
+    }
+  },
+  "generalMessages": {
+    "login_success": "You've successfully logged in, <b>{{username}}</b>. Welcome!"
+  },
+  "errorMessages": {
+    "unknown_error": "Unknown server error..."
+  }
+}

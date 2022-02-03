@@ -1,0 +1,26 @@
+{
+  "websocket": {
+    "clientConnect_Init": "正在连接...请稍候！",
+    "clientConnect_ResponseDelayed": "它需要的时间比平时要长一些。请暂停！",
+    "clientConnect_Success": "连接已建立！",
+    "clientConnect_SessionExists": "另一个会话已存在。断开连接。请再试一次。",
+    "clientConnect_DisconnectCauseAnotherSessionExists": "另一个会话正在尝试连接。断开连接！"
+  },
+  "room": {
+    "messages": {
+      "clientDeletesChatMessage_Success": "您已删除聊天消息。",
+      "clientDeletesChatMessage_Fail": "抱歉，该聊天消息似乎不存在。 :耸肩:",
+      "newRoomOwner": "您现在是这个房间的 [b] 新主人 [r]！ ：微笑：",
+      "roomUpdates": {
+        "isPasswordProtected": "[i]房间现在受密码保护...",
+        "passwordRemoved": "[i]密码被删除..."
+      }
+    }
+  },
+  "generalMessages": {
+    "login_success": "您已成功登录， <b>{{username}}</b> 。欢迎！"
+  },
+  "errorMessages": {
+    "unknown_error": "未知的服务器错误..."
+  }
+}

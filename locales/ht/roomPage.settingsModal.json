@@ -1,0 +1,286 @@
+{
+  "messages": {
+    "audioSettingNotSupportedV3": "Nòt: Kounye a, pifò paramèt odyo yo pa aplikab pou v3",
+    "changeWillTakeEffectOnNextRestart": "Chanjman yo pral pran efè sou pwochen rekòmanse.",
+    "changesSaved": "Chanjman yo te sove.",
+    "userColorUpdated": "Ou te mete ajou koulè itilizatè ou an avèk siksè!"
+  },
+  "menus": {
+    "general": {
+      "header": "Jeneral",
+      "subMenus": {
+        "language": {
+          "label": "Lang",
+          "elements": {
+            "lbl_languageSelect": "Chwazi Lang"
+          },
+          "tooltips": {
+            "lbl_languageSelect": "Mete lang default pou PianoRhythm."
+          }
+        }
+      }
+    },
+    "online": {
+      "header": "Sou entènèt",
+      "subMenus": {
+        "my account": {
+          "label": "Kont mwen",
+          "elements": {
+            "hdr_myAccount": "Kont mwen",
+            "hdr_passwordAndAuthentication": "Modpas ak Otantifikasyon",
+            "hdr_accountManagement": "Kont Jesyon",
+            "hdr_security": "Sekirite",
+            "tgl_enable2fa": "De-faktè Otantifikasyon",
+            "btn_changePassword": "Chanje modpas",
+            "btn_deleteAccount": "Efase kont",
+            "txt_passwordChangeSubText": "Antre modpas aktyèl ou ak nouvo modpas la",
+            "txt_deleteAccountSubText": "Èske w vrèman sèten? Tout done kont ou yo pral efase pou tout tan",
+            "txt_onIncorrectDeleteInputField": "Tanpri asire w ke ou tape kòrèkteman nan jaden an antre.",
+            "txt_confirmPasswordSubText": "Tanpri antre epi konfime modpas ou",
+            "txt_emailChangeSubText": "Antre nouvo adrès imel la ak modpas ou"
+          },
+          "tooltips": {
+            "hdr_myAccount": "Enfòmasyon sou Kont",
+            "tgl_enable2fa": "Ajoute yon kouch sekirite siplemantè ak otantifikasyon de faktè (2FA).",
+            "hdr_passwordAndAuthentication": "Modpas ak Otantifikasyon",
+            "hdr_accountManagement": "Kont Jesyon"
+          },
+          "messages": {
+            "on2faDisable": "Apre enfim otantifikasyon de-faktè, konekte nan kont ou a pral mande pou pwoteksyon modpas sèlman. Èske ou vle kontinye ak enfimite otantifikasyon de faktè?"
+          }
+        },
+        "multiplayer": {
+          "label": "Multijoueurs",
+          "elements": {
+            "hdr_multiplayerSettings": "Anviwònman multijoueurs",
+            "lbl_userColor": "Koulè itilizatè",
+            "btn_userColorReset": "Reyajiste koulè",
+            "btn_userColorSubmit": "Soumèt Koulè",
+            "tgl_showMyCursor": "Montre kurseur mwen an",
+            "tgl_sendWhoistyping": "Voye WhoIsTyping",
+            "tgl_disableWhispers": "Enfim chuchote",
+            "hdr_notifications": "Notifikasyon",
+            "tgl_friendsOnlineStatus": "Zanmi Online Estati",
+            "tgl_friendsOfflineStatus": "Zanmi Offline Estati",
+            "tgl_sheetMusicChanges": "Chanjman Fèy Mizik",
+            "tgl_emitMyStatusToFriends": "Emèt estati mwen an bay zanmi yo"
+          },
+          "tooltips": {
+            "hdr_multiplayerSettings": "Mete paramèt ki gen rapò ak multijoueurs.",
+            "lbl_userColor": "Mete koulè itilizatè ou an",
+            "btn_userColorReset": "Reyajiste koulè ou",
+            "btn_userColorSubmit": "Mete ajou koulè ou!",
+            "hdr_notifications": "Baskile ki notifikasyon sèvè ou resevwa.",
+            "tgl_showMyCursor": "Chanje si wi ou non kurseur ou a parèt bay lòt moun.",
+            "tgl_sendWhoistyping": "Deklanche si lòt itilizatè yo konnen lè w ap tape.",
+            "tgl_disableWhispers": "Enfim chuchote. Ou pa ka chichote lòt moun ak vis vèrsa.",
+            "tgl_friendsOnlineStatus": "Jwenn notifikasyon lè yon zanmi vin sou entènèt",
+            "tgl_friendsOfflineStatus": "Jwenn notifikasyon lè yon zanmi ale offline",
+            "tgl_emitMyStatusToFriends": "Pèmèt zanmi yo konnen chanjman estati ou yo. (En liy, Offline, elatriye)",
+            "tgl_sheetMusicChanges": "Resevwa imèl notifikasyon chak fwa yon chanjman rive nan mizik ou telechaje."
+          }
+        },
+        "discord": {
+          "label": "Diskòd",
+          "elements": {
+            "hdr_discordSettings": "Anviwònman Discord",
+            "swtch_syncDiscordMessages": "Senkronize mesaj gwoup Discord"
+          },
+          "tooltips": {
+            "hdr_discordSettings": "Mete paramèt ki gen rapò ak Discord.",
+            "swtch_syncDiscordMessages": "Chanje si mesaj Discord yo senkronize nan gwoup prensipal la."
+          }
+        },
+        "input": {
+          "label": "Antre",
+          "elements": {
+            "hdr_keyboardSettings": "Anviwònman klavye",
+            "lbl_pianoKeylayout": "Layout kle pyano",
+            "lbl_keyboardMaplayout": "Klavye Kat Layout",
+            "drp_keyboards": "Klavye",
+            "lbl_shortcutBinds": "Rakoursi mare",
+            "btn_openKeybinder": "Louvri Keybinder",
+            "tgl_keyboard_toggleyz": "Chanje Y ak Z kle"
+          },
+          "tooltips": {
+            "hdr_keyboardSettings": "Mete paramèt ki gen rapò ak klavye yo.",
+            "lbl_pianoKeylayout": "Mete Layout pyano klavye a pou pyano a.",
+            "lbl_keyboardMaplayout": "Mete kat D' klavye kòrèk.",
+            "lbl_shortcutBinds": "Kreye lyezon nan rakoursi komen.",
+            "tgl_keyboard_toggleyz": "Pou sèten layout klavye, chanje kat la nan klavye Y ak Z aliman pi natirèlman."
+          }
+        }
+      }
+    },
+    "graphics": {
+      "header": "Grafik",
+      "subMenus": {
+        "general": {
+          "label": "Jeneral",
+          "elements": {
+            "hdr_engine": "Motè grafik",
+            "lbl_engine": "Motè",
+            "lbl_maxFPS": "Max FPS"
+          },
+          "tooltips": {
+            "lbl_engine": "Chanje ant 2D, 3D, oswa pa gen okenn motè grafik.",
+            "lbl_maxFPS": "Chwazi to a max ankadreman nan motè a rann."
+          }
+        },
+        "ui": {
+          "label": "UI",
+          "elements": {
+            "hdr_displays": "Montre",
+            "tgl_fps": "Aktive FPS",
+            "tgl_ping": "Aktive ping",
+            "tgl_instDock": "Aktivite waf enstriman",
+            "tgl_userCursors": "Aktive kurseur itilizatè yo",
+            "tgl_whoistyping": "Aktive WhoIsTyping",
+            "hdr_chat": "Chat",
+            "tgle_displayChat": "Montre mesaj chat",
+            "tgle_keepChatInFocus": "Kenbe chat nan konsantre",
+            "sld_chatMsgsHeightOffset": "Chat Mesaj Tay Offset",
+            "sld_chatMsg2DOpacity": "Mesaj Chat Opakite Default (Mòd 2D)",
+            "sld_chatMsg3DOpacity": "Mesaj Chat Default Opakite (Mòd 3D)",
+            "tgl_display3DStats": "Montre Statistik 3D"
+          },
+          "tooltips": {
+            "hdr_displays": "Aktive ekspozisyon sèten eleman UI",
+            "tgl_fps": "Aktive kontè ekspozisyon FPS la",
+            "tgl_ping": "Aktive ekspozisyon Ping la",
+            "tgl_instDock": "Aktive ekspozisyon waf enstriman an",
+            "tgl_userCursors": "Aktivite pou montre lòt itilizatè yo kurseur",
+            "tgl_whoistyping": "Deklanche montre lè lòt itilizatè yo ap tape",
+            "hdr_chat": "Anviwònman UI ki gen rapò pou mesaj chat",
+            "tgle_displayChat": "Aktivite montre mesaj chat",
+            "sld_chatMsgsHeightOffset": "Mete konpanse wotè veso chatmessages la",
+            "tgl_display3DStats": "Deklanche montre estatistik siplemantè / enfòmasyon sou sèn nan 3D",
+            "tgle_keepChatInFocus": "Chanje si w vle kenbe chat la konsantre apre w fin soumèt yon mesaj",
+            "sld_chatMsg2DOpacity": "Mete opakite default mesaj chat yo lè li pa konsantre. (2D mòd)",
+            "sld_chatMsg3DOpacity": "Mete opakite default mesaj chat yo lè li pa konsantre. (mòd 3D)"
+          }
+        },
+        "blob": {
+          "label": "Blob",
+          "elements": {
+            "hdr_displays": "Montre",
+            "tgl_blobs": "Baskile tach",
+            "tgl_garden": "Aktivite Jaden"
+          },
+          "tooltips": {
+            "hdr_displays": "Aktivite ekspozisyon sèten eleman ki gen rapò ak blob.",
+            "tgl_blobs": "Aktivite pou montre tach yo.",
+            "tgl_garden": "Aktivite montre jaden blob yo."
+          }
+        }
+      }
+    },
+    "audio": {
+      "header": "Odyo",
+      "subMenus": {
+        "soundfont": {
+          "label": "Soundfont",
+          "messages": {
+            "soundfontLoading": "Tanpri tann pandan soundfont la ap chaje!"
+          },
+          "elements": {
+            "hdr_generalSettings": "Anviwònman Jeneral",
+            "lbl_audioEngine": "Audio Engine",
+            "tgl_enableDrums": "Pèmèt Drum Channel",
+            "hdr_v3Audio": "V3 Audio",
+            "lbl_soundfonts": "Soundfonts",
+            "lbl_initalBuffersize": "Inisyal Buffersize",
+            "tgl_showDebuglogs": "Montre mòso bwa pèfòmans Debug",
+            "tgl_useAudioWorklet": "Sèvi ak AudioWorklet"
+          },
+          "tooltips": {
+            "lbl_audioEngine": "Chwazi motè odyo default la.<br> (Pran efè sou pwochen rekòmanse)",
+            "tgl_enableDrums": "Lè li aktive, sa a pral pèmèt son pèkisyon yo dwe jwe sou kanal 9 (baz zewo-endèks)",
+            "hdr_v3Audio": "Anviwònman espesifik V3 Audio Engine la",
+            "lbl_soundfonts": "Chwazi soundfont default la",
+            "lbl_initalBuffersize": "Eksplikasyon ap vini byento. (Pran efè sou pwochen rekòmanse)",
+            "tgl_showDebuglogs": "Lè li aktive, sa a pral pwodiksyon mòso bwa pèfòmans nan konsole a",
+            "tgl_useAudioWorklet": "Lè sa pèmèt, sa a pral chaje motè odyo V3 a nan yon fil separe nan yon pwosesis worklet odyo.<br> Ta dwe amelyore pèfòmans. (Pran efè sou rekòmanse aplikasyon an)"
+          }
+        },
+        "midi": {
+          "label": "Midi",
+          "elements": {
+            "hdr_inputOutput": "Antre / Sòti",
+            "lbl_enableAudioToOutput": "Pèmèt odyo pou pwodiksyon sèlman",
+            "hrd_generalEffects": "Efè Jeneral",
+            "tgl_mousePosVelocity": "Pozisyon sourit detèmine vitès",
+            "sld_sustainCutoff": "Soutni koupe",
+            "hdr_velocityEffects": "Efè vitès",
+            "tgl_enableVelocity": "Pèmèt vitès",
+            "sld_velocityMuting": "Muting vitès",
+            "tgl_enableVelocityBoost": "Pèmèt ogmantasyon vitès",
+            "sld_velocityBoost": "Ogmante vitès",
+            "lbl_metronome": "Egzanp odyo metronom"
+          },
+          "tooltips": {
+            "lbl_enableAudioToOutput": "Si w tcheke epi nenpòt aparèy pwodiksyon aktif, odyo pral sèlman emèt nan aparèy pwodiksyon an epi li pa nan motè odyo PianoRhythm la.",
+            "tgl_mousePosVelocity": "Sa a pral pèmèt pozisyon sourit la detèmine vitès la nan opinyon klavye òdinatè w lan.<br><br> Plis sourit ou a pi pre anba fenèt navigatè a, se plis nòt ou yo pral fò",
+            "sld_sustainCutoff": "Mete pwen koupe lage pou nòt soutni. (Pi gwo pousantaj = pi kout soutni)",
+            "tgl_enableVelocity": "Si yo pa tcheke, yo p ap itilize valè vitès anvan tout koreksyon ki soti nan sous la. Olye de sa, li pral mete nan valè a maksimòm (127)",
+            "sld_velocityMuting": "Nòt bèbè ak yon vitès ki mwens pase oswa egal a valè mèt la.",
+            "tgl_enableVelocityBoost": "Ranfòse valè vitès anvan tout koreksyon k ap vini yo",
+            "sld_velocityBoost": "Ajoute valè adisyonèl nan vitès anvan tout koreksyon",
+            "lbl_metronome": "Chwazi kalite echantiyon odyo pou itilize pou metronom la"
+          }
+        }
+      }
+    },
+    "billing": {
+      "header": "Faktirasyon",
+      "subMenus": {
+        "subscription": {
+          "label": "Abònman",
+          "elements": {
+            "lbl_languageSelect": "Chwazi Lang"
+          },
+          "tooltips": {
+            "lbl_languageSelect": "Mete lang default pou PianoRhythm."
+          }
+        }
+      },
+      "messages": {
+        "autoRenewInfo": "Abònman w ap renouvle otomatikman sou <b style=\"color:white;\">{{billingDate}}</b> epi w ap fè w peye <b style=\"color:white;\">{{currencyText}} .</b>",
+        "subText": "Men abònman ou ye kounye a. Ou ka anile oswa mete ajou li nenpòt ki lè.",
+        "checkout_Created": "Yon nouvo tab te louvri. Kontinye kesye la!",
+        "checkout_Success": "Siksè kesye!",
+        "checkout_Cancelled": "Ou te anile sesyon an.",
+        "checkout_ResumePlan": "Ou pral rekòmanse abònman ou anile. </br></br>Èske w sèten?",
+        "checkout_Confirm": "Ou pral tcheke deyò epi abònman nan yon plan prim. </br></br>Èske w sèten?",
+        "subscription_cancellationFail": "Padon, yon bagay ale mal. Echwe pou anile abònman.",
+        "subscription_Updated": "Ou te mete ajou plan abònman ou avèk siksè!",
+        "cancellation_InProcess": "<b>Yo anile</b> abònman ou ye kounye a e se poutèt sa, yo p ap renouvle otomatikman. Sepandan, w ap toujou gen avantaj ou yo jiska <b style=\"color:white;\">{{billingDate}}</b> .",
+        "cancellation_Confirm": "Nou regrèt wè ou ale, {{username}} !.</br>Abònman plan pro ou a peye jiska <b>{{planBillingDate}}</b> .</br></br> Si ou ta renmen kontinye ak anile abònman ou a, tanpri chwazi <b>&quot;Anile abònman&quot;</b> anba a.",
+        "cancellation_Success": "Ou te anile abònman ou avèk siksè."
+      },
+      "buttons": {
+        "checkout": "Kesye ak Stripe",
+        "cancelSubscription": "Anile abònman",
+        "cancellation_InProcess": "Rezime abònman ak Stripe"
+      },
+      "labels": {
+        "billingInfo": "Enfòmasyon sou bòdwo",
+        "cancelSubscription": "Anile abònman"
+      }
+    },
+    "other": {
+      "header": "Lòt",
+      "subMenus": {
+        "changelog": {
+          "label": "Chanjman"
+        },
+        "credits": {
+          "label": "Kredi",
+          "messages": {
+            "error_FailedToGetData": "Echwe pou jwenn done..."
+          }
+        }
+      }
+    }
+  }
+}

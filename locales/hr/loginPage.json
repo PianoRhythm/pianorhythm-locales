@@ -1,0 +1,51 @@
+{
+  "connectionStatus": "Status",
+  "playersOnline": "Igrači na mreži",
+  "hrefs": {
+    "createAccount": "Stvorite račun.",
+    "forgotPassword": "Zaboravili ste lozinku?",
+    "enterAsGuest": "Uđite kao gost.",
+    "resendVerificationEmail": "Ponovno pošalji e-poruku za potvrdu.",
+    "haveAccount": "Već imate račun?",
+    "signIn": "Prijaviti se",
+    "goHome": "Idi kući."
+  },
+  "messages": {
+    "attemptAutoLogin_WelcomeBack": "Dobrodošao natrag",
+    "attemptAutoLogin_AttemptAuto": "Pokušavam se automatski ponovno prijaviti...",
+    "attemptAutoLogin_Cancel": "Kliknite ovdje za otkaz"
+  },
+  "oAuthButton": {
+    "discord": "Prijavite se s Discordom",
+    "google": "Prijavite se s Googleom"
+  },
+  "guestForm": {
+    "welcomeMessage": "Dobrodošli u PianoRhythm!",
+    "usernameInputMessage": "Koji je tvoj nadimak?",
+    "buttons": {
+      "enter": "Unesi",
+      "register": "Registar",
+      "login": "Prijaviti se"
+    }
+  },
+  "resendVerificationEmailForm": {
+    "header": "Ponovno pošaljite potvrdu e-poštom",
+    "onSubmitInfoToast": "Ako je s tom e-poštom povezan račun, bit će poslana poruka e-pošte za potvrdu računa. Hvala vam."
+  },
+  "forgotPasswordForm": {
+    "header": "Zaboravili ste lozinku"
+  },
+  "loginForm": {
+    "header": "Prijaviti se"
+  },
+  "twoFactorAuth": {
+    "header": "Dvofaktorska autentifikacija"
+  },
+  "registerForm": {
+    "labels": {
+      "tos1": "Slažem se da imam najmanje 13 godina i da sam pročitao",
+      "tos2": "Uvjeti korištenja"
+    },
+    "submitButton": "Registar"
+  }
+}

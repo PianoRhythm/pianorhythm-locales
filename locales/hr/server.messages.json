@@ -1,0 +1,26 @@
+{
+  "websocket": {
+    "clientConnect_Init": "Povezivanje... Molimo pričekajte!",
+    "clientConnect_ResponseDelayed": "Traje malo dulje nego inače. Molim pričekajte!",
+    "clientConnect_Success": "Veza uspostavljena!",
+    "clientConnect_SessionExists": "Druga sesija već postoji. Prekidanje veze. Molim te pokušaj ponovno.",
+    "clientConnect_DisconnectCauseAnotherSessionExists": "Druga sesija pokušava se povezati. Prekidanje veze!"
+  },
+  "room": {
+    "messages": {
+      "clientDeletesChatMessage_Success": "Izbrisali ste chat poruku.",
+      "clientDeletesChatMessage_Fail": "Žao nam je, izgleda da ta poruka chata ne postoji. :slijeganje:",
+      "newRoomOwner": "Sada ste [b]novi vlasnik [r]ove sobe! :osmijeh:",
+      "roomUpdates": {
+        "isPasswordProtected": "[i]Soba je sada zaštićena lozinkom...",
+        "passwordRemoved": "[i]Lozinka je uklonjena..."
+      }
+    }
+  },
+  "generalMessages": {
+    "login_success": "Uspješno ste se prijavili, <b>{{username}}</b> . Dobrodošli!"
+  },
+  "errorMessages": {
+    "unknown_error": "Nepoznata pogreška poslužitelja..."
+  }
+}

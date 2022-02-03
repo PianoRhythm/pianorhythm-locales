@@ -1,0 +1,26 @@
+{
+  "websocket": {
+    "clientConnect_Init": "接続中...お待ちください！",
+    "clientConnect_ResponseDelayed": "いつもより少し時間がかかります。お待ちください！",
+    "clientConnect_Success": "接続が確立されました！",
+    "clientConnect_SessionExists": "別のセッションがすでに存在します。切断します。もう一度やり直してください。",
+    "clientConnect_DisconnectCauseAnotherSessionExists": "別のセッションが接続しようとしています。切断します！"
+  },
+  "room": {
+    "messages": {
+      "clientDeletesChatMessage_Success": "チャットメッセージを削除しました。",
+      "clientDeletesChatMessage_Fail": "申し訳ありませんが、そのチャットメッセージは存在しないようです。 ：肩をすくめる：",
+      "newRoomOwner": "これで、この部屋の[b]新しい所有者[r]になりました。 ：笑顔：",
+      "roomUpdates": {
+        "isPasswordProtected": "[i]部屋はパスワードで保護されています...",
+        "passwordRemoved": "[i]パスワードが削除されました..."
+      }
+    }
+  },
+  "generalMessages": {
+    "login_success": "正常にログインしました、 <b>{{username}}</b> 。いらっしゃいませ！"
+  },
+  "errorMessages": {
+    "unknown_error": "不明なサーバーエラー..."
+  }
+}

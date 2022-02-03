@@ -1,0 +1,286 @@
+{
+  "messages": {
+    "audioSettingNotSupportedV3": "Hinweis: Derzeit sind die meisten Audioeinstellungen nicht auf v3 anwendbar",
+    "changeWillTakeEffectOnNextRestart": "Änderungen werden beim nächsten Neustart wirksam.",
+    "changesSaved": "Änderungen gespeichert.",
+    "userColorUpdated": "Sie haben Ihre Benutzerfarbe erfolgreich aktualisiert!"
+  },
+  "menus": {
+    "general": {
+      "header": "Allgemein",
+      "subMenus": {
+        "language": {
+          "label": "Sprache",
+          "elements": {
+            "lbl_languageSelect": "Sprache auswählen"
+          },
+          "tooltips": {
+            "lbl_languageSelect": "Stellen Sie die Standardsprache für PianoRhythm ein."
+          }
+        }
+      }
+    },
+    "online": {
+      "header": "Online",
+      "subMenus": {
+        "my account": {
+          "label": "Mein Konto",
+          "elements": {
+            "hdr_myAccount": "Mein Konto",
+            "hdr_passwordAndAuthentication": "Passwort und Authentifizierung",
+            "hdr_accountManagement": "Kontoverwaltung",
+            "hdr_security": "Sicherheit",
+            "tgl_enable2fa": "Zwei-Faktor-Authentifizierung",
+            "btn_changePassword": "Kennwort ändern",
+            "btn_deleteAccount": "Konto löschen",
+            "txt_passwordChangeSubText": "Geben Sie Ihr aktuelles Passwort und das neue Passwort ein",
+            "txt_deleteAccountSubText": "Bist du dir wirklich sicher? Alle Ihre Kontodaten werden dauerhaft gelöscht",
+            "txt_onIncorrectDeleteInputField": "Bitte stellen Sie sicher, dass Sie das Eingabefeld korrekt eingegeben haben.",
+            "txt_confirmPasswordSubText": "Bitte geben Sie Ihr Passwort ein und bestätigen Sie es",
+            "txt_emailChangeSubText": "Geben Sie die neue E-Mail-Adresse und Ihr Passwort ein"
+          },
+          "tooltips": {
+            "hdr_myAccount": "Kontoinformationen",
+            "tgl_enable2fa": "Fügen Sie eine zusätzliche Sicherheitsebene mit Zwei-Faktor-Authentifizierung (2FA) hinzu.",
+            "hdr_passwordAndAuthentication": "Passwort und Authentifizierung",
+            "hdr_accountManagement": "Kontoverwaltung"
+          },
+          "messages": {
+            "on2faDisable": "Nach dem Deaktivieren der Zwei-Faktor-Authentifizierung ist für die Anmeldung bei Ihrem Konto ein reiner Passwortschutz erforderlich. Möchten Sie mit der Deaktivierung der Zwei-Faktor-Authentifizierung fortfahren?"
+          }
+        },
+        "multiplayer": {
+          "label": "Mehrspieler",
+          "elements": {
+            "hdr_multiplayerSettings": "Multiplayer-Einstellungen",
+            "lbl_userColor": "Benutzerfarbe",
+            "btn_userColorReset": "Farbe zurücksetzen",
+            "btn_userColorSubmit": "Farbe einreichen",
+            "tgl_showMyCursor": "Zeig meinen Cursor",
+            "tgl_sendWhoistyping": "Senden Sie WhoIsTyping",
+            "tgl_disableWhispers": "Flüstern deaktivieren",
+            "hdr_notifications": "Benachrichtigungen",
+            "tgl_friendsOnlineStatus": "Freunde Online-Status",
+            "tgl_friendsOfflineStatus": "Offline-Status von Freunden",
+            "tgl_sheetMusicChanges": "Notenänderungen",
+            "tgl_emitMyStatusToFriends": "Senden Sie meinen Status an Freunde"
+          },
+          "tooltips": {
+            "hdr_multiplayerSettings": "Legen Sie Multiplayer-bezogene Einstellungen fest.",
+            "lbl_userColor": "Stellen Sie Ihre Benutzerfarbe ein",
+            "btn_userColorReset": "Setzen Sie Ihre Farbe zurück",
+            "btn_userColorSubmit": "Aktualisieren Sie Ihre Farbe!",
+            "hdr_notifications": "Schalten Sie um, welche Serverbenachrichtigungen Sie erhalten.",
+            "tgl_showMyCursor": "Schalten Sie um, ob Ihr Cursor anderen angezeigt wird.",
+            "tgl_sendWhoistyping": "Schalten Sie um, ob andere Benutzer wissen, wann Sie tippen.",
+            "tgl_disableWhispers": "Flüstern deaktivieren. Du kannst nicht mit anderen flüstern und umgekehrt.",
+            "tgl_friendsOnlineStatus": "Lassen Sie sich benachrichtigen, wenn ein Freund online geht",
+            "tgl_friendsOfflineStatus": "Lassen Sie sich benachrichtigen, wenn ein Freund offline geht",
+            "tgl_emitMyStatusToFriends": "Lassen Sie Freunde von Ihren Statusänderungen wissen. (Online, Offline usw.)",
+            "tgl_sheetMusicChanges": "Erhalten Sie Benachrichtigungs-E-Mails, wenn sich Ihre hochgeladenen Noten ändern."
+          }
+        },
+        "discord": {
+          "label": "Zwietracht",
+          "elements": {
+            "hdr_discordSettings": "Discord-Einstellungen",
+            "swtch_syncDiscordMessages": "Discord-Lobby-Nachrichten synchronisieren"
+          },
+          "tooltips": {
+            "hdr_discordSettings": "Legen Sie Discord-bezogene Einstellungen fest.",
+            "swtch_syncDiscordMessages": "Schalte um, ob Discord-Nachrichten in der Hauptlobby synchronisiert werden."
+          }
+        },
+        "input": {
+          "label": "Eingang",
+          "elements": {
+            "hdr_keyboardSettings": "Tastatureinstellungen",
+            "lbl_pianoKeylayout": "Klaviertasten-Layout",
+            "lbl_keyboardMaplayout": "Layout der Tastaturbelegung",
+            "drp_keyboards": "Tastaturen",
+            "lbl_shortcutBinds": "Verknüpfungen",
+            "btn_openKeybinder": "Schlüsselbund öffnen",
+            "tgl_keyboard_toggleyz": "Schalten Sie die Y- und Z-Tasten um"
+          },
+          "tooltips": {
+            "hdr_keyboardSettings": "Legen Sie tastaturbezogene Einstellungen fest.",
+            "lbl_pianoKeylayout": "Legen Sie das Keyboard-Piano-Layout für das Piano fest.",
+            "lbl_keyboardMaplayout": "Stellen Sie die richtige Tastatureingabezuordnung ein.",
+            "lbl_shortcutBinds": "Erstellen Sie Bindungen zu gängigen Verknüpfungen.",
+            "tgl_keyboard_toggleyz": "Bei bestimmten Tastaturlayouts wird das Umschalten der Zuordnung der Y- und Z-Tastaturen natürlicher ausgerichtet."
+          }
+        }
+      }
+    },
+    "graphics": {
+      "header": "Grafik",
+      "subMenus": {
+        "general": {
+          "label": "Allgemein",
+          "elements": {
+            "hdr_engine": "Grafik-Engine",
+            "lbl_engine": "Motor",
+            "lbl_maxFPS": "Maximale FPS"
+          },
+          "tooltips": {
+            "lbl_engine": "Wechseln Sie zwischen 2D, 3D oder keiner Grafik-Engine.",
+            "lbl_maxFPS": "Wählen Sie die maximale Bildrate der Rendering-Engine aus."
+          }
+        },
+        "ui": {
+          "label": "Benutzeroberfläche",
+          "elements": {
+            "hdr_displays": "Anzeigen",
+            "tgl_fps": "FPS umschalten",
+            "tgl_ping": "Ping umschalten",
+            "tgl_instDock": "Instrumenten-Dock umschalten",
+            "tgl_userCursors": "Benutzer-Cursor umschalten",
+            "tgl_whoistyping": "Toggle WhoIsTyping",
+            "hdr_chat": "Plaudern",
+            "tgle_displayChat": "Chatnachrichten anzeigen",
+            "tgle_keepChatInFocus": "Behalten Sie den Chat im Fokus",
+            "sld_chatMsgsHeightOffset": "Höhenversatz für Chatnachrichten",
+            "sld_chatMsg2DOpacity": "Standarddeckkraft von Chatnachrichten (2D-Modus)",
+            "sld_chatMsg3DOpacity": "Standard-Deckkraft von Chat-Nachrichten (3D-Modus)",
+            "tgl_display3DStats": "3D-Statistiken anzeigen"
+          },
+          "tooltips": {
+            "hdr_displays": "Schalten Sie die Anzeigen bestimmter UI-Elemente um",
+            "tgl_fps": "Schalten Sie die FPS-Anzeigeanzeige um",
+            "tgl_ping": "Schaltet die Ping-Anzeige um",
+            "tgl_instDock": "Schaltet die Anzeige des Instrumentendocks um",
+            "tgl_userCursors": "Schaltet die Anzeige der Cursor anderer Benutzer um",
+            "tgl_whoistyping": "Schalten Sie die Anzeige um, wenn andere Benutzer tippen",
+            "hdr_chat": "Zugehörige UI-Einstellungen für Chat-Nachrichten",
+            "tgle_displayChat": "Schaltet die Anzeige von Chat-Nachrichten um",
+            "sld_chatMsgsHeightOffset": "Legen Sie den Höhenversatz des Chatnachrichten-Containers fest",
+            "tgl_display3DStats": "Schalten Sie die Anzeige zusätzlicher Statistiken/Informationen über die 3D-Szene um",
+            "tgle_keepChatInFocus": "Schalten Sie um, ob der Chat nach dem Senden einer Nachricht im Fokus bleiben soll",
+            "sld_chatMsg2DOpacity": "Legen Sie die Standarddeckkraft der Chatnachrichten fest, wenn sie nicht fokussiert sind. (2D-Modus)",
+            "sld_chatMsg3DOpacity": "Legen Sie die Standarddeckkraft der Chatnachrichten fest, wenn sie nicht fokussiert sind. (3D-Modus)"
+          }
+        },
+        "blob": {
+          "label": "Klecks",
+          "elements": {
+            "hdr_displays": "Anzeigen",
+            "tgl_blobs": "Blobs umschalten",
+            "tgl_garden": "Garten umschalten"
+          },
+          "tooltips": {
+            "hdr_displays": "Schalten Sie die Anzeige bestimmter Blob-bezogener Elemente um.",
+            "tgl_blobs": "Schalten Sie die Anzeige der Blobs um.",
+            "tgl_garden": "Schalten Sie die Anzeige des Gartens der Blobs um."
+          }
+        }
+      }
+    },
+    "audio": {
+      "header": "Audio",
+      "subMenus": {
+        "soundfont": {
+          "label": "Soundfont",
+          "messages": {
+            "soundfontLoading": "Bitte warten Sie, während der Soundfont geladen wird!"
+          },
+          "elements": {
+            "hdr_generalSettings": "Allgemeine Einstellungen",
+            "lbl_audioEngine": "Audio-Engine",
+            "tgl_enableDrums": "Drum-Kanal aktivieren",
+            "hdr_v3Audio": "V3-Audio",
+            "lbl_soundfonts": "Soundfonts",
+            "lbl_initalBuffersize": "Anfängliche Puffergröße",
+            "tgl_showDebuglogs": "Debug-Leistungsprotokolle anzeigen",
+            "tgl_useAudioWorklet": "Verwenden Sie AudioWorklet"
+          },
+          "tooltips": {
+            "lbl_audioEngine": "Wählen Sie die Standard-Audio-Engine aus.<br> (Wird beim nächsten Neustart wirksam)",
+            "tgl_enableDrums": "Wenn diese Option aktiviert ist, können Percussion-Sounds auf Kanal 9 (Null-Index-Basis) gespielt werden.",
+            "hdr_v3Audio": "Spezifische Einstellungen für die V3 Audio Engine",
+            "lbl_soundfonts": "Wählen Sie die Standard-Soundfont",
+            "lbl_initalBuffersize": "Erklärung folgt in Kürze. (Wird beim nächsten Neustart wirksam)",
+            "tgl_showDebuglogs": "Wenn diese Option aktiviert ist, werden Leistungsprotokolle an die Konsole ausgegeben",
+            "tgl_useAudioWorklet": "Wenn diese Option aktiviert ist, wird die Audio-Engine von V3 in einen separaten Thread in einem Audio-Worklet-Prozess geladen.<br> Sollte die Leistung verbessern. (Wird beim Neustart der App wirksam)"
+          }
+        },
+        "midi": {
+          "label": "Midi",
+          "elements": {
+            "hdr_inputOutput": "Input-Output",
+            "lbl_enableAudioToOutput": "Nur Audioausgabe aktivieren",
+            "hrd_generalEffects": "Allgemeine Effekte",
+            "tgl_mousePosVelocity": "Die Mausposition bestimmt die Geschwindigkeit",
+            "sld_sustainCutoff": "Unterbrechung aufrechterhalten",
+            "hdr_velocityEffects": "Velocity-Effekte",
+            "tgl_enableVelocity": "Geschwindigkeit aktivieren",
+            "sld_velocityMuting": "Geschwindigkeits-Muting",
+            "tgl_enableVelocityBoost": "Velocity-Boost aktivieren",
+            "sld_velocityBoost": "Geschwindigkeitsschub",
+            "lbl_metronome": "Metronom-Audiobeispiel"
+          },
+          "tooltips": {
+            "lbl_enableAudioToOutput": "Wenn diese Option aktiviert ist und alle Ausgabegeräte aktiv sind, wird Audio nur an das Ausgabegerät und nicht innerhalb der Audio-Engine von PianoRhythm ausgegeben",
+            "tgl_mousePosVelocity": "Dadurch kann die Mausposition die Geschwindigkeit Ihrer Computertastatureingabe bestimmen.<br><br> Je näher sich Ihre Maus am unteren Rand des Browserfensters befindet, desto lauter werden Ihre Notizen",
+            "sld_sustainCutoff": "Stellen Sie den Release-Cutoff-Punkt für anhaltende Noten ein. (Höherer Prozentsatz = kürzeres Sustain)",
+            "tgl_enableVelocity": "Wenn diese Option deaktiviert ist, werden die unverarbeiteten Velocity-Werte der Quelle nicht verwendet. Stattdessen wird es auf den maximalen Wert (127) gesetzt.",
+            "sld_velocityMuting": "Stummschalten von Noten mit einer Velocity, die kleiner oder gleich dem Zählerwert ist.",
+            "tgl_enableVelocityBoost": "Verstärkt eingehende rohe Velocity-Werte",
+            "sld_velocityBoost": "Fügt der Rohgeschwindigkeit zusätzlichen Wert hinzu",
+            "lbl_metronome": "Wählen Sie den Audio-Sample-Typ aus, der für das Metronom verwendet werden soll"
+          }
+        }
+      }
+    },
+    "billing": {
+      "header": "Abrechnung",
+      "subMenus": {
+        "subscription": {
+          "label": "Abonnement",
+          "elements": {
+            "lbl_languageSelect": "Sprache auswählen"
+          },
+          "tooltips": {
+            "lbl_languageSelect": "Stellen Sie die Standardsprache für PianoRhythm ein."
+          }
+        }
+      },
+      "messages": {
+        "autoRenewInfo": "Ihr Abonnement verlängert sich automatisch um <b style=\"color:white;\">{{billingDate}}</b> und es werden Ihnen <b style=\"color:white;\">{{currencyText}} in Rechnung gestellt.</b>",
+        "subText": "Hier ist Ihr aktuelles Abonnement. Sie können es jederzeit kündigen oder aktualisieren.",
+        "checkout_Created": "Ein neuer Tab wurde geöffnet. Dort zur Kasse gehen!",
+        "checkout_Success": "Checkout-Erfolg!",
+        "checkout_Cancelled": "Sie haben die Sitzung abgebrochen.",
+        "checkout_ResumePlan": "Sie sind dabei, Ihr gekündigtes Abonnement fortzusetzen. </br></br>Sind Sie sicher?",
+        "checkout_Confirm": "Sie sind dabei, einen Premiumplan auszuchecken und zu abonnieren. </br></br>Sind Sie sicher?",
+        "subscription_cancellationFail": "Entschuldigung, etwas ist schief gelaufen. Abonnement konnte nicht gekündigt werden.",
+        "subscription_Updated": "Sie haben Ihren Abonnementplan erfolgreich aktualisiert!",
+        "cancellation_InProcess": "Ihr aktuelles Abonnement wurde <b>gekündigt</b> und wird daher nicht automatisch verlängert. Sie haben jedoch noch bis <b style=\"color:white;\">{{billingDate}}</b> Ihre Leistungen.",
+        "cancellation_Confirm": "Es tut uns leid, dich gehen zu sehen, {{username}} !.</br>Ihr Pro-Plan-Abonnement wird bis zum <b>{{planBillingDate}}</b> bezahlt.</br></br> Wenn Sie mit der Kündigung Ihres Abonnements fortfahren möchten, wählen Sie bitte unten <b>„Abonnement kündigen“.</b>",
+        "cancellation_Success": "Sie haben Ihr Abonnement erfolgreich gekündigt."
+      },
+      "buttons": {
+        "checkout": "Kasse mit Stripe",
+        "cancelSubscription": "Abonnement kündigen",
+        "cancellation_InProcess": "Setzen Sie das Abonnement mit Stripe fort"
+      },
+      "labels": {
+        "billingInfo": "Abrechnungsdaten",
+        "cancelSubscription": "Abonnement kündigen"
+      }
+    },
+    "other": {
+      "header": "Andere",
+      "subMenus": {
+        "changelog": {
+          "label": "Änderungsprotokoll"
+        },
+        "credits": {
+          "label": "Kredite",
+          "messages": {
+            "error_FailedToGetData": "Daten konnten nicht abgerufen werden..."
+          }
+        }
+      }
+    }
+  }
+}

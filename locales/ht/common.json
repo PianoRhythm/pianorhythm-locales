@@ -1,0 +1,31 @@
+{
+  "labels": {
+    "username": "non itilizatè",
+    "password": "modpas",
+    "email": "imel",
+    "confirmpassword": "Konfime modpas",
+    "on": "Sou",
+    "off": "Off"
+  },
+  "buttons": {
+    "submit": "Soumèt",
+    "reveal": "Revele",
+    "hide": "Kache",
+    "edit": "Edit",
+    "modal_Confirm": "Wi, kite m antre!",
+    "modal_Confirm2": "Wi tanpri!",
+    "modal_Deny": "Pa janm bliye..."
+  },
+  "errorMessages": {
+    "webGLNotSupported": "Padon, sèten karakteristik, tankou WebGL, pa sipòte sou navigatè sa a.<br> Tanpri mete ajou navigatè w la si w kapab.",
+    "midiFileSizeIsTooBig": "Gwosè dosye a twò gwo!",
+    "dropValidMidiFile": "Tanpri lage yon fichye midi valab!"
+  },
+  "generalMessages": {
+    "serverConnected": "Konekte ak {{appName}}",
+    "passwordResetSuccess": "Modpas ou te chanje avèk siksè. Ou ka kontinye konekte. :)",
+    "forgotPasswordSuccess": "Si gen yon kont ki asosye ak imèl sa a, yo pral voye yon imèl pou reset modpas la. Mèsi!",
+    "registerSuccess": "Yo te depanse yon imèl verifikasyon. Tcheke dosye SPAM ou a tou.",
+    "dropAnyValidMidiFile": "Depoze nenpòt fichye .midi valab pou jwe!"
+  }
+}

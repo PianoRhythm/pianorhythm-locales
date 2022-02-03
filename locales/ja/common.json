@@ -1,0 +1,31 @@
+{
+  "labels": {
+    "username": "ユーザーネーム",
+    "password": "パスワード",
+    "email": "メールアドレス",
+    "confirmpassword": "パスワードの確認",
+    "on": "オン",
+    "off": "オフ"
+  },
+  "buttons": {
+    "submit": "送信する",
+    "reveal": "明らかな",
+    "hide": "隠れる",
+    "edit": "編集",
+    "modal_Confirm": "はい、入れてください！",
+    "modal_Confirm2": "はい、お願いします！",
+    "modal_Deny": "どうでも..."
+  },
+  "errorMessages": {
+    "webGLNotSupported": "Sorry, certain features, such as WebGL, are not supported on this browser. <br>Please update your browser if you can.",
+    "midiFileSizeIsTooBig": "ファイルサイズが大きすぎます！",
+    "dropValidMidiFile": "有効なMIDIファイルをドロップしてください！"
+  },
+  "generalMessages": {
+    "serverConnected": "{{appName}}接続",
+    "passwordResetSuccess": "パスワードは正常に変更されました。ログインに進むことができます。 :)",
+    "forgotPasswordSuccess": "そのメールに関連付けられているアカウントがある場合は、パスワードをリセットするためのメールが送信されます。ありがとう！",
+    "registerSuccess": "確認メールが使用されました。 SPAMフォルダも確認してください。",
+    "dropAnyValidMidiFile": "有効な.midiファイルをドロップして再生してください！"
+  }
+}

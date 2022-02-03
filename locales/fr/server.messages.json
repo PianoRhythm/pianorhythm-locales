@@ -1,0 +1,26 @@
+{
+  "websocket": {
+    "clientConnect_Init": "Connexion... Veuillez patienter !",
+    "clientConnect_ResponseDelayed": "Cela prend un peu plus de temps que d'habitude. Se il vous plaît tenir!",
+    "clientConnect_Success": "Connection établie!",
+    "clientConnect_SessionExists": "Une autre session existe déjà. Déconnexion. Veuillez réessayer.",
+    "clientConnect_DisconnectCauseAnotherSessionExists": "Une autre session essaie de se connecter. Déconnexion !"
+  },
+  "room": {
+    "messages": {
+      "clientDeletesChatMessage_Success": "Vous avez supprimé le message de chat.",
+      "clientDeletesChatMessage_Fail": "Désolé, il semble que ce message de chat n'existe pas. :hausser les épaules:",
+      "newRoomOwner": "Vous êtes maintenant le [b]nouveau propriétaire [r]de cette pièce ! :le sourire:",
+      "roomUpdates": {
+        "isPasswordProtected": "[i]La salle est maintenant protégée par un mot de passe...",
+        "passwordRemoved": "[i]Mot de passe supprimé..."
+      }
+    }
+  },
+  "generalMessages": {
+    "login_success": "Vous êtes connecté avec succès, <b>{{username}}</b> . Bienvenue!"
+  },
+  "errorMessages": {
+    "unknown_error": "Erreur de serveur inconnue..."
+  }
+}

@@ -1,0 +1,286 @@
+{
+  "messages": {
+    "audioSettingNotSupportedV3": "Napomena: Trenutačno većina audio postavki nije primjenjiva na v3",
+    "changeWillTakeEffectOnNextRestart": "Promjene će stupiti na snagu sljedećim ponovnim pokretanjem.",
+    "changesSaved": "Promjene su spremljene.",
+    "userColorUpdated": "Uspješno ste ažurirali svoju korisničku boju!"
+  },
+  "menus": {
+    "general": {
+      "header": "Općenito",
+      "subMenus": {
+        "language": {
+          "label": "Jezik",
+          "elements": {
+            "lbl_languageSelect": "Odaberite jezik"
+          },
+          "tooltips": {
+            "lbl_languageSelect": "Postavite zadani jezik za PianoRhythm."
+          }
+        }
+      }
+    },
+    "online": {
+      "header": "Na liniji",
+      "subMenus": {
+        "my account": {
+          "label": "Moj račun",
+          "elements": {
+            "hdr_myAccount": "Moj račun",
+            "hdr_passwordAndAuthentication": "Lozinka i autentifikacija",
+            "hdr_accountManagement": "Upravljanje računom",
+            "hdr_security": "Sigurnost",
+            "tgl_enable2fa": "Dvofaktorska autentifikacija",
+            "btn_changePassword": "Promijeni lozinku",
+            "btn_deleteAccount": "Izbriši račun",
+            "txt_passwordChangeSubText": "Unesite svoju trenutnu lozinku i novu lozinku",
+            "txt_deleteAccountSubText": "Jeste li stvarno sigurni? Svi podaci vašeg računa bit će trajno izbrisani",
+            "txt_onIncorrectDeleteInputField": "Provjerite jeste li ispravno upisali u polje za unos.",
+            "txt_confirmPasswordSubText": "Unesite i potvrdite svoju lozinku",
+            "txt_emailChangeSubText": "Unesite novu adresu e-pošte i svoju lozinku"
+          },
+          "tooltips": {
+            "hdr_myAccount": "Informacije o računu",
+            "tgl_enable2fa": "Dodajte dodatni sloj sigurnosti s dvofaktorskom autentifikacijom (2FA).",
+            "hdr_passwordAndAuthentication": "Lozinka i autentifikacija",
+            "hdr_accountManagement": "Upravljanje računom"
+          },
+          "messages": {
+            "on2faDisable": "Nakon što onemogućite dvofaktornu autentifikaciju, prijava na vaš račun zahtijevat će zaštitu samo lozinkom. Želite li nastaviti s onemogućavanjem dvofaktorske provjere autentičnosti?"
+          }
+        },
+        "multiplayer": {
+          "label": "Multiplayer",
+          "elements": {
+            "hdr_multiplayerSettings": "Postavke za više igrača",
+            "lbl_userColor": "Boja korisnika",
+            "btn_userColorReset": "Poništi boju",
+            "btn_userColorSubmit": "Pošaljite boju",
+            "tgl_showMyCursor": "Pokaži moj kursor",
+            "tgl_sendWhoistyping": "Pošalji WhoIsTyping",
+            "tgl_disableWhispers": "Onemogući šapat",
+            "hdr_notifications": "Obavijesti",
+            "tgl_friendsOnlineStatus": "Status prijatelja na mreži",
+            "tgl_friendsOfflineStatus": "Prijatelji izvanmrežni status",
+            "tgl_sheetMusicChanges": "Promjene notnih zapisa",
+            "tgl_emitMyStatusToFriends": "Pošaljite moj status prijateljima"
+          },
+          "tooltips": {
+            "hdr_multiplayerSettings": "Postavite postavke vezane uz multiplayer.",
+            "lbl_userColor": "Postavite svoju korisničku boju",
+            "btn_userColorReset": "Ponovno postavite boju",
+            "btn_userColorSubmit": "Ažurirajte svoju boju!",
+            "hdr_notifications": "Prebacite koje obavijesti poslužitelja primate.",
+            "tgl_showMyCursor": "Uključite hoće li se vaš pokazivač prikazati drugima.",
+            "tgl_sendWhoistyping": "Uključite ili isključite da li drugi korisnici znaju kada pišete.",
+            "tgl_disableWhispers": "Onemogući šaptanje. Ne možete šaptati drugima i obrnuto.",
+            "tgl_friendsOnlineStatus": "Primite obavijest kada se prijatelj pojavi na mreži",
+            "tgl_friendsOfflineStatus": "Primite obavijest kada prijatelj ode izvan mreže",
+            "tgl_emitMyStatusToFriends": "Dopustite prijateljima da saznaju o promjenama vašeg statusa. (Online, Offline, itd.)",
+            "tgl_sheetMusicChanges": "Primajte e-poruke s obavijestima kad god se dogodi promjena u vašim prenesenim notama."
+          }
+        },
+        "discord": {
+          "label": "Razdor",
+          "elements": {
+            "hdr_discordSettings": "Discord postavke",
+            "swtch_syncDiscordMessages": "Sinkroniziraj Discord lobby poruke"
+          },
+          "tooltips": {
+            "hdr_discordSettings": "Postavite postavke povezane s Discordom.",
+            "swtch_syncDiscordMessages": "Uključite hoće li se Discord poruke sinkronizirati u glavnom predvorju."
+          }
+        },
+        "input": {
+          "label": "Ulazni",
+          "elements": {
+            "hdr_keyboardSettings": "Postavke tipkovnice",
+            "lbl_pianoKeylayout": "Raspored tipki klavira",
+            "lbl_keyboardMaplayout": "Raspored karte tipkovnice",
+            "drp_keyboards": "Tipkovnice",
+            "lbl_shortcutBinds": "Prečac se veže",
+            "btn_openKeybinder": "Otvorite Keybinder",
+            "tgl_keyboard_toggleyz": "Zamijenite tipke Y i Z"
+          },
+          "tooltips": {
+            "hdr_keyboardSettings": "Postavite postavke povezane s tipkovnicom.",
+            "lbl_pianoKeylayout": "Postavite raspored klavira na tipkovnici za klavir.",
+            "lbl_keyboardMaplayout": "Postavite ispravno mapiranje unosa tipkovnice.",
+            "lbl_shortcutBinds": "Izradite veze za uobičajene prečace.",
+            "tgl_keyboard_toggleyz": "Za određene rasporede tipkovnice, prebacivanje mapiranja tipkovnice Y i Z poravnava se prirodnije."
+          }
+        }
+      }
+    },
+    "graphics": {
+      "header": "Grafika",
+      "subMenus": {
+        "general": {
+          "label": "Općenito",
+          "elements": {
+            "hdr_engine": "grafički motor",
+            "lbl_engine": "Motor",
+            "lbl_maxFPS": "Max FPS"
+          },
+          "tooltips": {
+            "lbl_engine": "Prebacivanje između 2D, 3D ili bez grafičkog motora.",
+            "lbl_maxFPS": "Odaberite maksimalnu brzinu kadrova motora za renderiranje."
+          }
+        },
+        "ui": {
+          "label": "korisničko sučelje",
+          "elements": {
+            "hdr_displays": "Zasloni",
+            "tgl_fps": "Uključite FPS",
+            "tgl_ping": "Uključite ping",
+            "tgl_instDock": "Prebacite priključnicu za instrumente",
+            "tgl_userCursors": "Uključite pokazivače korisnika",
+            "tgl_whoistyping": "Uključite WhoIsTyping",
+            "hdr_chat": "razgovor",
+            "tgle_displayChat": "Prikaži poruke chata",
+            "tgle_keepChatInFocus": "Držite chat u fokusu",
+            "sld_chatMsgsHeightOffset": "Pomak visine poruka chata",
+            "sld_chatMsg2DOpacity": "Zadana neprozirnost poruka chata (2D način)",
+            "sld_chatMsg3DOpacity": "Zadana neprozirnost poruka chata (3D način)",
+            "tgl_display3DStats": "Prikaz 3D statistike"
+          },
+          "tooltips": {
+            "hdr_displays": "Prebacite prikaze određenih elemenata korisničkog sučelja",
+            "tgl_fps": "Uključite mjerač FPS zaslona",
+            "tgl_ping": "Uključite prikaz Pinga",
+            "tgl_instDock": "Uključite prikaz priključne stanice za instrumente",
+            "tgl_userCursors": "Uključite/isključite prikaz kursora drugih korisnika",
+            "tgl_whoistyping": "Uključite prikaz kada drugi korisnici tipkaju",
+            "hdr_chat": "Povezane postavke korisničkog sučelja za chat poruke",
+            "tgle_displayChat": "Uključi/isključi prikaz poruka chata",
+            "sld_chatMsgsHeightOffset": "Postavite pomak visine spremnika poruka za chat",
+            "tgl_display3DStats": "Uključite prikaz dodatnih statistika/informacija o 3D sceni",
+            "tgle_keepChatInFocus": "Uključite želite li chat ostati u fokusu nakon slanja poruke",
+            "sld_chatMsg2DOpacity": "Postavite zadanu neprozirnost poruka chata kada nisu fokusirane. (2D način rada)",
+            "sld_chatMsg3DOpacity": "Postavite zadanu neprozirnost poruka chata kada nisu fokusirane. (3D način rada)"
+          }
+        },
+        "blob": {
+          "label": "Blob",
+          "elements": {
+            "hdr_displays": "Zasloni",
+            "tgl_blobs": "Uključite mrlje",
+            "tgl_garden": "Uključite vrt"
+          },
+          "tooltips": {
+            "hdr_displays": "Prebacite prikaze određenih elemenata povezanih s mrljicom.",
+            "tgl_blobs": "Uključite prikaz mrljica.",
+            "tgl_garden": "Prebaci prikaz vrta mrlja."
+          }
+        }
+      }
+    },
+    "audio": {
+      "header": "Audio",
+      "subMenus": {
+        "soundfont": {
+          "label": "Soundfont",
+          "messages": {
+            "soundfontLoading": "Molimo pričekajte dok se zvučni font učita!"
+          },
+          "elements": {
+            "hdr_generalSettings": "Opće postavke",
+            "lbl_audioEngine": "Audio motor",
+            "tgl_enableDrums": "Omogući Drum Channel",
+            "hdr_v3Audio": "V3 audio",
+            "lbl_soundfonts": "Fontovi zvuka",
+            "lbl_initalBuffersize": "Početna veličina međuspremnika",
+            "tgl_showDebuglogs": "Prikaži zapisnike izvedbe otklanjanja pogrešaka",
+            "tgl_useAudioWorklet": "Koristite AudioWorklet"
+          },
+          "tooltips": {
+            "lbl_audioEngine": "Odaberite zadani audio motor.<br> (Stječe na snagu pri sljedećem ponovnom pokretanju)",
+            "tgl_enableDrums": "Kada je omogućeno, to će omogućiti reprodukciju zvukova udaraljki na kanalu 9 (baza s nultim indeksom)",
+            "hdr_v3Audio": "Postavke specifične za V3 Audio Engine",
+            "lbl_soundfonts": "Odaberite zadani zvučni font",
+            "lbl_initalBuffersize": "Objašnjenje uskoro. (Stječe na snagu pri sljedećem ponovnom pokretanju)",
+            "tgl_showDebuglogs": "Kada je omogućeno, to će ispisati zapisnike performansi na konzolu",
+            "tgl_useAudioWorklet": "Kada je omogućeno, ovo će učitati audio motor V3 u zasebnu nit u procesu audio radnog leta.<br> Trebalo bi poboljšati performanse. (Utječe na ponovno pokretanje aplikacije)"
+          }
+        },
+        "midi": {
+          "label": "Midi",
+          "elements": {
+            "hdr_inputOutput": "Ulaz izlaz",
+            "lbl_enableAudioToOutput": "Omogući samo izlaz zvuka",
+            "hrd_generalEffects": "Opći učinci",
+            "tgl_mousePosVelocity": "Položaj miša određuje brzinu",
+            "sld_sustainCutoff": "Sustain Cutoff",
+            "hdr_velocityEffects": "Učinci brzine",
+            "tgl_enableVelocity": "Omogući brzinu",
+            "sld_velocityMuting": "Isključivanje brzine",
+            "tgl_enableVelocityBoost": "Omogući povećanje brzine",
+            "sld_velocityBoost": "Povećanje brzine",
+            "lbl_metronome": "Audio uzorak metronoma"
+          },
+          "tooltips": {
+            "lbl_enableAudioToOutput": "Ako je označeno i svi izlazni uređaji su aktivni, zvuk će se emitirati samo na izlazni uređaj, a ne unutar PianoRhythmovog audio motora",
+            "tgl_mousePosVelocity": "To će omogućiti da položaj miša odredi brzinu unosa tipkovnice vašeg računala.<br><br> Što je vaš miš bliže dnu prozora preglednika, to će vaše bilješke biti glasnije",
+            "sld_sustainCutoff": "Postavite graničnu točku otpuštanja za dugotrajne note. (Viši postotak = kraće trajanje)",
+            "tgl_enableVelocity": "Ako nije označeno, sirove vrijednosti brzine iz izvora neće se koristiti. Umjesto toga bit će postavljena na maksimalnu vrijednost (127)",
+            "sld_velocityMuting": "Isključite note brzinom koja je manja ili jednaka vrijednosti metra.",
+            "tgl_enableVelocityBoost": "Povećava ulazne sirove vrijednosti brzine",
+            "sld_velocityBoost": "Dodaje dodatnu vrijednost sirovoj brzini",
+            "lbl_metronome": "Odaberite vrstu audio uzorka koji ćete koristiti za metronom"
+          }
+        }
+      }
+    },
+    "billing": {
+      "header": "Naplata",
+      "subMenus": {
+        "subscription": {
+          "label": "Pretplata",
+          "elements": {
+            "lbl_languageSelect": "Odaberite jezik"
+          },
+          "tooltips": {
+            "lbl_languageSelect": "Postavite zadani jezik za PianoRhythm."
+          }
+        }
+      },
+      "messages": {
+        "autoRenewInfo": "Vaša će se pretplata automatski obnoviti <b style=\"color:white;\">{{billingDate}}</b> i bit će vam naplaćeno <b style=\"color:white;\">{{currencyText}} .</b>",
+        "subText": "Evo vaše trenutne pretplate. Možete ga otkazati ili ažurirati bilo kada.",
+        "checkout_Created": "Otvorena je nova kartica. Nastavite s naplatom tamo!",
+        "checkout_Success": "Uspješna naplata!",
+        "checkout_Cancelled": "Otkazali ste sesiju.",
+        "checkout_ResumePlan": "Upravo ćete nastaviti svoju otkazanu pretplatu. </br></br>Jeste li sigurni?",
+        "checkout_Confirm": "Upravo ćete se odjaviti i pretplatiti se na premium plan. </br></br>Jeste li sigurni?",
+        "subscription_cancellationFail": "Oprostite, nešto je pošlo naopako. Otkazivanje pretplate nije uspjelo.",
+        "subscription_Updated": "Uspješno ste ažurirali svoj plan pretplate!",
+        "cancellation_InProcess": "Vaša trenutna pretplata je <b>otkazana</b> i stoga se neće automatski obnavljati. Međutim, i dalje ćete imati svoje pogodnosti do <b style=\"color:white;\">{{billingDate}}</b> .",
+        "cancellation_Confirm": "Žao nam je što odlazite, {{username}} !.</br>Vaša pretplata na pro plan plaća se do <b>{{planBillingDate}}</b> .</br></br> Ako želite nastaviti s otkazivanjem svoje pretplate, u nastavku odaberite <b>&quot;Otkaži pretplatu&quot;</b> .",
+        "cancellation_Success": "Uspješno ste otkazali svoju pretplatu."
+      },
+      "buttons": {
+        "checkout": "Naplata uz Stripe",
+        "cancelSubscription": "Otkažite pretplatu",
+        "cancellation_InProcess": "Nastavite pretplatu uz Stripe"
+      },
+      "labels": {
+        "billingInfo": "Podaci o naplati",
+        "cancelSubscription": "Otkažite pretplatu"
+      }
+    },
+    "other": {
+      "header": "Ostalo",
+      "subMenus": {
+        "changelog": {
+          "label": "Dnevnik promjena"
+        },
+        "credits": {
+          "label": "Zasluge",
+          "messages": {
+            "error_FailedToGetData": "Dohvaćanje podataka nije uspjelo..."
+          }
+        }
+      }
+    }
+  }
+}

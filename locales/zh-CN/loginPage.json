@@ -1,0 +1,51 @@
+{
+  "connectionStatus": "地位",
+  "playersOnline": "在线玩家",
+  "hrefs": {
+    "createAccount": "创建一个帐户。",
+    "forgotPassword": "忘记密码？",
+    "enterAsGuest": "以客人身份进入。",
+    "resendVerificationEmail": "重新发送验证电子邮件。",
+    "haveAccount": "已经有一个帐户？",
+    "signIn": "登入",
+    "goHome": "回家。"
+  },
+  "messages": {
+    "attemptAutoLogin_WelcomeBack": "欢迎回来",
+    "attemptAutoLogin_AttemptAuto": "正在尝试自动让您重新登录...",
+    "attemptAutoLogin_Cancel": "点击这里取消"
+  },
+  "oAuthButton": {
+    "discord": "使用 Discord 登录",
+    "google": "使用 Google 登录"
+  },
+  "guestForm": {
+    "welcomeMessage": "欢迎来到钢琴节奏！",
+    "usernameInputMessage": "你的小名是什么？",
+    "buttons": {
+      "enter": "进入",
+      "register": "登记",
+      "login": "登录"
+    }
+  },
+  "resendVerificationEmailForm": {
+    "header": "重新发送电子邮件验证",
+    "onSubmitInfoToast": "如果有与该电子邮件关联的帐户，则会发送一封帐户验证电子邮件。谢谢你。"
+  },
+  "forgotPasswordForm": {
+    "header": "忘记密码"
+  },
+  "loginForm": {
+    "header": "登录"
+  },
+  "twoFactorAuth": {
+    "header": "双重身份验证"
+  },
+  "registerForm": {
+    "labels": {
+      "tos1": "我同意我至少 13 岁并且我已阅读",
+      "tos2": "使用条款和条件"
+    },
+    "submitButton": "登记"
+  }
+}

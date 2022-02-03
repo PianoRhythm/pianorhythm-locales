@@ -1,0 +1,31 @@
+{
+  "labels": {
+    "username": "Korisničko ime",
+    "password": "zaporka",
+    "email": "email",
+    "confirmpassword": "potvrdi lozinku",
+    "on": "Na",
+    "off": "Isključeno"
+  },
+  "buttons": {
+    "submit": "podnijeti",
+    "reveal": "Otkriti",
+    "hide": "Sakriti",
+    "edit": "Uredi",
+    "modal_Confirm": "Da, pusti me unutra!",
+    "modal_Confirm2": "Da molim!",
+    "modal_Deny": "Nema veze..."
+  },
+  "errorMessages": {
+    "webGLNotSupported": "Nažalost, određene značajke, kao što je WebGL, nisu podržane u ovom pregledniku.<br> Ažurirajte svoj preglednik ako možete.",
+    "midiFileSizeIsTooBig": "Veličina datoteke je prevelika!",
+    "dropValidMidiFile": "Ispustite valjanu midi datoteku!"
+  },
+  "generalMessages": {
+    "serverConnected": "Povezano na {{appName}}",
+    "passwordResetSuccess": "Vaša lozinka je uspješno promijenjena. Možete nastaviti s prijavom. :)",
+    "forgotPasswordSuccess": "Ako je s tom e-poštom povezan račun, bit će poslana poruka e-pošte za poništavanje lozinke. Hvala vam!",
+    "registerSuccess": "E-poruka za potvrdu je potrošena. Provjerite i svoju spam mapu.",
+    "dropAnyValidMidiFile": "Ispustite bilo koju valjanu .midi datoteku za reprodukciju!"
+  }
+}

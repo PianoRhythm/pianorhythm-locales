@@ -1,0 +1,192 @@
+{
+  "common": {
+    "labels": {
+      "transpose": "Transpose",
+      "octave": "Oktav",
+      "tools": "Zouti",
+      "room": "Chanm",
+      "create": "Kreye",
+      "update": "Mizajou",
+      "roomName": "Non",
+      "roomID": "ID",
+      "roomOwner": "Pwopriyetè",
+      "menuBasic": "Debaz",
+      "menuAdvanced": "Avanse",
+      "created": "Kreye"
+    }
+  },
+  "modals": {
+    "roomInfo": {
+      "labels": {
+        "metaAutoRemove": "Oto Retire",
+        "metaPersistent": "Pèsistan",
+        "metaUnique": "Inik"
+      }
+    },
+    "room": {
+      "labels": {
+        "onlyOwnerCanPlay": "Sèlman mèt kay ka jwe",
+        "onlyOwnerCanChat": "Sèl pwopriyetè ka koze",
+        "allowGuests": "Pèmèt envite yo",
+        "onlyMods": "Sèlman Pèmèt Moderatè",
+        "allowBlackMidi": "Pèmèt Black Midi",
+        "maxPlayers": "Max jwè yo",
+        "makeRoomPrivate": "Fè chanm prive",
+        "filterProfanity": "Filtre profanite",
+        "welcomeMessage": "Mesaj akeyi",
+        "hostRoom": "Self Host Room",
+        "selfHostRegion": "Rejyon",
+        "hostContinentCode": "Kòd Kontinan Lame",
+        "hostCountryCode": "Kòd Peyi Lame"
+      },
+      "tooltips": {
+        "onlyOwnerCanPlay": "Sèlman mèt kay ka jwe mizik (travay nan pwogrè).<br> (Lòt itilizatè yo ka toujou jwe lokalman men se sèlman pwopriyetè a pral tande pa tout moun)",
+        "onlyOwnerCanChat": "Sèl pwopriyetè ka voye mesaj chat",
+        "allowGuests": "Si enfim, anpeche envite antre nan chanm ou",
+        "onlyMods": "Sèlman pèmèt moderatè yo rantre nan. (Opsyon pa vizib pou moun ki pa moderatè)",
+        "allowBlackMidi": "Pèmèt sa a pral pèmèt jwè yo jwe midis nwa oswa jwe gwo kantite nòt san yo pa sèvè a tanporèman muet yo pou jwe twòp.<br><br> (Mèt chanm yo gen yon limit kota nòt ki pi wo)",
+        "maxPlayers": "Mete jwè yo max ki ka nan sal la",
+        "makeRoomPrivate": "Fè chanm prive",
+        "roomName": "(Si ou vle) Mete non chanm lan.",
+        "roomPassword": "(Si ou vle) Mete yon modpas pou sal la.",
+        "filterProfanity": "Yo pral censure profanasyon filtre tankou mo madichon. Yo pral parèt nan asterisk. egzanp, '****'",
+        "welcomeMessage": "Mesaj sa a pral parèt pou itilizatè ki antre nan chanm ou. Ou ka ekri kèk règ oswa di yon bagay ki cho ak bèl.",
+        "hostRoom": "Chwazi opsyon sa a si ou ta pito òganize chanm lan sou machin ou. Sa a pral kreye yon anviwònman P2P kote itilizatè yo pral konekte dirèkteman nan machin ou an.",
+        "selfHostRegion": "Zòn jeneral machin ou a sitiye. PianoRhythm pral eseye devine ki kote ou ye men ou ka mete li manyèlman si w chwazi."
+      }
+    }
+  },
+  "sideBar": {
+    "usersTab": "Itilizatè yo",
+    "friendsTab": "Zanmi",
+    "roomsTab": "Chanm yo",
+    "tooltips": {
+      "usersTab": "Lis itilizatè yo nan sal la.",
+      "friendsTab": "Lis tout zanmi w yo!",
+      "roomsTab": "Lis tout chanm piblik yo.",
+      "roomSelfHosted": "<br>Sal sa a ap òganize pwòp tèt ou pa yon itilizatè.<br> Kote a se: <b>( {{continent}} , {{country}} )</b>",
+      "passwordProtected": "Modpas pwoteje"
+    },
+    "general": {
+      "hasPendingFriendRequests": "Ou gen {{count}} demann zanmi annatant!",
+      "noRoomsFound": "Okenn chanm pa jwenn...",
+      "noFriends_line1": "Li sanble yon ti jan poukont, isit la.",
+      "noFriends_line2_clientIsGuest": "Konekte pou ajoute kèk zanmi!",
+      "noFriends_line2_clientIsMember": "Ajoute kèk zanmi!",
+      "noFriendsFound": "Pa gen zanmi jwenn. Santi w mal, frè...",
+      "searchRooms": "Chèche chanm...",
+      "unknownLocation": "Padon, kote a pa konnen."
+    }
+  },
+  "bottomBar": {
+    "buttons": {
+      "newRoom": "Nouvo chanm",
+      "roomSettings": "Anviwònman chanm",
+      "settings": "Anviwònman",
+      "midi": "MIDI",
+      "modDashboard": "Mod tablodbò",
+      "volume": "Volim",
+      "sustain": "Soutni",
+      "logout": "Dekonekte",
+      "sheetMusic": "Fèy Mizik",
+      "sheetMusicUpload": "Fèy Mizik - Telechaje",
+      "docs": "Dokimantasyon"
+    },
+    "tooltips": {
+      "newRoom": "Kreye yon nouvo chanm",
+      "roomSettings": "Chanje anviwònman yo pou chanm nan",
+      "settings": "Chanje anviwònman itilizatè yo",
+      "midi": "Mete MIDI I/O",
+      "modDashboard": "Moderatè Dashboard",
+      "volume": "Klike m 'pou aktive mute!",
+      "sustain": "Aktive soutni a",
+      "sustainActive": "Aktif",
+      "logout": "Dekonekte",
+      "menu": "Klike la a pou plis atik meni!",
+      "sheetMusic": "Montre depo mizik fèy la",
+      "sheetMusicUpload": "Voye mizik fèy nan depo a",
+      "docs": "Dokimantasyon/Èd"
+    },
+    "messages": {
+      "logoutPressed": "Èske ou sèten ou vle dekonekte?",
+      "logoutPressed_Confirm": "Wi!",
+      "logoutPressed_Cancel": "Non, eskize..."
+    }
+  },
+  "components": {
+    "metronome": {
+      "tooltips": {
+        "player": "Klike pou jwe/poz metronom la",
+        "bpm_desc": "\"Beats per minute\" (oswa BPM) endike kantite bat nan yon minit.",
+        "timesignature_desc": "Yon siyati tan di w kouman mizik la dwe konte.<br><br> Nimewo ki pi wo nan siyati tan an di w <i>konbyen</i> bat yo konte.<br><br> Nimewo anba a di ou ki kalite nòt yo konte.",
+        "beat_remove": "Retire yon bat nan mezi a",
+        "beat_add": "Ajoute yon bat nan mezi a",
+        "tempo_desc_general": "Dekri tèmo a (an Italyen). Tempo se vitès oswa vitès yon moso bay yo.",
+        "tempo_desc_larghissimo": "trè dousman, pi dousman pase largo",
+        "tempo_desc_largo": "trè dousman ak laj",
+        "tempo_desc_grave": "trè dousman",
+        "tempo_desc_lento": "ralanti",
+        "tempo_desc_adagio": "ralanti",
+        "tempo_desc_andante": "ap mache",
+        "tempo_desc_moderato": "modere",
+        "tempo_desc_allegretto": "modere vit, yon ti kras pi dousman pase allegro",
+        "tempo_desc_allegro": "vit",
+        "tempo_desc_vivace": "vit ak vivan",
+        "tempo_desc_presto": "trè vit",
+        "tempo_desc_prestissimo": "trè vit, pi vit pase presto"
+      }
+    }
+  },
+  "errorMessages": {
+    "joinRoomFail": {
+      "RoomFull": "Echwe pou antre nan chanm nan paske li plen.",
+      "QueuedToJoinRoom": "Ou deja nan keu pou w rantre nan chanm sa a.",
+      "AlreadyInRoom": "Ou deja nan chanm sa a.",
+      "NoGuests": "Echwe pou antre paske chanm nan pa pèmèt envite.",
+      "IncorrectPassword": "Echwe pou antre akòz yon modpas ki pa kòrèk.",
+      "NotAllowed": "Echwe pou antre paske ou pa gen dwa."
+    },
+    "failedToCreateRoomWithReason": "Echwe pou kreye chanm: {{reason}}",
+    "failedToJoinRoom": "Yon bagay ale mal. Echwe pou rantre nan chanm..."
+  },
+  "generalMessages": {
+    "enterRoomPassword": "Tanpri antre modpas chanm nan!",
+    "roomWithWarnings": {
+      "text1": "Chanm sa a gen paramèt sa yo aktive",
+      "text2": "Èske ou sèten ou vle rantre nan?",
+      "dontShowAgain": "Pa montre mesaj sa a ankò."
+    },
+    "openingExternalLinks": "Fè atansyon sou ouvèti lyen ekstèn. Èske ou reyèlman sèten ou vle louvri sa a?"
+  },
+  "instrumentDock": {
+    "toolNames": {
+      "InstrumentSelection": "Seleksyon enstriman",
+      "ChannelDisplayMode": "Chèn ekspozisyon mòd",
+      "ClearInstruments": "Enstriman klè",
+      "ResetToDefault": "Reyajiste nan Default",
+      "ToggleKeyboardMappingDisplay": "Aktivite kat jeyografik klavye",
+      "ToggleMetronomeDisplay": "Aktivite Metronom",
+      "ToggleSheetMusicViewer": "Deklanche SheetMusic Viewer",
+      "MidiMusic": "MIDI Mizik",
+      "tooltips": {
+        "InstrumentSelection": "Montre seleksyon enstriman an. {{key}}",
+        "ChannelDisplayMode": "Aktive ekspozisyon an nan fant chanèl yo. (4x4x4x4), (8x8), oswa (16)",
+        "ToggleKeyboardMappingDisplay": "Montre yon kouvri kat kat klavye sou pyano a. {{key}}",
+        "ToggleMetronomeDisplay": "Aktive ekspozisyon metwonom la. {{key}}",
+        "ToggleSheetMusicViewer": "Aktive ekspozisyon an nan visualiseur nan mizik fèy. {{key}}",
+        "ClearInstruments": "Efase tout enstriman mizik yo chaje.",
+        "ResetToDefault": "Reyajiste chanèl midi ak kontwòl yo nan konfigirasyon default la."
+      }
+    },
+    "inputButtons": {
+      "slotMode": "Mòd plas {{mode}}",
+      "tools": "Zouti",
+      "tooltips": {
+        "transpose": "Mete transpozisyon an. Klike pou reset.",
+        "octave": "Mete oktav la. Klike pou reset.",
+        "slotMode": "Mete mòd nan plas pou Layout pyano a",
+        "tools": "Yon lis zouti ak karakteristik."
+      }
+    }
+  }
+}

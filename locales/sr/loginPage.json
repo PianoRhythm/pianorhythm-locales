@@ -1,0 +1,51 @@
+{
+  "connectionStatus": "Статус",
+  "playersOnline": "Плаиерс Онлине",
+  "hrefs": {
+    "createAccount": "Направи налог.",
+    "forgotPassword": "Заборавили сте лозинку?",
+    "enterAsGuest": "Уђите као гост.",
+    "resendVerificationEmail": "Поново пошаљи е-поруку за верификацију.",
+    "haveAccount": "Већ имате налог?",
+    "signIn": "Пријавите се",
+    "goHome": "Иди кући."
+  },
+  "messages": {
+    "attemptAutoLogin_WelcomeBack": "Добродошли назад",
+    "attemptAutoLogin_AttemptAuto": "Покушавам да се аутоматски поново пријавите...",
+    "attemptAutoLogin_Cancel": "Кликните овде да откажете"
+  },
+  "oAuthButton": {
+    "discord": "Пријавите се помоћу Дисцорд-а",
+    "google": "Пријавите се помоћу Гоогле-а"
+  },
+  "guestForm": {
+    "welcomeMessage": "Добродошли у ПианоРхитхм!",
+    "usernameInputMessage": "који је твој надимак?",
+    "buttons": {
+      "enter": "Ентер",
+      "register": "Регистровати",
+      "login": "Пријавите се"
+    }
+  },
+  "resendVerificationEmailForm": {
+    "header": "Поново пошаљите верификацију е-поште",
+    "onSubmitInfoToast": "Ако постоји налог повезан са том е-поштом, биће послата порука е-поште за верификацију налога. Хвала вам."
+  },
+  "forgotPasswordForm": {
+    "header": "Заборавили сте лозинку"
+  },
+  "loginForm": {
+    "header": "Пријавите се"
+  },
+  "twoFactorAuth": {
+    "header": "Двофакторска аутентификација"
+  },
+  "registerForm": {
+    "labels": {
+      "tos1": "Слажем се да имам најмање 13 година и да сам прочитао",
+      "tos2": "Услови коришћења"
+    },
+    "submitButton": "Регистровати"
+  }
+}

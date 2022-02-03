@@ -22,7 +22,11 @@
   "guestForm": {
     "welcomeMessage": "Welcome to PianoRhythm!",
     "usernameInputMessage": "What's your nickname?",
-    "buttons": { "enter": "Enter", "register": "Register", "login":"Login" }
+    "buttons": {
+      "enter": "Enter",
+      "register": "Register",
+      "login": "Login"
+    }
   },
   "resendVerificationEmailForm": {
     "header": "Resend Email Verification",

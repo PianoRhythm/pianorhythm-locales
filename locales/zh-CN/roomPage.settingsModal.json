@@ -1,0 +1,286 @@
+{
+  "messages": {
+    "audioSettingNotSupportedV3": "注意：目前大部分音频设置不适用于 v3",
+    "changeWillTakeEffectOnNextRestart": "更改将在下次重新启动时生效。",
+    "changesSaved": "更改已保存。",
+    "userColorUpdated": "您已成功更新用户颜色！"
+  },
+  "menus": {
+    "general": {
+      "header": "一般的",
+      "subMenus": {
+        "language": {
+          "label": "语",
+          "elements": {
+            "lbl_languageSelect": "语言选择"
+          },
+          "tooltips": {
+            "lbl_languageSelect": "设置 PianoRhythm 的默认语言。"
+          }
+        }
+      }
+    },
+    "online": {
+      "header": "在线的",
+      "subMenus": {
+        "my account": {
+          "label": "我的帐户",
+          "elements": {
+            "hdr_myAccount": "我的帐户",
+            "hdr_passwordAndAuthentication": "密码和身份验证",
+            "hdr_accountManagement": "帐户管理",
+            "hdr_security": "安全",
+            "tgl_enable2fa": "双重身份验证",
+            "btn_changePassword": "更改密码",
+            "btn_deleteAccount": "删除帐户",
+            "txt_passwordChangeSubText": "输入您的当前密码和新密码",
+            "txt_deleteAccountSubText": "你真的确定吗？您的所有帐户数据将被永久删除",
+            "txt_onIncorrectDeleteInputField": "请确保您在输入字段中输入正确。",
+            "txt_confirmPasswordSubText": "请输入并确认您的密码",
+            "txt_emailChangeSubText": "输入新的电子邮件地址和密码"
+          },
+          "tooltips": {
+            "hdr_myAccount": "帐户信息",
+            "tgl_enable2fa": "通过双重身份验证 (2FA) 添加额外的安全层。",
+            "hdr_passwordAndAuthentication": "密码和身份验证",
+            "hdr_accountManagement": "帐户管理"
+          },
+          "messages": {
+            "on2faDisable": "禁用双重身份验证后，登录您的帐户将需要仅密码保护。您希望继续禁用两因素身份验证吗？"
+          }
+        },
+        "multiplayer": {
+          "label": "多人游戏",
+          "elements": {
+            "hdr_multiplayerSettings": "多人游戏设置",
+            "lbl_userColor": "用户颜色",
+            "btn_userColorReset": "重置颜色",
+            "btn_userColorSubmit": "提交颜色",
+            "tgl_showMyCursor": "显示我的光标",
+            "tgl_sendWhoistyping": "发送 WhoIsTyping",
+            "tgl_disableWhispers": "禁用耳语",
+            "hdr_notifications": "通知",
+            "tgl_friendsOnlineStatus": "好友在线状态",
+            "tgl_friendsOfflineStatus": "好友离线状态",
+            "tgl_sheetMusicChanges": "乐谱更改",
+            "tgl_emitMyStatusToFriends": "将我的状态发送给朋友"
+          },
+          "tooltips": {
+            "hdr_multiplayerSettings": "设置多人游戏相关设置。",
+            "lbl_userColor": "设置你的用户颜色",
+            "btn_userColorReset": "重置你的颜色",
+            "btn_userColorSubmit": "更新你的颜色！",
+            "hdr_notifications": "切换您收到的服务器通知。",
+            "tgl_showMyCursor": "切换您的光标是否显示给其他人。",
+            "tgl_sendWhoistyping": "切换其他用户是否知道您何时输入。",
+            "tgl_disableWhispers": "禁用窃窃私语。你不能对别人耳语，反之亦然。",
+            "tgl_friendsOnlineStatus": "当朋友上线时收到通知",
+            "tgl_friendsOfflineStatus": "当朋友离线时收到通知",
+            "tgl_emitMyStatusToFriends": "让朋友知道您的状态变化。 （在线、离线等）",
+            "tgl_sheetMusicChanges": "每当您上传的乐谱发生更改时，都会收到通知电子邮件。"
+          }
+        },
+        "discord": {
+          "label": "不和谐",
+          "elements": {
+            "hdr_discordSettings": "不和谐设置",
+            "swtch_syncDiscordMessages": "同步 Discord 大厅消息"
+          },
+          "tooltips": {
+            "hdr_discordSettings": "设置 Discord 相关设置。",
+            "swtch_syncDiscordMessages": "切换 Discord 消息是否在主大厅同步。"
+          }
+        },
+        "input": {
+          "label": "输入",
+          "elements": {
+            "hdr_keyboardSettings": "键盘设置",
+            "lbl_pianoKeylayout": "钢琴键布局",
+            "lbl_keyboardMaplayout": "键盘地图布局",
+            "drp_keyboards": "键盘",
+            "lbl_shortcutBinds": "快捷方式绑定",
+            "btn_openKeybinder": "打开键盘绑定器",
+            "tgl_keyboard_toggleyz": "切换 Y 和 Z 键"
+          },
+          "tooltips": {
+            "hdr_keyboardSettings": "设置键盘相关设置。",
+            "lbl_pianoKeylayout": "设置钢琴的键盘钢琴布局。",
+            "lbl_keyboardMaplayout": "设置正确的键盘输入映射。",
+            "lbl_shortcutBinds": "创建与常用快捷方式的绑定。",
+            "tgl_keyboard_toggleyz": "对于某些键盘布局，切换 Y 和 Z 键盘的映射会更自然地对齐。"
+          }
+        }
+      }
+    },
+    "graphics": {
+      "header": "图形",
+      "subMenus": {
+        "general": {
+          "label": "一般的",
+          "elements": {
+            "hdr_engine": "图形引擎",
+            "lbl_engine": "引擎",
+            "lbl_maxFPS": "最大 FPS"
+          },
+          "tooltips": {
+            "lbl_engine": "在 2D、3D 或无图形引擎之间切换。",
+            "lbl_maxFPS": "选择渲染引擎的最大帧率。"
+          }
+        },
+        "ui": {
+          "label": "用户界面",
+          "elements": {
+            "hdr_displays": "显示器",
+            "tgl_fps": "切换 FPS",
+            "tgl_ping": "切换 ping",
+            "tgl_instDock": "切换仪器底座",
+            "tgl_userCursors": "切换用户光标",
+            "tgl_whoistyping": "切换 WhoIsTyping",
+            "hdr_chat": "聊天",
+            "tgle_displayChat": "显示聊天消息",
+            "tgle_keepChatInFocus": "保持聊天焦点",
+            "sld_chatMsgsHeightOffset": "聊天消息高度偏移",
+            "sld_chatMsg2DOpacity": "聊天消息默认不透明度（2D 模式）",
+            "sld_chatMsg3DOpacity": "聊天消息默认不透明度（3D 模式）",
+            "tgl_display3DStats": "显示 3D 统计数据"
+          },
+          "tooltips": {
+            "hdr_displays": "切换某些 UI 元素的显示",
+            "tgl_fps": "切换 FPS 显示仪表",
+            "tgl_ping": "切换 Ping 显示",
+            "tgl_instDock": "切换仪器底座显示",
+            "tgl_userCursors": "切换显示其他用户的光标",
+            "tgl_whoistyping": "当其他用户正在输入时切换显示",
+            "hdr_chat": "聊天消息的相关 UI 设置",
+            "tgle_displayChat": "切换显示聊天消息",
+            "sld_chatMsgsHeightOffset": "设置聊天消息容器的高度偏移",
+            "tgl_display3DStats": "切换显示有关 3d 场景的额外统计信息/信息",
+            "tgle_keepChatInFocus": "切换是否在提交消息后保持聊天焦点",
+            "sld_chatMsg2DOpacity": "设置聊天消息未聚焦时的默认不透明度。 （二维模式）",
+            "sld_chatMsg3DOpacity": "设置聊天消息未聚焦时的默认不透明度。 （3D模式）"
+          }
+        },
+        "blob": {
+          "label": "斑点",
+          "elements": {
+            "hdr_displays": "显示器",
+            "tgl_blobs": "切换 blob",
+            "tgl_garden": "切换花园"
+          },
+          "tooltips": {
+            "hdr_displays": "切换某些 blob 相关元素的显示。",
+            "tgl_blobs": "切换显示 blob。",
+            "tgl_garden": "切换显示 blob 的花园。"
+          }
+        }
+      }
+    },
+    "audio": {
+      "header": "声音的",
+      "subMenus": {
+        "soundfont": {
+          "label": "声音字体",
+          "messages": {
+            "soundfontLoading": "正在加载声音字体，请稍候！"
+          },
+          "elements": {
+            "hdr_generalSettings": "常规设置",
+            "lbl_audioEngine": "音频引擎",
+            "tgl_enableDrums": "启用鼓通道",
+            "hdr_v3Audio": "V3 音频",
+            "lbl_soundfonts": "声音字体",
+            "lbl_initalBuffersize": "初始缓冲区大小",
+            "tgl_showDebuglogs": "显示调试性能日志",
+            "tgl_useAudioWorklet": "使用 AudioWorklet"
+          },
+          "tooltips": {
+            "lbl_audioEngine": "选择默认音频引擎。<br> （下次重启生效）",
+            "tgl_enableDrums": "启用后，这将允许在通道 9（零索引基础）上播放打击乐声音",
+            "hdr_v3Audio": "特定于 V3 音频引擎的设置",
+            "lbl_soundfonts": "选择默认的声音字体",
+            "lbl_initalBuffersize": "解释即将到来。 （下次重启生效）",
+            "tgl_showDebuglogs": "启用后，这会将性能日志输出到控制台",
+            "tgl_useAudioWorklet": "启用后，这会将 V3 的音频引擎加载到音频工作集进程中的单独线程中。<br>应该提高性能。 （在应用重启时生效）"
+          }
+        },
+        "midi": {
+          "label": "迷笛",
+          "elements": {
+            "hdr_inputOutput": "输入输出",
+            "lbl_enableAudioToOutput": "启用音频仅输出",
+            "hrd_generalEffects": "一般效果",
+            "tgl_mousePosVelocity": "鼠标位置决定速度",
+            "sld_sustainCutoff": "维持截止",
+            "hdr_velocityEffects": "速度效应",
+            "tgl_enableVelocity": "启用速度",
+            "sld_velocityMuting": "速度静音",
+            "tgl_enableVelocityBoost": "启用速度提升",
+            "sld_velocityBoost": "速度提升",
+            "lbl_metronome": "节拍器音频样本"
+          },
+          "tooltips": {
+            "lbl_enableAudioToOutput": "如果选中并且任何输出设备处于活动状态，则音频将仅发送到输出设备，而不是在 PianoRhythm 的音频引擎中",
+            "tgl_mousePosVelocity": "这将使鼠标位置能够确定计算机键盘输入的速度。<br><br>你的鼠标越靠近浏览器窗口的底部，你的笔记就会越响亮",
+            "sld_sustainCutoff": "设置持续音符的释放截止点。 （更高的百分比 = 更短的延音）",
+            "tgl_enableVelocity": "如果未选中，则不会使用来自源的原始速度值。相反，它将被设置为最大值 (127)",
+            "sld_velocityMuting": "使速度小于或等于仪表值的音符静音。",
+            "tgl_enableVelocityBoost": "提升传入的原始速度值",
+            "sld_velocityBoost": "为原始速度增加附加值",
+            "lbl_metronome": "选择用于节拍器的音频样本类型"
+          }
+        }
+      }
+    },
+    "billing": {
+      "header": "计费",
+      "subMenus": {
+        "subscription": {
+          "label": "订阅",
+          "elements": {
+            "lbl_languageSelect": "语言选择"
+          },
+          "tooltips": {
+            "lbl_languageSelect": "设置 PianoRhythm 的默认语言。"
+          }
+        }
+      },
+      "messages": {
+        "autoRenewInfo": "您的订阅将在<b style=\"color:white;\">{{billingDate}}</b>自动续订，您需要支付<b style=\"color:white;\">{{currencyText}}费用。</b>",
+        "subText": "这是您当前的订阅。您可以随时取消或更新它。",
+        "checkout_Created": "已打开一个新选项卡。继续在那里结帐！",
+        "checkout_Success": "结账成功！",
+        "checkout_Cancelled": "您已取消会话。",
+        "checkout_ResumePlan": "您即将恢复已取消的订阅。 </br></br>你确定吗？",
+        "checkout_Confirm": "您即将签出并订阅高级计划。 </br></br>你确定吗？",
+        "subscription_cancellationFail": "抱歉，出了一些问题。取消订阅失败。",
+        "subscription_Updated": "您已成功更新订阅计划！",
+        "cancellation_InProcess": "您当前的订阅已被<b>取消</b>，因此不会自动续订。 <b style=\"color:white;\">{{billingDate}}</b>之前，您仍然可以享受福利。",
+        "cancellation_Confirm": "我们很遗憾看到你走了， {{username}} ！</br>您的专业计划订阅在<b>{{planBillingDate}}</b>之前支付。</br></br>如果您想继续取消订阅，请选择下方的<b>“取消订阅”。</b>",
+        "cancellation_Success": "您已成功取消订阅。"
+      },
+      "buttons": {
+        "checkout": "使用条纹结帐",
+        "cancelSubscription": "取消订阅",
+        "cancellation_InProcess": "使用 Stripe 恢复订阅"
+      },
+      "labels": {
+        "billingInfo": "账单信息",
+        "cancelSubscription": "取消订阅"
+      }
+    },
+    "other": {
+      "header": "其他",
+      "subMenus": {
+        "changelog": {
+          "label": "变更日志"
+        },
+        "credits": {
+          "label": "学分",
+          "messages": {
+            "error_FailedToGetData": "获取数据失败..."
+          }
+        }
+      }
+    }
+  }
+}

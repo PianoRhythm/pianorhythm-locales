@@ -1,0 +1,286 @@
+{
+  "messages": {
+    "audioSettingNotSupportedV3": "Opmerking: momenteel zijn de meeste audio-instellingen niet van toepassing op v3",
+    "changeWillTakeEffectOnNextRestart": "Wijzigingen worden van kracht bij de volgende herstart.",
+    "changesSaved": "Wijzigingen opgeslagen.",
+    "userColorUpdated": "U heeft uw gebruikerskleur met succes bijgewerkt!"
+  },
+  "menus": {
+    "general": {
+      "header": "Algemeen",
+      "subMenus": {
+        "language": {
+          "label": "Taal",
+          "elements": {
+            "lbl_languageSelect": "Taal selecteren"
+          },
+          "tooltips": {
+            "lbl_languageSelect": "Stel de standaardtaal in voor PianoRhythm."
+          }
+        }
+      }
+    },
+    "online": {
+      "header": "Online",
+      "subMenus": {
+        "my account": {
+          "label": "Mijn rekening",
+          "elements": {
+            "hdr_myAccount": "Mijn rekening",
+            "hdr_passwordAndAuthentication": "Wachtwoord en authenticatie",
+            "hdr_accountManagement": "Accountbeheer",
+            "hdr_security": "Veiligheid",
+            "tgl_enable2fa": "Twee-factorenauthenticatie",
+            "btn_changePassword": "Wachtwoord wijzigen",
+            "btn_deleteAccount": "Account verwijderen",
+            "txt_passwordChangeSubText": "Voer uw huidige wachtwoord en het nieuwe wachtwoord in",
+            "txt_deleteAccountSubText": "Weet je het echt zeker? Al je accountgegevens worden permanent verwijderd",
+            "txt_onIncorrectDeleteInputField": "Zorg ervoor dat u correct hebt getypt in het invoerveld.",
+            "txt_confirmPasswordSubText": "Gelieve uw wachtwoord in te voeren en te bevestigen",
+            "txt_emailChangeSubText": "Voer het nieuwe e-mailadres en uw wachtwoord in"
+          },
+          "tooltips": {
+            "hdr_myAccount": "Account Informatie",
+            "tgl_enable2fa": "Voeg een extra beveiligingslaag toe met tweefactorauthenticatie (2FA).",
+            "hdr_passwordAndAuthentication": "Wachtwoord en authenticatie",
+            "hdr_accountManagement": "Accountbeheer"
+          },
+          "messages": {
+            "on2faDisable": "Nadat u tweefactorauthenticatie hebt uitgeschakeld, is voor het inloggen op uw account alleen wachtwoordbeveiliging vereist. Wilt u doorgaan met het uitschakelen van tweefactorauthenticatie?"
+          }
+        },
+        "multiplayer": {
+          "label": "Multiplayer",
+          "elements": {
+            "hdr_multiplayerSettings": "Multiplayer-instellingen",
+            "lbl_userColor": "Gebruikerskleur",
+            "btn_userColorReset": "Kleur resetten",
+            "btn_userColorSubmit": "Kleur verzenden",
+            "tgl_showMyCursor": "Toon mijn cursor",
+            "tgl_sendWhoistyping": "Stuur wie typt",
+            "tgl_disableWhispers": "Schakel fluisteren uit",
+            "hdr_notifications": "Meldingen",
+            "tgl_friendsOnlineStatus": "Vrienden online status",
+            "tgl_friendsOfflineStatus": "Vrienden offline status",
+            "tgl_sheetMusicChanges": "Bladmuziekwijzigingen",
+            "tgl_emitMyStatusToFriends": "Stuur mijn status naar vrienden"
+          },
+          "tooltips": {
+            "hdr_multiplayerSettings": "Stel multiplayer-gerelateerde instellingen in.",
+            "lbl_userColor": "Stel uw gebruikerskleur in",
+            "btn_userColorReset": "Reset je kleur",
+            "btn_userColorSubmit": "Update je kleur!",
+            "hdr_notifications": "Wissel welke servermeldingen u ontvangt.",
+            "tgl_showMyCursor": "Wissel of uw cursor aan anderen wordt getoond.",
+            "tgl_sendWhoistyping": "Schakel in of andere gebruikers weten wanneer u typt.",
+            "tgl_disableWhispers": "Schakel fluisteren uit. Je kunt niet tegen anderen fluisteren en vice versa.",
+            "tgl_friendsOnlineStatus": "Ontvang een melding wanneer een vriend online komt",
+            "tgl_friendsOfflineStatus": "Ontvang een melding wanneer een vriend offline gaat",
+            "tgl_emitMyStatusToFriends": "Laat vrienden op de hoogte zijn van uw statuswijzigingen. (Online, Offline, enz.)",
+            "tgl_sheetMusicChanges": "Ontvang e-mailmeldingen wanneer er een wijziging plaatsvindt in uw geüploade bladmuziek."
+          }
+        },
+        "discord": {
+          "label": "Meningsverschil",
+          "elements": {
+            "hdr_discordSettings": "Discord-instellingen",
+            "swtch_syncDiscordMessages": "Synchroniseer Discord-lobbyberichten"
+          },
+          "tooltips": {
+            "hdr_discordSettings": "Stel Discord-gerelateerde instellingen in.",
+            "swtch_syncDiscordMessages": "Schakel in of Discord-berichten worden gesynchroniseerd in de hoofdlobby."
+          }
+        },
+        "input": {
+          "label": "Invoer",
+          "elements": {
+            "hdr_keyboardSettings": "Toetsenbordinstellingen",
+            "lbl_pianoKeylayout": "Lay-out pianotoetsen",
+            "lbl_keyboardMaplayout": "Toetsenbordindeling",
+            "drp_keyboards": "Toetsenborden",
+            "lbl_shortcutBinds": "Snelkoppelingen",
+            "btn_openKeybinder": "Sleutelbinder openen",
+            "tgl_keyboard_toggleyz": "Y- en Z-toetsen wisselen"
+          },
+          "tooltips": {
+            "hdr_keyboardSettings": "Stel toetsenbordgerelateerde instellingen in.",
+            "lbl_pianoKeylayout": "Stel de toetsenbordpiano-indeling voor de piano in.",
+            "lbl_keyboardMaplayout": "Stel de juiste toetsenbordinvoertoewijzing in.",
+            "lbl_shortcutBinds": "Maak koppelingen aan veelgebruikte snelkoppelingen.",
+            "tgl_keyboard_toggleyz": "Voor bepaalde toetsenbordindelingen wordt het wisselen van de toewijzing van de Y- en Z-toetsenborden natuurlijker uitgelijnd."
+          }
+        }
+      }
+    },
+    "graphics": {
+      "header": "Grafische afbeeldingen",
+      "subMenus": {
+        "general": {
+          "label": "Algemeen",
+          "elements": {
+            "hdr_engine": "Grafische motor",
+            "lbl_engine": "Motor",
+            "lbl_maxFPS": "Max FPS"
+          },
+          "tooltips": {
+            "lbl_engine": "Schakel tussen 2D, 3D of geen grafische engine.",
+            "lbl_maxFPS": "Selecteer de maximale framesnelheid van de rendering-engine."
+          }
+        },
+        "ui": {
+          "label": "gebruikersinterface",
+          "elements": {
+            "hdr_displays": "Displays",
+            "tgl_fps": "Schakel FPS",
+            "tgl_ping": "Toggle ping",
+            "tgl_instDock": "Instrumentendock wisselen",
+            "tgl_userCursors": "Wisselen tussen gebruikerscursors",
+            "tgl_whoistyping": "Toggle Wie is aan het typen",
+            "hdr_chat": "Chatten",
+            "tgle_displayChat": "Chatberichten weergeven",
+            "tgle_keepChatInFocus": "Houd de focus op chat",
+            "sld_chatMsgsHeightOffset": "Chatberichten Hoogte-offset",
+            "sld_chatMsg2DOpacity": "Chatberichten Standaarddekking (2D-modus)",
+            "sld_chatMsg3DOpacity": "Chatberichten Standaarddekking (3D-modus)",
+            "tgl_display3DStats": "3D-statistieken weergeven"
+          },
+          "tooltips": {
+            "hdr_displays": "De weergave van bepaalde UI-elementen wisselen",
+            "tgl_fps": "Schakel de FPS-weergavemeter in",
+            "tgl_ping": "Schakel de Ping-weergave in",
+            "tgl_instDock": "Schakel de weergave van het instrumentendock in",
+            "tgl_userCursors": "Toggle de cursors van andere gebruikers weergeven",
+            "tgl_whoistyping": "Toggle weergeven wanneer andere gebruikers aan het typen zijn",
+            "hdr_chat": "Gerelateerde UI-instellingen voor chatberichten",
+            "tgle_displayChat": "Toggle chatberichten weergeven",
+            "sld_chatMsgsHeightOffset": "Stel de hoogte-offset van de chatberichten container in",
+            "tgl_display3DStats": "Toggle extra statistieken/info over de 3D-scène weergeven",
+            "tgle_keepChatInFocus": "Schakelen of u de chat in focus wilt houden na het verzenden van een bericht",
+            "sld_chatMsg2DOpacity": "Stel de standaarddekking van de chatberichten in wanneer deze ongericht zijn. (2D-modus)",
+            "sld_chatMsg3DOpacity": "Stel de standaarddekking van de chatberichten in wanneer deze ongericht zijn. (3D-modus)"
+          }
+        },
+        "blob": {
+          "label": "Blob",
+          "elements": {
+            "hdr_displays": "Displays",
+            "tgl_blobs": "Toggle blobs",
+            "tgl_garden": "Toggle Tuin"
+          },
+          "tooltips": {
+            "hdr_displays": "Schakel de weergave van bepaalde blob-gerelateerde elementen in.",
+            "tgl_blobs": "Schakel de weergave van de blobs in.",
+            "tgl_garden": "Schakel de tuin van de blobs in."
+          }
+        }
+      }
+    },
+    "audio": {
+      "header": "Audio",
+      "subMenus": {
+        "soundfont": {
+          "label": "Geluidslettertype",
+          "messages": {
+            "soundfontLoading": "Even geduld a.u.b. het soundfont wordt geladen!"
+          },
+          "elements": {
+            "hdr_generalSettings": "Algemene instellingen",
+            "lbl_audioEngine": "Audio-engine",
+            "tgl_enableDrums": "Drumkanaal inschakelen",
+            "hdr_v3Audio": "V3-audio",
+            "lbl_soundfonts": "Geluidslettertypen",
+            "lbl_initalBuffersize": "Initiële buffergrootte",
+            "tgl_showDebuglogs": "Prestatielogboeken voor foutopsporing weergeven",
+            "tgl_useAudioWorklet": "Gebruik AudioWorklet"
+          },
+          "tooltips": {
+            "lbl_audioEngine": "Selecteer de standaard audio-engine.<br> (Wordt van kracht bij de volgende herstart)",
+            "tgl_enableDrums": "Indien ingeschakeld, kunnen percussiegeluiden worden afgespeeld op kanaal 9 (nul-indexbasis)",
+            "hdr_v3Audio": "Instellingen specifiek voor de V3 Audio Engine",
+            "lbl_soundfonts": "Selecteer het standaard geluidslettertype",
+            "lbl_initalBuffersize": "Uitleg volgt binnenkort. (Wordt van kracht bij de volgende herstart)",
+            "tgl_showDebuglogs": "Indien ingeschakeld, zal dit prestatielogboeken naar de console uitvoeren",
+            "tgl_useAudioWorklet": "Indien ingeschakeld, laadt dit de audio-engine van V3 in een aparte thread in een audioworkletproces.<br> Moet de prestaties verbeteren. (Wordt van kracht bij het opnieuw opstarten van de app)"
+          }
+        },
+        "midi": {
+          "label": "Midi",
+          "elements": {
+            "hdr_inputOutput": "Invoer uitvoer",
+            "lbl_enableAudioToOutput": "Alleen audio inschakelen",
+            "hrd_generalEffects": "Algemene effecten",
+            "tgl_mousePosVelocity": "Muispositie bepaalt snelheid",
+            "sld_sustainCutoff": "Sustain Cutoff",
+            "hdr_velocityEffects": "Snelheidseffecten",
+            "tgl_enableVelocity": "Snelheid inschakelen",
+            "sld_velocityMuting": "Snelheidsdemping",
+            "tgl_enableVelocityBoost": "Snelheidsboost inschakelen",
+            "sld_velocityBoost": "Snelheidsboost",
+            "lbl_metronome": "Audiovoorbeeld metronoom"
+          },
+          "tooltips": {
+            "lbl_enableAudioToOutput": "Indien aangevinkt en alle uitvoerapparaten zijn actief, dan wordt audio alleen naar het uitvoerapparaat gestuurd en niet binnen de audio-engine van PianoRhythm",
+            "tgl_mousePosVelocity": "Hierdoor kan de muispositie de snelheid van uw computertoetsenbordinvoer bepalen.<br><br> Hoe dichter uw muis zich bij de onderkant van het browservenster bevindt, hoe luider uw notities zullen zijn",
+            "sld_sustainCutoff": "Stel het release-cutoff-punt in voor aangehouden noten. (Hoger percentage = kortere sustain)",
+            "tgl_enableVelocity": "Indien niet aangevinkt, worden de ruwe snelheidswaarden van de bron niet gebruikt. In plaats daarvan wordt het ingesteld op de maximale waarde (127)",
+            "sld_velocityMuting": "Demp noten met een snelheid die kleiner is dan of gelijk is aan de meterwaarde.",
+            "tgl_enableVelocityBoost": "Verhoogt inkomende onbewerkte snelheidswaarden",
+            "sld_velocityBoost": "Voegt extra waarde toe aan ruwe snelheid",
+            "lbl_metronome": "Selecteer het audiosampletype dat u voor de metronoom wilt gebruiken"
+          }
+        }
+      }
+    },
+    "billing": {
+      "header": "Facturering",
+      "subMenus": {
+        "subscription": {
+          "label": "abonnement",
+          "elements": {
+            "lbl_languageSelect": "Taal selecteren"
+          },
+          "tooltips": {
+            "lbl_languageSelect": "Stel de standaardtaal in voor PianoRhythm."
+          }
+        }
+      },
+      "messages": {
+        "autoRenewInfo": "Uw abonnement wordt automatisch verlengd op <b style=\"color:white;\">{{billingDate}}</b> en er wordt <b style=\"color:white;\">{{currencyText}} in rekening gebracht.</b>",
+        "subText": "Hier is je huidige abonnement. U kunt het op elk moment annuleren of bijwerken.",
+        "checkout_Created": "Er is een nieuw tabblad geopend. Ga daar verder met afrekenen!",
+        "checkout_Success": "Afrekenen succes!",
+        "checkout_Cancelled": "Je hebt de sessie geannuleerd.",
+        "checkout_ResumePlan": "Je staat op het punt je opgezegde abonnement te hervatten. </br></br>Weet je het zeker?",
+        "checkout_Confirm": "U staat op het punt om af te rekenen en u te abonneren op een premium abonnement. </br></br>Weet je het zeker?",
+        "subscription_cancellationFail": "Sorry, er ging iets mis. Kan abonnement niet opzeggen.",
+        "subscription_Updated": "Je hebt je abonnement succesvol geüpdatet!",
+        "cancellation_InProcess": "Uw huidige abonnement is <b>opgezegd</b> en wordt daarom niet automatisch verlengd. U heeft echter nog wel uw uitkering tot <b style=\"color:white;\">{{billingDate}}</b> .",
+        "cancellation_Confirm": "Het spijt ons je te zien gaan, {{username}} !.</br>Uw Pro Plan-abonnement wordt betaald tot <b>{{planBillingDate}}</b> .</br></br> Als u door wilt gaan met het opzeggen van uw abonnement, selecteert u hieronder <b>&quot;Abonnement opzeggen&quot;.</b>",
+        "cancellation_Success": "Je hebt je abonnement succesvol opgezegd."
+      },
+      "buttons": {
+        "checkout": "Afrekenen met Stripe",
+        "cancelSubscription": "Annuleer abonnement",
+        "cancellation_InProcess": "Abonnement hervatten met Stripe"
+      },
+      "labels": {
+        "billingInfo": "facturatie gegevens",
+        "cancelSubscription": "Annuleer abonnement"
+      }
+    },
+    "other": {
+      "header": "Ander",
+      "subMenus": {
+        "changelog": {
+          "label": "Wijzigingslog"
+        },
+        "credits": {
+          "label": "tegoeden",
+          "messages": {
+            "error_FailedToGetData": "Kan gegevens niet ophalen..."
+          }
+        }
+      }
+    }
+  }
+}

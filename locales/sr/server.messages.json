@@ -1,0 +1,26 @@
+{
+  "websocket": {
+    "clientConnect_Init": "Повезивање... Молимо сачекајте!",
+    "clientConnect_ResponseDelayed": "Траје мало дуже него иначе. Молимо сачекајте!",
+    "clientConnect_Success": "Веза успостављена!",
+    "clientConnect_SessionExists": "Друга сесија већ постоји. Прекидање везе. Молим вас, покушајте поново.",
+    "clientConnect_DisconnectCauseAnotherSessionExists": "Друга сесија покушава да се повеже. Искључивање!"
+  },
+  "room": {
+    "messages": {
+      "clientDeletesChatMessage_Success": "Избрисали сте поруку ћаскања.",
+      "clientDeletesChatMessage_Fail": "Жао нам је, изгледа да та порука ћаскања не постоји. :слегну раменима:",
+      "newRoomOwner": "Сада сте [б]нови власник [р]ове собе! :осмех:",
+      "roomUpdates": {
+        "isPasswordProtected": "[и]Соба је сада заштићена лозинком...",
+        "passwordRemoved": "[и]Лозинка је уклоњена..."
+      }
+    }
+  },
+  "generalMessages": {
+    "login_success": "Успешно сте се пријавили, <b>{{username}}</b> . Добродошли!"
+  },
+  "errorMessages": {
+    "unknown_error": "Непозната грешка сервера..."
+  }
+}

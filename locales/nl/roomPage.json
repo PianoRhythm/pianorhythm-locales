@@ -1,0 +1,192 @@
+{
+  "common": {
+    "labels": {
+      "transpose": "transponeren",
+      "octave": "Octaaf",
+      "tools": "Hulpmiddelen",
+      "room": "Kamer",
+      "create": "Creëren",
+      "update": "Bijwerken",
+      "roomName": "Naam",
+      "roomID": "ID kaart",
+      "roomOwner": "Baasje",
+      "menuBasic": "Basis",
+      "menuAdvanced": "Geavanceerd",
+      "created": "Gemaakt"
+    }
+  },
+  "modals": {
+    "roomInfo": {
+      "labels": {
+        "metaAutoRemove": "Automatisch verwijderen",
+        "metaPersistent": "Aanhoudend",
+        "metaUnique": "Uniek"
+      }
+    },
+    "room": {
+      "labels": {
+        "onlyOwnerCanPlay": "Alleen de eigenaar kan spelen",
+        "onlyOwnerCanChat": "Alleen de eigenaar kan chatten",
+        "allowGuests": "Gasten toestaan",
+        "onlyMods": "Alleen moderators toestaan",
+        "allowBlackMidi": "Zwart Midi . toestaan",
+        "maxPlayers": "Maximum aantal spelers",
+        "makeRoomPrivate": "Maak kamer privé",
+        "filterProfanity": "Godslastering filteren",
+        "welcomeMessage": "Welkoms bericht",
+        "hostRoom": "Zelf host kamer",
+        "selfHostRegion": "Regio",
+        "hostContinentCode": "Gastlandcode",
+        "hostCountryCode": "Gastlandcode"
+      },
+      "tooltips": {
+        "onlyOwnerCanPlay": "Alleen de eigenaar kan muziek afspelen (werk in uitvoering).<br> (Andere gebruikers kunnen nog steeds lokaal spelen, maar alleen de eigenaar wordt door iedereen gehoord)",
+        "onlyOwnerCanChat": "Alleen de eigenaar kan chatberichten verzenden",
+        "allowGuests": "Indien uitgeschakeld, voorkomt dat gasten uw kamer binnenkomen",
+        "onlyMods": "Alleen moderators toestaan deel te nemen. (Optie is niet zichtbaar voor niet-moderators)",
+        "allowBlackMidi": "Als u dit inschakelt, kunnen spelers zwarte midi&#39;s spelen of grote hoeveelheden noten spelen zonder dat de server ze tijdelijk dempt vanwege overmatig spelen.<br><br> (Kamereigenaren hebben een hogere notitielimiet)",
+        "maxPlayers": "Stel het maximale aantal spelers in dat in de kamer kan zijn",
+        "makeRoomPrivate": "Maak kamer privé",
+        "roomName": "(Optioneel) Stel de naam van de kamer in.",
+        "roomPassword": "(Optioneel) Stel een wachtwoord in voor de kamer.",
+        "filterProfanity": "Gefilterde godslasteringen zoals vloekwoorden worden gecensureerd. Ze verschijnen in sterretjes. bijv.'****'",
+        "welcomeMessage": "Dit bericht wordt weergegeven aan gebruikers die uw kamer binnenkomen. Je kunt wat regels schrijven of iets warms en aardigs zeggen.",
+        "hostRoom": "Kies deze optie als u de ruimte liever op uw computer host. Hiermee wordt een P2P-omgeving gecreëerd waarop gebruikers rechtstreeks verbinding kunnen maken met uw machine.",
+        "selfHostRegion": "De algemene ruimte waarin uw machine zich bevindt. PianoRhythm zal proberen te raden waar je bent, maar je kunt het handmatig instellen als je wilt."
+      }
+    }
+  },
+  "sideBar": {
+    "usersTab": "Gebruikers",
+    "friendsTab": "vrienden",
+    "roomsTab": "Kamers",
+    "tooltips": {
+      "usersTab": "De lijsten met gebruikers in de ruimte.",
+      "friendsTab": "De lijst met al je vrienden!",
+      "roomsTab": "De lijst met alle openbare ruimtes.",
+      "roomSelfHosted": "<br>Deze kamer wordt zelf gehost door een gebruiker.<br> De locatie is: <b>( {{continent}} , {{country}} )</b>",
+      "passwordProtected": "Beschermd met een wachtwoord"
+    },
+    "general": {
+      "hasPendingFriendRequests": "Je hebt {{count}} openstaande vriendschapsverzoeken!",
+      "noRoomsFound": "Geen kamers gevonden...",
+      "noFriends_line1": "Ziet er een beetje eenzaam uit, hier.",
+      "noFriends_line2_clientIsGuest": "Log in om wat vrienden toe te voegen!",
+      "noFriends_line2_clientIsMember": "Voeg wat vrienden toe!",
+      "noFriendsFound": "Geen vrienden gevonden. Voelt slecht, broer...",
+      "searchRooms": "Zoek kamers...",
+      "unknownLocation": "Sorry, de locatie is niet bekend."
+    }
+  },
+  "bottomBar": {
+    "buttons": {
+      "newRoom": "Nieuwe kamer",
+      "roomSettings": "Instellingen kamer",
+      "settings": "Instellingen",
+      "midi": "MIDI",
+      "modDashboard": "Mod-dashboard",
+      "volume": "Volume",
+      "sustain": "Aanhouden",
+      "logout": "Uitloggen",
+      "sheetMusic": "Bladmuziek",
+      "sheetMusicUpload": "Bladmuziek - Uploaden",
+      "docs": "Documentatie"
+    },
+    "tooltips": {
+      "newRoom": "Maak een nieuwe kamer aan",
+      "roomSettings": "Wijzig de instellingen voor de kamer",
+      "settings": "Gebruikersinstellingen wijzigen",
+      "midi": "Stel de MIDI I/O in",
+      "modDashboard": "Moderator-dashboard",
+      "volume": "Klik op mij om het dempen in te schakelen!",
+      "sustain": "Schakel de sustain in",
+      "sustainActive": "Actief",
+      "logout": "Uitloggen",
+      "menu": "Klik hier voor meer menu-items!",
+      "sheetMusic": "Toon de opslagplaats voor bladmuziek",
+      "sheetMusicUpload": "Upload bladmuziek naar de repository",
+      "docs": "Documentatie/Help"
+    },
+    "messages": {
+      "logoutPressed": "Weet u zeker dat u wilt uitloggen?",
+      "logoutPressed_Confirm": "Ja!",
+      "logoutPressed_Cancel": "Nee sorry..."
+    }
+  },
+  "components": {
+    "metronome": {
+      "tooltips": {
+        "player": "Klik om de metronoom af te spelen/pauzeren",
+        "bpm_desc": "\"Beats per minute\" (of BPM) geeft het aantal beats in één minuut aan.",
+        "timesignature_desc": "Een maatsoort vertelt je hoe de muziek moet worden geteld.<br><br> Het bovenste getal van de maatsoort vertelt je <i>hoeveel</i> tellen je moet tellen.<br><br> Het onderste cijfer geeft aan welk soort biljet u moet tellen.",
+        "beat_remove": "Een maatslag uit de maat verwijderen",
+        "beat_add": "Voeg een maatslag toe aan de maat",
+        "tempo_desc_general": "Beschrijft het tempo (in het Italiaans). Tempo is de snelheid of het tempo van een bepaald stuk.",
+        "tempo_desc_larghissimo": "extreem langzaam, langzamer dan largo",
+        "tempo_desc_largo": "erg traag en breed",
+        "tempo_desc_grave": "zeer langzaam",
+        "tempo_desc_lento": "langzaam",
+        "tempo_desc_adagio": "langzaam",
+        "tempo_desc_andante": "looptempo",
+        "tempo_desc_moderato": "matig",
+        "tempo_desc_allegretto": "matig snel, iets langzamer dan allegro",
+        "tempo_desc_allegro": "snel",
+        "tempo_desc_vivace": "snel en levendig",
+        "tempo_desc_presto": "erg snel",
+        "tempo_desc_prestissimo": "extreem snel, sneller dan presto"
+      }
+    }
+  },
+  "errorMessages": {
+    "joinRoomFail": {
+      "RoomFull": "Kan de kamer niet betreden omdat deze vol is.",
+      "QueuedToJoinRoom": "Je staat al in de wachtrij om deel te nemen aan deze kamer.",
+      "AlreadyInRoom": "Je bent al in deze kamer.",
+      "NoGuests": "Kan niet naar binnen omdat de kamer geen gasten toelaat.",
+      "IncorrectPassword": "Kan niet invoeren vanwege een onjuist wachtwoord.",
+      "NotAllowed": "Kan niet meedoen omdat je niet bent toegestaan."
+    },
+    "failedToCreateRoomWithReason": "Kan geen ruimte maken: {{reason}}",
+    "failedToJoinRoom": "Er is iets fout gegaan. Kan niet deelnemen aan kamer..."
+  },
+  "generalMessages": {
+    "enterRoomPassword": "Voer het wachtwoord van de kamer in!",
+    "roomWithWarnings": {
+      "text1": "Deze kamer heeft de volgende instellingen ingeschakeld",
+      "text2": "Weet je zeker dat je mee wilt doen?",
+      "dontShowAgain": "Dit bericht niet meer weergeven."
+    },
+    "openingExternalLinks": "Wees voorzichtig met het openen van externe links. Weet je echt zeker dat je dit wilt openen?"
+  },
+  "instrumentDock": {
+    "toolNames": {
+      "InstrumentSelection": "Instrumentselectie",
+      "ChannelDisplayMode": "Kanaalweergavemodus:",
+      "ClearInstruments": "Duidelijke instrumenten",
+      "ResetToDefault": "Reset naar standaard",
+      "ToggleKeyboardMappingDisplay": "Toggle Toetsenbordkaart",
+      "ToggleMetronomeDisplay": "Metronoom wisselen",
+      "ToggleSheetMusicViewer": "Toggle Bladmuziekviewer",
+      "MidiMusic": "MIDI-muziek",
+      "tooltips": {
+        "InstrumentSelection": "Geef de instrumentselectie weer. {{key}}",
+        "ChannelDisplayMode": "Schakel de weergave van de kanaalslots in. (4x4x4x4), (8x8) of (16)",
+        "ToggleKeyboardMappingDisplay": "Geef een toetsenbordtoewijzingsoverlay weer op de piano. {{key}}",
+        "ToggleMetronomeDisplay": "Schakel de weergave van de metronoom. {{key}}",
+        "ToggleSheetMusicViewer": "Schakel de weergave van de bladmuziekviewer in. {{key}}",
+        "ClearInstruments": "Wis alle geladen midi-instrumenten.",
+        "ResetToDefault": "Reset de midi-kanalen en bedieningselementen naar de standaardconfiguratie."
+      }
+    },
+    "inputButtons": {
+      "slotMode": "Slotmodus {{mode}}",
+      "tools": "Hulpmiddelen",
+      "tooltips": {
+        "transpose": "Stel de transponering in. Klik om te resetten.",
+        "octave": "Stel het octaaf in. Klik om te resetten.",
+        "slotMode": "Stel de slotmodus in voor de pianolay-out",
+        "tools": "Een lijst met tools en functies."
+      }
+    }
+  }
+}

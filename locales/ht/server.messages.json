@@ -1,0 +1,26 @@
+{
+  "websocket": {
+    "clientConnect_Init": "Konekte... Tanpri tann!",
+    "clientConnect_ResponseDelayed": "Li pran yon ti jan pi long pase nòmal. Tanpri kenbe!",
+    "clientConnect_Success": "Koneksyon etabli!",
+    "clientConnect_SessionExists": "Yon lòt sesyon deja egziste. Dekonekte. Tanpri eseye ankò.",
+    "clientConnect_DisconnectCauseAnotherSessionExists": "Yon lòt sesyon ap eseye konekte. Dekonekte!"
+  },
+  "room": {
+    "messages": {
+      "clientDeletesChatMessage_Success": "Ou te efase mesaj chat la.",
+      "clientDeletesChatMessage_Fail": "Padon, sanble mesaj chat sa a pa egziste. :oche zèpòl:",
+      "newRoomOwner": "Kounye a ou se [b]nouvo pwopriyetè [r] chanm sa a! :souri:",
+      "roomUpdates": {
+        "isPasswordProtected": "[i]Chanm kounye a pwoteje modpas...",
+        "passwordRemoved": "[i]Yo retire modpas..."
+      }
+    }
+  },
+  "generalMessages": {
+    "login_success": "Ou te konekte avèk siksè, <b>{{username}}</b> . Byenvini!"
+  },
+  "errorMessages": {
+    "unknown_error": "Erè sèvè enkoni..."
+  }
+}

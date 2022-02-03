@@ -1,0 +1,51 @@
+{
+  "connectionStatus": "Toestand",
+  "playersOnline": "Spelers online",
+  "hrefs": {
+    "createAccount": "Account aanmaken.",
+    "forgotPassword": "Wachtwoord vergeten?",
+    "enterAsGuest": "Kom binnen als gast.",
+    "resendVerificationEmail": "Verzend de verificatie-e-mail opnieuw.",
+    "haveAccount": "Heb je al een account?",
+    "signIn": "Inloggen",
+    "goHome": "Ga naar huis."
+  },
+  "messages": {
+    "attemptAutoLogin_WelcomeBack": "Welkom terug",
+    "attemptAutoLogin_AttemptAuto": "Poging om u automatisch opnieuw aan te melden...",
+    "attemptAutoLogin_Cancel": "Klik hier om te annuleren"
+  },
+  "oAuthButton": {
+    "discord": "Log in met Discord",
+    "google": "Log in met Google"
+  },
+  "guestForm": {
+    "welcomeMessage": "Welkom bij PianoRhythm!",
+    "usernameInputMessage": "Wat is jouw bijnaam?",
+    "buttons": {
+      "enter": "Binnenkomen",
+      "register": "Register",
+      "login": "Log in"
+    }
+  },
+  "resendVerificationEmailForm": {
+    "header": "E-mailverificatie opnieuw verzenden",
+    "onSubmitInfoToast": "Als er een account aan dat e-mailadres is gekoppeld, wordt er een e-mail voor accountverificatie verzonden. Dank u."
+  },
+  "forgotPasswordForm": {
+    "header": "Wachtwoord vergeten"
+  },
+  "loginForm": {
+    "header": "Log in"
+  },
+  "twoFactorAuth": {
+    "header": "Twee-factorenauthenticatie"
+  },
+  "registerForm": {
+    "labels": {
+      "tos1": "Ik ben het ermee eens dat ik minimaal 13 ben en ik heb de",
+      "tos2": "Gebruiksvoorwaarden en voorwaarden"
+    },
+    "submitButton": "Register"
+  }
+}

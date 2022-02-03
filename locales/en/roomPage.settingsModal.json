@@ -2,7 +2,8 @@
   "messages": {
     "audioSettingNotSupportedV3": "Note: Currently, most audio settings are not applicable to v3",
     "changeWillTakeEffectOnNextRestart": "Changes will take effect on next restart.",
-    "changesSaved": "Changes saved."
+    "changesSaved": "Changes saved.",
+    "userColorUpdated": "You've successfully updated your user color!"
   },
   "menus": {
     "general": {
@@ -45,8 +46,7 @@
             "hdr_accountManagement": "Account Management"
           },
           "messages": {
-            "on2faDisable":
-              "After disabling two-factor authentication, logging in to your account will require password-only protection. Do you wish to continue with disabling two-factor authentication?"
+            "on2faDisable": "After disabling two-factor authentication, logging in to your account will require password-only protection. Do you wish to continue with disabling two-factor authentication?"
           }
         },
         "multiplayer": {
@@ -68,8 +68,8 @@
           "tooltips": {
             "hdr_multiplayerSettings": "Set multiplayer related settings.",
             "lbl_userColor": "Set your user color",
-            "btn_userColorReset": "",
-            "btn_userColorSubmit": "",
+            "btn_userColorReset": "Reset your color",
+            "btn_userColorSubmit": "Update your color!",
             "hdr_notifications": "Toggle what server notifications you receive.",
             "tgl_showMyCursor": "Toggle whether your cursor is displayed to others.",
             "tgl_sendWhoistyping": "Toggle whether other users know when you're typing.",
@@ -243,6 +243,29 @@
             "lbl_languageSelect": "Set the default language for PianoRhythm."
           }
         }
+      },
+      "buttons": {
+        "checkout": "Checkout with Stripe",
+        "cancelSubscription": "Cancel Subscription",
+        "cancellation_InProcess": "Resume subscription with Stripe"
+      },
+      "labels": {
+        "billingInfo": "Billing Information",
+        "cancelSubscription": "Cancel Subscription"
+      },
+      "messages": {
+        "checkout_Created": "A new tab has been opened. Continue checkout there!",
+        "checkout_Success": "Checkout success!",
+        "checkout_Cancelled": "You've cancelled the session.",
+        "checkout_ResumePlan": "You're about to resume your cancelled subscription. </br></br>Are you sure?",
+        "checkout_Confirm": "You're about to check out and subscribe to a premium plan. </br></br>Are you sure?",
+        "subscription_cancellationFail": "Sorry, something went wrong. Failed to cancel subscription.",
+        "subscription_Updated": "You've successfully updated your subscription plan!",
+        "subText": "Here's your current subscription. You can cancel or update it any time.",
+        "cancellation_InProcess": "Your current subscription has been <b>canceled</b> and therefore, will not be auto renewed. </b> However, you will still have your benefits until <b style=\"color:white;\">{{billingDate}}</b>.",
+        "autoRenewInfo": "Your subscription will automatically renew on <b style=\"color:white;\">{{billingDate}}</b> and you'll be charged <b style=\"color:white;\">{{currencyText}}.</b>",
+        "cancellation_Confirm": "We're sorry to see you go, {{username}}!. </br> Your pro plan subscription is paid until <b>{{planBillingDate}}</b>. </br></br>If you would like to proceed with canceling your subscription, please select <b>\"Cancel Subscription\"</b> below.",
+        "cancellation_Success": "You've successfully canceled your subscription."
       }
     },
     "other": {

@@ -1,0 +1,286 @@
+{
+  "messages": {
+    "audioSettingNotSupportedV3": "Nota: attualmente, la maggior parte delle impostazioni audio non sono applicabili alla v3",
+    "changeWillTakeEffectOnNextRestart": "Le modifiche avranno effetto al prossimo riavvio.",
+    "changesSaved": "Modifiche salvate.",
+    "userColorUpdated": "Hai aggiornato con successo il tuo colore utente!"
+  },
+  "menus": {
+    "general": {
+      "header": "Generale",
+      "subMenus": {
+        "language": {
+          "label": "Lingua",
+          "elements": {
+            "lbl_languageSelect": "Seleziona lingua"
+          },
+          "tooltips": {
+            "lbl_languageSelect": "Imposta la lingua predefinita per PianoRhythm."
+          }
+        }
+      }
+    },
+    "online": {
+      "header": "in linea",
+      "subMenus": {
+        "my account": {
+          "label": "Il mio account",
+          "elements": {
+            "hdr_myAccount": "Il mio account",
+            "hdr_passwordAndAuthentication": "Password e autenticazione",
+            "hdr_accountManagement": "Gestione contabile",
+            "hdr_security": "Sicurezza",
+            "tgl_enable2fa": "Autenticazione a due fattori",
+            "btn_changePassword": "Cambiare la password",
+            "btn_deleteAccount": "Eliminare l'account",
+            "txt_passwordChangeSubText": "Inserisci la tua password attuale e la nuova password",
+            "txt_deleteAccountSubText": "Sei davvero sicuro? Tutti i dati del tuo account verranno eliminati definitivamente",
+            "txt_onIncorrectDeleteInputField": "Assicurati di aver digitato correttamente nel campo di input.",
+            "txt_confirmPasswordSubText": "Si prega di inserire e confermare la password",
+            "txt_emailChangeSubText": "Inserisci il nuovo indirizzo email e la tua password"
+          },
+          "tooltips": {
+            "hdr_myAccount": "Informazioni account",
+            "tgl_enable2fa": "Aggiungi un ulteriore livello di sicurezza con l'autenticazione a due fattori (2FA).",
+            "hdr_passwordAndAuthentication": "Password e autenticazione",
+            "hdr_accountManagement": "Gestione contabile"
+          },
+          "messages": {
+            "on2faDisable": "Dopo aver disabilitato l'autenticazione a due fattori, l'accesso al tuo account richiederà la protezione solo tramite password. Vuoi continuare a disabilitare l'autenticazione a due fattori?"
+          }
+        },
+        "multiplayer": {
+          "label": "Multigiocatore",
+          "elements": {
+            "hdr_multiplayerSettings": "Impostazioni multiplayer",
+            "lbl_userColor": "Colore utente",
+            "btn_userColorReset": "Ripristina colore",
+            "btn_userColorSubmit": "Invia colore",
+            "tgl_showMyCursor": "Mostra il mio cursore",
+            "tgl_sendWhoistyping": "Invia chi sta scrivendo",
+            "tgl_disableWhispers": "Disattiva i sussurri",
+            "hdr_notifications": "Notifiche",
+            "tgl_friendsOnlineStatus": "Stato in linea degli amici",
+            "tgl_friendsOfflineStatus": "Stato offline degli amici",
+            "tgl_sheetMusicChanges": "Modifiche agli spartiti",
+            "tgl_emitMyStatusToFriends": "Invia il mio stato agli amici"
+          },
+          "tooltips": {
+            "hdr_multiplayerSettings": "Imposta le impostazioni relative al multiplayer.",
+            "lbl_userColor": "Imposta il tuo colore utente",
+            "btn_userColorReset": "Reimposta il tuo colore",
+            "btn_userColorSubmit": "Aggiorna il tuo colore!",
+            "hdr_notifications": "Attiva o disattiva le notifiche del server che ricevi.",
+            "tgl_showMyCursor": "Attiva o disattiva se il tuo cursore viene visualizzato dagli altri.",
+            "tgl_sendWhoistyping": "Attiva o disattiva se gli altri utenti sanno quando stai digitando.",
+            "tgl_disableWhispers": "Disattiva il sussurro. Non puoi sussurrare agli altri e viceversa.",
+            "tgl_friendsOnlineStatus": "Ricevi una notifica quando un amico è online",
+            "tgl_friendsOfflineStatus": "Ricevi una notifica quando un amico va offline",
+            "tgl_emitMyStatusToFriends": "Consenti agli amici di conoscere le modifiche al tuo stato. (Online, Offline, ecc.)",
+            "tgl_sheetMusicChanges": "Ricevi e-mail di notifica ogni volta che si verifica una modifica agli spartiti caricati."
+          }
+        },
+        "discord": {
+          "label": "Discordia",
+          "elements": {
+            "hdr_discordSettings": "Impostazioni discordia",
+            "swtch_syncDiscordMessages": "Sincronizza i messaggi della lobby di Discord"
+          },
+          "tooltips": {
+            "hdr_discordSettings": "Imposta le impostazioni relative a Discord.",
+            "swtch_syncDiscordMessages": "Attiva o disattiva se i messaggi Discord sono sincronizzati nella lobby principale."
+          }
+        },
+        "input": {
+          "label": "Ingresso",
+          "elements": {
+            "hdr_keyboardSettings": "Impostazioni della tastiera",
+            "lbl_pianoKeylayout": "Disposizione dei tasti del pianoforte",
+            "lbl_keyboardMaplayout": "Layout della mappa della tastiera",
+            "drp_keyboards": "Tastiere",
+            "lbl_shortcutBinds": "Collegamenti di scelta rapida",
+            "btn_openKeybinder": "Apri Raccoglitore di tasti",
+            "tgl_keyboard_toggleyz": "Cambia i tasti Y e Z"
+          },
+          "tooltips": {
+            "hdr_keyboardSettings": "Imposta le impostazioni relative alla tastiera.",
+            "lbl_pianoKeylayout": "Imposta il layout del pianoforte della tastiera per il pianoforte.",
+            "lbl_keyboardMaplayout": "Imposta la corretta mappatura dell'input da tastiera.",
+            "lbl_shortcutBinds": "Crea collegamenti a scorciatoie comuni.",
+            "tgl_keyboard_toggleyz": "Per alcuni layout di tastiera, la commutazione della mappatura delle tastiere Y e Z viene allineata in modo più naturale."
+          }
+        }
+      }
+    },
+    "graphics": {
+      "header": "Grafica",
+      "subMenus": {
+        "general": {
+          "label": "Generale",
+          "elements": {
+            "hdr_engine": "Motore grafico",
+            "lbl_engine": "Motore",
+            "lbl_maxFPS": "FPS massimo"
+          },
+          "tooltips": {
+            "lbl_engine": "Alterna tra 2D, 3D o nessun motore grafico.",
+            "lbl_maxFPS": "Seleziona il frame rate massimo del motore di rendering."
+          }
+        },
+        "ui": {
+          "label": "interfaccia utente",
+          "elements": {
+            "hdr_displays": "Visualizza",
+            "tgl_fps": "Attiva/disattiva FPS",
+            "tgl_ping": "Attiva/disattiva ping",
+            "tgl_instDock": "Attiva/disattiva docking station per strumenti",
+            "tgl_userCursors": "Attiva/disattiva i cursori utente",
+            "tgl_whoistyping": "Attiva/disattiva Chi sta digitando",
+            "hdr_chat": "Chiacchierata",
+            "tgle_displayChat": "Visualizza i messaggi di chat",
+            "tgle_keepChatInFocus": "Mantieni la chat a fuoco",
+            "sld_chatMsgsHeightOffset": "Messaggi di chat Offset altezza",
+            "sld_chatMsg2DOpacity": "Messaggi chat Opacità predefinita (modalità 2D)",
+            "sld_chatMsg3DOpacity": "Messaggi di chat Opacità predefinita (modalità 3D)",
+            "tgl_display3DStats": "Visualizza statistiche 3D"
+          },
+          "tooltips": {
+            "hdr_displays": "Attiva o disattiva la visualizzazione di determinati elementi dell'interfaccia utente",
+            "tgl_fps": "Attiva o disattiva il misuratore di visualizzazione FPS",
+            "tgl_ping": "Attiva o disattiva la visualizzazione del ping",
+            "tgl_instDock": "Attiva o disattiva la visualizzazione della docking station degli strumenti",
+            "tgl_userCursors": "Attiva/disattiva la visualizzazione dei cursori di altri utenti",
+            "tgl_whoistyping": "Attiva/disattiva la visualizzazione quando gli altri utenti stanno digitando",
+            "hdr_chat": "Impostazioni dell'interfaccia utente correlate per i messaggi di chat",
+            "tgle_displayChat": "Attiva/disattiva la visualizzazione dei messaggi di chat",
+            "sld_chatMsgsHeightOffset": "Imposta l'offset di altezza del contenitore dei messaggi di chat",
+            "tgl_display3DStats": "Attiva/disattiva la visualizzazione di statistiche/informazioni aggiuntive sulla scena 3D",
+            "tgle_keepChatInFocus": "Seleziona se mantenere la chat a fuoco dopo aver inviato un messaggio",
+            "sld_chatMsg2DOpacity": "Imposta l'opacità predefinita dei messaggi della chat quando non è focalizzato. (Modalità 2D)",
+            "sld_chatMsg3DOpacity": "Imposta l'opacità predefinita dei messaggi della chat quando non è focalizzato. (Modalità 3D)"
+          }
+        },
+        "blob": {
+          "label": "Blob",
+          "elements": {
+            "hdr_displays": "Visualizza",
+            "tgl_blobs": "Attiva/disattiva i BLOB",
+            "tgl_garden": "Attiva/Disattiva Giardino"
+          },
+          "tooltips": {
+            "hdr_displays": "Attiva o disattiva la visualizzazione di determinati elementi correlati al BLOB.",
+            "tgl_blobs": "Attiva/disattiva la visualizzazione dei BLOB.",
+            "tgl_garden": "Attiva/disattiva la visualizzazione del giardino dei blob."
+          }
+        }
+      }
+    },
+    "audio": {
+      "header": "Audio",
+      "subMenus": {
+        "soundfont": {
+          "label": "carattere sonoro",
+          "messages": {
+            "soundfontLoading": "Attendi il caricamento del soundfont!"
+          },
+          "elements": {
+            "hdr_generalSettings": "impostazioni generali",
+            "lbl_audioEngine": "Motore audio",
+            "tgl_enableDrums": "Abilita canale batteria",
+            "hdr_v3Audio": "Audio V3",
+            "lbl_soundfonts": "Font sonori",
+            "lbl_initalBuffersize": "Dimensione buffer iniziale",
+            "tgl_showDebuglogs": "Mostra i registri delle prestazioni di debug",
+            "tgl_useAudioWorklet": "Usa AudioWorklet"
+          },
+          "tooltips": {
+            "lbl_audioEngine": "Seleziona il motore audio predefinito.<br> (Ha effetto al prossimo riavvio)",
+            "tgl_enableDrums": "Quando abilitato, consentirà di riprodurre i suoni delle percussioni sul canale 9 (base di indice zero)",
+            "hdr_v3Audio": "Impostazioni specifiche per il motore audio V3",
+            "lbl_soundfonts": "Seleziona il soundfont predefinito",
+            "lbl_initalBuffersize": "Spiegazione in arrivo. (Ha effetto al prossimo riavvio)",
+            "tgl_showDebuglogs": "Se abilitato, questo genererà i registri delle prestazioni sulla console",
+            "tgl_useAudioWorklet": "Se abilitato, caricherà il motore audio di V3 in un thread separato in un processo di worklet audio.<br> Dovrebbe migliorare le prestazioni. (Ha effetto al riavvio dell&#39;app)"
+          }
+        },
+        "midi": {
+          "label": "Midi",
+          "elements": {
+            "hdr_inputOutput": "Input Output",
+            "lbl_enableAudioToOutput": "Abilita l'audio solo per l'output",
+            "hrd_generalEffects": "Effetti generali",
+            "tgl_mousePosVelocity": "La posizione del mouse determina la velocità",
+            "sld_sustainCutoff": "Sostieni il taglio",
+            "hdr_velocityEffects": "Effetti di velocità",
+            "tgl_enableVelocity": "Abilita velocità",
+            "sld_velocityMuting": "Silenziamento della velocità",
+            "tgl_enableVelocityBoost": "Abilita l'aumento della velocità",
+            "sld_velocityBoost": "Aumento di velocità",
+            "lbl_metronome": "Campione audio del metronomo"
+          },
+          "tooltips": {
+            "lbl_enableAudioToOutput": "Se selezionato e tutti i dispositivi di output sono attivi, l'audio verrà emesso solo sul dispositivo di output e non all'interno del motore audio di PianoRhythm",
+            "tgl_mousePosVelocity": "Ciò consentirà alla posizione del mouse di determinare la velocità dell&#39;input della tastiera del computer.<br><br> Più il tuo mouse è vicino alla parte inferiore della finestra del browser, più rumorose saranno le tue note",
+            "sld_sustainCutoff": "Imposta il punto di taglio del rilascio per le note sostenute. (Percentuale più alta = sustain più breve)",
+            "tgl_enableVelocity": "Se deselezionata, i valori di velocità grezzi dalla sorgente non verranno utilizzati. Verrà invece impostato al valore massimo (127)",
+            "sld_velocityMuting": "Disattiva le note con una velocità inferiore o uguale al valore del misuratore.",
+            "tgl_enableVelocityBoost": "Aumenta i valori di velocità grezzi in entrata",
+            "sld_velocityBoost": "Aggiunge valore aggiuntivo alla velocità grezza",
+            "lbl_metronome": "Seleziona il tipo di campione audio da utilizzare per il metronomo"
+          }
+        }
+      }
+    },
+    "billing": {
+      "header": "Fatturazione",
+      "subMenus": {
+        "subscription": {
+          "label": "Abbonamento",
+          "elements": {
+            "lbl_languageSelect": "Seleziona lingua"
+          },
+          "tooltips": {
+            "lbl_languageSelect": "Imposta la lingua predefinita per PianoRhythm."
+          }
+        }
+      },
+      "messages": {
+        "autoRenewInfo": "Il tuo abbonamento si rinnoverà automaticamente il <b style=\"color:white;\">{{billingDate}}</b> e ti verrà addebitato <b style=\"color:white;\">{{currencyText}} .</b>",
+        "subText": "Ecco il tuo attuale abbonamento. Puoi cancellarlo o aggiornarlo in qualsiasi momento.",
+        "checkout_Created": "È stata aperta una nuova scheda. Continua il checkout lì!",
+        "checkout_Success": "Successo alla cassa!",
+        "checkout_Cancelled": "Hai annullato la sessione.",
+        "checkout_ResumePlan": "Stai per riprendere l'abbonamento annullato. </br></br>Sei sicuro?",
+        "checkout_Confirm": "Stai per controllare e iscriverti a un piano premium. </br></br>Sei sicuro?",
+        "subscription_cancellationFail": "Scusa, qualcosa è andato storto. Impossibile annullare l'abbonamento.",
+        "subscription_Updated": "Hai aggiornato con successo il tuo piano di abbonamento!",
+        "cancellation_InProcess": "Il tuo attuale abbonamento è stato <b>cancellato</b> e, pertanto, non verrà rinnovato automaticamente. Tuttavia, avrai ancora i tuoi vantaggi fino a <b style=\"color:white;\">{{billingDate}}</b> .",
+        "cancellation_Confirm": "Ci dispiace vederti andare via, {{username}} !.</br>Il tuo abbonamento al piano pro viene pagato fino al <b>{{planBillingDate}}</b> .</br></br> Se desideri procedere con l&#39;annullamento dell&#39;abbonamento, seleziona <b>&quot;Annulla abbonamento&quot; di</b> seguito.",
+        "cancellation_Success": "Hai cancellato con successo l'abbonamento."
+      },
+      "buttons": {
+        "checkout": "Cassa con Stripe",
+        "cancelSubscription": "Annullare l'iscrizione",
+        "cancellation_InProcess": "Riprendi l'abbonamento con Stripe"
+      },
+      "labels": {
+        "billingInfo": "Informazioni di fatturazione",
+        "cancelSubscription": "Annullare l'iscrizione"
+      }
+    },
+    "other": {
+      "header": "Altro",
+      "subMenus": {
+        "changelog": {
+          "label": "Registro delle modifiche"
+        },
+        "credits": {
+          "label": "Crediti",
+          "messages": {
+            "error_FailedToGetData": "Impossibile ottenere i dati..."
+          }
+        }
+      }
+    }
+  }
+}

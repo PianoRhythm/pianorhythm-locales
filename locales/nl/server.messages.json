@@ -1,0 +1,26 @@
+{
+  "websocket": {
+    "clientConnect_Init": "Verbinden... Even geduld!",
+    "clientConnect_ResponseDelayed": "Het duurt wat langer dan normaal. Een momentje alstublieft!",
+    "clientConnect_Success": "Verbinding gemaakt!",
+    "clientConnect_SessionExists": "Er bestaat al een andere sessie. Loskoppelen. Probeer het opnieuw.",
+    "clientConnect_DisconnectCauseAnotherSessionExists": "Een andere sessie probeert verbinding te maken. Loskoppelen!"
+  },
+  "room": {
+    "messages": {
+      "clientDeletesChatMessage_Success": "Je hebt het chatbericht verwijderd.",
+      "clientDeletesChatMessage_Fail": "Sorry, het lijkt erop dat dat chatbericht niet bestaat. :schouderop:",
+      "newRoomOwner": "Je bent nu de [b]nieuwe eigenaar [r]van deze kamer! :glimlach:",
+      "roomUpdates": {
+        "isPasswordProtected": "[i]Kamer is nu beveiligd met een wachtwoord...",
+        "passwordRemoved": "[i]Wachtwoord verwijderd..."
+      }
+    }
+  },
+  "generalMessages": {
+    "login_success": "U bent succesvol ingelogd, <b>{{username}}</b> . Welkom!"
+  },
+  "errorMessages": {
+    "unknown_error": "Onbekende serverfout..."
+  }
+}

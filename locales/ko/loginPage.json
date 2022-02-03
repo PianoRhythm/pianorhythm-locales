@@ -1,0 +1,51 @@
+{
+  "connectionStatus": "상태",
+  "playersOnline": "플레이어 온라인",
+  "hrefs": {
+    "createAccount": "계정을 만드십시오.",
+    "forgotPassword": "비밀번호를 잊으 셨나요?",
+    "enterAsGuest": "게스트로 입장하세요.",
+    "resendVerificationEmail": "확인 이메일을 다시 보내.",
+    "haveAccount": "이미 계정이 있습니까?",
+    "signIn": "로그인",
+    "goHome": "집에가."
+  },
+  "messages": {
+    "attemptAutoLogin_WelcomeBack": "다시 오신 것을 환영합니다",
+    "attemptAutoLogin_AttemptAuto": "자동으로 다시 로그인을 시도하는 중...",
+    "attemptAutoLogin_Cancel": "취소하려면 여기를 클릭하세요"
+  },
+  "oAuthButton": {
+    "discord": "Discord로 로그인",
+    "google": "구글로 로그인"
+  },
+  "guestForm": {
+    "welcomeMessage": "PianoRhythm에 오신 것을 환영합니다!",
+    "usernameInputMessage": "당신의 별명은 무엇입니까?",
+    "buttons": {
+      "enter": "입력하다",
+      "register": "등록하다",
+      "login": "로그인"
+    }
+  },
+  "resendVerificationEmailForm": {
+    "header": "이메일 확인 재전송",
+    "onSubmitInfoToast": "해당 이메일과 연결된 계정이 있는 경우 계정 확인 이메일이 전송됩니다. 감사합니다."
+  },
+  "forgotPasswordForm": {
+    "header": "비밀번호를 잊으 셨나요"
+  },
+  "loginForm": {
+    "header": "로그인"
+  },
+  "twoFactorAuth": {
+    "header": "이중 인증"
+  },
+  "registerForm": {
+    "labels": {
+      "tos1": "나는 13세 이상이며 다음을 읽었습니다.",
+      "tos2": "이용약관"
+    },
+    "submitButton": "등록하다"
+  }
+}

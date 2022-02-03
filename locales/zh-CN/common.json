@@ -1,0 +1,31 @@
+{
+  "labels": {
+    "username": "用户名",
+    "password": "密码",
+    "email": "电子邮件",
+    "confirmpassword": "确认密码",
+    "on": "在",
+    "off": "离开"
+  },
+  "buttons": {
+    "submit": "提交",
+    "reveal": "揭示",
+    "hide": "隐藏",
+    "edit": "编辑",
+    "modal_Confirm": "对，让我进去！",
+    "modal_Confirm2": "是的，请！",
+    "modal_Deny": "没关系..."
+  },
+  "errorMessages": {
+    "webGLNotSupported": "抱歉，此浏览器不支持某些功能，例如 WebGL。<br>如果可以，请更新您的浏览器。",
+    "midiFileSizeIsTooBig": "文件太大了！",
+    "dropValidMidiFile": "请删除一个有效的 MIDI 文件！"
+  },
+  "generalMessages": {
+    "serverConnected": "连接到{{appName}}",
+    "passwordResetSuccess": "你的密码已成功更改。您可以继续登录。 :)",
+    "forgotPasswordSuccess": "如果有与该电子邮件关联的帐户，则会发送一封用于重置密码的电子邮件。谢谢！",
+    "registerSuccess": "验证邮件已用完。还要检查您的垃圾邮件文件夹。",
+    "dropAnyValidMidiFile": "删除任何有效的 .midi 文件即可播放！"
+  }
+}

@@ -1,0 +1,192 @@
+{
+  "common": {
+    "labels": {
+      "transpose": "Transponirati",
+      "octave": "Oktava",
+      "tools": "Alati",
+      "room": "Soba",
+      "create": "Stvoriti",
+      "update": "ažuriranje",
+      "roomName": "Ime",
+      "roomID": "iskaznica",
+      "roomOwner": "Vlasnik",
+      "menuBasic": "Osnovni, temeljni",
+      "menuAdvanced": "Napredna",
+      "created": "Stvoreno"
+    }
+  },
+  "modals": {
+    "roomInfo": {
+      "labels": {
+        "metaAutoRemove": "Automatsko uklanjanje",
+        "metaPersistent": "Uporan",
+        "metaUnique": "Jedinstveno"
+      }
+    },
+    "room": {
+      "labels": {
+        "onlyOwnerCanPlay": "Samo vlasnik može igrati",
+        "onlyOwnerCanChat": "Samo vlasnik može razgovarati",
+        "allowGuests": "Dopustite gostima",
+        "onlyMods": "Dopusti samo moderatore",
+        "allowBlackMidi": "Dopusti crni midi",
+        "maxPlayers": "Maksimalno igrača",
+        "makeRoomPrivate": "Učinite sobu privatnom",
+        "filterProfanity": "Filtrirajte vulgarnost",
+        "welcomeMessage": "Poruka dobrodošlice",
+        "hostRoom": "Soba za samostalan domaćin",
+        "selfHostRegion": "Regija",
+        "hostContinentCode": "Kod kontinenta domaćina",
+        "hostCountryCode": "Kod zemlje domaćina"
+      },
+      "tooltips": {
+        "onlyOwnerCanPlay": "Samo vlasnik može puštati glazbu (radovi u tijeku).<br> (Drugi korisnici i dalje mogu igrati lokalno, ali će svi čuti samo vlasnika)",
+        "onlyOwnerCanChat": "Samo vlasnik može slati chat poruke",
+        "allowGuests": "Ako je onemogućeno, sprječava ulazak gostiju u vašu sobu",
+        "onlyMods": "Dopustite samo moderatorima da se pridruže. (Opcija nije vidljiva nemoderatorima)",
+        "allowBlackMidi": "Omogućavanje će omogućiti igračima da reproduciraju crne midije ili reproduciraju velike količine nota, a da ih poslužitelj privremeno ne isključi zbog pretjeranog sviranja.<br><br> (Vlasnici soba imaju višu kvotu za bilješke)",
+        "maxPlayers": "Postavite maksimalan broj igrača koji mogu biti u sobi",
+        "makeRoomPrivate": "Učinite sobu privatnom",
+        "roomName": "(Neobavezno) Postavite naziv sobe.",
+        "roomPassword": "(Neobavezno) Postavite lozinku za sobu.",
+        "filterProfanity": "Filtrirane psovke kao što su psovke bit će cenzurirane. Oni će se pojaviti u zvjezdicama. npr. ''****''",
+        "welcomeMessage": "Ova poruka će se prikazati korisnicima koji uđu u vašu sobu. Možete napisati neka pravila ili reći nešto toplo i lijepo.",
+        "hostRoom": "Odaberite ovu opciju ako biste radije smjestili sobu na svom stroju. To će stvoriti P2P okruženje na kojem će se korisnici izravno povezati s vašim računalom.",
+        "selfHostRegion": "Općenito područje u kojem se nalazi vaš stroj. PianoRhythm će pokušati pogoditi gdje se nalazite, ali možete ga postaviti ručno ako želite."
+      }
+    }
+  },
+  "sideBar": {
+    "usersTab": "Korisnici",
+    "friendsTab": "Prijatelji",
+    "roomsTab": "sobe",
+    "tooltips": {
+      "usersTab": "Popisi korisnika u prostoriji.",
+      "friendsTab": "Popis svih vaših prijatelja!",
+      "roomsTab": "Popis svih javnih prostorija.",
+      "roomSelfHosted": "<br>Ovu sobu sam hostira korisnik.<br> Lokacija je: <b>( {{continent}} , {{country}} )</b>",
+      "passwordProtected": "Lozinka zaštićena"
+    },
+    "general": {
+      "hasPendingFriendRequests": "Imate {{count}} zahtjeva za prijateljstvo na čekanju!",
+      "noRoomsFound": "Nisu pronađene sobe...",
+      "noFriends_line1": "Ovdje izgleda malo usamljeno.",
+      "noFriends_line2_clientIsGuest": "Prijavite se da dodate neke prijatelje!",
+      "noFriends_line2_clientIsMember": "Dodajte neke prijatelje!",
+      "noFriendsFound": "Nisu pronađeni prijatelji. Loše mi je brate...",
+      "searchRooms": "Traži sobe...",
+      "unknownLocation": "Nažalost, lokacija je nepoznata."
+    }
+  },
+  "bottomBar": {
+    "buttons": {
+      "newRoom": "Nova soba",
+      "roomSettings": "Postavke sobe",
+      "settings": "Postavke",
+      "midi": "MIDI",
+      "modDashboard": "Mod Nadzorna ploča",
+      "volume": "Volumen",
+      "sustain": "Održi",
+      "logout": "Odjavite se",
+      "sheetMusic": "Notna glazba",
+      "sheetMusicUpload": "Nota - Prijenos",
+      "docs": "Dokumentacija"
+    },
+    "tooltips": {
+      "newRoom": "Napravite novu sobu",
+      "roomSettings": "Promijenite postavke za sobu",
+      "settings": "Promijenite korisničke postavke",
+      "midi": "Postavite MIDI I/O",
+      "modDashboard": "Nadzorna ploča moderatora",
+      "volume": "Kliknite me da biste isključili zvuk!",
+      "sustain": "Uključite sustain",
+      "sustainActive": "Aktivan",
+      "logout": "Odjavite se",
+      "menu": "Kliknite ovdje za više stavki na jelovniku!",
+      "sheetMusic": "Prikažite spremište notnih zapisa",
+      "sheetMusicUpload": "Prenesite notne zapise u spremište",
+      "docs": "Dokumentacija/Pomoć"
+    },
+    "messages": {
+      "logoutPressed": "Jeste li sigurni da se želite odjaviti?",
+      "logoutPressed_Confirm": "Da!",
+      "logoutPressed_Cancel": "Ne oprosti..."
+    }
+  },
+  "components": {
+    "metronome": {
+      "tooltips": {
+        "player": "Kliknite za reprodukciju/pauziranje metronoma",
+        "bpm_desc": "“Otkucaji u minuti” (ili BPM) označavaju broj otkucaja u jednoj minuti.",
+        "timesignature_desc": "Vremenski potpis vam govori kako se glazba broji.<br><br> Najviši broj vremenskog potpisa govori vam <i>koliko</i> otkucaja treba brojati.<br><br> Donji broj govori koju vrstu bilješke treba računati.",
+        "beat_remove": "Uklonite ritam iz mjere",
+        "beat_add": "Na mjeru dodajte ritam",
+        "tempo_desc_general": "Opisuje tempo (na talijanskom). Tempo je brzina ili tempo danog komada.",
+        "tempo_desc_larghissimo": "izuzetno sporo, sporije od larga",
+        "tempo_desc_largo": "vrlo sporo i široko",
+        "tempo_desc_grave": "vrlo sporo",
+        "tempo_desc_lento": "usporiti",
+        "tempo_desc_adagio": "usporiti",
+        "tempo_desc_andante": "tempo hodanja",
+        "tempo_desc_moderato": "umjereno",
+        "tempo_desc_allegretto": "umjereno brzo, nešto sporije od allegra",
+        "tempo_desc_allegro": "brzo",
+        "tempo_desc_vivace": "brzo i živahno",
+        "tempo_desc_presto": "vrlo brzo",
+        "tempo_desc_prestissimo": "izuzetno brzo, brže nego presto"
+      }
+    }
+  },
+  "errorMessages": {
+    "joinRoomFail": {
+      "RoomFull": "Ulazak u prostoriju nije uspio jer je puna.",
+      "QueuedToJoinRoom": "Već ste u redu čekanja da se pridružite ovoj prostoriji.",
+      "AlreadyInRoom": "Već ste u ovoj sobi.",
+      "NoGuests": "Ulazak nije uspio jer soba ne dopušta goste.",
+      "IncorrectPassword": "Ulazak nije uspio zbog netočne lozinke.",
+      "NotAllowed": "Ulazak nije uspio jer vam nije dopušteno."
+    },
+    "failedToCreateRoomWithReason": "Nije uspjelo kreiranje sobe: {{reason}}",
+    "failedToJoinRoom": "Nešto je pošlo po zlu. Pridruživanje sobi nije uspjelo..."
+  },
+  "generalMessages": {
+    "enterRoomPassword": "Molimo unesite lozinku sobe!",
+    "roomWithWarnings": {
+      "text1": "Ova soba ima omogućene sljedeće postavke",
+      "text2": "Jeste li sigurni da se želite pridružiti?",
+      "dontShowAgain": "Ne prikazuj više ovu poruku."
+    },
+    "openingExternalLinks": "Budite oprezni pri otvaranju vanjskih poveznica. Jeste li stvarno sigurni da ovo želite otvoriti?"
+  },
+  "instrumentDock": {
+    "toolNames": {
+      "InstrumentSelection": "Odabir instrumenata",
+      "ChannelDisplayMode": "Način prikaza kanala",
+      "ClearInstruments": "Clear Instruments",
+      "ResetToDefault": "Vrati na zadano",
+      "ToggleKeyboardMappingDisplay": "Uključite kartu tipkovnice",
+      "ToggleMetronomeDisplay": "Uključite metronom",
+      "ToggleSheetMusicViewer": "Uključite SheetMusic Viewer",
+      "MidiMusic": "MIDI glazba",
+      "tooltips": {
+        "InstrumentSelection": "Prikažite odabir instrumenta. {{key}}",
+        "ChannelDisplayMode": "Uključite prikaz utora kanala. (4x4x4x4), (8x8) ili (16)",
+        "ToggleKeyboardMappingDisplay": "Prikažite prekrivanje mapiranja tipkovnice na klaviru. {{key}}",
+        "ToggleMetronomeDisplay": "Uključite prikaz metronoma. {{key}}",
+        "ToggleSheetMusicViewer": "Uključite prikaz preglednika notnih zapisa. {{key}}",
+        "ClearInstruments": "Očistite sve učitane midi instrumente.",
+        "ResetToDefault": "Vratite midi kanale i kontrole na zadanu konfiguraciju."
+      }
+    },
+    "inputButtons": {
+      "slotMode": "Način rada utora {{mode}}",
+      "tools": "Alati",
+      "tooltips": {
+        "transpose": "Postavite transponiranje. Kliknite za resetiranje.",
+        "octave": "Postavite oktavu. Kliknite za resetiranje.",
+        "slotMode": "Postavite način rada utora za raspored klavira",
+        "tools": "Popis alata i značajki."
+      }
+    }
+  }
+}

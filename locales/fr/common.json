@@ -1,0 +1,31 @@
+{
+  "labels": {
+    "username": "Nom d'utilisateur",
+    "password": "le mot de passe",
+    "email": "e-mail",
+    "confirmpassword": "Confirmez le mot de passe",
+    "on": "Au",
+    "off": "Désactivé"
+  },
+  "buttons": {
+    "submit": "Soumettre",
+    "reveal": "Révéler",
+    "hide": "Cacher",
+    "edit": "Éditer",
+    "modal_Confirm": "Oui, laissez-moi entrer !",
+    "modal_Confirm2": "Oui s'il vous plaît!",
+    "modal_Deny": "Ça ne fait rien..."
+  },
+  "errorMessages": {
+    "webGLNotSupported": "Désolé, certaines fonctionnalités, telles que WebGL, ne sont pas prises en charge sur ce navigateur.<br> Veuillez mettre à jour votre navigateur si vous le pouvez.",
+    "midiFileSizeIsTooBig": "La taille du fichier est trop grande !",
+    "dropValidMidiFile": "Veuillez déposer un fichier midi valide !"
+  },
+  "generalMessages": {
+    "serverConnected": "Connecté à {{appName}}",
+    "passwordResetSuccess": "Votre mot de passe a été changé avec succès. Vous pouvez procéder à la connexion. :)",
+    "forgotPasswordSuccess": "Si un compte est associé à cet e-mail, un e-mail de réinitialisation du mot de passe sera envoyé. Merci!",
+    "registerSuccess": "Un email de vérification a été passé. Vérifiez également votre dossier SPAM.",
+    "dropAnyValidMidiFile": "Déposez n'importe quel fichier .midi valide pour jouer !"
+  }
+}

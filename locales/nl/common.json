@@ -1,0 +1,31 @@
+{
+  "labels": {
+    "username": "gebruikersnaam",
+    "password": "wachtwoord",
+    "email": "e-mail",
+    "confirmpassword": "bevestig wachtwoord",
+    "on": "Op",
+    "off": "Uit"
+  },
+  "buttons": {
+    "submit": "Indienen",
+    "reveal": "Onthullen",
+    "hide": "Zich verstoppen",
+    "edit": "Bewerk",
+    "modal_Confirm": "Ja, laat me binnen!",
+    "modal_Confirm2": "Ja graag!",
+    "modal_Deny": "Laat maar zitten..."
+  },
+  "errorMessages": {
+    "webGLNotSupported": "Sorry, bepaalde functies, zoals WebGL, worden niet ondersteund in deze browser.<br> Werk indien mogelijk uw browser bij.",
+    "midiFileSizeIsTooBig": "Bestandsgrootte is te groot!",
+    "dropValidMidiFile": "Plaats een geldig midi-bestand!"
+  },
+  "generalMessages": {
+    "serverConnected": "Verbonden met {{appName}}",
+    "passwordResetSuccess": "Uw wachtwoord is succesvol gewijzigd. U kunt doorgaan met inloggen. :)",
+    "forgotPasswordSuccess": "Als er een account aan dat e-mailadres is gekoppeld, wordt er een e-mail verzonden om het wachtwoord opnieuw in te stellen. Dank u!",
+    "registerSuccess": "Er is een verificatie-e-mail uitgegeven. Controleer ook uw SPAM-map.",
+    "dropAnyValidMidiFile": "Laat een geldig .midi-bestand vallen om af te spelen!"
+  }
+}
