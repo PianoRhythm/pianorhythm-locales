@@ -2,13 +2,13 @@
   "connectionStatus": "Статус",
   "playersOnline": "Игроки онлайн",
   "hrefs": {
-    "createAccount": "Завести аккаунт.",
+    "createAccount": "Создать аккаунт.",
     "forgotPassword": "Забыли пароль?",
-    "enterAsGuest": "Войдите как гость.",
+    "enterAsGuest": "Войти как гость.",
     "resendVerificationEmail": "Отправить письмо с подтверждением.",
     "haveAccount": "У вас уже есть аккаунт?",
     "signIn": "Войти",
-    "goHome": "Иди домой."
+    "goHome": "Вернуться."
   },
   "messages": {
     "attemptAutoLogin_WelcomeBack": "Добро пожаловать обратно",
@@ -16,24 +16,24 @@
     "attemptAutoLogin_Cancel": "Нажмите здесь, чтобы отменить"
   },
   "oAuthButton": {
-    "discord": "Войти через Дискорд",
+    "discord": "Войти через Discord",
     "google": "Войти через Google"
   },
   "guestForm": {
     "welcomeMessage": "Добро пожаловать в PianoRhythm!",
     "usernameInputMessage": "Какое у тебя прозвище?",
     "buttons": {
-      "enter": "Входить",
-      "register": "регистр",
+      "enter": "Войти",
+      "register": "Регистрация",
       "login": "Авторизоваться"
     }
   },
   "resendVerificationEmailForm": {
     "header": "Повторно отправить подтверждение по электронной почте",
-    "onSubmitInfoToast": "Если с этим адресом электронной почты связана учетная запись, будет отправлено электронное письмо с подтверждением учетной записи. Спасибо."
+    "onSubmitInfoToast": "Если учетная запись с данным адресом существует, будет отправлено электронное письмо для сброса пароля. Спасибо!"
   },
   "forgotPasswordForm": {
-    "header": "Забыли пароль"
+    "header": "Восстановление пароля"
   },
   "loginForm": {
     "header": "Авторизоваться"
@@ -44,8 +44,8 @@
   "registerForm": {
     "labels": {
       "tos1": "Я согласен с тем, что мне не менее 13 лет, и я прочитал",
-      "tos2": "Условия использования"
+      "tos2": "условия использования"
     },
-    "submitButton": "регистр"
+    "submitButton": "Регистрация"
   }
 }
