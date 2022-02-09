@@ -17,15 +17,15 @@
     "modal_Deny": "Nevermind..."
   },
   "generalMessages": {
-    "dropAnyValidMidiFile": "Drop any valid .midi file to play!",
+    "dropAnyValidMidiFile": "Drop a valid .midi file to play!",
     "serverConnected": "Connected to {{appName}}",
     "passwordResetSuccess": "Your password has been successfully changed. You may proceed to login. :)",
     "forgotPasswordSuccess": "If there's an account associated with that email, then an email to reset the password will be sent. Thank you!",
-    "registerSuccess": "A verification email has been spent. Check your SPAM folder as well."
+    "registerSuccess": "A verification email has been sent. Check your SPAM folder as well."
   },
   "errorMessages": {
     "midiFileSizeIsTooBig": "File size is too big!",
-    "dropValidMidiFile": "Please drop a valid midi file!",
-    "webGLNotSupported": "Sorry, certain features, such as WebGL, are not supported on this browser. <br>Please update your browser if you can."
+    "dropValidMidiFile": "Please upload a valid midi file!",
+    "webGLNotSupported": "Sorry, certain features, such as WebGL, are not supported on your browser. <br>Please update your browser if you can."
   }
 }
