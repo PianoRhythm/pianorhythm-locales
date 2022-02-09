@@ -3,8 +3,8 @@
     "username": "nombre de usuario",
     "password": "contraseña",
     "email": "Email",
-    "confirmpassword": "Confirmar contraseña",
-    "on": "Sobre",
+    "confirmpassword": "Confirma tú contraseña",
+    "on": "Activado",
     "off": "Apagado"
   },
   "buttons": {
@@ -12,20 +12,20 @@
     "reveal": "Revelar",
     "hide": "Esconder",
     "edit": "Editar",
-    "modal_Confirm": "¡Sí, déjame entrar!",
+    "modal_Confirm": "¡Sí, quiero entrar!",
     "modal_Confirm2": "¡Sí, por favor!",
-    "modal_Deny": "No importa..."
+    "modal_Deny": "No me importa..."
   },
   "errorMessages": {
-    "webGLNotSupported": "Lo sentimos, ciertas funciones, como WebGL, no son compatibles con este navegador.<br> Actualiza tu navegador si puedes.",
+    "webGLNotSupported": "Lo sentimos, algunas características, como WebGL, no son compatibles con su navegador. <br>Por favor, actualiza tu navegador si puedes.",
     "midiFileSizeIsTooBig": "¡El tamaño del archivo es demasiado grande!",
-    "dropValidMidiFile": "Por favor, suelte un archivo midi válido."
+    "dropValidMidiFile": "Por favor, sube un archivo de midi válido."
   },
   "generalMessages": {
     "serverConnected": "Conectado a {{appName}}",
-    "passwordResetSuccess": "Su contraseña ha sido cambiada exitosamente. Puede proceder a iniciar sesión. :)",
-    "forgotPasswordSuccess": "Si hay una cuenta asociada con ese correo electrónico, se enviará un correo electrónico para restablecer la contraseña. ¡Gracias!",
-    "registerSuccess": "Se ha gastado un correo electrónico de verificación. Revisa tu carpeta de SPAM también.",
-    "dropAnyValidMidiFile": "¡Suelta cualquier archivo .midi válido para jugar!"
+    "passwordResetSuccess": "Su contraseña ha sido cambiada con éxito. Ya puedes iniciar la sesión :)",
+    "forgotPasswordSuccess": "Si hay una cuenta asociada a ese correo electrónico, se enviará un correo electrónico para restablecer la contraseña. Gracias.",
+    "registerSuccess": "Se ha enviado un correo electrónico de verificación. No te olvides de comprobar tu carpeta de correo SPAM.",
+    "dropAnyValidMidiFile": "¡sube un archivo .midi válido para reproducir!"
   }
 }
