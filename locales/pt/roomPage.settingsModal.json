@@ -57,7 +57,7 @@
             "btn_userColorReset": "Redefinir cor",
             "btn_userColorSubmit": "Enviar cor",
             "tgl_showMyCursor": "Mostrar meu cursor",
-            "tgl_sendWhoistyping": "Enviar WhoIsDigitando",
+            "tgl_sendWhoistyping": "Enviar QuemEstaDigitando",
             "tgl_disableWhispers": "Desativar sussurros",
             "hdr_notifications": "Notificações",
             "tgl_friendsOnlineStatus": "Status online de amigos",
@@ -81,9 +81,9 @@
           }
         },
         "discord": {
-          "label": "Discórdia",
+          "label": "Discord",
           "elements": {
-            "hdr_discordSettings": "Configurações de discórdia",
+            "hdr_discordSettings": "Configurações do discord",
             "swtch_syncDiscordMessages": "Sincronizar mensagens do lobby do Discord"
           },
           "tooltips": {
@@ -99,7 +99,7 @@
             "lbl_keyboardMaplayout": "Layout do mapa do teclado",
             "drp_keyboards": "Teclados",
             "lbl_shortcutBinds": "Ligações de atalho",
-            "btn_openKeybinder": "Abrir Keybinder",
+            "btn_openKeybinder": "Abrir Mapeamento de Teclas",
             "tgl_keyboard_toggleyz": "Alterne as teclas Y e Z"
           },
           "tooltips": {
@@ -118,8 +118,8 @@
         "general": {
           "label": "Em geral",
           "elements": {
-            "hdr_engine": "Motor gráfico",
-            "lbl_engine": "Motor",
+            "hdr_engine": "Mecanismo Gráfico",
+            "lbl_engine": "Mecanismo",
             "lbl_maxFPS": "FPS máximo"
           },
           "tooltips": {
@@ -135,7 +135,7 @@
             "tgl_ping": "Alternar ping",
             "tgl_instDock": "Alternar doca de instrumentos",
             "tgl_userCursors": "Alternar cursores de usuário",
-            "tgl_whoistyping": "Toggle WhoIsDigitando",
+            "tgl_whoistyping": "Alternar QuemEstaDigitando",
             "hdr_chat": "Bate-papo",
             "tgle_displayChat": "Exibir mensagens de bate-papo",
             "tgle_keepChatInFocus": "Mantenha o bate-papo em foco",
@@ -164,7 +164,7 @@
           "label": "Bolha",
           "elements": {
             "hdr_displays": "Exibe",
-            "tgl_blobs": "Alternar blobs",
+            "tgl_blobs": "Alternar Bolhas",
             "tgl_garden": "Alternar jardim"
           },
           "tooltips": {
@@ -181,7 +181,7 @@
         "soundfont": {
           "label": "Fonte de som",
           "messages": {
-            "soundfontLoading": "Aguarde enquanto o soundfont carrega!"
+            "soundfontLoading": "Aguarde enquanto a fonte de som carrega!"
           },
           "elements": {
             "hdr_generalSettings": "Configurações Gerais",
@@ -250,7 +250,7 @@
         "checkout_Created": "Uma nova aba foi aberta. Continue comprando lá!",
         "checkout_Success": "Sucesso na compra!",
         "checkout_Cancelled": "Você cancelou a sessão.",
-        "checkout_ResumePlan": "Você está prestes a retomar sua assinatura cancelada. </br></br>Tem certeza?",
+        "checkout_ResumePlan": "Você está prestes a reativar sua assinatura cancelada. </br></br>Tem certeza?",
         "checkout_Confirm": "Você está prestes a fazer o check-out e assinar um plano premium. </br></br>Tem certeza?",
         "subscription_cancellationFail": "Desculpe, algo deu errado. Falha ao cancelar a assinatura.",
         "subscription_Updated": "Você atualizou com sucesso seu plano de assinatura!",
@@ -259,7 +259,7 @@
         "cancellation_Success": "Você cancelou sua assinatura com sucesso."
       },
       "buttons": {
-        "checkout": "Check-out com Stripe",
+        "checkout": "Pagamento com Stripe",
         "cancelSubscription": "Cancelar assinatura",
         "cancellation_InProcess": "Retomar assinatura com Stripe"
       },
