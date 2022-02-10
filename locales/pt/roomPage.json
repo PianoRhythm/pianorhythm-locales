@@ -5,14 +5,14 @@
       "octave": "Oitava",
       "tools": "Ferramentas",
       "room": "Sala",
-      "create": "Crio",
+      "create": "Criar",
       "update": "Atualizar",
       "roomName": "Nome",
       "roomID": "identificação",
       "roomOwner": "Proprietário",
       "menuBasic": "Básico",
       "menuAdvanced": "Avançado",
-      "created": "Criado"
+      "created": "Criada"
     }
   },
   "modals": {
@@ -25,16 +25,16 @@
     },
     "room": {
       "labels": {
-        "onlyOwnerCanPlay": "Somente o dono pode jogar",
+        "onlyOwnerCanPlay": "Somente o dono pode tocar",
         "onlyOwnerCanChat": "Apenas o proprietário pode conversar",
         "allowGuests": "Permitir convidados",
         "onlyMods": "Permitir apenas moderadores",
-        "allowBlackMidi": "Permitir Midi Preto",
+        "allowBlackMidi": "Permitir Black Midi",
         "maxPlayers": "Máximo de jogadores",
-        "makeRoomPrivate": "Tornar o quarto privado",
+        "makeRoomPrivate": "Tornar a sala privada",
         "filterProfanity": "Filtrar palavrões",
         "welcomeMessage": "Mensagem de boas-vindas",
-        "hostRoom": "Quarto Self Host",
+        "hostRoom": "Sala Self Host",
         "selfHostRegion": "Região",
         "hostContinentCode": "Código do continente anfitrião",
         "hostCountryCode": "Código do país anfitrião"
@@ -42,11 +42,11 @@
       "tooltips": {
         "onlyOwnerCanPlay": "Apenas o proprietário pode tocar música (trabalho em andamento).<br> (Outros usuários ainda podem jogar localmente, mas apenas o proprietário será ouvido por todos)",
         "onlyOwnerCanChat": "Somente o proprietário pode enviar mensagens de bate-papo",
-        "allowGuests": "Se desativado, impede que os hóspedes entrem no seu quarto",
+        "allowGuests": "Se desativado, impede que visitantes entrem na sua sala",
         "onlyMods": "Permitir que apenas moderadores participem. (A opção não é visível para não moderadores)",
-        "allowBlackMidi": "Ativar isso permitirá que os jogadores toquem midis pretos ou toquem grandes quantidades de notas sem que o servidor os silencie temporariamente por tocar excessivamente.<br><br> (Os proprietários de salas têm um limite de cota de notas mais alto)",
+        "allowBlackMidi": "Ativar isso permitirá que os jogadores toquem black midis ou toquem grandes quantidades de notas sem que o servidor os silencie temporariamente por tocar excessivamente.<br><br> (Os proprietários de salas têm um limite de cota de notas mais alto)",
         "maxPlayers": "Defina o máximo de jogadores que podem estar na sala",
-        "makeRoomPrivate": "Tornar o quarto privado",
+        "makeRoomPrivate": "Tornar a sala privada",
         "roomName": "(Opcional) Defina o nome da sala.",
         "roomPassword": "(Opcional) Defina uma senha para a sala.",
         "filterProfanity": "Profanidades filtradas, como palavrões, serão censuradas. Eles aparecerão em asteriscos. por exemplo,'****'",
@@ -57,24 +57,24 @@
     }
   },
   "sideBar": {
-    "usersTab": "Comercial",
-    "friendsTab": "Parceiros",
-    "roomsTab": "quartos",
+    "usersTab": "Usuários",
+    "friendsTab": "Amigos",
+    "roomsTab": "Salas",
     "tooltips": {
       "usersTab": "As listas de usuários na sala.",
       "friendsTab": "A lista de todos os seus amigos!",
       "roomsTab": "A lista de todas as salas públicas.",
       "roomSelfHosted": "<br>Esta sala está sendo auto-hospedada por um usuário.<br> A localização é: <b>( {{continent}} , {{country}} )</b>",
-      "passwordProtected": "Protegido por senha"
+      "passwordProtected": "Protegida por senha"
     },
     "general": {
       "hasPendingFriendRequests": "Você tem {{count}} solicitações de amizade pendentes!",
-      "noRoomsFound": "Nenhum quarto encontrado...",
+      "noRoomsFound": "Nenhuma sala encontrada...",
       "noFriends_line1": "Parece um pouco solitário, aqui.",
       "noFriends_line2_clientIsGuest": "Faça login para adicionar alguns amigos!",
       "noFriends_line2_clientIsMember": "Adicione alguns amigos!",
       "noFriendsFound": "Nenhum amigo encontrado. Dá uma sensação ruim, irmão...",
-      "searchRooms": "Pesquisar quartos...",
+      "searchRooms": "Pesquisar salas...",
       "unknownLocation": "Desculpe, a localização é desconhecida."
     }
   },
@@ -86,10 +86,10 @@
       "midi": "MIDI",
       "modDashboard": "Painel de Mods",
       "volume": "Volume",
-      "sustain": "Sustentar",
+      "sustain": "Sustenido",
       "logout": "Sair",
       "sheetMusic": "Partitura",
-      "sheetMusicUpload": "Partituras - Carregar",
+      "sheetMusicUpload": "Partituras - Enviar",
       "docs": "Documentação"
     },
     "tooltips": {
@@ -98,11 +98,11 @@
       "settings": "Alterar as configurações do usuário",
       "midi": "Defina a E/S MIDI",
       "modDashboard": "Painel do moderador",
-      "volume": "Clique em mim para alternar o silenciamento!",
+      "volume": "Clique em mim para alternar o volume!",
       "sustain": "Alternar a sustentação",
       "sustainActive": "Ativo",
       "logout": "Sair de",
-      "menu": "Clique aqui para mais itens do cardápio!",
+      "menu": "Clique aqui para mais itens do menu!",
       "sheetMusic": "Exibir o repositório de partituras",
       "sheetMusicUpload": "Carregar partituras para o repositório",
       "docs": "Documentação/Ajuda"
@@ -142,7 +142,7 @@
       "RoomFull": "Falha ao entrar na sala porque está cheia.",
       "QueuedToJoinRoom": "Você já está na fila para entrar nesta sala.",
       "AlreadyInRoom": "Você já está nesta sala.",
-      "NoGuests": "Falha ao entrar porque o quarto não permite hóspedes.",
+      "NoGuests": "Falha ao entrar porque a sala não permite visitantes.",
       "IncorrectPassword": "Falha ao entrar devido a uma senha incorreta.",
       "NotAllowed": "Falha ao entrar porque você não tem permissão."
     },
@@ -166,7 +166,7 @@
       "ResetToDefault": "Restaurar ao padrão",
       "ToggleKeyboardMappingDisplay": "Alternar mapa do teclado",
       "ToggleMetronomeDisplay": "Alternar metrônomo",
-      "ToggleSheetMusicViewer": "Toggle SheetMusic Viewer",
+      "ToggleSheetMusicViewer": "Alterar visualização de partituras",
       "MidiMusic": "Música MIDI",
       "tooltips": {
         "InstrumentSelection": "Exibe a seleção do instrumento. {{key}}",
