@@ -10,7 +10,7 @@
     "messages": {
       "clientDeletesChatMessage_Success": "Você excluiu a mensagem de bate-papo.",
       "clientDeletesChatMessage_Fail": "Desculpe, parece que essa mensagem de bate-papo não existe. :dar de ombros:",
-      "newRoomOwner": "Você agora é o [b]novo proprietário [r]deste quarto! :sorriso:",
+      "newRoomOwner": "Você agora é o [b]novo proprietário [r]desta sala! :sorriso:",
       "roomUpdates": {
         "isPasswordProtected": "[i]A sala agora está protegida por senha...",
         "passwordRemoved": "[i]Senha removida..."
@@ -18,7 +18,7 @@
     }
   },
   "generalMessages": {
-    "login_success": "Você fez login com sucesso, <b>{{username}}</b> . Bem vinda!"
+    "login_success": "Você fez login com sucesso, <b>{{username}}</b> . Bem vindo!"
   },
   "errorMessages": {
     "unknown_error": "Erro de servidor desconhecido..."
