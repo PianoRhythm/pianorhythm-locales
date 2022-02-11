@@ -17,15 +17,15 @@
     "modal_Deny": "Nema veze..."
   },
   "errorMessages": {
-    "webGLNotSupported": "Nažalost, određene značajke, kao što je WebGL, nisu podržane u ovom pregledniku.<br> Ažurirajte svoj preglednik ako možete.",
+    "webGLNotSupported": "Nažalost, određene značajke, kao što je WebGL, nisu podržane u vašem pregledniku.<br> Ažurirajte svoj preglednik ako možete.",
     "midiFileSizeIsTooBig": "Veličina datoteke je prevelika!",
-    "dropValidMidiFile": "Ispustite valjanu midi datoteku!"
+    "dropValidMidiFile": "Prenesite valjanu midi datoteku!"
   },
   "generalMessages": {
     "serverConnected": "Povezano na {{appName}}",
     "passwordResetSuccess": "Vaša lozinka je uspješno promijenjena. Možete nastaviti s prijavom. :)",
     "forgotPasswordSuccess": "Ako je s tom e-poštom povezan račun, bit će poslana poruka e-pošte za poništavanje lozinke. Hvala vam!",
-    "registerSuccess": "E-poruka za potvrdu je potrošena. Provjerite i svoju spam mapu.",
-    "dropAnyValidMidiFile": "Ispustite bilo koju valjanu .midi datoteku za reprodukciju!"
+    "registerSuccess": "E-poruka za potvrdu je poslana. Provjerite i svoju spam mapu.",
+    "dropAnyValidMidiFile": "Ispustite valjanu .midi datoteku za reprodukciju!"
   }
 }

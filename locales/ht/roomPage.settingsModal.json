@@ -17,6 +17,15 @@
           "tooltips": {
             "lbl_languageSelect": "Mete lang default pou PianoRhythm."
           }
+        },
+        "application": {
+          "label": "Aplikasyon",
+          "elements": {
+            "hdr_applicationSettings": "Anviwònman aplikasyon an",
+            "lbl_resetSettingsModalTitleText": "Reyajiste Anviwònman Default",
+            "lbl_resetSettingsModalBodyText": "<b>Èske ou sèten ou vle fè sa?</b><br><br><p> Sa a pral Reyajiste tout paramèt ou yo nan default la epi yo pa ka defèt.</p>",
+            "btn_resetSettings": "Reyajiste Anviwònman"
+          }
         }
       }
     },

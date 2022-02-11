@@ -17,6 +17,15 @@
           "tooltips": {
             "lbl_languageSelect": "Stel de standaardtaal in voor PianoRhythm."
           }
+        },
+        "application": {
+          "label": "Sollicitatie",
+          "elements": {
+            "hdr_applicationSettings": "Applicatie instellingen",
+            "lbl_resetSettingsModalTitleText": "Instellingen terugzetten naar standaard",
+            "lbl_resetSettingsModalBodyText": "<b>Weet je zeker dat je dit wilt doen?</b><br><br><p> Hiermee worden al uw instellingen teruggezet naar de standaardwaarden en kan dit niet ongedaan worden gemaakt.</p>",
+            "btn_resetSettings": "Reset instellingen"
+          }
         }
       }
     },

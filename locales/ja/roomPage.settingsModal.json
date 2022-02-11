@@ -17,6 +17,15 @@
           "tooltips": {
             "lbl_languageSelect": "PianoRhythmの言語を設定する"
           }
+        },
+        "application": {
+          "label": "応用",
+          "elements": {
+            "hdr_applicationSettings": "アプリケーションの設定",
+            "lbl_resetSettingsModalTitleText": "設定をデフォルトにリセット",
+            "lbl_resetSettingsModalBodyText": "<b>これを実行してもよろしいですか？</b><br><br><p>これにより、すべての設定がデフォルトにリセットされ、元に戻すことはできません。</p>",
+            "btn_resetSettings": "設定をリセット"
+          }
         }
       }
     },

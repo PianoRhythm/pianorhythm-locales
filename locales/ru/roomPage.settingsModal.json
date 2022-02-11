@@ -17,6 +17,15 @@
           "tooltips": {
             "lbl_languageSelect": "Установите язык по умолчанию для PianoRhythm."
           }
+        },
+        "application": {
+          "label": "Применение",
+          "elements": {
+            "hdr_applicationSettings": "Настройки приложения",
+            "lbl_resetSettingsModalTitleText": "Сбросить настройки по умолчанию",
+            "lbl_resetSettingsModalBodyText": "<b>Вы уверены, что хотите это сделать?</b><br><br><p> Это вернет все ваши настройки к значениям по умолчанию и не может быть отменено.</p>",
+            "btn_resetSettings": "Сбросить настройки"
+          }
         }
       }
     },

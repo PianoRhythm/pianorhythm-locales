@@ -17,6 +17,15 @@
           "tooltips": {
             "lbl_languageSelect": "Set the default language for PianoRhythm."
           }
+        },
+        "application": {
+          "label": "Application",
+          "elements": {
+            "hdr_applicationSettings": "Application Settings",
+            "lbl_resetSettingsModalTitleText": "Reset Settings to Default",
+            "lbl_resetSettingsModalBodyText": "<b>Are you sure you want to do this?</b> <br><br><p>This will reset all your settings to the default and cannot be undone.</p>",
+            "btn_resetSettings": "Reset Settings"
+          }
         }
       }
     },

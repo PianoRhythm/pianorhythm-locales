@@ -17,6 +17,15 @@
           "tooltips": {
             "lbl_languageSelect": "PianoRhythm의 기본 언어를 설정합니다."
           }
+        },
+        "application": {
+          "label": "애플리케이션",
+          "elements": {
+            "hdr_applicationSettings": "애플리케이션 설정",
+            "lbl_resetSettingsModalTitleText": "설정을 기본값으로 재설정",
+            "lbl_resetSettingsModalBodyText": "<b>정말 하시겠습니까?</b><br><br><p> 이렇게 하면 모든 설정이 기본값으로 재설정되며 취소할 수 없습니다.</p>",
+            "btn_resetSettings": "설정 재설정"
+          }
         }
       }
     },

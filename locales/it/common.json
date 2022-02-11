@@ -17,15 +17,15 @@
     "modal_Deny": "Non importa..."
   },
   "errorMessages": {
-    "webGLNotSupported": "Spiacenti, alcune funzionalità, come WebGL, non sono supportate su questo browser.<br> Si prega di aggiornare il browser se possibile.",
+    "webGLNotSupported": "Spiacenti, alcune funzionalità, come WebGL, non sono supportate dal tuo browser.<br> Si prega di aggiornare il browser se possibile.",
     "midiFileSizeIsTooBig": "La dimensione del file è troppo grande!",
-    "dropValidMidiFile": "Si prega di rilasciare un file midi valido!"
+    "dropValidMidiFile": "Carica un file midi valido!"
   },
   "generalMessages": {
     "serverConnected": "Collegato a {{appName}}",
     "passwordResetSuccess": "La tua password è stata cambiata con successo. Puoi procedere con il login. :)",
     "forgotPasswordSuccess": "Se è presente un account associato a quell'e-mail, verrà inviata un'e-mail per reimpostare la password. Grazie!",
-    "registerSuccess": "È stata utilizzata un'e-mail di verifica. Controlla anche la tua cartella SPAM.",
-    "dropAnyValidMidiFile": "Rilascia qualsiasi file .midi valido per giocare!"
+    "registerSuccess": "È stata inviata un'e-mail di verifica. Controlla anche la tua cartella SPAM.",
+    "dropAnyValidMidiFile": "Rilascia un file .midi valido per giocare!"
   }
 }

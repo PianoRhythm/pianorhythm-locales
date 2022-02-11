@@ -17,6 +17,15 @@
           "tooltips": {
             "lbl_languageSelect": "Подесите подразумевани језик за ПианоРхитхм."
           }
+        },
+        "application": {
+          "label": "Апликација",
+          "elements": {
+            "hdr_applicationSettings": "Подешавања апликације",
+            "lbl_resetSettingsModalTitleText": "Ресетујте подешавања на подразумевана",
+            "lbl_resetSettingsModalBodyText": "<b>Јесте ли сигурни да желите ово да урадите?</b><br><br><p> Ово ће ресетовати сва ваша подешавања на подразумевана и не може се опозвати.</p>",
+            "btn_resetSettings": "Ресетујте подешавања"
+          }
         }
       }
     },

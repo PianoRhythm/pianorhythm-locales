@@ -17,6 +17,15 @@
           "tooltips": {
             "lbl_languageSelect": "Configure el idioma predeterminado para PianoRhythm."
           }
+        },
+        "application": {
+          "label": "Solicitud",
+          "elements": {
+            "hdr_applicationSettings": "Configuraciones de la aplicación",
+            "lbl_resetSettingsModalTitleText": "Restablecer la configuración a los valores predeterminados",
+            "lbl_resetSettingsModalBodyText": "<b>¿Seguro que quieres hacer esto?</b><br><br><p> Esto restablecerá todas sus configuraciones a los valores predeterminados y no se puede deshacer.</p>",
+            "btn_resetSettings": "Reiniciar ajustes"
+          }
         }
       }
     },

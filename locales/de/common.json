@@ -17,15 +17,15 @@
     "modal_Deny": "Egal..."
   },
   "errorMessages": {
-    "webGLNotSupported": "Bestimmte Funktionen wie WebGL werden von diesem Browser leider nicht unterstützt.<br> Bitte aktualisieren Sie Ihren Browser, wenn Sie können.",
+    "webGLNotSupported": "Bestimmte Funktionen wie WebGL werden von Ihrem Browser leider nicht unterstützt.<br> Bitte aktualisieren Sie Ihren Browser, wenn Sie können.",
     "midiFileSizeIsTooBig": "Dateigröße ist zu groß!",
-    "dropValidMidiFile": "Bitte legen Sie eine gültige Midi-Datei ab!"
+    "dropValidMidiFile": "Bitte laden Sie eine gültige Midi-Datei hoch!"
   },
   "generalMessages": {
     "serverConnected": "Verbunden mit {{appName}}",
     "passwordResetSuccess": "Ihr Passwort wurde erfolgreich geändert. Sie können mit der Anmeldung fortfahren. :)",
     "forgotPasswordSuccess": "Wenn mit dieser E-Mail ein Konto verknüpft ist, wird eine E-Mail zum Zurücksetzen des Passworts gesendet. Danke schön!",
-    "registerSuccess": "Eine Bestätigungs-E-Mail wurde ausgegeben. Überprüfen Sie auch Ihren SPAM-Ordner.",
-    "dropAnyValidMidiFile": "Legen Sie eine beliebige gültige .midi-Datei zum Abspielen ab!"
+    "registerSuccess": "Eine Bestätigungs-E-Mail wurde gesendet. Überprüfen Sie auch Ihren SPAM-Ordner.",
+    "dropAnyValidMidiFile": "Legen Sie zum Abspielen eine gültige .midi-Datei ab!"
   }
 }

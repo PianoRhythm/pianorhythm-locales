@@ -17,15 +17,15 @@
     "modal_Deny": "どうでも..."
   },
   "errorMessages": {
-    "webGLNotSupported": "Sorry, certain features, such as WebGL, are not supported on this browser. <br>Please update your browser if you can.",
+    "webGLNotSupported": "申し訳ありませんが、WebGLなどの特定の機能はブラウザでサポートされていません。<br>可能であればブラウザを更新してください。",
     "midiFileSizeIsTooBig": "ファイルサイズが大きすぎます！",
-    "dropValidMidiFile": "有効なMIDIファイルをドロップしてください！"
+    "dropValidMidiFile": "有効なMIDIファイルをアップロードしてください！"
   },
   "generalMessages": {
     "serverConnected": "{{appName}}接続",
     "passwordResetSuccess": "パスワードは正常に変更されました。ログインに進むことができます。 :)",
     "forgotPasswordSuccess": "そのメールに関連付けられているアカウントがある場合は、パスワードをリセットするためのメールが送信されます。ありがとう！",
-    "registerSuccess": "確認メールが使用されました。 SPAMフォルダも確認してください。",
+    "registerSuccess": "確認メールが送信されました。 SPAMフォルダも確認してください。",
     "dropAnyValidMidiFile": "有効な.midiファイルをドロップして再生してください！"
   }
 }

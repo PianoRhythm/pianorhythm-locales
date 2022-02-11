@@ -17,6 +17,15 @@
           "tooltips": {
             "lbl_languageSelect": "设置 PianoRhythm 的默认语言。"
           }
+        },
+        "application": {
+          "label": "应用",
+          "elements": {
+            "hdr_applicationSettings": "应用程序设置",
+            "lbl_resetSettingsModalTitleText": "将设置重置为默认值",
+            "lbl_resetSettingsModalBodyText": "<b>你确定要这么做吗？</b><br><br><p>这会将您的所有设置重置为默认设置，并且无法撤消。</p>",
+            "btn_resetSettings": "重新设置"
+          }
         }
       }
     },

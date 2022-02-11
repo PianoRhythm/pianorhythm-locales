@@ -17,6 +17,15 @@
           "tooltips": {
             "lbl_languageSelect": "Postavite zadani jezik za PianoRhythm."
           }
+        },
+        "application": {
+          "label": "Primjena",
+          "elements": {
+            "hdr_applicationSettings": "Postavke aplikacije",
+            "lbl_resetSettingsModalTitleText": "Vratite postavke na zadano",
+            "lbl_resetSettingsModalBodyText": "<b>Jeste li sigurni da to želite učiniti?</b><br><br><p> Ovo će vratiti sve vaše postavke na zadane i ne može se poništiti.</p>",
+            "btn_resetSettings": "Poništi postavke"
+          }
         }
       }
     },
