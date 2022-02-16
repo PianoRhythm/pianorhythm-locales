@@ -225,7 +225,8 @@
             "sld_velocityMuting": "Velocity Muting",
             "tgl_enableVelocityBoost": "Enable velocity boost",
             "sld_velocityBoost": "Velocity Boost",
-            "lbl_metronome": "Metronome Audio Sample"
+            "lbl_metronome": "Metronome Audio Sample",
+            "tgl_enableV2Reverb": "V2 Reverb"
           },
           "tooltips": {
             "lbl_enableAudioToOutput": "If checked and any output devices are active, then audio will only be emitted to the output device and not within PianoRhythm's audio engine",
@@ -235,7 +236,8 @@
             "sld_velocityMuting": "Mute notes with a velocity that is less than or equal to the meter value.",
             "tgl_enableVelocityBoost": "Boosts incoming raw velocity values",
             "sld_velocityBoost": "Adds additional value to raw velocity",
-            "lbl_metronome": "Select the audio sample type to use for the metronome"
+            "lbl_metronome": "Select the audio sample type to use for the metronome",
+            "tgl_enableV2Reverb": "Toggle whether reverb is enabled for the V2 audio engine"
           }
         }
       }
