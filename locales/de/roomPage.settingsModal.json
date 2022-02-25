@@ -72,7 +72,7 @@
             "tgl_friendsOnlineStatus": "Freunde Online-Status",
             "tgl_friendsOfflineStatus": "Offline-Status von Freunden",
             "tgl_sheetMusicChanges": "Notenänderungen",
-            "tgl_emitMyStatusToFriends": "Senden Sie meinen Status an Freunde"
+            "tgl_emitMyStatusToFriends": "Meinen status an freunde senden"
           },
           "tooltips": {
             "hdr_multiplayerSettings": "Legen Sie Multiplayer-bezogene Einstellungen fest.",
@@ -90,7 +90,7 @@
           }
         },
         "discord": {
-          "label": "Zwietracht",
+          "label": "Discord",
           "elements": {
             "hdr_discordSettings": "Discord-Einstellungen",
             "swtch_syncDiscordMessages": "Discord-Lobby-Nachrichten synchronisieren"
@@ -147,7 +147,7 @@
             "tgl_whoistyping": "Toggle WhoIsTyping",
             "hdr_chat": "Plaudern",
             "tgle_displayChat": "Chatnachrichten anzeigen",
-            "tgle_keepChatInFocus": "Behalten Sie den Chat im Fokus",
+            "tgle_keepChatInFocus": "Den chat im Fokus behalten",
             "sld_chatMsgsHeightOffset": "Höhenversatz für Chatnachrichten",
             "sld_chatMsg2DOpacity": "Standarddeckkraft von Chatnachrichten (2D-Modus)",
             "sld_chatMsg3DOpacity": "Standard-Deckkraft von Chat-Nachrichten (3D-Modus)",
@@ -200,7 +200,7 @@
             "lbl_soundfonts": "Soundfonts",
             "lbl_initalBuffersize": "Anfängliche Puffergröße",
             "tgl_showDebuglogs": "Debug-Leistungsprotokolle anzeigen",
-            "tgl_useAudioWorklet": "Verwenden Sie AudioWorklet"
+            "tgl_useAudioWorklet": "AudioWorklet verwenden"
           },
           "tooltips": {
             "lbl_audioEngine": "Wählen Sie die Standard-Audio-Engine aus.<br> (Wird beim nächsten Neustart wirksam)",
