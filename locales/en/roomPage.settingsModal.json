@@ -151,7 +151,8 @@
             "sld_chatMsgsHeightOffset": "Chat Messages Height Offset",
             "sld_chatMsg2DOpacity": "Chat Messages Default Opacity (2D Mode)",
             "sld_chatMsg3DOpacity": "Chat Messages Default Opacity (3D Mode)",
-            "tgl_display3DStats": "Display 3D Stats"
+            "tgl_display3DStats": "Display 3D Stats",
+            "tgle_showEmbeddedLinks": "Show Embedded Links"
           },
           "tooltips": {
             "hdr_displays": "Toggle the displays of certain UI elements",
@@ -166,7 +167,8 @@
             "tgl_display3DStats": "Toggle displaying extra stats/info about the 3d scene",
             "tgle_keepChatInFocus": "Toggle whether to keep the chat in focus after submitting a message",
             "sld_chatMsg2DOpacity": "Set the default opacity of the chat messages when it's unfocused. (2D mode)",
-            "sld_chatMsg3DOpacity": "Set the default opacity of the chat messages when it's unfocused. (3D mode)"
+            "sld_chatMsg3DOpacity": "Set the default opacity of the chat messages when it's unfocused. (3D mode)",
+            "tgle_showEmbeddedLinks": "Toggle whether links show embedded objects such as images or videos of the associated link"
           }
         },
         "blob": {
