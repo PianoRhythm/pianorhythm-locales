@@ -230,7 +230,8 @@
             "lbl_metronome": "Metronome Audio Sample",
             "tgl_enableV2Reverb": "V2 Reverb",
             "tgl_listenToProgramChanges": "Listen to Program Changes",
-            "tgl_autoFillEmptyChannels": "Auto Fill Empty Channels"
+            "tgl_autoFillEmptyChannels": "Auto Fill Empty Channels",
+            "tgl_useDefaultBankWhenMissing": "Use Default Bank When Missing"
           },
           "tooltips": {
             "lbl_enableAudioToOutput": "If checked and any output devices are active, then audio will only be emitted to the output device and not within PianoRhythm's audio engine",
@@ -243,7 +244,8 @@
             "lbl_metronome": "Select the audio sample type to use for the metronome",
             "tgl_enableV2Reverb": "Toggle whether reverb is enabled for the V2 audio engine",
             "tgl_listenToProgramChanges": "Toggle whether PianoRhythm should listen to midi program change events and update the instrument dock, accordingly.",
-            "tgl_autoFillEmptyChannels": "Toggle whether empty channels in the instrument dock should be autofilled with the default instrument when a note on event occurs."
+            "tgl_autoFillEmptyChannels": "Toggle whether empty channels in the instrument dock should be autofilled with the default instrument when a note on event occurs.",
+            "tgl_useDefaultBankWhenMissing": "Toggle whether to use the default bank (usually bank 0) when a soundfont does not have a particular bank."
           }
         }
       }
