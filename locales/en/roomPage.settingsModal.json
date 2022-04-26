@@ -231,7 +231,8 @@
             "tgl_enableV2Reverb": "V2 Reverb",
             "tgl_listenToProgramChanges": "Listen to Program Changes",
             "tgl_autoFillEmptyChannels": "Auto Fill Empty Channels",
-            "tgl_useDefaultBankWhenMissing": "Use Default Bank When Missing"
+            "tgl_useDefaultBankWhenMissing": "Use Default Bank When Missing",
+            "tgl_enableStereoPanning": "Enable Stereo Panning"
           },
           "tooltips": {
             "lbl_enableAudioToOutput": "If checked and any output devices are active, then audio will only be emitted to the output device and not within PianoRhythm's audio engine",
@@ -245,7 +246,8 @@
             "tgl_enableV2Reverb": "Toggle whether reverb is enabled for the V2 audio engine",
             "tgl_listenToProgramChanges": "Toggle whether PianoRhythm should listen to midi program change events and update the instrument dock, accordingly.",
             "tgl_autoFillEmptyChannels": "Toggle whether empty channels in the instrument dock should be autofilled with the default instrument when a note on event occurs.",
-            "tgl_useDefaultBankWhenMissing": "Toggle whether to use the default bank (usually bank 0) when a soundfont does not have a particular bank."
+            "tgl_useDefaultBankWhenMissing": "Toggle whether to use the default bank (usually bank 0) when a soundfont does not have a particular bank.",
+            "tgl_enableStereoPanning": "Toggle whether the audio engine supports panning the audio stream left or right. <br><br>So, the sound position of the notes will be relative to their position on the piano. <br><br>For example, notes closer to the right will be heard more so on the right speaker. Same goes for the left and those near the middle will be distributed across both speakers."
           }
         }
       }
@@ -254,7 +256,7 @@
       "header": "Billing",
       "subMenus": {
         "subscription": {
-          "label": "Subcription",
+          "label": "Subscription",
           "elements": {
             "lbl_languageSelect": "Language Select"
           },
