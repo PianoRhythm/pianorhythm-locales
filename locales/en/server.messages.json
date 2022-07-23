@@ -10,10 +10,10 @@
     "messages": {
       "clientDeletesChatMessage_Success": "You have deleted the chat message.",
       "clientDeletesChatMessage_Fail": "Sorry, looks like that chat message doesn't exist. :shrug:",
-      "newRoomOwner": "You are now the [b]new owner [r]of this room! :smile:",
+      "newRoomOwner": "You are now the **new owner** of this room! :smile:",
       "roomUpdates": {
-        "isPasswordProtected": "[i]Room is now password protected...",
-        "passwordRemoved": "[i]Password removed..."
+        "isPasswordProtected": "*Room is now password protected...*",
+        "passwordRemoved": "*Password removed...*"
       }
     }
   },
