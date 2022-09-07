@@ -1,17 +1,17 @@
 {
   "common": {
     "labels": {
-      "transpose": "Transponirati",
+      "transpose": "Transpoziraj",
       "octave": "Oktava",
       "tools": "Alati",
       "room": "Soba",
       "create": "Stvoriti",
-      "update": "ažuriranje",
+      "update": "ažuriraj",
       "roomName": "Ime",
-      "roomID": "iskaznica",
-      "roomOwner": "Vlasnik",
-      "menuBasic": "Osnovni, temeljni",
-      "menuAdvanced": "Napredna",
+      "roomID": "ID",
+      "roomOwner": "Vlasnik sobe",
+      "menuBasic": "Osnovno",
+      "menuAdvanced": "Napredno",
       "created": "Stvoreno"
     }
   },
@@ -25,16 +25,16 @@
     },
     "room": {
       "labels": {
-        "onlyOwnerCanPlay": "Samo vlasnik može igrati",
+        "onlyOwnerCanPlay": "Samo vlasnik može svirati",
         "onlyOwnerCanChat": "Samo vlasnik može razgovarati",
         "allowGuests": "Dopustite gostima",
         "onlyMods": "Dopusti samo moderatore",
-        "allowBlackMidi": "Dopusti crni midi",
+        "allowBlackMidi": "Dopusti black midi",
         "maxPlayers": "Maksimalno igrača",
         "makeRoomPrivate": "Učinite sobu privatnom",
         "filterProfanity": "Filtrirajte vulgarnost",
         "welcomeMessage": "Poruka dobrodošlice",
-        "hostRoom": "Soba za samostalan domaćin",
+        "hostRoom": "Hostaj server",
         "selfHostRegion": "Regija",
         "hostContinentCode": "Kod kontinenta domaćina",
         "hostCountryCode": "Kod zemlje domaćina"
@@ -42,17 +42,17 @@
       "tooltips": {
         "onlyOwnerCanPlay": "Samo vlasnik može puštati glazbu (radovi u tijeku).<br> (Drugi korisnici i dalje mogu igrati lokalno, ali će svi čuti samo vlasnika)",
         "onlyOwnerCanChat": "Samo vlasnik može slati chat poruke",
-        "allowGuests": "Ako je onemogućeno, sprječava ulazak gostiju u vašu sobu",
+        "allowGuests": "Ako je onemogućeno, sprječava ulazak gostova u vašu sobu",
         "onlyMods": "Dopustite samo moderatorima da se pridruže. (Opcija nije vidljiva nemoderatorima)",
-        "allowBlackMidi": "Omogućavanje će omogućiti igračima da reproduciraju crne midije ili reproduciraju velike količine nota, a da ih poslužitelj privremeno ne isključi zbog pretjeranog sviranja.<br><br> (Vlasnici soba imaju višu kvotu za bilješke)",
+        "allowBlackMidi": "Omogućavanje će omogućiti igračima da reproduciraju black midije ili reproduciraju velike količine nota, a da ih poslužitelj privremeno ne isključi zbog pretjeranog sviranja.<br><br> (Vlasnici soba imaju višu kvotu za note)",
         "maxPlayers": "Postavite maksimalan broj igrača koji mogu biti u sobi",
         "makeRoomPrivate": "Učinite sobu privatnom",
         "roomName": "(Neobavezno) Postavite naziv sobe.",
         "roomPassword": "(Neobavezno) Postavite lozinku za sobu.",
-        "filterProfanity": "Filtrirane psovke kao što su psovke bit će cenzurirane. Oni će se pojaviti u zvjezdicama. npr. ''****''",
+        "filterProfanity": "Filtrirane riječi kao što su psovke biti će cenzurirane. Te poruke će se pojaviti u zvjezdicama. npr. ''****''",
         "welcomeMessage": "Ova poruka će se prikazati korisnicima koji uđu u vašu sobu. Možete napisati neka pravila ili reći nešto toplo i lijepo.",
         "hostRoom": "Odaberite ovu opciju ako biste radije smjestili sobu na svom stroju. To će stvoriti P2P okruženje na kojem će se korisnici izravno povezati s vašim računalom.",
-        "selfHostRegion": "Općenito područje u kojem se nalazi vaš stroj. PianoRhythm će pokušati pogoditi gdje se nalazite, ali možete ga postaviti ručno ako želite."
+        "selfHostRegion": "Općenito područje u kojem se nalazi vaš uređaj. PianoRhythm će pokušati pogoditi gdje se nalazite, ali možete ga postaviti ručno ako želite."
       }
     }
   },
@@ -61,9 +61,9 @@
     "friendsTab": "Prijatelji",
     "roomsTab": "sobe",
     "tooltips": {
-      "usersTab": "Popisi korisnika u prostoriji.",
+      "usersTab": "Popisi korisnika u sobi.",
       "friendsTab": "Popis svih vaših prijatelja!",
-      "roomsTab": "Popis svih javnih prostorija.",
+      "roomsTab": "Popis svih javnih soba.",
       "roomSelfHosted": "<br>Ovu sobu sam hostira korisnik.<br> Lokacija je: <b>( {{continent}} , {{country}} )</b>",
       "passwordProtected": "Lozinka zaštićena"
     },
@@ -71,9 +71,9 @@
       "hasPendingFriendRequests": "Imate {{count}} zahtjeva za prijateljstvo na čekanju!",
       "noRoomsFound": "Nisu pronađene sobe...",
       "noFriends_line1": "Ovdje izgleda malo usamljeno.",
-      "noFriends_line2_clientIsGuest": "Prijavite se da dodate neke prijatelje!",
-      "noFriends_line2_clientIsMember": "Dodajte neke prijatelje!",
-      "noFriendsFound": "Nisu pronađeni prijatelji. Loše mi je brate...",
+      "noFriends_line2_clientIsGuest": "Prijavite se da dodate prijatelje!",
+      "noFriends_line2_clientIsMember": "Dodajte prijatelje!",
+      "noFriendsFound": "Nisu pronađeni prijatelji. žao mi je stari....",
       "searchRooms": "Traži sobe...",
       "unknownLocation": "Nažalost, lokacija je nepoznata."
     }
@@ -84,27 +84,27 @@
       "roomSettings": "Postavke sobe",
       "settings": "Postavke",
       "midi": "MIDI",
-      "modDashboard": "Mod Nadzorna ploča",
-      "volume": "Volumen",
-      "sustain": "Održi",
-      "logout": "Odjavite se",
-      "sheetMusic": "Notna glazba",
-      "sheetMusicUpload": "Nota - Prijenos",
+      "modDashboard": "Nadzorna ploča",
+      "volume": "Glasnoća",
+      "sustain": "zadrži",
+      "logout": "Odjava",
+      "sheetMusic": "Glazbene note",
+      "sheetMusicUpload": "Prenesite note u biblioteku",
       "docs": "Dokumentacija"
     },
     "tooltips": {
       "newRoom": "Napravite novu sobu",
       "roomSettings": "Promijenite postavke za sobu",
       "settings": "Promijenite korisničke postavke",
-      "midi": "Postavite MIDI I/O",
+      "midi": "Postavite MIDI Ulaz/izlaz",
       "modDashboard": "Nadzorna ploča moderatora",
       "volume": "Kliknite me da biste isključili zvuk!",
-      "sustain": "Uključite sustain",
+      "sustain": "Uključite zadržavanje zvuka",
       "sustainActive": "Aktivan",
-      "logout": "Odjavite se",
-      "menu": "Kliknite ovdje za više stavki na jelovniku!",
+      "logout": "Odjava",
+      "menu": "Kliknite ovdje za više opcija!",
       "sheetMusic": "Prikažite spremište notnih zapisa",
-      "sheetMusicUpload": "Prenesite notne zapise u spremište",
+      "sheetMusicUpload": "Prenesite notne zapise u biblioteku",
       "docs": "Dokumentacija/Pomoć"
     },
     "messages": {
@@ -121,7 +121,7 @@
         "timesignature_desc": "Vremenski potpis vam govori kako se glazba broji.<br><br> Najviši broj vremenskog potpisa govori vam <i>koliko</i> otkucaja treba brojati.<br><br> Donji broj govori koju vrstu bilješke treba računati.",
         "beat_remove": "Uklonite ritam iz mjere",
         "beat_add": "Na mjeru dodajte ritam",
-        "tempo_desc_general": "Opisuje tempo (na talijanskom). Tempo je brzina ili tempo danog komada.",
+        "tempo_desc_general": "Opisuje tempo (na talijanskom). Tempo je brzina ili tempo danog zapisa.",
         "tempo_desc_larghissimo": "izuzetno sporo, sporije od larga",
         "tempo_desc_largo": "vrlo sporo i široko",
         "tempo_desc_grave": "vrlo sporo",
@@ -162,7 +162,7 @@
     "toolNames": {
       "InstrumentSelection": "Odabir instrumenata",
       "ChannelDisplayMode": "Način prikaza kanala",
-      "ClearInstruments": "Clear Instruments",
+      "ClearInstruments": "očisti instrumente",
       "ResetToDefault": "Vrati na zadano",
       "ToggleKeyboardMappingDisplay": "Uključite kartu tipkovnice",
       "ToggleMetronomeDisplay": "Uključite metronom",
@@ -170,7 +170,7 @@
       "MidiMusic": "MIDI glazba",
       "tooltips": {
         "InstrumentSelection": "Prikažite odabir instrumenta. {{key}}",
-        "ChannelDisplayMode": "Uključite prikaz utora kanala. (4x4x4x4), (8x8) ili (16)",
+        "ChannelDisplayMode": "Uključite prikaz slotova na kanalu. (4x4x4x4), (8x8) ili (16)",
         "ToggleKeyboardMappingDisplay": "Prikažite prekrivanje mapiranja tipkovnice na klaviru. {{key}}",
         "ToggleMetronomeDisplay": "Uključite prikaz metronoma. {{key}}",
         "ToggleSheetMusicViewer": "Uključite prikaz preglednika notnih zapisa. {{key}}",
@@ -182,9 +182,9 @@
       "slotMode": "Način rada utora {{mode}}",
       "tools": "Alati",
       "tooltips": {
-        "transpose": "Postavite transponiranje. Kliknite za resetiranje.",
+        "transpose": "Postavite tranpozaciju. Kliknite za resetiranje.",
         "octave": "Postavite oktavu. Kliknite za resetiranje.",
-        "slotMode": "Postavite način rada utora za raspored klavira",
+        "slotMode": "Postavite načina rada slotova za raspored klavira",
         "tools": "Popis alata i značajki."
       }
     }

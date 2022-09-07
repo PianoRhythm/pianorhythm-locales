@@ -55,7 +55,7 @@
             "hdr_accountManagement": "Upravljanje računom"
           },
           "messages": {
-            "on2faDisable": "Nakon što onemogućite dvofaktornu autentifikaciju, prijava na vaš račun zahtijevat će zaštitu samo lozinkom. Želite li nastaviti s onemogućavanjem dvofaktorske provjere autentičnosti?"
+            "on2faDisable": "Nakon što onemogućite dvofaktorsku autentifikaciju, prijava na vaš račun zahtijevat će samo lozinku. Želite li nastaviti s onemogućavanjem dvofaktorske provjere autentičnosti?"
           }
         },
         "multiplayer": {
@@ -64,7 +64,7 @@
             "hdr_multiplayerSettings": "Postavke za više igrača",
             "lbl_userColor": "Boja korisnika",
             "btn_userColorReset": "Poništi boju",
-            "btn_userColorSubmit": "Pošaljite boju",
+            "btn_userColorSubmit": "Podnesite boju",
             "tgl_showMyCursor": "Pokaži moj kursor",
             "tgl_sendWhoistyping": "Pošalji WhoIsTyping",
             "tgl_disableWhispers": "Onemogući šapat",
@@ -81,7 +81,7 @@
             "btn_userColorSubmit": "Ažurirajte svoju boju!",
             "hdr_notifications": "Prebacite koje obavijesti poslužitelja primate.",
             "tgl_showMyCursor": "Uključite hoće li se vaš pokazivač prikazati drugima.",
-            "tgl_sendWhoistyping": "Uključite ili isključite da li drugi korisnici znaju kada pišete.",
+            "tgl_sendWhoistyping": "Uključite ili isključite qko želite drugi korisnici znaju kada pišete.",
             "tgl_disableWhispers": "Onemogući šaptanje. Ne možete šaptati drugima i obrnuto.",
             "tgl_friendsOnlineStatus": "Primite obavijest kada se prijatelj pojavi na mreži",
             "tgl_friendsOfflineStatus": "Primite obavijest kada prijatelj ode izvan mreže",
@@ -90,7 +90,7 @@
           }
         },
         "discord": {
-          "label": "Razdor",
+          "label": "Discord",
           "elements": {
             "hdr_discordSettings": "Discord postavke",
             "swtch_syncDiscordMessages": "Sinkroniziraj Discord lobby poruke"
@@ -127,7 +127,7 @@
         "general": {
           "label": "Općenito",
           "elements": {
-            "hdr_engine": "grafički motor",
+            "hdr_engine": "grafički uređaj",
             "lbl_engine": "Motor",
             "lbl_maxFPS": "Max FPS"
           },
@@ -155,7 +155,7 @@
           },
           "tooltips": {
             "hdr_displays": "Prebacite prikaze određenih elemenata korisničkog sučelja",
-            "tgl_fps": "Uključite mjerač FPS zaslona",
+            "tgl_fps": "Uključite mjerač FPS-a",
             "tgl_ping": "Uključite prikaz Pinga",
             "tgl_instDock": "Uključite prikaz priključne stanice za instrumente",
             "tgl_userCursors": "Uključite/isključite prikaz kursora drugih korisnika",
@@ -173,7 +173,7 @@
           "label": "Blob",
           "elements": {
             "hdr_displays": "Zasloni",
-            "tgl_blobs": "Uključite mrlje",
+            "tgl_blobs": "Uključite čestice",
             "tgl_garden": "Uključite vrt"
           },
           "tooltips": {
@@ -208,8 +208,8 @@
             "hdr_v3Audio": "Postavke specifične za V3 Audio Engine",
             "lbl_soundfonts": "Odaberite zadani zvučni font",
             "lbl_initalBuffersize": "Objašnjenje uskoro. (Stječe na snagu pri sljedećem ponovnom pokretanju)",
-            "tgl_showDebuglogs": "Kada je omogućeno, to će ispisati zapisnike performansi na konzolu",
-            "tgl_useAudioWorklet": "Kada je omogućeno, ovo će učitati audio motor V3 u zasebnu nit u procesu audio radnog leta.<br> Trebalo bi poboljšati performanse. (Utječe na ponovno pokretanje aplikacije)"
+            "tgl_showDebuglogs": "Kada je omogućeno, to će ispisati zapisnik performanse u konzolu",
+            "tgl_useAudioWorklet": "Kada je omogućeno, ovo će učitati audio motor V3 u zasebnu nit u procesu zvuka.<br> Trebalo bi poboljšati performanse. (Zahtijeva ponovno pokretanje aplikacije)"
           }
         },
         "midi": {
@@ -218,23 +218,23 @@
             "hdr_inputOutput": "Ulaz izlaz",
             "lbl_enableAudioToOutput": "Omogući samo izlaz zvuka",
             "hrd_generalEffects": "Opći učinci",
-            "tgl_mousePosVelocity": "Položaj miša određuje brzinu",
+            "tgl_mousePosVelocity": "Položaj miša određuje jačinu zvuka note",
             "sld_sustainCutoff": "Sustain Cutoff",
-            "hdr_velocityEffects": "Učinci brzine",
-            "tgl_enableVelocity": "Omogući brzinu",
-            "sld_velocityMuting": "Isključivanje brzine",
-            "tgl_enableVelocityBoost": "Omogući povećanje brzine",
-            "sld_velocityBoost": "Povećanje brzine",
+            "hdr_velocityEffects": "Učinci zvuka note",
+            "tgl_enableVelocity": "Omogući podešavanje jačine zvuka nota",
+            "sld_velocityMuting": "Isključivanje jačine zvuka nota",
+            "tgl_enableVelocityBoost": "Omogući povećanje jačine zvuka nota",
+            "sld_velocityBoost": "Povećanje zvuka nota",
             "lbl_metronome": "Audio uzorak metronoma"
           },
           "tooltips": {
-            "lbl_enableAudioToOutput": "Ako je označeno i svi izlazni uređaji su aktivni, zvuk će se emitirati samo na izlazni uređaj, a ne unutar PianoRhythmovog audio motora",
-            "tgl_mousePosVelocity": "To će omogućiti da položaj miša odredi brzinu unosa tipkovnice vašeg računala.<br><br> Što je vaš miš bliže dnu prozora preglednika, to će vaše bilješke biti glasnije",
+            "lbl_enableAudioToOutput": "Ako je označeno i svi izlazni uređaji su aktivni, zvuk će se emitirati samo na izlazni uređaj, a ne unutar PianoRhythm-a audio motora",
+            "tgl_mousePosVelocity": "To će omogućiti da položaj miša odredi jačinu zvuka nota unosa tipkovnice vašeg računala.<br><br> Što je vaš miš bliže dnu prozora preglednika, to će vaše note biti glasnije",
             "sld_sustainCutoff": "Postavite graničnu točku otpuštanja za dugotrajne note. (Viši postotak = kraće trajanje)",
-            "tgl_enableVelocity": "Ako nije označeno, sirove vrijednosti brzine iz izvora neće se koristiti. Umjesto toga bit će postavljena na maksimalnu vrijednost (127)",
-            "sld_velocityMuting": "Isključite note brzinom koja je manja ili jednaka vrijednosti metra.",
-            "tgl_enableVelocityBoost": "Povećava ulazne sirove vrijednosti brzine",
-            "sld_velocityBoost": "Dodaje dodatnu vrijednost sirovoj brzini",
+            "tgl_enableVelocity": "Ako nije označeno, sirove vrijednosti jačine zvuka iz izvora neće se koristiti. Umjesto toga bit će postavljena na maksimalnu vrijednost (127)",
+            "sld_velocityMuting": "Isključite jačinu nota koja je manja ili jednaka vrijednosti metra.",
+            "tgl_enableVelocityBoost": "Povećava ulazne sirove vrijednosti jačine nota",
+            "sld_velocityBoost": "Dodaje dodatnu vrijednost sirovoj jačini nota",
             "lbl_metronome": "Odaberite vrstu audio uzorka koji ćete koristiti za metronom"
           }
         }
@@ -255,12 +255,12 @@
       },
       "messages": {
         "autoRenewInfo": "Vaša će se pretplata automatski obnoviti <b style=\"color:white;\">{{billingDate}}</b> i bit će vam naplaćeno <b style=\"color:white;\">{{currencyText}} .</b>",
-        "subText": "Evo vaše trenutne pretplate. Možete ga otkazati ili ažurirati bilo kada.",
-        "checkout_Created": "Otvorena je nova kartica. Nastavite s naplatom tamo!",
+        "subText": "Ovo su vaše trenutne pretplate. Možete ih otkazati ili ažurirati bilo kada.",
+        "checkout_Created": "Otvoren je novi prozor. Nastavite s naplatom tamo!",
         "checkout_Success": "Uspješna naplata!",
         "checkout_Cancelled": "Otkazali ste sesiju.",
-        "checkout_ResumePlan": "Upravo ćete nastaviti svoju otkazanu pretplatu. </br></br>Jeste li sigurni?",
-        "checkout_Confirm": "Upravo ćete se odjaviti i pretplatiti se na premium plan. </br></br>Jeste li sigurni?",
+        "checkout_ResumePlan": "Upravo ćete obnoviti svoju otkazanu pretplatu. </br></br>Jeste li sigurni?",
+        "checkout_Confirm": "Upravo ćete završiti i pretplatiti se na premium plan. </br></br>Jeste li sigurni?",
         "subscription_cancellationFail": "Oprostite, nešto je pošlo naopako. Otkazivanje pretplate nije uspjelo.",
         "subscription_Updated": "Uspješno ste ažurirali svoj plan pretplate!",
         "cancellation_InProcess": "Vaša trenutna pretplata je <b>otkazana</b> i stoga se neće automatski obnavljati. Međutim, i dalje ćete imati svoje pogodnosti do <b style=\"color:white;\">{{billingDate}}</b> .",

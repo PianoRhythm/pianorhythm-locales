@@ -9,8 +9,8 @@
   "room": {
     "messages": {
       "clientDeletesChatMessage_Success": "Izbrisali ste chat poruku.",
-      "clientDeletesChatMessage_Fail": "Žao nam je, izgleda da ta poruka chata ne postoji. :slijeganje:",
-      "newRoomOwner": "Sada ste [b]novi vlasnik [r]ove sobe! :osmijeh:",
+      "clientDeletesChatMessage_Fail": "Žao nam je, izgleda da ta poruka chata ne postoji. :shrug:",
+      "newRoomOwner": "Sada ste [b]novi vlasnik [r]ove sobe! :smile:",
       "roomUpdates": {
         "isPasswordProtected": "[i]Soba je sada zaštićena lozinkom...",
         "passwordRemoved": "[i]Lozinka je uklonjena..."

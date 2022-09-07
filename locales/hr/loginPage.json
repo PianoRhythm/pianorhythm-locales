@@ -13,7 +13,7 @@
   "messages": {
     "attemptAutoLogin_WelcomeBack": "Dobrodošao natrag",
     "attemptAutoLogin_AttemptAuto": "Pokušavam se automatski ponovno prijaviti...",
-    "attemptAutoLogin_Cancel": "Kliknite ovdje za otkaz"
+    "attemptAutoLogin_Cancel": "Kliknite ovdje za prekid prijave"
   },
   "oAuthButton": {
     "discord": "Prijavite se s Discordom",
@@ -23,9 +23,9 @@
     "welcomeMessage": "Dobrodošli u PianoRhythm!",
     "usernameInputMessage": "Koji je tvoj nadimak?",
     "buttons": {
-      "enter": "Unesi",
-      "register": "Registar",
-      "login": "Prijaviti se"
+      "enter": "Uđi",
+      "register": "Registracija",
+      "login": "Prijavi se"
     }
   },
   "resendVerificationEmailForm": {
@@ -44,8 +44,8 @@
   "registerForm": {
     "labels": {
       "tos1": "Slažem se da imam najmanje 13 godina i da sam pročitao",
-      "tos2": "Uvjeti korištenja"
+      "tos2": "Uvjete korištenja"
     },
-    "submitButton": "Registar"
+    "submitButton": "Podnesi"
   }
 }
