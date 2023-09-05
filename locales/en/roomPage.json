@@ -28,6 +28,7 @@
         "onlyOwnerCanPlay": "Only owner can play",
         "onlyOwnerCanChat": "Only owner can chat",
         "allowGuests": "Allow guests",
+        "allowBots": "Allow Bots",
         "onlyMods": "Only Allow Moderators",
         "allowBlackMidi": "Allow Black Midi",
         "maxPlayers": "Max Players",
