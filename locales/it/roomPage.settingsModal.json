@@ -136,6 +136,9 @@
             "lbl_maxFPS": "Seleziona il frame rate massimo del motore di rendering."
           }
         },
+        "world": {
+          "label": "Mondo"
+        },
         "ui": {
           "label": "interfaccia utente",
           "elements": {
@@ -213,6 +216,12 @@
             "tgl_showDebuglogs": "Se abilitato, questo genererà i registri delle prestazioni sulla console",
             "tgl_useAudioWorklet": "Se abilitato, caricherà il motore audio di V3 in un thread separato in un processo di worklet audio.<br> Dovrebbe migliorare le prestazioni. (Ha effetto al riavvio dell&#39;app)"
           }
+        },
+        "effects": {
+          "label": "Effetti"
+        },
+        "bgMusic": {
+          "label": "Musica BG"
         },
         "midi": {
           "label": "Midi",

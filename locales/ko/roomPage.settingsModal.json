@@ -136,6 +136,9 @@
             "lbl_maxFPS": "렌더링 엔진의 최대 프레임 속도를 선택합니다."
           }
         },
+        "world": {
+          "label": "세계"
+        },
         "ui": {
           "label": "UI",
           "elements": {
@@ -213,6 +216,12 @@
             "tgl_showDebuglogs": "활성화하면 콘솔에 성능 로그가 출력됩니다.",
             "tgl_useAudioWorklet": "활성화되면 V3의 오디오 엔진을 오디오 워크렛 프로세스의 별도 스레드에 로드합니다.<br> 성능을 향상시켜야 합니다. (앱 재시작 시 적용)"
           }
+        },
+        "effects": {
+          "label": "효과"
+        },
+        "bgMusic": {
+          "label": "BG 음악"
         },
         "midi": {
           "label": "미디",

@@ -136,6 +136,9 @@
             "lbl_maxFPS": "Selecciona la velocidad de FPS máxima de la renderización del módulo."
           }
         },
+        "world": {
+          "label": "Mundo"
+        },
         "ui": {
           "label": "Interfaz de Usuario",
           "elements": {
@@ -213,6 +216,12 @@
             "tgl_showDebuglogs": "Cuando esté habilitado, generará registros de rendimiento en la consola",
             "tgl_useAudioWorklet": "Cuando esté habilitado, cargará el módulo de audio V3 en un subproceso separado en un proceso de trabajo de audio.<br> Debería mejorar el rendimiento. (Tendrá efecto en el próximo reinicio)"
           }
+        },
+        "effects": {
+          "label": "Efectos"
+        },
+        "bgMusic": {
+          "label": "música bg"
         },
         "midi": {
           "label": "Midi",

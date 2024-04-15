@@ -136,6 +136,9 @@
             "lbl_maxFPS": "レンダリングエンジンの最大フレームレートを選択します。"
           }
         },
+        "world": {
+          "label": "世界"
+        },
         "ui": {
           "label": "UI",
           "elements": {
@@ -213,6 +216,12 @@
             "tgl_showDebuglogs": "有効にすると、パフォーマンスログをコンソールに表示します。",
             "tgl_useAudioWorklet": "有効にすると、V3のオーディオエンジンを、オーディオワークレットプロセス内の別のスレッドにロードします。<br>パフォーマンスが向上するはずです。(Takes effect on app restart)"
           }
+        },
+        "effects": {
+          "label": "効果"
+        },
+        "bgMusic": {
+          "label": "BGミュージック"
         },
         "midi": {
           "label": "MIDI",

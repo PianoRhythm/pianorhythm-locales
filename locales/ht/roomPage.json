@@ -191,5 +191,25 @@
       "text2": "Èske ou sèten ou vle rantre nan?",
       "dontShowAgain": "Pa montre mesaj sa a ankò."
     }
+  },
+  "actionWidgets": {
+    "cameraActions": {
+      "header": "Aksyon Kamera"
+    },
+    "commonActions": {
+      "header": "Aksyon Komen"
+    },
+    "roomOwnerActions": {
+      "header": "Aksyon Pwopriyetè Sal",
+      "buttons": {
+        "showKickedUsers": "Montre Kicked Itilizatè yo"
+      }
+    },
+    "stageVisualEffects": {
+      "header": "Etap Efè vizyèl"
+    },
+    "stageAudioEffects": {
+      "header": "Etap Audio Efè"
+    }
   }
 }

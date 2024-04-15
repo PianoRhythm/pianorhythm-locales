@@ -191,5 +191,25 @@
       "text2": "参加してもよろしいですか？",
       "dontShowAgain": "このメッセージを再度表示しないでください。"
     }
+  },
+  "actionWidgets": {
+    "cameraActions": {
+      "header": "カメラアクション"
+    },
+    "commonActions": {
+      "header": "一般的なアクション"
+    },
+    "roomOwnerActions": {
+      "header": "ルームオーナーのアクション",
+      "buttons": {
+        "showKickedUsers": "キックされたユーザーを表示"
+      }
+    },
+    "stageVisualEffects": {
+      "header": "舞台視覚効果"
+    },
+    "stageAudioEffects": {
+      "header": "ステージオーディオエフェクト"
+    }
   }
 }

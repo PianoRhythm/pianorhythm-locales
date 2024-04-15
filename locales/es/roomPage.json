@@ -191,5 +191,25 @@
       "text2": "¿Estás seguro de que quieres unirte?",
       "dontShowAgain": "No volver a mostrar este mensaje."
     }
+  },
+  "actionWidgets": {
+    "cameraActions": {
+      "header": "Acciones de cámara"
+    },
+    "commonActions": {
+      "header": "Acciones comunes"
+    },
+    "roomOwnerActions": {
+      "header": "Acciones del propietario de la habitación",
+      "buttons": {
+        "showKickedUsers": "Mostrar usuarios expulsados"
+      }
+    },
+    "stageVisualEffects": {
+      "header": "Efectos visuales del escenario"
+    },
+    "stageAudioEffects": {
+      "header": "Efectos de audio de escenario"
+    }
   }
 }

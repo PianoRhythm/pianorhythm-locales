@@ -191,5 +191,25 @@
       "text2": "Вы уверены, что хотите присоединиться?",
       "dontShowAgain": "Больше не показывать это сообщение."
     }
+  },
+  "actionWidgets": {
+    "cameraActions": {
+      "header": "Действия камеры"
+    },
+    "commonActions": {
+      "header": "Общие действия"
+    },
+    "roomOwnerActions": {
+      "header": "Действия владельца комнаты",
+      "buttons": {
+        "showKickedUsers": "Показать исключенных пользователей"
+      }
+    },
+    "stageVisualEffects": {
+      "header": "Сценические визуальные эффекты"
+    },
+    "stageAudioEffects": {
+      "header": "Сценические аудиоэффекты"
+    }
   }
 }

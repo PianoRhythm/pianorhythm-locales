@@ -191,5 +191,25 @@
       "text2": "Sind Sie sicher, dass Sie beitreten möchten?",
       "dontShowAgain": "Diese Nachricht nicht mehr anzeigen."
     }
+  },
+  "actionWidgets": {
+    "cameraActions": {
+      "header": "Kameraaktionen"
+    },
+    "commonActions": {
+      "header": "Häufige Aktionen"
+    },
+    "roomOwnerActions": {
+      "header": "Aktionen des Raumbesitzers",
+      "buttons": {
+        "showKickedUsers": "Ausgeschlossene Benutzer anzeigen"
+      }
+    },
+    "stageVisualEffects": {
+      "header": "Visuelle Bühneneffekte"
+    },
+    "stageAudioEffects": {
+      "header": "Bühnen-Audioeffekte"
+    }
   }
 }

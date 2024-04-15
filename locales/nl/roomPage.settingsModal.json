@@ -136,6 +136,9 @@
             "lbl_maxFPS": "Selecteer de maximale framesnelheid van de rendering-engine."
           }
         },
+        "world": {
+          "label": "Wereld"
+        },
         "ui": {
           "label": "gebruikersinterface",
           "elements": {
@@ -213,6 +216,12 @@
             "tgl_showDebuglogs": "Indien ingeschakeld, zal dit prestatielogboeken naar de console uitvoeren",
             "tgl_useAudioWorklet": "Indien ingeschakeld, laadt dit de audio-engine van V3 in een aparte thread in een audioworkletproces.<br> Moet de prestaties verbeteren. (Wordt van kracht bij het opnieuw opstarten van de app)"
           }
+        },
+        "effects": {
+          "label": "Effecten"
+        },
+        "bgMusic": {
+          "label": "BG-muziek"
         },
         "midi": {
           "label": "Midi",

@@ -136,6 +136,9 @@
             "lbl_maxFPS": "Chwazi to a max ankadreman nan motè a rann."
           }
         },
+        "world": {
+          "label": "Mondyal"
+        },
         "ui": {
           "label": "UI",
           "elements": {
@@ -213,6 +216,12 @@
             "tgl_showDebuglogs": "Lè li aktive, sa a pral pwodiksyon mòso bwa pèfòmans nan konsole a",
             "tgl_useAudioWorklet": "Lè sa pèmèt, sa a pral chaje motè odyo V3 a nan yon fil separe nan yon pwosesis worklet odyo.<br> Ta dwe amelyore pèfòmans. (Pran efè sou rekòmanse aplikasyon an)"
           }
+        },
+        "effects": {
+          "label": "Efè"
+        },
+        "bgMusic": {
+          "label": "BG Mizik"
         },
         "midi": {
           "label": "Midi",

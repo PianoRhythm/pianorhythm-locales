@@ -191,5 +191,25 @@
       "text2": "Weet je zeker dat je mee wilt doen?",
       "dontShowAgain": "Dit bericht niet meer weergeven."
     }
+  },
+  "actionWidgets": {
+    "cameraActions": {
+      "header": "Camera-acties"
+    },
+    "commonActions": {
+      "header": "Gemeenschappelijke acties"
+    },
+    "roomOwnerActions": {
+      "header": "Acties van de kamereigenaar",
+      "buttons": {
+        "showKickedUsers": "Toon geschopte gebruikers"
+      }
+    },
+    "stageVisualEffects": {
+      "header": "Visuele effecten op het podium"
+    },
+    "stageAudioEffects": {
+      "header": "Podiumaudio-effecten"
+    }
   }
 }

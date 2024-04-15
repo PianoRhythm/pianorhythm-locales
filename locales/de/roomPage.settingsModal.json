@@ -136,6 +136,9 @@
             "lbl_maxFPS": "Wählen Sie die maximale Bildrate der Rendering-Engine aus."
           }
         },
+        "world": {
+          "label": "Welt"
+        },
         "ui": {
           "label": "Benutzeroberfläche",
           "elements": {
@@ -213,6 +216,12 @@
             "tgl_showDebuglogs": "Wenn diese Option aktiviert ist, werden Leistungsprotokolle an die Konsole ausgegeben",
             "tgl_useAudioWorklet": "Wenn diese Option aktiviert ist, wird die Audio-Engine von V3 in einen separaten Thread in einem Audio-Worklet-Prozess geladen.<br> Sollte die Leistung verbessern. (Wird beim Neustart der App wirksam)"
           }
+        },
+        "effects": {
+          "label": "Auswirkungen"
+        },
+        "bgMusic": {
+          "label": "BG-Musik"
         },
         "midi": {
           "label": "Midi",

@@ -136,6 +136,9 @@
             "lbl_maxFPS": "Selecione a taxa de quadros máxima do mecanismo de renderização."
           }
         },
+        "world": {
+          "label": "Mundo"
+        },
         "ui": {
           "label": "IU",
           "elements": {
@@ -213,6 +216,12 @@
             "tgl_showDebuglogs": "Quando ativado, isso gerará logs de desempenho para o console",
             "tgl_useAudioWorklet": "Quando ativado, isso carregará o mecanismo de áudio do V3 em um thread separado em um processo de worklet de áudio.<br> Deve melhorar o desempenho. (Entra em vigor na reinicialização do aplicativo)"
           }
+        },
+        "effects": {
+          "label": "Efeitos"
+        },
+        "bgMusic": {
+          "label": "Música BG"
         },
         "midi": {
           "label": "Midi",

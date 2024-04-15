@@ -191,5 +191,25 @@
       "text2": "你确定要加入吗？",
       "dontShowAgain": "不再显示此消息。"
     }
+  },
+  "actionWidgets": {
+    "cameraActions": {
+      "header": "相机操作"
+    },
+    "commonActions": {
+      "header": "常见操作"
+    },
+    "roomOwnerActions": {
+      "header": "房间主人动作",
+      "buttons": {
+        "showKickedUsers": "显示被踢出的用户"
+      }
+    },
+    "stageVisualEffects": {
+      "header": "舞台视觉效果"
+    },
+    "stageAudioEffects": {
+      "header": "舞台音响效果"
+    }
   }
 }

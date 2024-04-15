@@ -191,5 +191,25 @@
       "text2": "Êtes-vous sûr de vouloir nous rejoindre ?",
       "dontShowAgain": "Ne plus afficher ce message."
     }
+  },
+  "actionWidgets": {
+    "cameraActions": {
+      "header": "Actions de la caméra"
+    },
+    "commonActions": {
+      "header": "Actions courantes"
+    },
+    "roomOwnerActions": {
+      "header": "Actions du propriétaire de la salle",
+      "buttons": {
+        "showKickedUsers": "Afficher les utilisateurs expulsés"
+      }
+    },
+    "stageVisualEffects": {
+      "header": "Effets visuels sur scène"
+    },
+    "stageAudioEffects": {
+      "header": "Effets audio de scène"
+    }
   }
 }

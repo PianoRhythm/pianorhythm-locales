@@ -136,6 +136,9 @@
             "lbl_maxFPS": "Odaberite maksimalnu brzinu kadrova motora za renderiranje."
           }
         },
+        "world": {
+          "label": "Svijet"
+        },
         "ui": {
           "label": "korisničko sučelje",
           "elements": {
@@ -213,6 +216,12 @@
             "tgl_showDebuglogs": "Kada je omogućeno, to će ispisati zapisnik performanse u konzolu",
             "tgl_useAudioWorklet": "Kada je omogućeno, ovo će učitati audio motor V3 u zasebnu nit u procesu zvuka.<br> Trebalo bi poboljšati performanse. (Zahtijeva ponovno pokretanje aplikacije)"
           }
+        },
+        "effects": {
+          "label": "Efekti"
+        },
+        "bgMusic": {
+          "label": "BG Glazba"
         },
         "midi": {
           "label": "Midi",

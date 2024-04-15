@@ -136,6 +136,9 @@
             "lbl_maxFPS": "Sélectionnez la fréquence d'images maximale du moteur de rendu."
           }
         },
+        "world": {
+          "label": "Monde"
+        },
         "ui": {
           "label": "interface utilisateur",
           "elements": {
@@ -213,6 +216,12 @@
             "tgl_showDebuglogs": "Lorsqu'il est activé, cela générera des journaux de performances sur la console",
             "tgl_useAudioWorklet": "Lorsqu&#39;il est activé, cela chargera le moteur audio de V3 dans un thread séparé dans un processus de worklet audio.<br> Devrait améliorer les performances. (Prend effet au redémarrage de l&#39;application)"
           }
+        },
+        "effects": {
+          "label": "Effets"
+        },
+        "bgMusic": {
+          "label": "Musique BG"
         },
         "midi": {
           "label": "Midi",

@@ -136,6 +136,9 @@
             "lbl_maxFPS": "选择渲染引擎的最大帧率。"
           }
         },
+        "world": {
+          "label": "世界"
+        },
         "ui": {
           "label": "用户界面",
           "elements": {
@@ -213,6 +216,12 @@
             "tgl_showDebuglogs": "启用后，这会将性能日志输出到控制台",
             "tgl_useAudioWorklet": "启用后，这会将 V3 的音频引擎加载到音频工作集进程中的单独线程中。<br>应该提高性能。 （在应用重启时生效）"
           }
+        },
+        "effects": {
+          "label": "效果"
+        },
+        "bgMusic": {
+          "label": "BG音乐"
         },
         "midi": {
           "label": "迷笛",

@@ -191,5 +191,25 @@
       "text2": "Да ли сте сигурни да желите да се придружите?",
       "dontShowAgain": "Не приказуј поново ову поруку."
     }
+  },
+  "actionWidgets": {
+    "cameraActions": {
+      "header": "Акције камере"
+    },
+    "commonActions": {
+      "header": "Цоммон Ацтионс"
+    },
+    "roomOwnerActions": {
+      "header": "Радње власника собе",
+      "buttons": {
+        "showKickedUsers": "Прикажи избачене кориснике"
+      }
+    },
+    "stageVisualEffects": {
+      "header": "Стаге Висуал Еффецтс"
+    },
+    "stageAudioEffects": {
+      "header": "Сценски аудио ефекти"
+    }
   }
 }

@@ -1,316 +1,316 @@
 {
-    "messages": {
-        "audioSettingNotSupportedV3": "Note: Currently, most audio settings are not applicable to v3",
-        "changeWillTakeEffectOnNextRestart": "Changes will take effect on next restart.",
-        "changesSaved": "Changes saved.",
-        "userColorUpdated": "You've successfully updated your user color!"
-    },
-    "menus": {
-        "general": {
-            "header": "General",
-            "subMenus": {
-                "language": {
-                    "label": "Language",
-                    "elements": {
-                        "lbl_languageSelect": "Language Select"
-                    },
-                    "tooltips": {
-                        "lbl_languageSelect": "Set the default language for PianoRhythm."
-                    }
-                },
-                "application": {
-                    "label": "Application",
-                    "elements": {
-                        "hdr_applicationSettings": "Application Settings",
-                        "lbl_resetSettingsModalTitleText": "Reset Settings to Default",
-                        "lbl_resetSettingsModalBodyText": "<b>Are you sure you want to do this?</b> <br><br><p>This will reset all your settings to the default and cannot be undone.</p>",
-                        "btn_resetSettings": "Reset Settings"
-                    }
-                }
-            }
+  "messages": {
+    "audioSettingNotSupportedV3": "Note: Currently, most audio settings are not applicable to v3",
+    "changeWillTakeEffectOnNextRestart": "Changes will take effect on next restart.",
+    "changesSaved": "Changes saved.",
+    "userColorUpdated": "You've successfully updated your user color!"
+  },
+  "menus": {
+    "general": {
+      "header": "General",
+      "subMenus": {
+        "language": {
+          "label": "Language",
+          "elements": {
+            "lbl_languageSelect": "Language Select"
+          },
+          "tooltips": {
+            "lbl_languageSelect": "Set the default language for PianoRhythm."
+          }
         },
-        "online": {
-            "header": "Online",
-            "subMenus": {
-                "my account": {
-                    "label": "My Account",
-                    "elements": {
-                        "hdr_myAccount": "My Account",
-                        "hdr_passwordAndAuthentication": "Password and Authentication",
-                        "hdr_accountManagement": "Account Management",
-                        "hdr_security": "Security",
-                        "tgl_enable2fa": "Two-Factor Authentication",
-                        "btn_changePassword": "Change Password",
-                        "btn_deleteAccount": "Delete Account",
-                        "txt_passwordChangeSubText": "Enter your current password and the new password",
-                        "txt_deleteAccountSubText": "Are you really sure? All of your account data will be permanently deleted",
-                        "txt_onIncorrectDeleteInputField": "Please make sure you typed correctly in the input field.",
-                        "txt_confirmPasswordSubText": "Please enter and confirm your password",
-                        "txt_emailChangeSubText": "Enter the new email address and your password"
-                    },
-                    "tooltips": {
-                        "hdr_myAccount": "Account Information",
-                        "tgl_enable2fa": "Add an extra layer of security with two-factor authentication (2FA).",
-                        "hdr_passwordAndAuthentication": "Password and Authentication",
-                        "hdr_accountManagement": "Account Management"
-                    },
-                    "messages": {
-                        "on2faDisable": "After disabling two-factor authentication, logging in to your account will require password-only protection. Do you wish to continue with disabling two-factor authentication?"
-                    }
-                },
-                "multiplayer": {
-                    "label": "Multiplayer",
-                    "elements": {
-                        "hdr_multiplayerSettings": "Multiplayer Settings",
-                        "lbl_userColor": "User Color",
-                        "btn_userColorReset": "Reset Color",
-                        "btn_userColorSubmit": "Submit Color",
-                        "tgl_showMyCursor": "Show my cursor",
-                        "tgl_sendWhoistyping": "Send WhoIsTyping",
-                        "tgl_disableWhispers": "Disable whispers",
-                        "hdr_notifications": "Notificatons",
-                        "tgl_friendsOnlineStatus": "Friends Online Status",
-                        "tgl_friendsOfflineStatus": "Friends Offline Status",
-                        "tgl_sheetMusicChanges": "Sheet Music Changes",
-                        "tgl_emitMyStatusToFriends": "Emit My Status to Friends"
-                    },
-                    "tooltips": {
-                        "hdr_multiplayerSettings": "Set multiplayer related settings.",
-                        "lbl_userColor": "Set your user color",
-                        "btn_userColorReset": "Reset your color",
-                        "btn_userColorSubmit": "Update your color!",
-                        "hdr_notifications": "Toggle what server notifications you receive.",
-                        "tgl_showMyCursor": "Toggle whether your cursor is displayed to others.",
-                        "tgl_sendWhoistyping": "Toggle whether other users know when you're typing.",
-                        "tgl_disableWhispers": "Disable whispering. You can't whisper to others and vice versa.",
-                        "tgl_friendsOnlineStatus": "Get notified when a friend comes online",
-                        "tgl_friendsOfflineStatus": "Get notified when a friend goes offline",
-                        "tgl_emitMyStatusToFriends": "Allow friends to know of your status changes. (Online, Offline, etc)",
-                        "tgl_sheetMusicChanges": "Get notification emails whenever a change happens to your uploaded sheet music."
-                    }
-                },
-                "discord": {
-                    "label": "Discord",
-                    "elements": {
-                        "hdr_discordSettings": "Discord Settings",
-                        "swtch_syncDiscordMessages": "Sync Discord lobby messages"
-                    },
-                    "tooltips": {
-                        "hdr_discordSettings": "Set Discord related settings.",
-                        "swtch_syncDiscordMessages": "Toggle whether Discord messages are synced in main lobby."
-                    }
-                },
-                "input": {
-                    "label": "Input",
-                    "elements": {
-                        "hdr_keyboardSettings": "Keyboard Settings",
-                        "lbl_pianoKeylayout": "Piano Keys Layout",
-                        "lbl_keyboardMaplayout": "Keyboard Map Layout",
-                        "drp_keyboards": "Keyboards",
-                        "lbl_shortcutBinds": "Shortcut Binds",
-                        "btn_openKeybinder": "Open Keybinder",
-                        "tgl_keyboard_toggleyz": "Switch Y and Z keys"
-                    },
-                    "tooltips": {
-                        "hdr_keyboardSettings": "Set keyboard related settings.",
-                        "lbl_pianoKeylayout": "Set the keyboard piano layout for the piano.",
-                        "lbl_keyboardMaplayout": "Set the correct keyboard input mapping.",
-                        "lbl_shortcutBinds": "Create bindings to common shortcuts.",
-                        "tgl_keyboard_toggleyz": "For certain keyboard layouts, switching the mapping of the Y and Z keyboards aligns more naturally."
-                    }
-                }
-            }
-        },
-        "graphics": {
-            "header": "Graphics",
-            "subMenus": {
-                "general": {
-                    "label": "General",
-                    "elements": {
-                        "hdr_engine": "Graphics Engine",
-                        "lbl_engine": "Engine",
-                        "lbl_maxFPS": "Max FPS"
-                    },
-                    "tooltips": {
-                        "lbl_engine": "Toggle between 2D, 3D, or no graphics engine.",
-                        "lbl_maxFPS": "Select the max frame rate of the rendering engine."
-                    }
-                },
-                "world": {
-                    "label": "World"
-                },
-                "ui": {
-                    "label": "UI",
-                    "elements": {
-                        "hdr_displays": "Displays",
-                        "tgl_fps": "Toggle FPS",
-                        "tgl_ping": "Toggle ping",
-                        "tgl_instDock": "Toggle instrument dock",
-                        "tgl_userCursors": "Toggle user cursors",
-                        "tgl_whoistyping": "Toggle WhoIsTyping",
-                        "hdr_chat": "Chat",
-                        "tgle_displayChat": "Display chat messages",
-                        "tgle_keepChatInFocus": "Keep Chat in Focus",
-                        "sld_chatMsgsHeightOffset": "Chat Messages Height Offset",
-                        "sld_chatMsg2DOpacity": "Chat Messages Default Opacity (2D Mode)",
-                        "sld_chatMsg3DOpacity": "Chat Messages Default Opacity (3D Mode)",
-                        "tgl_display3DStats": "Display 3D Stats",
-                        "tgle_showEmbeddedLinks": "Show Embedded Links"
-                    },
-                    "tooltips": {
-                        "hdr_displays": "Toggle the displays of certain UI elements",
-                        "tgl_fps": "Toggle the FPS display meter",
-                        "tgl_ping": "Toggle the Ping display",
-                        "tgl_instDock": "Toggle the instrument dock display",
-                        "tgl_userCursors": "Toggle displaying other users' cursors",
-                        "tgl_whoistyping": "Toggle displaying when other users' are typing",
-                        "hdr_chat": "Related UI settings for chat messages",
-                        "tgle_displayChat": "Toggle displaying chat messages",
-                        "sld_chatMsgsHeightOffset": "Set the height offset of the chatmessages container",
-                        "tgl_display3DStats": "Toggle displaying extra stats/info about the 3d scene",
-                        "tgle_keepChatInFocus": "Toggle whether to keep the chat in focus after submitting a message",
-                        "sld_chatMsg2DOpacity": "Set the default opacity of the chat messages when it's unfocused. (2D mode)",
-                        "sld_chatMsg3DOpacity": "Set the default opacity of the chat messages when it's unfocused. (3D mode)",
-                        "tgle_showEmbeddedLinks": "Toggle whether links show embedded objects such as images or videos of the associated link"
-                    }
-                },
-                "blob": {
-                    "label": "Blob",
-                    "elements": {
-                        "hdr_displays": "Displays",
-                        "tgl_blobs": "Toggle blobs",
-                        "tgl_garden": "Toggle Garden"
-                    },
-                    "tooltips": {
-                        "hdr_displays": "Toggle the displays of certain blob related elements.",
-                        "tgl_blobs": "Toggle showing the blobs.",
-                        "tgl_garden": "Toggle showing the blobs' garden."
-                    }
-                }
-            }
-        },
-        "audio": {
-            "header": "Audio",
-            "subMenus": {
-                "soundfont": {
-                    "label": "Soundfont",
-                    "messages": {
-                        "soundfontLoading": "Please wait while the soundfont loads!"
-                    },
-                    "elements": {
-                        "hdr_generalSettings": "General Settings",
-                        "lbl_audioEngine": "Audio Engine",
-                        "tgl_enableDrums": "Enable Drum Channel",
-                        "hdr_v3Audio": "V3 Audio",
-                        "lbl_soundfonts": "Soundfonts",
-                        "lbl_initalBuffersize": "Initial Buffersize",
-                        "tgl_showDebuglogs": "Show Debug performance logs",
-                        "tgl_useAudioWorklet": "Use AudioWorklet"
-                    },
-                    "tooltips": {
-                        "lbl_audioEngine": "Select the default audio engine. <br> (Takes effect on next restart)",
-                        "tgl_enableDrums": "When enabled, this will allow percussion sounds to be played on channel 9 (zero-index base)",
-                        "hdr_v3Audio": "Settings specific to the V3 Audio Engine",
-                        "lbl_soundfonts": "Select the default soundfont",
-                        "lbl_initalBuffersize": "Explanation coming soon. (Takes effect on next restart)",
-                        "tgl_showDebuglogs": "When enabled, this will output performance logs to the console",
-                        "tgl_useAudioWorklet": "When enabled, this will load V3's audio engine into a separate thread in a an audio worklet process. <br> Should improve performance. (Takes effect on app restart)"
-                    }
-                },
-                "effects": {
-                    "label": "Effects"
-                },
-                "bgMusic": {
-                    "label": "BG Music"
-                },
-                "midi": {
-                    "label": "Midi",
-                    "elements": {
-                        "hdr_inputOutput": "Input / Output",
-                        "lbl_enableAudioToOutput": "Enable audio to output only",
-                        "hrd_generalEffects": "General Effects",
-                        "tgl_mousePosVelocity": "Mouse position determines velocity",
-                        "sld_sustainCutoff": "Sustain Cutoff",
-                        "hdr_velocityEffects": "Velocity Effects",
-                        "tgl_enableVelocity": "Enable velocity",
-                        "sld_velocityMuting": "Velocity Muting",
-                        "tgl_enableVelocityBoost": "Enable velocity boost",
-                        "sld_velocityBoost": "Velocity Boost",
-                        "lbl_metronome": "Metronome Audio Sample",
-                        "tgl_enableV2Reverb": "V2 Reverb",
-                        "tgl_listenToProgramChanges": "Listen to Program Changes",
-                        "tgl_autoFillEmptyChannels": "Auto Fill Empty Channels",
-                        "tgl_useDefaultBankWhenMissing": "Use Default Bank When Missing",
-                        "tgl_enableStereoPanning": "Enable Stereo Panning"
-                    },
-                    "tooltips": {
-                        "lbl_enableAudioToOutput": "If checked and any output devices are active, then audio will only be emitted to the output device and not within PianoRhythm's audio engine",
-                        "tgl_mousePosVelocity": "This will enable having the mouse position determine the velocity of your computer keyboard input. <br> <br> The closer your mouse is to the bottom of the browser window, the louder your notes will be",
-                        "sld_sustainCutoff": "Set the release cutoff point for sustained notes. (Higher percentage = shorter sustain)",
-                        "tgl_enableVelocity": "If unchecked, the raw velocity values from the source will not be used. Instead it'll be set to the max value (127)",
-                        "sld_velocityMuting": "Mute notes with a velocity that is less than or equal to the meter value.",
-                        "tgl_enableVelocityBoost": "Boosts incoming raw velocity values",
-                        "sld_velocityBoost": "Adds additional value to raw velocity",
-                        "lbl_metronome": "Select the audio sample type to use for the metronome",
-                        "tgl_enableV2Reverb": "Toggle whether reverb is enabled for the V2 audio engine",
-                        "tgl_listenToProgramChanges": "Toggle whether PianoRhythm should listen to midi program change events and update the instrument dock, accordingly.",
-                        "tgl_autoFillEmptyChannels": "Toggle whether empty channels in the instrument dock should be autofilled with the default instrument when a note on event occurs.",
-                        "tgl_useDefaultBankWhenMissing": "Toggle whether to use the default bank (usually bank 0) when a soundfont does not have a particular bank.",
-                        "tgl_enableStereoPanning": "Toggle whether the audio engine supports panning the audio stream left or right. <br><br>So, the sound position of the notes will be relative to their position on the piano. <br><br>For example, notes closer to the right will be heard more so on the right speaker. Same goes for the left and those near the middle will be distributed across both speakers."
-                    }
-                }
-            }
-        },
-        "billing": {
-            "header": "Billing",
-            "subMenus": {
-                "subscription": {
-                    "label": "Subscription",
-                    "elements": {
-                        "lbl_languageSelect": "Language Select"
-                    },
-                    "tooltips": {
-                        "lbl_languageSelect": "Set the default language for PianoRhythm."
-                    }
-                }
-            },
-            "buttons": {
-                "checkout": "Checkout with Stripe",
-                "cancelSubscription": "Cancel Subscription",
-                "cancellation_InProcess": "Resume subscription with Stripe"
-            },
-            "labels": {
-                "billingInfo": "Billing Information",
-                "cancelSubscription": "Cancel Subscription"
-            },
-            "messages": {
-                "checkout_Created": "A new tab has been opened. Continue checkout there!",
-                "checkout_Success": "Checkout success!",
-                "checkout_Cancelled": "You've cancelled the session.",
-                "checkout_ResumePlan": "You're about to resume your cancelled subscription. </br></br>Are you sure?",
-                "checkout_Confirm": "You're about to check out and subscribe to a premium plan. </br></br>Are you sure?",
-                "subscription_cancellationFail": "Sorry, something went wrong. Failed to cancel subscription.",
-                "subscription_Updated": "You've successfully updated your subscription plan!",
-                "subText": "Here's your current subscription. You can cancel or update it any time.",
-                "cancellation_InProcess": "Your current subscription has been <b>canceled</b> and therefore, will not be auto renewed. </b> However, you will still have your benefits until <b style=\"color:white;\">{{billingDate}}</b>.",
-                "autoRenewInfo": "Your subscription will automatically renew on <b style=\"color:white;\">{{billingDate}}</b> and you'll be charged <b style=\"color:white;\">{{currencyText}}.</b>",
-                "cancellation_Confirm": "We're sorry to see you go, {{username}}!. </br> Your pro plan subscription is paid until <b>{{planBillingDate}}</b>. </br></br>If you would like to proceed with canceling your subscription, please select <b>\"Cancel Subscription\"</b> below.",
-                "cancellation_Success": "You've successfully canceled your subscription."
-            }
-        },
-        "other": {
-            "header": "Other",
-            "subMenus": {
-                "changelog": {
-                    "label": "Release Notes"
-                },
-                "credits": {
-                    "label": "Credits",
-                    "messages": {
-                        "error_FailedToGetData": "Failed to get data..."
-                    }
-                }
-            }
+        "application": {
+          "label": "Application",
+          "elements": {
+            "hdr_applicationSettings": "Application Settings",
+            "lbl_resetSettingsModalTitleText": "Reset Settings to Default",
+            "lbl_resetSettingsModalBodyText": "<b>Are you sure you want to do this?</b> <br><br><p>This will reset all your settings to the default and cannot be undone.</p>",
+            "btn_resetSettings": "Reset Settings"
+          }
         }
+      }
+    },
+    "online": {
+      "header": "Online",
+      "subMenus": {
+        "my account": {
+          "label": "My Account",
+          "elements": {
+            "hdr_myAccount": "My Account",
+            "hdr_passwordAndAuthentication": "Password and Authentication",
+            "hdr_accountManagement": "Account Management",
+            "hdr_security": "Security",
+            "tgl_enable2fa": "Two-Factor Authentication",
+            "btn_changePassword": "Change Password",
+            "btn_deleteAccount": "Delete Account",
+            "txt_passwordChangeSubText": "Enter your current password and the new password",
+            "txt_deleteAccountSubText": "Are you really sure? All of your account data will be permanently deleted",
+            "txt_onIncorrectDeleteInputField": "Please make sure you typed correctly in the input field.",
+            "txt_confirmPasswordSubText": "Please enter and confirm your password",
+            "txt_emailChangeSubText": "Enter the new email address and your password"
+          },
+          "tooltips": {
+            "hdr_myAccount": "Account Information",
+            "tgl_enable2fa": "Add an extra layer of security with two-factor authentication (2FA).",
+            "hdr_passwordAndAuthentication": "Password and Authentication",
+            "hdr_accountManagement": "Account Management"
+          },
+          "messages": {
+            "on2faDisable": "After disabling two-factor authentication, logging in to your account will require password-only protection. Do you wish to continue with disabling two-factor authentication?"
+          }
+        },
+        "multiplayer": {
+          "label": "Multiplayer",
+          "elements": {
+            "hdr_multiplayerSettings": "Multiplayer Settings",
+            "lbl_userColor": "User Color",
+            "btn_userColorReset": "Reset Color",
+            "btn_userColorSubmit": "Submit Color",
+            "tgl_showMyCursor": "Show my cursor",
+            "tgl_sendWhoistyping": "Send WhoIsTyping",
+            "tgl_disableWhispers": "Disable whispers",
+            "hdr_notifications": "Notificatons",
+            "tgl_friendsOnlineStatus": "Friends Online Status",
+            "tgl_friendsOfflineStatus": "Friends Offline Status",
+            "tgl_sheetMusicChanges": "Sheet Music Changes",
+            "tgl_emitMyStatusToFriends": "Emit My Status to Friends"
+          },
+          "tooltips": {
+            "hdr_multiplayerSettings": "Set multiplayer related settings.",
+            "lbl_userColor": "Set your user color",
+            "btn_userColorReset": "Reset your color",
+            "btn_userColorSubmit": "Update your color!",
+            "hdr_notifications": "Toggle what server notifications you receive.",
+            "tgl_showMyCursor": "Toggle whether your cursor is displayed to others.",
+            "tgl_sendWhoistyping": "Toggle whether other users know when you're typing.",
+            "tgl_disableWhispers": "Disable whispering. You can't whisper to others and vice versa.",
+            "tgl_friendsOnlineStatus": "Get notified when a friend comes online",
+            "tgl_friendsOfflineStatus": "Get notified when a friend goes offline",
+            "tgl_emitMyStatusToFriends": "Allow friends to know of your status changes. (Online, Offline, etc)",
+            "tgl_sheetMusicChanges": "Get notification emails whenever a change happens to your uploaded sheet music."
+          }
+        },
+        "discord": {
+          "label": "Discord",
+          "elements": {
+            "hdr_discordSettings": "Discord Settings",
+            "swtch_syncDiscordMessages": "Sync Discord lobby messages"
+          },
+          "tooltips": {
+            "hdr_discordSettings": "Set Discord related settings.",
+            "swtch_syncDiscordMessages": "Toggle whether Discord messages are synced in main lobby."
+          }
+        },
+        "input": {
+          "label": "Input",
+          "elements": {
+            "hdr_keyboardSettings": "Keyboard Settings",
+            "lbl_pianoKeylayout": "Piano Keys Layout",
+            "lbl_keyboardMaplayout": "Keyboard Map Layout",
+            "drp_keyboards": "Keyboards",
+            "lbl_shortcutBinds": "Shortcut Binds",
+            "btn_openKeybinder": "Open Keybinder",
+            "tgl_keyboard_toggleyz": "Switch Y and Z keys"
+          },
+          "tooltips": {
+            "hdr_keyboardSettings": "Set keyboard related settings.",
+            "lbl_pianoKeylayout": "Set the keyboard piano layout for the piano.",
+            "lbl_keyboardMaplayout": "Set the correct keyboard input mapping.",
+            "lbl_shortcutBinds": "Create bindings to common shortcuts.",
+            "tgl_keyboard_toggleyz": "For certain keyboard layouts, switching the mapping of the Y and Z keyboards aligns more naturally."
+          }
+        }
+      }
+    },
+    "graphics": {
+      "header": "Graphics",
+      "subMenus": {
+        "general": {
+          "label": "General",
+          "elements": {
+            "hdr_engine": "Graphics Engine",
+            "lbl_engine": "Engine",
+            "lbl_maxFPS": "Max FPS"
+          },
+          "tooltips": {
+            "lbl_engine": "Toggle between 2D, 3D, or no graphics engine.",
+            "lbl_maxFPS": "Select the max frame rate of the rendering engine."
+          }
+        },
+        "world": {
+          "label": "World"
+        },
+        "ui": {
+          "label": "UI",
+          "elements": {
+            "hdr_displays": "Displays",
+            "tgl_fps": "Toggle FPS",
+            "tgl_ping": "Toggle ping",
+            "tgl_instDock": "Toggle instrument dock",
+            "tgl_userCursors": "Toggle user cursors",
+            "tgl_whoistyping": "Toggle WhoIsTyping",
+            "hdr_chat": "Chat",
+            "tgle_displayChat": "Display chat messages",
+            "tgle_keepChatInFocus": "Keep Chat in Focus",
+            "sld_chatMsgsHeightOffset": "Chat Messages Height Offset",
+            "sld_chatMsg2DOpacity": "Chat Messages Default Opacity (2D Mode)",
+            "sld_chatMsg3DOpacity": "Chat Messages Default Opacity (3D Mode)",
+            "tgl_display3DStats": "Display 3D Stats",
+            "tgle_showEmbeddedLinks": "Show Embedded Links"
+          },
+          "tooltips": {
+            "hdr_displays": "Toggle the displays of certain UI elements",
+            "tgl_fps": "Toggle the FPS display meter",
+            "tgl_ping": "Toggle the Ping display",
+            "tgl_instDock": "Toggle the instrument dock display",
+            "tgl_userCursors": "Toggle displaying other users' cursors",
+            "tgl_whoistyping": "Toggle displaying when other users' are typing",
+            "hdr_chat": "Related UI settings for chat messages",
+            "tgle_displayChat": "Toggle displaying chat messages",
+            "sld_chatMsgsHeightOffset": "Set the height offset of the chatmessages container",
+            "tgl_display3DStats": "Toggle displaying extra stats/info about the 3d scene",
+            "tgle_keepChatInFocus": "Toggle whether to keep the chat in focus after submitting a message",
+            "sld_chatMsg2DOpacity": "Set the default opacity of the chat messages when it's unfocused. (2D mode)",
+            "sld_chatMsg3DOpacity": "Set the default opacity of the chat messages when it's unfocused. (3D mode)",
+            "tgle_showEmbeddedLinks": "Toggle whether links show embedded objects such as images or videos of the associated link"
+          }
+        },
+        "blob": {
+          "label": "Blob",
+          "elements": {
+            "hdr_displays": "Displays",
+            "tgl_blobs": "Toggle blobs",
+            "tgl_garden": "Toggle Garden"
+          },
+          "tooltips": {
+            "hdr_displays": "Toggle the displays of certain blob related elements.",
+            "tgl_blobs": "Toggle showing the blobs.",
+            "tgl_garden": "Toggle showing the blobs' garden."
+          }
+        }
+      }
+    },
+    "audio": {
+      "header": "Audio",
+      "subMenus": {
+        "soundfont": {
+          "label": "Soundfont",
+          "messages": {
+            "soundfontLoading": "Please wait while the soundfont loads!"
+          },
+          "elements": {
+            "hdr_generalSettings": "General Settings",
+            "lbl_audioEngine": "Audio Engine",
+            "tgl_enableDrums": "Enable Drum Channel",
+            "hdr_v3Audio": "V3 Audio",
+            "lbl_soundfonts": "Soundfonts",
+            "lbl_initalBuffersize": "Initial Buffersize",
+            "tgl_showDebuglogs": "Show Debug performance logs",
+            "tgl_useAudioWorklet": "Use AudioWorklet"
+          },
+          "tooltips": {
+            "lbl_audioEngine": "Select the default audio engine. <br> (Takes effect on next restart)",
+            "tgl_enableDrums": "When enabled, this will allow percussion sounds to be played on channel 9 (zero-index base)",
+            "hdr_v3Audio": "Settings specific to the V3 Audio Engine",
+            "lbl_soundfonts": "Select the default soundfont",
+            "lbl_initalBuffersize": "Explanation coming soon. (Takes effect on next restart)",
+            "tgl_showDebuglogs": "When enabled, this will output performance logs to the console",
+            "tgl_useAudioWorklet": "When enabled, this will load V3's audio engine into a separate thread in a an audio worklet process. <br> Should improve performance. (Takes effect on app restart)"
+          }
+        },
+        "effects": {
+          "label": "Effects"
+        },
+        "bgMusic": {
+          "label": "BG Music"
+        },
+        "midi": {
+          "label": "Midi",
+          "elements": {
+            "hdr_inputOutput": "Input / Output",
+            "lbl_enableAudioToOutput": "Enable audio to output only",
+            "hrd_generalEffects": "General Effects",
+            "tgl_mousePosVelocity": "Mouse position determines velocity",
+            "sld_sustainCutoff": "Sustain Cutoff",
+            "hdr_velocityEffects": "Velocity Effects",
+            "tgl_enableVelocity": "Enable velocity",
+            "sld_velocityMuting": "Velocity Muting",
+            "tgl_enableVelocityBoost": "Enable velocity boost",
+            "sld_velocityBoost": "Velocity Boost",
+            "lbl_metronome": "Metronome Audio Sample",
+            "tgl_enableV2Reverb": "V2 Reverb",
+            "tgl_listenToProgramChanges": "Listen to Program Changes",
+            "tgl_autoFillEmptyChannels": "Auto Fill Empty Channels",
+            "tgl_useDefaultBankWhenMissing": "Use Default Bank When Missing",
+            "tgl_enableStereoPanning": "Enable Stereo Panning"
+          },
+          "tooltips": {
+            "lbl_enableAudioToOutput": "If checked and any output devices are active, then audio will only be emitted to the output device and not within PianoRhythm's audio engine",
+            "tgl_mousePosVelocity": "This will enable having the mouse position determine the velocity of your computer keyboard input. <br> <br> The closer your mouse is to the bottom of the browser window, the louder your notes will be",
+            "sld_sustainCutoff": "Set the release cutoff point for sustained notes. (Higher percentage = shorter sustain)",
+            "tgl_enableVelocity": "If unchecked, the raw velocity values from the source will not be used. Instead it'll be set to the max value (127)",
+            "sld_velocityMuting": "Mute notes with a velocity that is less than or equal to the meter value.",
+            "tgl_enableVelocityBoost": "Boosts incoming raw velocity values",
+            "sld_velocityBoost": "Adds additional value to raw velocity",
+            "lbl_metronome": "Select the audio sample type to use for the metronome",
+            "tgl_enableV2Reverb": "Toggle whether reverb is enabled for the V2 audio engine",
+            "tgl_listenToProgramChanges": "Toggle whether PianoRhythm should listen to midi program change events and update the instrument dock, accordingly.",
+            "tgl_autoFillEmptyChannels": "Toggle whether empty channels in the instrument dock should be autofilled with the default instrument when a note on event occurs.",
+            "tgl_useDefaultBankWhenMissing": "Toggle whether to use the default bank (usually bank 0) when a soundfont does not have a particular bank.",
+            "tgl_enableStereoPanning": "Toggle whether the audio engine supports panning the audio stream left or right. <br><br>So, the sound position of the notes will be relative to their position on the piano. <br><br>For example, notes closer to the right will be heard more so on the right speaker. Same goes for the left and those near the middle will be distributed across both speakers."
+          }
+        }
+      }
+    },
+    "billing": {
+      "header": "Billing",
+      "subMenus": {
+        "subscription": {
+          "label": "Subscription",
+          "elements": {
+            "lbl_languageSelect": "Language Select"
+          },
+          "tooltips": {
+            "lbl_languageSelect": "Set the default language for PianoRhythm."
+          }
+        }
+      },
+      "buttons": {
+        "checkout": "Checkout with Stripe",
+        "cancelSubscription": "Cancel Subscription",
+        "cancellation_InProcess": "Resume subscription with Stripe"
+      },
+      "labels": {
+        "billingInfo": "Billing Information",
+        "cancelSubscription": "Cancel Subscription"
+      },
+      "messages": {
+        "checkout_Created": "A new tab has been opened. Continue checkout there!",
+        "checkout_Success": "Checkout success!",
+        "checkout_Cancelled": "You've cancelled the session.",
+        "checkout_ResumePlan": "You're about to resume your cancelled subscription. </br></br>Are you sure?",
+        "checkout_Confirm": "You're about to check out and subscribe to a premium plan. </br></br>Are you sure?",
+        "subscription_cancellationFail": "Sorry, something went wrong. Failed to cancel subscription.",
+        "subscription_Updated": "You've successfully updated your subscription plan!",
+        "subText": "Here's your current subscription. You can cancel or update it any time.",
+        "cancellation_InProcess": "Your current subscription has been <b>canceled</b> and therefore, will not be auto renewed. </b> However, you will still have your benefits until <b style=\"color:white;\">{{billingDate}}</b>.",
+        "autoRenewInfo": "Your subscription will automatically renew on <b style=\"color:white;\">{{billingDate}}</b> and you'll be charged <b style=\"color:white;\">{{currencyText}}.</b>",
+        "cancellation_Confirm": "We're sorry to see you go, {{username}}!. </br> Your pro plan subscription is paid until <b>{{planBillingDate}}</b>. </br></br>If you would like to proceed with canceling your subscription, please select <b>\"Cancel Subscription\"</b> below.",
+        "cancellation_Success": "You've successfully canceled your subscription."
+      }
+    },
+    "other": {
+      "header": "Other",
+      "subMenus": {
+        "changelog": {
+          "label": "Release Notes"
+        },
+        "credits": {
+          "label": "Credits",
+          "messages": {
+            "error_FailedToGetData": "Failed to get data..."
+          }
+        }
+      }
     }
+  }
 }

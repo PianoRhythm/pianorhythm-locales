@@ -191,5 +191,25 @@
       "text2": "Tem certeza de que deseja participar?",
       "dontShowAgain": "Não mostre esta mensagem novamente."
     }
+  },
+  "actionWidgets": {
+    "cameraActions": {
+      "header": "Ações da câmera"
+    },
+    "commonActions": {
+      "header": "Ações Comuns"
+    },
+    "roomOwnerActions": {
+      "header": "Ações do proprietário da sala",
+      "buttons": {
+        "showKickedUsers": "Mostrar usuários expulsos"
+      }
+    },
+    "stageVisualEffects": {
+      "header": "Efeitos visuais de palco"
+    },
+    "stageAudioEffects": {
+      "header": "Efeitos de áudio de palco"
+    }
   }
 }

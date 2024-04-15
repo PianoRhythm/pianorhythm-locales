@@ -191,5 +191,25 @@
       "text2": "가입하시겠습니까?",
       "dontShowAgain": "이 메시지를 다시 표시하지 마십시오."
     }
+  },
+  "actionWidgets": {
+    "cameraActions": {
+      "header": "카메라 동작"
+    },
+    "commonActions": {
+      "header": "일반적인 작업"
+    },
+    "roomOwnerActions": {
+      "header": "방 소유자 작업",
+      "buttons": {
+        "showKickedUsers": "추방된 사용자 표시"
+      }
+    },
+    "stageVisualEffects": {
+      "header": "무대 시각 효과"
+    },
+    "stageAudioEffects": {
+      "header": "무대 오디오 효과"
+    }
   }
 }
