@@ -16,16 +16,16 @@
     "modal_Confirm2": "Sim por favor!",
     "modal_Deny": "Esquece..."
   },
-  "errorMessages": {
-    "webGLNotSupported": "Desculpe, alguns recursos, como WebGL, não são compatíveis com seu navegador.<br> Atualize seu navegador se puder.",
-    "midiFileSizeIsTooBig": "O tamanho do arquivo é muito grande!",
-    "dropValidMidiFile": "Carregue um arquivo midi válido!"
-  },
   "generalMessages": {
+    "dropAnyValidMidiFile": "Solte um arquivo .midi válido para jogar!",
     "serverConnected": "Conectado a {{appName}}",
     "passwordResetSuccess": "Sua senha foi alterada com sucesso. Você pode prosseguir para o login. :)",
     "forgotPasswordSuccess": "Se houver uma conta associada a esse e-mail, será enviado um e-mail para redefinir a senha. Obrigado!",
-    "registerSuccess": "Um e-mail de verificação foi enviado. Verifique também a sua pasta de SPAM.",
-    "dropAnyValidMidiFile": "Solte um arquivo .midi válido para jogar!"
+    "registerSuccess": "Um e-mail de verificação foi enviado. Verifique também a sua pasta de SPAM."
+  },
+  "errorMessages": {
+    "midiFileSizeIsTooBig": "O tamanho do arquivo é muito grande!",
+    "dropValidMidiFile": "Carregue um arquivo midi válido!",
+    "webGLNotSupported": "Desculpe, alguns recursos, como WebGL, não são compatíveis com seu navegador.<br> Atualize seu navegador se puder."
   }
 }

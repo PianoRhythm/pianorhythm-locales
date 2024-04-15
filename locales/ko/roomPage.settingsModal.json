@@ -151,7 +151,8 @@
             "sld_chatMsgsHeightOffset": "채팅 메시지 높이 오프셋",
             "sld_chatMsg2DOpacity": "채팅 메시지 기본 불투명도(2D 모드)",
             "sld_chatMsg3DOpacity": "채팅 메시지 기본 불투명도(3D 모드)",
-            "tgl_display3DStats": "3D 통계 표시"
+            "tgl_display3DStats": "3D 통계 표시",
+            "tgle_showEmbeddedLinks": "포함된 링크 표시"
           },
           "tooltips": {
             "hdr_displays": "특정 UI 요소의 표시 전환",
@@ -166,7 +167,8 @@
             "tgl_display3DStats": "3D 장면에 대한 추가 통계/정보 표시 전환",
             "tgle_keepChatInFocus": "메시지를 제출한 후 채팅에 초점을 유지할지 여부를 전환합니다.",
             "sld_chatMsg2DOpacity": "초점이 맞지 않을 때 채팅 메시지의 기본 불투명도를 설정합니다. (2D 모드)",
-            "sld_chatMsg3DOpacity": "초점이 맞지 않을 때 채팅 메시지의 기본 불투명도를 설정합니다. (3D 모드)"
+            "sld_chatMsg3DOpacity": "초점이 맞지 않을 때 채팅 메시지의 기본 불투명도를 설정합니다. (3D 모드)",
+            "tgle_showEmbeddedLinks": "링크에 연결된 링크의 이미지 또는 비디오와 같은 포함된 개체를 표시할지 여부를 전환합니다."
           }
         },
         "blob": {
@@ -225,7 +227,12 @@
             "sld_velocityMuting": "벨로시티 뮤팅",
             "tgl_enableVelocityBoost": "속도 향상 활성화",
             "sld_velocityBoost": "속도 부스트",
-            "lbl_metronome": "메트로놈 오디오 샘플"
+            "lbl_metronome": "메트로놈 오디오 샘플",
+            "tgl_enableV2Reverb": "V2 리버브",
+            "tgl_listenToProgramChanges": "프로그램 변경 사항 듣기",
+            "tgl_autoFillEmptyChannels": "빈 채널 자동 채우기",
+            "tgl_useDefaultBankWhenMissing": "누락 시 기본 뱅크 사용",
+            "tgl_enableStereoPanning": "스테레오 패닝 활성화"
           },
           "tooltips": {
             "lbl_enableAudioToOutput": "선택하고 출력 장치가 활성화되면 오디오는 PianoRhythm의 오디오 엔진이 아닌 출력 장치로만 방출됩니다.",
@@ -235,7 +242,12 @@
             "sld_velocityMuting": "미터 값보다 작거나 같은 벨로시티로 음소거.",
             "tgl_enableVelocityBoost": "들어오는 원시 속도 값을 높입니다.",
             "sld_velocityBoost": "원시 속도에 추가 가치 추가",
-            "lbl_metronome": "메트로놈에 사용할 오디오 샘플 유형 선택"
+            "lbl_metronome": "메트로놈에 사용할 오디오 샘플 유형 선택",
+            "tgl_enableV2Reverb": "V2 오디오 엔진에 리버브를 활성화할지 여부를 전환합니다.",
+            "tgl_listenToProgramChanges": "PianoRhythm이 미디 프로그램 변경 이벤트를 수신하고 그에 따라 악기 도크를 업데이트해야 하는지 여부를 전환합니다.",
+            "tgl_autoFillEmptyChannels": "이벤트에 대한 메모가 발생할 때 계측기 도크의 빈 채널을 기본 계측기로 자동 채울지 여부를 전환합니다.",
+            "tgl_useDefaultBankWhenMissing": "사운드폰트에 특정 뱅크가 없을 때 기본 뱅크(보통 뱅크 0)를 사용할지 여부를 전환합니다.",
+            "tgl_enableStereoPanning": "오디오 엔진이 오디오 스트림의 왼쪽 또는 오른쪽 패닝을 지원하는지 여부를 전환합니다.<br><br> 따라서 음표의 소리 위치는 피아노에서의 위치를 기준으로 합니다.<br><br> 예를 들어, 오른쪽에 가까운 음은 오른쪽 스피커에서 더 많이 들립니다. 왼쪽에도 동일하게 적용되며 중앙에 가까운 스피커는 두 스피커에 모두 분산됩니다."
           }
         }
       }
@@ -253,20 +265,6 @@
           }
         }
       },
-      "messages": {
-        "autoRenewInfo": "<b style=\"color:white;\">{{billingDate}}</b> 일에 자동으로 갱신되며 <b style=\"color:white;\">{{currencyText}}</b> 이 청구 <b style=\"color:white;\">됩니다.</b>",
-        "subText": "현재 구독 중입니다. 언제든지 취소하거나 업데이트할 수 있습니다.",
-        "checkout_Created": "새 탭이 열렸습니다. 거기서 계속 체크아웃하세요!",
-        "checkout_Success": "결제 성공!",
-        "checkout_Cancelled": "세션을 취소했습니다.",
-        "checkout_ResumePlan": "취소된 구독을 재개하려고 합니다. </br></br>확실합니까?",
-        "checkout_Confirm": "체크아웃하고 프리미엄 플랜에 가입하려고 합니다. </br></br>확실합니까?",
-        "subscription_cancellationFail": "죄송합니다. 문제가 발생했습니다. 구독을 취소하지 못했습니다.",
-        "subscription_Updated": "구독 계획을 성공적으로 업데이트했습니다!",
-        "cancellation_InProcess": "현재 구독이 <b>취소</b> 되었으므로 자동 갱신되지 않습니다. <b style=\"color:white;\">{{billingDate}}</b> 까지 혜택을 계속 받을 수 있습니다.",
-        "cancellation_Confirm": "가셔서 죄송합니다, {{username}} !.</br>귀하의 프로 플랜 구독은 <b>{{planBillingDate}}</b> 까지 지불됩니다.</br></br> 구독 취소를 계속하려면 아래 <b>에서 &quot;구독 취소&quot;를 선택하십시오.</b>",
-        "cancellation_Success": "구독을 성공적으로 취소했습니다."
-      },
       "buttons": {
         "checkout": "스트라이프로 결제",
         "cancelSubscription": "구독 취소",
@@ -275,6 +273,20 @@
       "labels": {
         "billingInfo": "결제 정보",
         "cancelSubscription": "구독 취소"
+      },
+      "messages": {
+        "checkout_Created": "새 탭이 열렸습니다. 거기서 계속 체크아웃하세요!",
+        "checkout_Success": "결제 성공!",
+        "checkout_Cancelled": "세션을 취소했습니다.",
+        "checkout_ResumePlan": "취소된 구독을 재개하려고 합니다. </br></br>확실합니까?",
+        "checkout_Confirm": "체크아웃하고 프리미엄 플랜에 가입하려고 합니다. </br></br>확실합니까?",
+        "subscription_cancellationFail": "죄송합니다. 문제가 발생했습니다. 구독을 취소하지 못했습니다.",
+        "subscription_Updated": "구독 계획을 성공적으로 업데이트했습니다!",
+        "subText": "현재 구독 중입니다. 언제든지 취소하거나 업데이트할 수 있습니다.",
+        "cancellation_InProcess": "현재 구독이 <b>취소</b> 되었으므로 자동 갱신되지 않습니다. <b style=\"color:white;\">{{billingDate}}</b> 까지 혜택을 계속 받을 수 있습니다.",
+        "autoRenewInfo": "<b style=\"color:white;\">{{billingDate}}</b> 일에 자동으로 갱신되며 <b style=\"color:white;\">{{currencyText}}</b> 이 청구 <b style=\"color:white;\">됩니다.</b>",
+        "cancellation_Confirm": "가셔서 죄송합니다, {{username}} !.</br>귀하의 프로 플랜 구독은 <b>{{planBillingDate}}</b> 까지 지불됩니다.</br></br> 구독 취소를 계속하려면 아래 <b>에서 &quot;구독 취소&quot;를 선택하십시오.</b>",
+        "cancellation_Success": "구독을 성공적으로 취소했습니다."
       }
     },
     "other": {

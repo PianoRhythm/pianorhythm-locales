@@ -151,7 +151,8 @@
             "sld_chatMsgsHeightOffset": "Messaggi di chat Offset altezza",
             "sld_chatMsg2DOpacity": "Messaggi chat Opacità predefinita (modalità 2D)",
             "sld_chatMsg3DOpacity": "Messaggi di chat Opacità predefinita (modalità 3D)",
-            "tgl_display3DStats": "Visualizza statistiche 3D"
+            "tgl_display3DStats": "Visualizza statistiche 3D",
+            "tgle_showEmbeddedLinks": "Mostra collegamenti incorporati"
           },
           "tooltips": {
             "hdr_displays": "Attiva o disattiva la visualizzazione di determinati elementi dell'interfaccia utente",
@@ -166,7 +167,8 @@
             "tgl_display3DStats": "Attiva/disattiva la visualizzazione di statistiche/informazioni aggiuntive sulla scena 3D",
             "tgle_keepChatInFocus": "Seleziona se mantenere la chat a fuoco dopo aver inviato un messaggio",
             "sld_chatMsg2DOpacity": "Imposta l'opacità predefinita dei messaggi della chat quando non è focalizzato. (Modalità 2D)",
-            "sld_chatMsg3DOpacity": "Imposta l'opacità predefinita dei messaggi della chat quando non è focalizzato. (Modalità 3D)"
+            "sld_chatMsg3DOpacity": "Imposta l'opacità predefinita dei messaggi della chat quando non è focalizzato. (Modalità 3D)",
+            "tgle_showEmbeddedLinks": "Scegli se i collegamenti mostrano oggetti incorporati come immagini o video del collegamento associato"
           }
         },
         "blob": {
@@ -225,7 +227,12 @@
             "sld_velocityMuting": "Silenziamento della velocità",
             "tgl_enableVelocityBoost": "Abilita l'aumento della velocità",
             "sld_velocityBoost": "Aumento di velocità",
-            "lbl_metronome": "Campione audio del metronomo"
+            "lbl_metronome": "Campione audio del metronomo",
+            "tgl_enableV2Reverb": "Riverbero V2",
+            "tgl_listenToProgramChanges": "Ascolta i cambi di programma",
+            "tgl_autoFillEmptyChannels": "Riempimento automatico dei canali vuoti",
+            "tgl_useDefaultBankWhenMissing": "Usa banca predefinita quando manca",
+            "tgl_enableStereoPanning": "Abilita il panning stereo"
           },
           "tooltips": {
             "lbl_enableAudioToOutput": "Se selezionato e tutti i dispositivi di output sono attivi, l'audio verrà emesso solo sul dispositivo di output e non all'interno del motore audio di PianoRhythm",
@@ -235,7 +242,12 @@
             "sld_velocityMuting": "Disattiva le note con una velocità inferiore o uguale al valore del misuratore.",
             "tgl_enableVelocityBoost": "Aumenta i valori di velocità grezzi in entrata",
             "sld_velocityBoost": "Aggiunge valore aggiuntivo alla velocità grezza",
-            "lbl_metronome": "Seleziona il tipo di campione audio da utilizzare per il metronomo"
+            "lbl_metronome": "Seleziona il tipo di campione audio da utilizzare per il metronomo",
+            "tgl_enableV2Reverb": "Scegli se abilitare o meno il riverbero per il motore audio V2",
+            "tgl_listenToProgramChanges": "Scegli se PianoRhythm deve ascoltare gli eventi di cambio programma midi e aggiornare di conseguenza il dock dello strumento.",
+            "tgl_autoFillEmptyChannels": "Scegli se i canali vuoti nel dock dello strumento devono essere riempiti automaticamente con lo strumento predefinito quando si verifica una nota sull'evento.",
+            "tgl_useDefaultBankWhenMissing": "Scegli se utilizzare il banco predefinito (di solito il banco 0) quando un soundfont non ha un banco particolare.",
+            "tgl_enableStereoPanning": "Scegli se il motore audio supporta la panoramica del flusso audio a sinistra o a destra.<br><br> Quindi, la posizione sonora delle note sarà relativa alla loro posizione sul pianoforte.<br><br> Ad esempio, le note più vicine a destra verranno ascoltate maggiormente dall'altoparlante destro. Lo stesso vale per la sinistra e quelli vicini al centro saranno distribuiti su entrambi gli altoparlanti."
           }
         }
       }
@@ -253,20 +265,6 @@
           }
         }
       },
-      "messages": {
-        "autoRenewInfo": "Il tuo abbonamento si rinnoverà automaticamente il <b style=\"color:white;\">{{billingDate}}</b> e ti verrà addebitato <b style=\"color:white;\">{{currencyText}} .</b>",
-        "subText": "Ecco il tuo attuale abbonamento. Puoi cancellarlo o aggiornarlo in qualsiasi momento.",
-        "checkout_Created": "È stata aperta una nuova scheda. Continua il checkout lì!",
-        "checkout_Success": "Successo alla cassa!",
-        "checkout_Cancelled": "Hai annullato la sessione.",
-        "checkout_ResumePlan": "Stai per riprendere l'abbonamento annullato. </br></br>Sei sicuro?",
-        "checkout_Confirm": "Stai per controllare e iscriverti a un piano premium. </br></br>Sei sicuro?",
-        "subscription_cancellationFail": "Scusa, qualcosa è andato storto. Impossibile annullare l'abbonamento.",
-        "subscription_Updated": "Hai aggiornato con successo il tuo piano di abbonamento!",
-        "cancellation_InProcess": "Il tuo attuale abbonamento è stato <b>cancellato</b> e, pertanto, non verrà rinnovato automaticamente. Tuttavia, avrai ancora i tuoi vantaggi fino a <b style=\"color:white;\">{{billingDate}}</b> .",
-        "cancellation_Confirm": "Ci dispiace vederti andare via, {{username}} !.</br>Il tuo abbonamento al piano pro viene pagato fino al <b>{{planBillingDate}}</b> .</br></br> Se desideri procedere con l&#39;annullamento dell&#39;abbonamento, seleziona <b>&quot;Annulla abbonamento&quot; di</b> seguito.",
-        "cancellation_Success": "Hai cancellato con successo l'abbonamento."
-      },
       "buttons": {
         "checkout": "Cassa con Stripe",
         "cancelSubscription": "Annullare l'iscrizione",
@@ -275,6 +273,20 @@
       "labels": {
         "billingInfo": "Informazioni di fatturazione",
         "cancelSubscription": "Annullare l'iscrizione"
+      },
+      "messages": {
+        "checkout_Created": "È stata aperta una nuova scheda. Continua il checkout lì!",
+        "checkout_Success": "Successo alla cassa!",
+        "checkout_Cancelled": "Hai annullato la sessione.",
+        "checkout_ResumePlan": "Stai per riprendere l'abbonamento annullato. </br></br>Sei sicuro?",
+        "checkout_Confirm": "Stai per controllare e iscriverti a un piano premium. </br></br>Sei sicuro?",
+        "subscription_cancellationFail": "Scusa, qualcosa è andato storto. Impossibile annullare l'abbonamento.",
+        "subscription_Updated": "Hai aggiornato con successo il tuo piano di abbonamento!",
+        "subText": "Ecco il tuo attuale abbonamento. Puoi cancellarlo o aggiornarlo in qualsiasi momento.",
+        "cancellation_InProcess": "Il tuo attuale abbonamento è stato <b>cancellato</b> e, pertanto, non verrà rinnovato automaticamente. Tuttavia, avrai ancora i tuoi vantaggi fino a <b style=\"color:white;\">{{billingDate}}</b> .",
+        "autoRenewInfo": "Il tuo abbonamento si rinnoverà automaticamente il <b style=\"color:white;\">{{billingDate}}</b> e ti verrà addebitato <b style=\"color:white;\">{{currencyText}} .</b>",
+        "cancellation_Confirm": "Ci dispiace vederti andare via, {{username}} !.</br>Il tuo abbonamento al piano pro viene pagato fino al <b>{{planBillingDate}}</b> .</br></br> Se desideri procedere con l&#39;annullamento dell&#39;abbonamento, seleziona <b>&quot;Annulla abbonamento&quot; di</b> seguito.",
+        "cancellation_Success": "Hai cancellato con successo l'abbonamento."
       }
     },
     "other": {

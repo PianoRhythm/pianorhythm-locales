@@ -38,14 +38,14 @@
   "loginForm": {
     "header": "ログイン"
   },
+  "twoFactorAuth": {
+    "header": "二要素認証"
+  },
   "registerForm": {
     "labels": {
       "tos1": "I agree that I'm at least 13 and I have read the",
       "tos2": "Terms of Use and Conditions"
     },
     "submitButton": "登録"
-  },
-  "twoFactorAuth": {
-    "header": "二要素認証"
   }
 }

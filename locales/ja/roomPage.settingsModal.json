@@ -32,6 +32,32 @@
     "online": {
       "header": "オンライン",
       "subMenus": {
+        "my account": {
+          "label": "マイアカウント",
+          "elements": {
+            "hdr_myAccount": "マイアカウント",
+            "hdr_passwordAndAuthentication": "パスワードと認証",
+            "hdr_accountManagement": "アカウント管理",
+            "hdr_security": "安全",
+            "tgl_enable2fa": "二要素認証",
+            "btn_changePassword": "パスワードを変更する",
+            "btn_deleteAccount": "アカウントを削除する",
+            "txt_passwordChangeSubText": "現在のパスワードと新しいパスワードを入力します",
+            "txt_deleteAccountSubText": "本当によろしいですか？すべてのアカウントデータは完全に削除されます",
+            "txt_onIncorrectDeleteInputField": "入力フィールドに正しく入力したことを確認してください。",
+            "txt_confirmPasswordSubText": "パスワードを入力して確認してください",
+            "txt_emailChangeSubText": "新しいメールアドレスとパスワードを入力してください"
+          },
+          "tooltips": {
+            "hdr_myAccount": "口座情報",
+            "tgl_enable2fa": "2要素認証（2FA）を使用してセキュリティのレイヤーを追加します。",
+            "hdr_passwordAndAuthentication": "パスワードと認証",
+            "hdr_accountManagement": "アカウント管理"
+          },
+          "messages": {
+            "on2faDisable": "二要素認証を無効にした後、アカウントにログインするには、パスワードのみの保護が必要になります。 2要素認証の無効化を続行しますか？"
+          }
+        },
         "multiplayer": {
           "label": "ムルチプレイヤー",
           "elements": {
@@ -51,12 +77,12 @@
           "tooltips": {
             "hdr_multiplayerSettings": "マルチプレイヤー関連の設定",
             "lbl_userColor": "ユーザーの色を設定する",
-            "btn_userColorReset": "",
-            "btn_userColorSubmit": "",
+            "btn_userColorReset": "色をリセットする",
+            "btn_userColorSubmit": "色をアップデートしましょう！",
+            "hdr_notifications": "受信するサーバー通知を切り替えます。",
             "tgl_showMyCursor": "他の人にカーソルを見せます。",
             "tgl_sendWhoistyping": "入力しているときに他のユーザーが知っているかどうかを切り替えます。",
             "tgl_disableWhispers": "ささやきを無効にする。あなたは他人にささやくことはできないし、他人もあなたにささやくことはできません。",
-            "hdr_notifications": "受信するサーバー通知を切り替えます。",
             "tgl_friendsOnlineStatus": "友達がオンラインになったときに通知を受け取る",
             "tgl_friendsOfflineStatus": "友達がオフラインになったときに通知を受け取る",
             "tgl_emitMyStatusToFriends": "友達にあなたのステータスの変化を知らせましょう。 （オンライン、オフラインなど）",
@@ -92,32 +118,6 @@
             "lbl_shortcutBinds": "キーボードショートカットのバインディング作成",
             "tgl_keyboard_toggleyz": "特定のキーボードレイアウトでは、YキーボードとZキーボードのマッピングを切り替えるとより自然に調整されます。"
           }
-        },
-        "my account": {
-          "label": "マイアカウント",
-          "elements": {
-            "hdr_myAccount": "マイアカウント",
-            "hdr_passwordAndAuthentication": "パスワードと認証",
-            "hdr_accountManagement": "アカウント管理",
-            "hdr_security": "安全",
-            "tgl_enable2fa": "二要素認証",
-            "btn_changePassword": "パスワードを変更する",
-            "btn_deleteAccount": "アカウントを削除する",
-            "txt_passwordChangeSubText": "現在のパスワードと新しいパスワードを入力します",
-            "txt_deleteAccountSubText": "本当によろしいですか？すべてのアカウントデータは完全に削除されます",
-            "txt_onIncorrectDeleteInputField": "入力フィールドに正しく入力したことを確認してください。",
-            "txt_confirmPasswordSubText": "パスワードを入力して確認してください",
-            "txt_emailChangeSubText": "新しいメールアドレスとパスワードを入力してください"
-          },
-          "tooltips": {
-            "hdr_myAccount": "口座情報",
-            "tgl_enable2fa": "2要素認証（2FA）を使用してセキュリティのレイヤーを追加します。",
-            "hdr_passwordAndAuthentication": "パスワードと認証",
-            "hdr_accountManagement": "アカウント管理"
-          },
-          "messages": {
-            "on2faDisable": "二要素認証を無効にした後、アカウントにログインするには、パスワードのみの保護が必要になります。 2要素認証の無効化を続行しますか？"
-          }
         }
       }
     },
@@ -151,7 +151,8 @@
             "sld_chatMsgsHeightOffset": "チャットメッセージの高さオフセット",
             "sld_chatMsg2DOpacity": "チャットメッセージのデフォルトの不透明度（2Dモード）",
             "sld_chatMsg3DOpacity": "チャットメッセージのデフォルトの不透明度（3Dモード）",
-            "tgl_display3DStats": "3D統計を表示する"
+            "tgl_display3DStats": "3D統計を表示する",
+            "tgle_showEmbeddedLinks": "埋め込みリンクを表示"
           },
           "tooltips": {
             "hdr_displays": "特定のUI要素の表示をトグルします。",
@@ -166,7 +167,8 @@
             "tgl_display3DStats": "3Dシーンに関する追加の統計/情報の表示を切り替えます",
             "tgle_keepChatInFocus": "メッセージを送信した後、チャットのフォーカスを維持するかどうかを切り替えます",
             "sld_chatMsg2DOpacity": "焦点が合っていないときのチャットメッセージのデフォルトの不透明度を設定します。 （2Dモード）",
-            "sld_chatMsg3DOpacity": "焦点が合っていないときのチャットメッセージのデフォルトの不透明度を設定します。 （3Dモード）"
+            "sld_chatMsg3DOpacity": "焦点が合っていないときのチャットメッセージのデフォルトの不透明度を設定します。 （3Dモード）",
+            "tgle_showEmbeddedLinks": "リンクに埋め込まれたオブジェクト（画像や動画など）を表示するかどうかを切り替えます"
           }
         },
         "blob": {
@@ -225,7 +227,12 @@
             "sld_velocityMuting": "ベロシティ・ミューティング",
             "tgl_enableVelocityBoost": "ベロシティブーストを有効にする",
             "sld_velocityBoost": "ベロシティブースト",
-            "lbl_metronome": "メトロノーム・オーディオ・サンプル"
+            "lbl_metronome": "メトロノーム・オーディオ・サンプル",
+            "tgl_enableV2Reverb": "V2 リバーブ",
+            "tgl_listenToProgramChanges": "プログラムの変更を聞く",
+            "tgl_autoFillEmptyChannels": "空のチャンネルを自動入力",
+            "tgl_useDefaultBankWhenMissing": "見つからない場合はデフォルトのバンクを使用する",
+            "tgl_enableStereoPanning": "ステレオパンニングを有効にする"
           },
           "tooltips": {
             "lbl_enableAudioToOutput": "この機能を有効にして出力デバイスをアクティブにすると、PianoRhythmのオーディオエンジン内ではなく、出力デバイスにのみ音声が出力されます。",
@@ -235,21 +242,12 @@
             "sld_velocityMuting": "指定した値以下または同様のベロシティの音をミュートする。。",
             "tgl_enableVelocityBoost": "有効にすると、入力のベロシティ値をブーストします。",
             "sld_velocityBoost": "インプットのベロシティ値をブーストします。",
-            "lbl_metronome": "メトロノームに使用するオーディオサンプルを選択します。"
-          }
-        }
-      }
-    },
-    "other": {
-      "header": "他の",
-      "subMenus": {
-        "changelog": {
-          "label": "チェンジログ"
-        },
-        "credits": {
-          "label": "クレジット",
-          "messages": {
-            "error_FailedToGetData": "データの取得に失敗しました。"
+            "lbl_metronome": "メトロノームに使用するオーディオサンプルを選択します。",
+            "tgl_enableV2Reverb": "V2オーディオエンジンでリバーブを有効にするかどうかを切り替えます",
+            "tgl_listenToProgramChanges": "PianoRhythm が MIDI プログラム変更イベントをリッスンし、それに応じて楽器ドックを更新するかどうかを切り替えます。",
+            "tgl_autoFillEmptyChannels": "ノートオン イベントが発生したときに、インストゥルメント ドックの空のチャンネルをデフォルトのインストゥルメントで自動入力するかどうかを切り替えます。",
+            "tgl_useDefaultBankWhenMissing": "サウンドフォントに特定のバンクがない場合に、デフォルトのバンク (通常はバンク 0) を使用するかどうかを切り替えます。",
+            "tgl_enableStereoPanning": "オーディオ エンジンがオーディオ ストリームの左または右へのパンをサポートするかどうかを切り替えます。<br><br>したがって、音符の音の位置はピアノ上の位置に応じて変わります。<br><br>たとえば、右側に近い音は右側のスピーカーでよりよく聞こえます。左側でも同様で、中央に近い音は両方のスピーカーに分散されます。"
           }
         }
       }
@@ -267,20 +265,6 @@
           }
         }
       },
-      "messages": {
-        "autoRenewInfo": "<b style=\"color:white;\">{{billingDate}}</b>自動的に更新さ<b style=\"color:white;\">{{currencyText}}</b>が課金されます<b style=\"color:white;\">。</b>",
-        "subText": "これが現在のサブスクリプションです。いつでもキャンセルまたは更新できます。",
-        "checkout_Created": "新しいタブが開きました。そこでチェックアウトを続けてください！",
-        "checkout_Success": "チェックアウト成功！",
-        "checkout_Cancelled": "セッションをキャンセルしました。",
-        "checkout_ResumePlan": "キャンセルしたサブスクリプションを再開しようとしています。 </br> </br>よろしいですか？",
-        "checkout_Confirm": "プレミアムプランをチェックアウトしてサブスクライブしようとしています。 </br> </br>よろしいですか？",
-        "subscription_cancellationFail": "申し訳ありませんが、問題が発生しました。サブスクリプションのキャンセルに失敗しました。",
-        "subscription_Updated": "サブスクリプションプランが正常に更新されました。",
-        "cancellation_InProcess": "現在のサブスクリプションは<b>キャンセル</b>されているため、自動更新されません。 <b style=\"color:white;\">{{billingDate}}</b>までは引き続きメリットがあります。",
-        "cancellation_Confirm": "ご不便をおかけして申し訳ございません{{username}} ！</br>プロプランのサブスクリプションは<b>{{planBillingDate}}</b>まで支払われます。</br></br>サブスクリプションのキャンセルを続行する場合は、下の[<b>サブスクリプションのキャンセル]</b>を選択してください。",
-        "cancellation_Success": "サブスクリプションを正常にキャンセルしました。"
-      },
       "buttons": {
         "checkout": "Stripeでチェックアウト",
         "cancelSubscription": "サブスクリプションをキャンセルする",
@@ -289,6 +273,34 @@
       "labels": {
         "billingInfo": "課金情報",
         "cancelSubscription": "サブスクリプションをキャンセルする"
+      },
+      "messages": {
+        "checkout_Created": "新しいタブが開きました。そこでチェックアウトを続けてください！",
+        "checkout_Success": "チェックアウト成功！",
+        "checkout_Cancelled": "セッションをキャンセルしました。",
+        "checkout_ResumePlan": "キャンセルしたサブスクリプションを再開しようとしています。 </br> </br>よろしいですか？",
+        "checkout_Confirm": "プレミアムプランをチェックアウトしてサブスクライブしようとしています。 </br> </br>よろしいですか？",
+        "subscription_cancellationFail": "申し訳ありませんが、問題が発生しました。サブスクリプションのキャンセルに失敗しました。",
+        "subscription_Updated": "サブスクリプションプランが正常に更新されました。",
+        "subText": "これが現在のサブスクリプションです。いつでもキャンセルまたは更新できます。",
+        "cancellation_InProcess": "現在のサブスクリプションは<b>キャンセル</b>されているため、自動更新されません。 <b style=\"color:white;\">{{billingDate}}</b>までは引き続きメリットがあります。",
+        "autoRenewInfo": "<b style=\"color:white;\">{{billingDate}}</b>自動的に更新さ<b style=\"color:white;\">{{currencyText}}</b>が課金されます<b style=\"color:white;\">。</b>",
+        "cancellation_Confirm": "ご不便をおかけして申し訳ございません{{username}} ！</br>プロプランのサブスクリプションは<b>{{planBillingDate}}</b>まで支払われます。</br></br>サブスクリプションのキャンセルを続行する場合は、下の[<b>サブスクリプションのキャンセル]</b>を選択してください。",
+        "cancellation_Success": "サブスクリプションを正常にキャンセルしました。"
+      }
+    },
+    "other": {
+      "header": "他の",
+      "subMenus": {
+        "changelog": {
+          "label": "チェンジログ"
+        },
+        "credits": {
+          "label": "クレジット",
+          "messages": {
+            "error_FailedToGetData": "データの取得に失敗しました。"
+          }
+        }
       }
     }
   }

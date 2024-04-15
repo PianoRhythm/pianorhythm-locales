@@ -151,7 +151,8 @@
             "sld_chatMsgsHeightOffset": "Höhenversatz für Chatnachrichten",
             "sld_chatMsg2DOpacity": "Standarddeckkraft von Chatnachrichten (2D-Modus)",
             "sld_chatMsg3DOpacity": "Standard-Deckkraft von Chat-Nachrichten (3D-Modus)",
-            "tgl_display3DStats": "3D-Statistiken anzeigen"
+            "tgl_display3DStats": "3D-Statistiken anzeigen",
+            "tgle_showEmbeddedLinks": "Eingebettete Links anzeigen"
           },
           "tooltips": {
             "hdr_displays": "Schalten Sie die Anzeigen bestimmter UI-Elemente um",
@@ -166,7 +167,8 @@
             "tgl_display3DStats": "Schalten Sie die Anzeige zusätzlicher Statistiken/Informationen über die 3D-Szene um",
             "tgle_keepChatInFocus": "Schalten Sie um, ob der Chat nach dem Senden einer Nachricht im Fokus bleiben soll",
             "sld_chatMsg2DOpacity": "Legen Sie die Standarddeckkraft der Chatnachrichten fest, wenn sie nicht fokussiert sind. (2D-Modus)",
-            "sld_chatMsg3DOpacity": "Legen Sie die Standarddeckkraft der Chatnachrichten fest, wenn sie nicht fokussiert sind. (3D-Modus)"
+            "sld_chatMsg3DOpacity": "Legen Sie die Standarddeckkraft der Chatnachrichten fest, wenn sie nicht fokussiert sind. (3D-Modus)",
+            "tgle_showEmbeddedLinks": "Umschalten, ob Links eingebettete Objekte wie Bilder oder Videos des zugehörigen Links anzeigen"
           }
         },
         "blob": {
@@ -225,7 +227,12 @@
             "sld_velocityMuting": "Geschwindigkeits-Muting",
             "tgl_enableVelocityBoost": "Velocity-Boost aktivieren",
             "sld_velocityBoost": "Geschwindigkeitsschub",
-            "lbl_metronome": "Metronom-Audiobeispiel"
+            "lbl_metronome": "Metronom-Audiobeispiel",
+            "tgl_enableV2Reverb": "V2 Hall",
+            "tgl_listenToProgramChanges": "Programmänderungen anhören",
+            "tgl_autoFillEmptyChannels": "Leere Kanäle automatisch füllen",
+            "tgl_useDefaultBankWhenMissing": "Bei Fehlen Standardbank verwenden",
+            "tgl_enableStereoPanning": "Stereo-Panning aktivieren"
           },
           "tooltips": {
             "lbl_enableAudioToOutput": "Wenn diese Option aktiviert ist und alle Ausgabegeräte aktiv sind, wird Audio nur an das Ausgabegerät und nicht innerhalb der Audio-Engine von PianoRhythm ausgegeben",
@@ -235,7 +242,12 @@
             "sld_velocityMuting": "Stummschalten von Noten mit einer Velocity, die kleiner oder gleich dem Zählerwert ist.",
             "tgl_enableVelocityBoost": "Verstärkt eingehende rohe Velocity-Werte",
             "sld_velocityBoost": "Fügt der Rohgeschwindigkeit zusätzlichen Wert hinzu",
-            "lbl_metronome": "Wählen Sie den Audio-Sample-Typ aus, der für das Metronom verwendet werden soll"
+            "lbl_metronome": "Wählen Sie den Audio-Sample-Typ aus, der für das Metronom verwendet werden soll",
+            "tgl_enableV2Reverb": "Umschalten, ob Hall für die V2-Audio-Engine aktiviert ist",
+            "tgl_listenToProgramChanges": "Schalten Sie um, ob PianoRhythm auf MIDI-Programmwechselereignisse hören und das Instrumentendock entsprechend aktualisieren soll.",
+            "tgl_autoFillEmptyChannels": "Schalten Sie um, ob leere Kanäle im Instrumentendock automatisch mit dem Standardinstrument aufgefüllt werden sollen, wenn ein Note-On-Ereignis auftritt.",
+            "tgl_useDefaultBankWhenMissing": "Schaltet um, ob die Standardbank (normalerweise Bank 0) verwendet werden soll, wenn ein Soundfont keine bestimmte Bank hat.",
+            "tgl_enableStereoPanning": "Schalten Sie um, ob die Audio-Engine das Schwenken des Audiostreams nach links oder rechts unterstützt.<br><br> Die Klangposition der Noten ist also relativ zu ihrer Position auf dem Klavier.<br><br> So sind Noten, die weiter rechts liegen, beispielsweise auf dem rechten Lautsprecher stärker zu hören, dasselbe gilt für den linken Lautsprecher und Noten in der Mitte werden auf beide Lautsprecher verteilt."
           }
         }
       }
@@ -253,20 +265,6 @@
           }
         }
       },
-      "messages": {
-        "autoRenewInfo": "Ihr Abonnement verlängert sich automatisch um <b style=\"color:white;\">{{billingDate}}</b> und es werden Ihnen <b style=\"color:white;\">{{currencyText}} in Rechnung gestellt.</b>",
-        "subText": "Hier ist Ihr aktuelles Abonnement. Sie können es jederzeit kündigen oder aktualisieren.",
-        "checkout_Created": "Ein neuer Tab wurde geöffnet. Dort zur Kasse gehen!",
-        "checkout_Success": "Checkout-Erfolg!",
-        "checkout_Cancelled": "Sie haben die Sitzung abgebrochen.",
-        "checkout_ResumePlan": "Sie sind dabei, Ihr gekündigtes Abonnement fortzusetzen. </br></br>Sind Sie sicher?",
-        "checkout_Confirm": "Sie sind dabei, einen Premiumplan auszuchecken und zu abonnieren. </br></br>Sind Sie sicher?",
-        "subscription_cancellationFail": "Entschuldigung, etwas ist schief gelaufen. Abonnement konnte nicht gekündigt werden.",
-        "subscription_Updated": "Sie haben Ihren Abonnementplan erfolgreich aktualisiert!",
-        "cancellation_InProcess": "Ihr aktuelles Abonnement wurde <b>gekündigt</b> und wird daher nicht automatisch verlängert. Sie haben jedoch noch bis <b style=\"color:white;\">{{billingDate}}</b> Ihre Leistungen.",
-        "cancellation_Confirm": "Es tut uns leid, dich gehen zu sehen, {{username}} !.</br>Ihr Pro-Plan-Abonnement wird bis zum <b>{{planBillingDate}}</b> bezahlt.</br></br> Wenn Sie mit der Kündigung Ihres Abonnements fortfahren möchten, wählen Sie bitte unten <b>„Abonnement kündigen“.</b>",
-        "cancellation_Success": "Sie haben Ihr Abonnement erfolgreich gekündigt."
-      },
       "buttons": {
         "checkout": "Kasse mit Stripe",
         "cancelSubscription": "Abonnement kündigen",
@@ -275,6 +273,20 @@
       "labels": {
         "billingInfo": "Abrechnungsdaten",
         "cancelSubscription": "Abonnement kündigen"
+      },
+      "messages": {
+        "checkout_Created": "Ein neuer Tab wurde geöffnet. Dort zur Kasse gehen!",
+        "checkout_Success": "Checkout-Erfolg!",
+        "checkout_Cancelled": "Sie haben die Sitzung abgebrochen.",
+        "checkout_ResumePlan": "Sie sind dabei, Ihr gekündigtes Abonnement fortzusetzen. </br></br>Sind Sie sicher?",
+        "checkout_Confirm": "Sie sind dabei, einen Premiumplan auszuchecken und zu abonnieren. </br></br>Sind Sie sicher?",
+        "subscription_cancellationFail": "Entschuldigung, etwas ist schief gelaufen. Abonnement konnte nicht gekündigt werden.",
+        "subscription_Updated": "Sie haben Ihren Abonnementplan erfolgreich aktualisiert!",
+        "subText": "Hier ist Ihr aktuelles Abonnement. Sie können es jederzeit kündigen oder aktualisieren.",
+        "cancellation_InProcess": "Ihr aktuelles Abonnement wurde <b>gekündigt</b> und wird daher nicht automatisch verlängert. Sie haben jedoch noch bis <b style=\"color:white;\">{{billingDate}}</b> Ihre Leistungen.",
+        "autoRenewInfo": "Ihr Abonnement verlängert sich automatisch um <b style=\"color:white;\">{{billingDate}}</b> und es werden Ihnen <b style=\"color:white;\">{{currencyText}} in Rechnung gestellt.</b>",
+        "cancellation_Confirm": "Es tut uns leid, dich gehen zu sehen, {{username}} !.</br>Ihr Pro-Plan-Abonnement wird bis zum <b>{{planBillingDate}}</b> bezahlt.</br></br> Wenn Sie mit der Kündigung Ihres Abonnements fortfahren möchten, wählen Sie bitte unten <b>„Abonnement kündigen“.</b>",
+        "cancellation_Success": "Sie haben Ihr Abonnement erfolgreich gekündigt."
       }
     },
     "other": {

@@ -151,7 +151,8 @@
             "sld_chatMsgsHeightOffset": "Décalage de la hauteur des messages de chat",
             "sld_chatMsg2DOpacity": "Opacité par défaut des messages de chat (mode 2D)",
             "sld_chatMsg3DOpacity": "Opacité par défaut des messages de chat (mode 3D)",
-            "tgl_display3DStats": "Afficher les statistiques 3D"
+            "tgl_display3DStats": "Afficher les statistiques 3D",
+            "tgle_showEmbeddedLinks": "Afficher les liens intégrés"
           },
           "tooltips": {
             "hdr_displays": "Basculer les affichages de certains éléments de l'interface utilisateur",
@@ -166,7 +167,8 @@
             "tgl_display3DStats": "Basculer l'affichage de statistiques/informations supplémentaires sur la scène 3D",
             "tgle_keepChatInFocus": "Basculer s'il faut garder le chat au point après avoir soumis un message",
             "sld_chatMsg2DOpacity": "Définissez l'opacité par défaut des messages de chat lorsqu'ils ne sont pas ciblés. (Mode 2D)",
-            "sld_chatMsg3DOpacity": "Définissez l'opacité par défaut des messages de chat lorsqu'ils ne sont pas ciblés. (Mode 3D)"
+            "sld_chatMsg3DOpacity": "Définissez l'opacité par défaut des messages de chat lorsqu'ils ne sont pas ciblés. (Mode 3D)",
+            "tgle_showEmbeddedLinks": "Indiquer si les liens affichent des objets intégrés tels que des images ou des vidéos du lien associé"
           }
         },
         "blob": {
@@ -225,7 +227,12 @@
             "sld_velocityMuting": "Coupure de vitesse",
             "tgl_enableVelocityBoost": "Activer l'augmentation de la vitesse",
             "sld_velocityBoost": "Augmentation de la vitesse",
-            "lbl_metronome": "Échantillon audio de métronome"
+            "lbl_metronome": "Échantillon audio de métronome",
+            "tgl_enableV2Reverb": "Réverbération V2",
+            "tgl_listenToProgramChanges": "Écoutez les changements de programme",
+            "tgl_autoFillEmptyChannels": "Remplissage automatique des canaux vides",
+            "tgl_useDefaultBankWhenMissing": "Utiliser la banque par défaut en cas d'absence",
+            "tgl_enableStereoPanning": "Activer le panoramique stéréo"
           },
           "tooltips": {
             "lbl_enableAudioToOutput": "Si coché et que tous les périphériques de sortie sont actifs, alors l'audio ne sera émis que vers le périphérique de sortie et non dans le moteur audio de PianoRhythm",
@@ -235,7 +242,12 @@
             "sld_velocityMuting": "Coupez les notes dont la vélocité est inférieure ou égale à la valeur de l'indicateur de niveau.",
             "tgl_enableVelocityBoost": "Augmente les valeurs de vitesse brutes entrantes",
             "sld_velocityBoost": "Ajoute une valeur supplémentaire à la vitesse brute",
-            "lbl_metronome": "Sélectionnez le type d'échantillon audio à utiliser pour le métronome"
+            "lbl_metronome": "Sélectionnez le type d'échantillon audio à utiliser pour le métronome",
+            "tgl_enableV2Reverb": "Indiquer si la réverbération est activée pour le moteur audio V2",
+            "tgl_listenToProgramChanges": "Indiquez si PianoRhythm doit écouter les événements de changement de programme midi et mettre à jour le dock d'instruments en conséquence.",
+            "tgl_autoFillEmptyChannels": "Indiquez si les canaux vides dans le dock d'instruments doivent être automatiquement remplis avec l'instrument par défaut lorsqu'une note sur un événement se produit.",
+            "tgl_useDefaultBankWhenMissing": "Indiquez s'il faut utiliser la banque par défaut (généralement la banque 0) lorsqu'une soundfont n'a pas de banque particulière.",
+            "tgl_enableStereoPanning": "Indiquez si le moteur audio prend en charge le panoramique du flux audio vers la gauche ou la droite.<br><br> Ainsi, la position sonore des notes sera relative à leur position sur le piano.<br><br> Par exemple, les notes plus proches de la droite seront davantage entendues sur le haut-parleur droit. Il en va de même pour la gauche et ceux proches du milieu seront répartis sur les deux enceintes."
           }
         }
       }
@@ -253,20 +265,6 @@
           }
         }
       },
-      "messages": {
-        "autoRenewInfo": "Votre abonnement sera automatiquement renouvelé le <b style=\"color:white;\">{{billingDate}}</b> et vous serez facturé <b style=\"color:white;\">{{currencyText}} .</b>",
-        "subText": "Voici votre abonnement actuel. Vous pouvez l'annuler ou la mettre à jour à tout moment.",
-        "checkout_Created": "Un nouvel onglet a été ouvert. Continuez à payer là-bas !",
-        "checkout_Success": "Paiement réussi !",
-        "checkout_Cancelled": "Vous avez annulé la session.",
-        "checkout_ResumePlan": "Vous êtes sur le point de reprendre votre abonnement annulé. </br></br>Êtes-vous sûr ?",
-        "checkout_Confirm": "Vous êtes sur le point de vérifier et de souscrire à un plan premium. </br></br>Êtes-vous sûr ?",
-        "subscription_cancellationFail": "Désolé, quelque chose s'est mal passé. Échec de l'annulation de l'abonnement.",
-        "subscription_Updated": "Vous avez mis à jour votre plan d'abonnement avec succès !",
-        "cancellation_InProcess": "Votre abonnement actuel a été <b>annulé</b> et ne sera donc pas renouvelé automatiquement. Cependant, vous continuerez à bénéficier de vos avantages jusqu&#39;au <b style=\"color:white;\">{{billingDate}}</b> .",
-        "cancellation_Confirm": "Nous sommes désolés de vous voir partir, {{username}} !.</br>Votre abonnement pro plan est payé jusqu&#39;au <b>{{planBillingDate}}</b> .</br></br> Si vous souhaitez procéder à l&#39;annulation de votre abonnement, veuillez sélectionner <b>&quot;Annuler l&#39;abonnement&quot;</b> ci-dessous.",
-        "cancellation_Success": "Vous avez annulé votre abonnement avec succès."
-      },
       "buttons": {
         "checkout": "Commander avec Stripe",
         "cancelSubscription": "Annuler l'abonnement",
@@ -275,6 +273,20 @@
       "labels": {
         "billingInfo": "détails de facturation",
         "cancelSubscription": "Annuler l'abonnement"
+      },
+      "messages": {
+        "checkout_Created": "Un nouvel onglet a été ouvert. Continuez à payer là-bas !",
+        "checkout_Success": "Paiement réussi !",
+        "checkout_Cancelled": "Vous avez annulé la session.",
+        "checkout_ResumePlan": "Vous êtes sur le point de reprendre votre abonnement annulé. </br></br>Êtes-vous sûr ?",
+        "checkout_Confirm": "Vous êtes sur le point de vérifier et de souscrire à un plan premium. </br></br>Êtes-vous sûr ?",
+        "subscription_cancellationFail": "Désolé, quelque chose s'est mal passé. Échec de l'annulation de l'abonnement.",
+        "subscription_Updated": "Vous avez mis à jour votre plan d'abonnement avec succès !",
+        "subText": "Voici votre abonnement actuel. Vous pouvez l'annuler ou la mettre à jour à tout moment.",
+        "cancellation_InProcess": "Votre abonnement actuel a été <b>annulé</b> et ne sera donc pas renouvelé automatiquement. Cependant, vous continuerez à bénéficier de vos avantages jusqu&#39;au <b style=\"color:white;\">{{billingDate}}</b> .",
+        "autoRenewInfo": "Votre abonnement sera automatiquement renouvelé le <b style=\"color:white;\">{{billingDate}}</b> et vous serez facturé <b style=\"color:white;\">{{currencyText}} .</b>",
+        "cancellation_Confirm": "Nous sommes désolés de vous voir partir, {{username}} !.</br>Votre abonnement pro plan est payé jusqu&#39;au <b>{{planBillingDate}}</b> .</br></br> Si vous souhaitez procéder à l&#39;annulation de votre abonnement, veuillez sélectionner <b>&quot;Annuler l&#39;abonnement&quot;</b> ci-dessous.",
+        "cancellation_Success": "Vous avez annulé votre abonnement avec succès."
       }
     },
     "other": {

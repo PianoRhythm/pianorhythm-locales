@@ -16,16 +16,16 @@
     "modal_Confirm2": "Ja graag!",
     "modal_Deny": "Laat maar zitten..."
   },
-  "errorMessages": {
-    "webGLNotSupported": "Sorry, bepaalde functies, zoals WebGL, worden niet ondersteund in uw browser.<br> Werk indien mogelijk uw browser bij.",
-    "midiFileSizeIsTooBig": "Bestandsgrootte is te groot!",
-    "dropValidMidiFile": "Upload een geldig midi-bestand!"
-  },
   "generalMessages": {
+    "dropAnyValidMidiFile": "Zet een geldig .midi-bestand neer om af te spelen!",
     "serverConnected": "Verbonden met {{appName}}",
     "passwordResetSuccess": "Uw wachtwoord is succesvol gewijzigd. U kunt doorgaan met inloggen. :)",
     "forgotPasswordSuccess": "Als er een account aan dat e-mailadres is gekoppeld, wordt er een e-mail verzonden om het wachtwoord opnieuw in te stellen. Dank u!",
-    "registerSuccess": "Er is een verificatie-e-mail verzonden. Controleer ook uw SPAM-map.",
-    "dropAnyValidMidiFile": "Zet een geldig .midi-bestand neer om af te spelen!"
+    "registerSuccess": "Er is een verificatie-e-mail verzonden. Controleer ook uw SPAM-map."
+  },
+  "errorMessages": {
+    "midiFileSizeIsTooBig": "Bestandsgrootte is te groot!",
+    "dropValidMidiFile": "Upload een geldig midi-bestand!",
+    "webGLNotSupported": "Sorry, bepaalde functies, zoals WebGL, worden niet ondersteund in uw browser.<br> Werk indien mogelijk uw browser bij."
   }
 }

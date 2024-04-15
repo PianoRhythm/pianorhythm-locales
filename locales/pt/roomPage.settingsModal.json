@@ -151,7 +151,8 @@
             "sld_chatMsgsHeightOffset": "Deslocamento de altura das mensagens de bate-papo",
             "sld_chatMsg2DOpacity": "Opacidade padrão das mensagens de bate-papo (modo 2D)",
             "sld_chatMsg3DOpacity": "Opacidade padrão das mensagens de bate-papo (modo 3D)",
-            "tgl_display3DStats": "Exibir estatísticas 3D"
+            "tgl_display3DStats": "Exibir estatísticas 3D",
+            "tgle_showEmbeddedLinks": "Mostrar links incorporados"
           },
           "tooltips": {
             "hdr_displays": "Alternar as exibições de determinados elementos da interface do usuário",
@@ -166,7 +167,8 @@
             "tgl_display3DStats": "Alterne a exibição de estatísticas/informações extras sobre a cena 3D",
             "tgle_keepChatInFocus": "Alterne entre manter o bate-papo em foco após enviar uma mensagem",
             "sld_chatMsg2DOpacity": "Defina a opacidade padrão das mensagens de bate-papo quando estiver fora de foco. (modo 2D)",
-            "sld_chatMsg3DOpacity": "Defina a opacidade padrão das mensagens de bate-papo quando estiver fora de foco. (modo 3D)"
+            "sld_chatMsg3DOpacity": "Defina a opacidade padrão das mensagens de bate-papo quando estiver fora de foco. (modo 3D)",
+            "tgle_showEmbeddedLinks": "Alterne se os links mostram objetos incorporados, como imagens ou vídeos do link associado"
           }
         },
         "blob": {
@@ -225,7 +227,12 @@
             "sld_velocityMuting": "Silenciamento de velocidade",
             "tgl_enableVelocityBoost": "Ativar aumento de velocidade",
             "sld_velocityBoost": "Aumento de velocidade",
-            "lbl_metronome": "Amostra de áudio do metrônomo"
+            "lbl_metronome": "Amostra de áudio do metrônomo",
+            "tgl_enableV2Reverb": "Reverberação V2",
+            "tgl_listenToProgramChanges": "Ouça as mudanças no programa",
+            "tgl_autoFillEmptyChannels": "Preenchimento automático de canais vazios",
+            "tgl_useDefaultBankWhenMissing": "Usar banco padrão quando estiver faltando",
+            "tgl_enableStereoPanning": "Ativar panorâmica estéreo"
           },
           "tooltips": {
             "lbl_enableAudioToOutput": "Se marcado e qualquer dispositivo de saída estiver ativo, o áudio será emitido apenas para o dispositivo de saída e não dentro do mecanismo de áudio do PianoRhythm",
@@ -235,7 +242,12 @@
             "sld_velocityMuting": "Silencia as notas com uma velocidade menor ou igual ao valor do medidor.",
             "tgl_enableVelocityBoost": "Aumenta os valores brutos de velocidade de entrada",
             "sld_velocityBoost": "Adiciona valor adicional à velocidade bruta",
-            "lbl_metronome": "Selecione o tipo de amostra de áudio a ser usado para o metrônomo"
+            "lbl_metronome": "Selecione o tipo de amostra de áudio a ser usado para o metrônomo",
+            "tgl_enableV2Reverb": "Alterne se a reverberação está habilitada para o mecanismo de áudio V2",
+            "tgl_listenToProgramChanges": "Alterne se o PianoRhythm deve ouvir eventos de mudança de programa midi e atualizar o dock de instrumento de acordo.",
+            "tgl_autoFillEmptyChannels": "Alterne se os canais vazios no encaixe do instrumento devem ser preenchidos automaticamente com o instrumento padrão quando ocorre uma nota no evento.",
+            "tgl_useDefaultBankWhenMissing": "Alterne se deseja usar o banco padrão (geralmente o banco 0) quando uma fonte sonora não possui um banco específico.",
+            "tgl_enableStereoPanning": "Alterne se o mecanismo de áudio suporta movimento panorâmico do fluxo de áudio para a esquerda ou para a direita.<br><br> Assim, a posição sonora das notas será relativa à sua posição no piano.<br><br> Por exemplo, notas mais próximas à direita serão ouvidas mais no alto-falante direito. O mesmo vale para a esquerda e aqueles próximos ao meio serão distribuídos pelos dois alto-falantes."
           }
         }
       }
@@ -253,20 +265,6 @@
           }
         }
       },
-      "messages": {
-        "autoRenewInfo": "Sua assinatura será renovada automaticamente em <b style=\"color:white;\">{{billingDate}}</b> e você será cobrado <b style=\"color:white;\">{{currencyText}} .</b>",
-        "subText": "Aqui está sua assinatura atual. Você pode cancelá-lo ou atualizá-lo a qualquer momento.",
-        "checkout_Created": "Uma nova aba foi aberta. Continue comprando lá!",
-        "checkout_Success": "Sucesso na compra!",
-        "checkout_Cancelled": "Você cancelou a sessão.",
-        "checkout_ResumePlan": "Você está prestes a reativar sua assinatura cancelada. </br></br>Tem certeza?",
-        "checkout_Confirm": "Você está prestes a fazer o check-out e assinar um plano premium. </br></br>Tem certeza?",
-        "subscription_cancellationFail": "Desculpe, algo deu errado. Falha ao cancelar a assinatura.",
-        "subscription_Updated": "Você atualizou com sucesso seu plano de assinatura!",
-        "cancellation_InProcess": "Sua assinatura atual foi <b>cancelada</b> e, portanto, não será renovada automaticamente. No entanto, você ainda terá seus benefícios até <b style=\"color:white;\">{{billingDate}}</b> .",
-        "cancellation_Confirm": "Lamentamos ver você ir, {{username}} !.</br>Sua assinatura do plano pro é paga até <b>{{planBillingDate}}</b> .</br></br> Se você quiser continuar com o cancelamento de sua assinatura, selecione <b>&quot;Cancelar assinatura&quot;</b> abaixo.",
-        "cancellation_Success": "Você cancelou sua assinatura com sucesso."
-      },
       "buttons": {
         "checkout": "Pagamento com Stripe",
         "cancelSubscription": "Cancelar assinatura",
@@ -275,6 +273,20 @@
       "labels": {
         "billingInfo": "Informações de pagamento",
         "cancelSubscription": "Cancelar assinatura"
+      },
+      "messages": {
+        "checkout_Created": "Uma nova aba foi aberta. Continue comprando lá!",
+        "checkout_Success": "Sucesso na compra!",
+        "checkout_Cancelled": "Você cancelou a sessão.",
+        "checkout_ResumePlan": "Você está prestes a reativar sua assinatura cancelada. </br></br>Tem certeza?",
+        "checkout_Confirm": "Você está prestes a fazer o check-out e assinar um plano premium. </br></br>Tem certeza?",
+        "subscription_cancellationFail": "Desculpe, algo deu errado. Falha ao cancelar a assinatura.",
+        "subscription_Updated": "Você atualizou com sucesso seu plano de assinatura!",
+        "subText": "Aqui está sua assinatura atual. Você pode cancelá-lo ou atualizá-lo a qualquer momento.",
+        "cancellation_InProcess": "Sua assinatura atual foi <b>cancelada</b> e, portanto, não será renovada automaticamente. No entanto, você ainda terá seus benefícios até <b style=\"color:white;\">{{billingDate}}</b> .",
+        "autoRenewInfo": "Sua assinatura será renovada automaticamente em <b style=\"color:white;\">{{billingDate}}</b> e você será cobrado <b style=\"color:white;\">{{currencyText}} .</b>",
+        "cancellation_Confirm": "Lamentamos ver você ir, {{username}} !.</br>Sua assinatura do plano pro é paga até <b>{{planBillingDate}}</b> .</br></br> Se você quiser continuar com o cancelamento de sua assinatura, selecione <b>&quot;Cancelar assinatura&quot;</b> abaixo.",
+        "cancellation_Success": "Você cancelou sua assinatura com sucesso."
       }
     },
     "other": {

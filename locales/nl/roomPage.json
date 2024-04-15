@@ -28,6 +28,7 @@
         "onlyOwnerCanPlay": "Alleen de eigenaar kan spelen",
         "onlyOwnerCanChat": "Alleen de eigenaar kan chatten",
         "allowGuests": "Gasten toestaan",
+        "allowBots": "Bots toestaan",
         "onlyMods": "Alleen moderators toestaan",
         "allowBlackMidi": "Zwart Midi . toestaan",
         "maxPlayers": "Maximum aantal spelers",
@@ -60,22 +61,22 @@
     "usersTab": "Gebruikers",
     "friendsTab": "vrienden",
     "roomsTab": "Kamers",
-    "tooltips": {
-      "usersTab": "De lijsten met gebruikers in de ruimte.",
-      "friendsTab": "De lijst met al je vrienden!",
-      "roomsTab": "De lijst met alle openbare ruimtes.",
-      "roomSelfHosted": "<br>Deze kamer wordt zelf gehost door een gebruiker.<br> De locatie is: <b>( {{continent}} , {{country}} )</b>",
-      "passwordProtected": "Beschermd met een wachtwoord"
-    },
     "general": {
       "hasPendingFriendRequests": "Je hebt {{count}} openstaande vriendschapsverzoeken!",
+      "noFriendsFound": "Geen vrienden gevonden. Voelt slecht, broer...",
       "noRoomsFound": "Geen kamers gevonden...",
       "noFriends_line1": "Ziet er een beetje eenzaam uit, hier.",
       "noFriends_line2_clientIsGuest": "Log in om wat vrienden toe te voegen!",
       "noFriends_line2_clientIsMember": "Voeg wat vrienden toe!",
-      "noFriendsFound": "Geen vrienden gevonden. Voelt slecht, broer...",
       "searchRooms": "Zoek kamers...",
       "unknownLocation": "Sorry, de locatie is niet bekend."
+    },
+    "tooltips": {
+      "usersTab": "De lijsten met gebruikers in de ruimte.",
+      "friendsTab": "De lijst met al je vrienden!",
+      "roomsTab": "De lijst met alle openbare ruimtes.",
+      "passwordProtected": "Beschermd met een wachtwoord",
+      "roomSelfHosted": "<br>Deze kamer wordt zelf gehost door een gebruiker.<br> De locatie is: <b>( {{continent}} , {{country}} )</b>"
     }
   },
   "bottomBar": {
@@ -85,6 +86,7 @@
       "settings": "Instellingen",
       "midi": "MIDI",
       "modDashboard": "Mod-dashboard",
+      "leaderboards": "Leaderboards",
       "volume": "Volume",
       "sustain": "Aanhouden",
       "logout": "Uitloggen",
@@ -98,6 +100,7 @@
       "settings": "Gebruikersinstellingen wijzigen",
       "midi": "Stel de MIDI I/O in",
       "modDashboard": "Moderator-dashboard",
+      "leaderboards": "Statistieken / klassementen",
       "volume": "Klik op mij om het dempen in te schakelen!",
       "sustain": "Schakel de sustain in",
       "sustainActive": "Actief",
@@ -137,28 +140,17 @@
       }
     }
   },
-  "errorMessages": {
-    "joinRoomFail": {
-      "RoomFull": "Kan de kamer niet betreden omdat deze vol is.",
-      "QueuedToJoinRoom": "Je staat al in de wachtrij om deel te nemen aan deze kamer.",
-      "AlreadyInRoom": "Je bent al in deze kamer.",
-      "NoGuests": "Kan niet naar binnen omdat de kamer geen gasten toelaat.",
-      "IncorrectPassword": "Kan niet invoeren vanwege een onjuist wachtwoord.",
-      "NotAllowed": "Kan niet meedoen omdat je niet bent toegestaan."
-    },
-    "failedToCreateRoomWithReason": "Kan geen ruimte maken: {{reason}}",
-    "failedToJoinRoom": "Er is iets fout gegaan. Kan niet deelnemen aan kamer..."
-  },
-  "generalMessages": {
-    "enterRoomPassword": "Voer het wachtwoord van de kamer in!",
-    "roomWithWarnings": {
-      "text1": "Deze kamer heeft de volgende instellingen ingeschakeld",
-      "text2": "Weet je zeker dat je mee wilt doen?",
-      "dontShowAgain": "Dit bericht niet meer weergeven."
-    },
-    "openingExternalLinks": "Wees voorzichtig met het openen van externe links. Weet je echt zeker dat je dit wilt openen?"
-  },
   "instrumentDock": {
+    "inputButtons": {
+      "slotMode": "Slotmodus {{mode}}",
+      "tools": "Hulpmiddelen",
+      "tooltips": {
+        "transpose": "Stel de transponering in. Klik om te resetten.",
+        "octave": "Stel het octaaf in. Klik om te resetten.",
+        "slotMode": "Stel de slotmodus in voor de pianolay-out",
+        "tools": "Een lijst met tools en functies."
+      }
+    },
     "toolNames": {
       "InstrumentSelection": "Instrumentselectie",
       "ChannelDisplayMode": "Kanaalweergavemodus:",
@@ -177,16 +169,27 @@
         "ClearInstruments": "Wis alle geladen midi-instrumenten.",
         "ResetToDefault": "Reset de midi-kanalen en bedieningselementen naar de standaardconfiguratie."
       }
-    },
-    "inputButtons": {
-      "slotMode": "Slotmodus {{mode}}",
-      "tools": "Hulpmiddelen",
-      "tooltips": {
-        "transpose": "Stel de transponering in. Klik om te resetten.",
-        "octave": "Stel het octaaf in. Klik om te resetten.",
-        "slotMode": "Stel de slotmodus in voor de pianolay-out",
-        "tools": "Een lijst met tools en functies."
-      }
+    }
+  },
+  "errorMessages": {
+    "failedToCreateRoomWithReason": "Kan geen ruimte maken: {{reason}}",
+    "failedToJoinRoom": "Er is iets fout gegaan. Kan niet deelnemen aan kamer...",
+    "joinRoomFail": {
+      "RoomFull": "Kan de kamer niet betreden omdat deze vol is.",
+      "QueuedToJoinRoom": "Je staat al in de wachtrij om deel te nemen aan deze kamer.",
+      "AlreadyInRoom": "Je bent al in deze kamer.",
+      "NoGuests": "Kan niet naar binnen omdat de kamer geen gasten toelaat.",
+      "IncorrectPassword": "Kan niet invoeren vanwege een onjuist wachtwoord.",
+      "NotAllowed": "Kan niet meedoen omdat je niet bent toegestaan."
+    }
+  },
+  "generalMessages": {
+    "enterRoomPassword": "Voer het wachtwoord van de kamer in!",
+    "openingExternalLinks": "Wees voorzichtig met het openen van externe links. Weet je echt zeker dat je dit wilt openen?",
+    "roomWithWarnings": {
+      "text1": "Deze kamer heeft de volgende instellingen ingeschakeld",
+      "text2": "Weet je zeker dat je mee wilt doen?",
+      "dontShowAgain": "Dit bericht niet meer weergeven."
     }
   }
 }

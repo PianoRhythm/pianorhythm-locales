@@ -28,6 +28,7 @@
         "onlyOwnerCanPlay": "Nur der Besitzer kann spielen",
         "onlyOwnerCanChat": "Nur der Besitzer kann chatten",
         "allowGuests": "Gäste zulassen",
+        "allowBots": "Bots zulassen",
         "onlyMods": "Nur Moderatoren zulassen",
         "allowBlackMidi": "Schwarzes Midi zulassen",
         "maxPlayers": "Maximale Spieleranzahl",
@@ -60,22 +61,22 @@
     "usersTab": "Benutzer",
     "friendsTab": "Freunde",
     "roomsTab": "Räume",
-    "tooltips": {
-      "usersTab": "Die Listen der Benutzer im Raum.",
-      "friendsTab": "Die Liste all deiner Freunde!",
-      "roomsTab": "Die Liste aller öffentlichen Räume.",
-      "roomSelfHosted": "<br>Dieser Raum wird von einem Benutzer selbst gehostet.<br> Der Ort ist: <b>( {{continent}} , {{country}} )</b>",
-      "passwordProtected": "Passwortgeschützt"
-    },
     "general": {
       "hasPendingFriendRequests": "Du hast {{count}} ausstehende Freundschaftsanfragen!",
+      "noFriendsFound": "Keine Freunde gefunden. Fühlt sich schlecht an, Bruder...",
       "noRoomsFound": "Keine Zimmer gefunden...",
       "noFriends_line1": "Sieht ein bisschen einsam aus, hier.",
       "noFriends_line2_clientIsGuest": "Melden Sie sich an, um Freunde hinzuzufügen!",
       "noFriends_line2_clientIsMember": "Füge ein paar Freunde hinzu!",
-      "noFriendsFound": "Keine Freunde gefunden. Fühlt sich schlecht an, Bruder...",
       "searchRooms": "Zimmer suchen...",
       "unknownLocation": "Entschuldigung, der Ort ist unbekannt."
+    },
+    "tooltips": {
+      "usersTab": "Die Listen der Benutzer im Raum.",
+      "friendsTab": "Die Liste all deiner Freunde!",
+      "roomsTab": "Die Liste aller öffentlichen Räume.",
+      "passwordProtected": "Passwortgeschützt",
+      "roomSelfHosted": "<br>Dieser Raum wird von einem Benutzer selbst gehostet.<br> Der Ort ist: <b>( {{continent}} , {{country}} )</b>"
     }
   },
   "bottomBar": {
@@ -85,6 +86,7 @@
       "settings": "Einstellungen",
       "midi": "MIDI",
       "modDashboard": "Mod-Dashboard",
+      "leaderboards": "Bestenlisten",
       "volume": "Lautstärke",
       "sustain": "Pedal",
       "logout": "Ausloggen",
@@ -98,6 +100,7 @@
       "settings": "Benutzereinstellungen ändern",
       "midi": "Stellen Sie die MIDI-I/O ein",
       "modDashboard": "Moderator-Dashboard",
+      "leaderboards": "Statistiken / Bestenlisten",
       "volume": "Klicken Sie auf mich, um die Stummschaltung umzuschalten!",
       "sustain": "Schalten Sie das Sustain um",
       "sustainActive": "Aktiv",
@@ -137,28 +140,17 @@
       }
     }
   },
-  "errorMessages": {
-    "joinRoomFail": {
-      "RoomFull": "Der Raum konnte nicht betreten werden, da er voll ist.",
-      "QueuedToJoinRoom": "Sie befinden sich bereits in der Warteschlange, um diesem Raum beizutreten.",
-      "AlreadyInRoom": "Sie befinden sich bereits in diesem Raum.",
-      "NoGuests": "Eintreten fehlgeschlagen, da das Zimmer keine Gäste zulässt.",
-      "IncorrectPassword": "Die Eingabe ist aufgrund eines falschen Passworts fehlgeschlagen.",
-      "NotAllowed": "Eingabe fehlgeschlagen, da Sie nicht berechtigt sind."
-    },
-    "failedToCreateRoomWithReason": "Raum konnte nicht erstellt werden: {{reason}}",
-    "failedToJoinRoom": "Etwas ist schief gelaufen. Raum betreten fehlgeschlagen..."
-  },
-  "generalMessages": {
-    "enterRoomPassword": "Bitte geben Sie das Passwort des Raumes ein!",
-    "roomWithWarnings": {
-      "text1": "Für diesen Raum sind die folgenden Einstellungen aktiviert",
-      "text2": "Sind Sie sicher, dass Sie beitreten möchten?",
-      "dontShowAgain": "Diese Nachricht nicht mehr anzeigen."
-    },
-    "openingExternalLinks": "Seien Sie vorsichtig beim Öffnen externer Links. Sind Sie wirklich sicher, dass Sie dies öffnen möchten?"
-  },
   "instrumentDock": {
+    "inputButtons": {
+      "slotMode": "Slot-Modus {{mode}}",
+      "tools": "Werkzeug",
+      "tooltips": {
+        "transpose": "Stellen Sie die Transponierung ein. Zum Zurücksetzen klicken.",
+        "octave": "Stellen Sie die Oktave ein. Zum Zurücksetzen klicken.",
+        "slotMode": "Stellen Sie den Slot-Modus für das Piano-Layout ein",
+        "tools": "Eine Liste von Tools und Funktionen."
+      }
+    },
     "toolNames": {
       "InstrumentSelection": "Instrumentenauswahl",
       "ChannelDisplayMode": "Kanalanzeigemodus",
@@ -177,16 +169,27 @@
         "ClearInstruments": "Löschen Sie alle geladenen Midi-Instrumente.",
         "ResetToDefault": "Setzen Sie die Midi-Kanäle und Regler auf die Standardkonfiguration zurück."
       }
-    },
-    "inputButtons": {
-      "slotMode": "Slot-Modus {{mode}}",
-      "tools": "Werkzeug",
-      "tooltips": {
-        "transpose": "Stellen Sie die Transponierung ein. Zum Zurücksetzen klicken.",
-        "octave": "Stellen Sie die Oktave ein. Zum Zurücksetzen klicken.",
-        "slotMode": "Stellen Sie den Slot-Modus für das Piano-Layout ein",
-        "tools": "Eine Liste von Tools und Funktionen."
-      }
+    }
+  },
+  "errorMessages": {
+    "failedToCreateRoomWithReason": "Raum konnte nicht erstellt werden: {{reason}}",
+    "failedToJoinRoom": "Etwas ist schief gelaufen. Raum betreten fehlgeschlagen...",
+    "joinRoomFail": {
+      "RoomFull": "Der Raum konnte nicht betreten werden, da er voll ist.",
+      "QueuedToJoinRoom": "Sie befinden sich bereits in der Warteschlange, um diesem Raum beizutreten.",
+      "AlreadyInRoom": "Sie befinden sich bereits in diesem Raum.",
+      "NoGuests": "Eintreten fehlgeschlagen, da das Zimmer keine Gäste zulässt.",
+      "IncorrectPassword": "Die Eingabe ist aufgrund eines falschen Passworts fehlgeschlagen.",
+      "NotAllowed": "Eingabe fehlgeschlagen, da Sie nicht berechtigt sind."
+    }
+  },
+  "generalMessages": {
+    "enterRoomPassword": "Bitte geben Sie das Passwort des Raumes ein!",
+    "openingExternalLinks": "Seien Sie vorsichtig beim Öffnen externer Links. Sind Sie wirklich sicher, dass Sie dies öffnen möchten?",
+    "roomWithWarnings": {
+      "text1": "Für diesen Raum sind die folgenden Einstellungen aktiviert",
+      "text2": "Sind Sie sicher, dass Sie beitreten möchten?",
+      "dontShowAgain": "Diese Nachricht nicht mehr anzeigen."
     }
   }
 }

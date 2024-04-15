@@ -151,7 +151,8 @@
             "sld_chatMsgsHeightOffset": "Chatberichten Hoogte-offset",
             "sld_chatMsg2DOpacity": "Chatberichten Standaarddekking (2D-modus)",
             "sld_chatMsg3DOpacity": "Chatberichten Standaarddekking (3D-modus)",
-            "tgl_display3DStats": "3D-statistieken weergeven"
+            "tgl_display3DStats": "3D-statistieken weergeven",
+            "tgle_showEmbeddedLinks": "Toon ingebedde links"
           },
           "tooltips": {
             "hdr_displays": "De weergave van bepaalde UI-elementen wisselen",
@@ -166,7 +167,8 @@
             "tgl_display3DStats": "Toggle extra statistieken/info over de 3D-scène weergeven",
             "tgle_keepChatInFocus": "Schakelen of u de chat in focus wilt houden na het verzenden van een bericht",
             "sld_chatMsg2DOpacity": "Stel de standaarddekking van de chatberichten in wanneer deze ongericht zijn. (2D-modus)",
-            "sld_chatMsg3DOpacity": "Stel de standaarddekking van de chatberichten in wanneer deze ongericht zijn. (3D-modus)"
+            "sld_chatMsg3DOpacity": "Stel de standaarddekking van de chatberichten in wanneer deze ongericht zijn. (3D-modus)",
+            "tgle_showEmbeddedLinks": "Schakel in of links ingesloten objecten tonen, zoals afbeeldingen of video's van de bijbehorende link"
           }
         },
         "blob": {
@@ -225,7 +227,12 @@
             "sld_velocityMuting": "Snelheidsdemping",
             "tgl_enableVelocityBoost": "Snelheidsboost inschakelen",
             "sld_velocityBoost": "Snelheidsboost",
-            "lbl_metronome": "Audiovoorbeeld metronoom"
+            "lbl_metronome": "Audiovoorbeeld metronoom",
+            "tgl_enableV2Reverb": "V2 galm",
+            "tgl_listenToProgramChanges": "Luister naar programmawijzigingen",
+            "tgl_autoFillEmptyChannels": "Automatisch vullen van lege kanalen",
+            "tgl_useDefaultBankWhenMissing": "Gebruik standaardbank wanneer deze ontbreekt",
+            "tgl_enableStereoPanning": "Stereopanning inschakelen"
           },
           "tooltips": {
             "lbl_enableAudioToOutput": "Indien aangevinkt en alle uitvoerapparaten zijn actief, dan wordt audio alleen naar het uitvoerapparaat gestuurd en niet binnen de audio-engine van PianoRhythm",
@@ -235,7 +242,12 @@
             "sld_velocityMuting": "Demp noten met een snelheid die kleiner is dan of gelijk is aan de meterwaarde.",
             "tgl_enableVelocityBoost": "Verhoogt inkomende onbewerkte snelheidswaarden",
             "sld_velocityBoost": "Voegt extra waarde toe aan ruwe snelheid",
-            "lbl_metronome": "Selecteer het audiosampletype dat u voor de metronoom wilt gebruiken"
+            "lbl_metronome": "Selecteer het audiosampletype dat u voor de metronoom wilt gebruiken",
+            "tgl_enableV2Reverb": "Schakel in of reverb is ingeschakeld voor de V2-audio-engine",
+            "tgl_listenToProgramChanges": "Schakel in of PianoRhythm naar midi-programmawijzigingsgebeurtenissen moet luisteren en het instrumentdock dienovereenkomstig moet bijwerken.",
+            "tgl_autoFillEmptyChannels": "Schakel in of lege kanalen in het instrumentendock automatisch moeten worden gevuld met het standaardinstrument wanneer er een opmerking over een gebeurtenis plaatsvindt.",
+            "tgl_useDefaultBankWhenMissing": "Schakel in of de standaardbank (meestal bank 0) moet worden gebruikt als een soundfont niet over een bepaalde bank beschikt.",
+            "tgl_enableStereoPanning": "Schakel in of de audio-engine het naar links of rechts pannen van de audiostream ondersteunt.<br><br> De klankpositie van de noten zal dus relatief zijn ten opzichte van hun positie op de piano.<br><br> Noten die zich dichter bij de rechterkant bevinden, zijn bijvoorbeeld beter hoorbaar via de rechterluidspreker. Hetzelfde geldt voor links en die in het midden worden over beide luidsprekers verdeeld."
           }
         }
       }
@@ -253,20 +265,6 @@
           }
         }
       },
-      "messages": {
-        "autoRenewInfo": "Uw abonnement wordt automatisch verlengd op <b style=\"color:white;\">{{billingDate}}</b> en er wordt <b style=\"color:white;\">{{currencyText}} in rekening gebracht.</b>",
-        "subText": "Hier is je huidige abonnement. U kunt het op elk moment annuleren of bijwerken.",
-        "checkout_Created": "Er is een nieuw tabblad geopend. Ga daar verder met afrekenen!",
-        "checkout_Success": "Afrekenen succes!",
-        "checkout_Cancelled": "Je hebt de sessie geannuleerd.",
-        "checkout_ResumePlan": "Je staat op het punt je opgezegde abonnement te hervatten. </br></br>Weet je het zeker?",
-        "checkout_Confirm": "U staat op het punt om af te rekenen en u te abonneren op een premium abonnement. </br></br>Weet je het zeker?",
-        "subscription_cancellationFail": "Sorry, er ging iets mis. Kan abonnement niet opzeggen.",
-        "subscription_Updated": "Je hebt je abonnement succesvol geüpdatet!",
-        "cancellation_InProcess": "Uw huidige abonnement is <b>opgezegd</b> en wordt daarom niet automatisch verlengd. U heeft echter nog wel uw uitkering tot <b style=\"color:white;\">{{billingDate}}</b> .",
-        "cancellation_Confirm": "Het spijt ons je te zien gaan, {{username}} !.</br>Uw Pro Plan-abonnement wordt betaald tot <b>{{planBillingDate}}</b> .</br></br> Als u door wilt gaan met het opzeggen van uw abonnement, selecteert u hieronder <b>&quot;Abonnement opzeggen&quot;.</b>",
-        "cancellation_Success": "Je hebt je abonnement succesvol opgezegd."
-      },
       "buttons": {
         "checkout": "Afrekenen met Stripe",
         "cancelSubscription": "Annuleer abonnement",
@@ -275,6 +273,20 @@
       "labels": {
         "billingInfo": "facturatie gegevens",
         "cancelSubscription": "Annuleer abonnement"
+      },
+      "messages": {
+        "checkout_Created": "Er is een nieuw tabblad geopend. Ga daar verder met afrekenen!",
+        "checkout_Success": "Afrekenen succes!",
+        "checkout_Cancelled": "Je hebt de sessie geannuleerd.",
+        "checkout_ResumePlan": "Je staat op het punt je opgezegde abonnement te hervatten. </br></br>Weet je het zeker?",
+        "checkout_Confirm": "U staat op het punt om af te rekenen en u te abonneren op een premium abonnement. </br></br>Weet je het zeker?",
+        "subscription_cancellationFail": "Sorry, er ging iets mis. Kan abonnement niet opzeggen.",
+        "subscription_Updated": "Je hebt je abonnement succesvol geüpdatet!",
+        "subText": "Hier is je huidige abonnement. U kunt het op elk moment annuleren of bijwerken.",
+        "cancellation_InProcess": "Uw huidige abonnement is <b>opgezegd</b> en wordt daarom niet automatisch verlengd. U heeft echter nog wel uw uitkering tot <b style=\"color:white;\">{{billingDate}}</b> .",
+        "autoRenewInfo": "Uw abonnement wordt automatisch verlengd op <b style=\"color:white;\">{{billingDate}}</b> en er wordt <b style=\"color:white;\">{{currencyText}} in rekening gebracht.</b>",
+        "cancellation_Confirm": "Het spijt ons je te zien gaan, {{username}} !.</br>Uw Pro Plan-abonnement wordt betaald tot <b>{{planBillingDate}}</b> .</br></br> Als u door wilt gaan met het opzeggen van uw abonnement, selecteert u hieronder <b>&quot;Abonnement opzeggen&quot;.</b>",
+        "cancellation_Success": "Je hebt je abonnement succesvol opgezegd."
       }
     },
     "other": {

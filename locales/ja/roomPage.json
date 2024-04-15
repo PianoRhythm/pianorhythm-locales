@@ -8,19 +8,27 @@
       "create": "Create",
       "update": "Update",
       "roomName": "名",
-      "menuBasic": "基本",
-      "menuAdvanced": "詳細",
       "roomID": "ID",
       "roomOwner": "オーナー",
+      "menuBasic": "基本",
+      "menuAdvanced": "詳細",
       "created": "作成した"
     }
   },
   "modals": {
+    "roomInfo": {
+      "labels": {
+        "metaAutoRemove": "自動削除",
+        "metaPersistent": "持続的",
+        "metaUnique": "個性的"
+      }
+    },
     "room": {
       "labels": {
         "onlyOwnerCanPlay": "所有者だけが弾きます",
         "onlyOwnerCanChat": "所有者だけがチャット",
         "allowGuests": "ゲストを許可する",
+        "allowBots": "ボットを許可する",
         "onlyMods": "モデレータだけを許可する",
         "allowBlackMidi": "ブラックMIDIを許可する",
         "maxPlayers": "最大プレイヤー数",
@@ -47,35 +55,28 @@
         "hostRoom": "マシンで部屋をホストしたい場合は、このオプションを選択してください。これにより、ユーザーがマシンに直接接続するP2P環境が作成されます。",
         "selfHostRegion": "マシンが配置されている一般的な領域。 PianoRhythmはあなたがどこにいるかを推測しようとしますが、必要に応じて手動で設定できます。"
       }
-    },
-    "roomInfo": {
-      "labels": {
-        "metaAutoRemove": "自動削除",
-        "metaPersistent": "持続的",
-        "metaUnique": "個性的"
-      }
     }
   },
   "sideBar": {
     "usersTab": "ユーザー",
     "friendsTab": "お友達",
     "roomsTab": "部屋",
-    "tooltips": {
-      "usersTab": "部屋のユーザーのリスト。",
-      "friendsTab": "お友達全員のリスト！",
-      "roomsTab": "すべてのパブリックルームのリスト。",
-      "roomSelfHosted": "<br>この部屋はユーザーによって自己ホストされています。<br>場所は<b>：（ {{continent}} 、 {{country}} ）</b>",
-      "passwordProtected": "守られたパスワード"
-    },
     "general": {
       "hasPendingFriendRequests": "保留中の友達リクエストは{{count}}",
+      "noFriendsFound": "友達が見つかりません。気分が悪い、仲間...",
       "noRoomsFound": "部屋が見つかりません...",
       "noFriends_line1": "ここで少し寂しいようです。",
       "noFriends_line2_clientIsGuest": "サインインして友達を追加しましょう！",
       "noFriends_line2_clientIsMember": "友達を追加してください！",
-      "noFriendsFound": "友達が見つかりません。気分が悪い、仲間...",
       "searchRooms": "検索室...",
       "unknownLocation": "申し訳ありませんが、場所は不明です。"
+    },
+    "tooltips": {
+      "usersTab": "部屋のユーザーのリスト。",
+      "friendsTab": "お友達全員のリスト！",
+      "roomsTab": "すべてのパブリックルームのリスト。",
+      "passwordProtected": "守られたパスワード",
+      "roomSelfHosted": "<br>この部屋はユーザーによって自己ホストされています。<br>場所は<b>：（ {{continent}} 、 {{country}} ）</b>"
     }
   },
   "bottomBar": {
@@ -85,6 +86,7 @@
       "settings": "設定",
       "midi": "MIDI",
       "modDashboard": "モッドダッシュボード",
+      "leaderboards": "リーダーボード",
       "volume": "ボリューム",
       "sustain": "サスティーン",
       "logout": "ログアウト",
@@ -98,6 +100,7 @@
       "settings": "ユーザーの設定を変更する",
       "midi": "MIDIのI/Oを設定する",
       "modDashboard": "モッドダッシュボード",
+      "leaderboards": "統計 / リーダーボード",
       "volume": "ここにクリックしてミュートを切り替えます",
       "sustain": "サスティーンをきりかえます",
       "sustainActive": "アクティブ",
@@ -137,28 +140,17 @@
       }
     }
   },
-  "errorMessages": {
-    "joinRoomFail": {
-      "RoomFull": "満員のため入室できませんでした。",
-      "QueuedToJoinRoom": "あなたはすでにこの部屋に参加するためにキューに入れられています。",
-      "AlreadyInRoom": "あなたはすでにこの部屋にいます。",
-      "NoGuests": "部屋にゲストが入室できないため、入場できませんでした。",
-      "IncorrectPassword": "パスワードが間違っているため、入力できませんでした。",
-      "NotAllowed": "許可されていないため、入力できませんでした。"
-    },
-    "failedToCreateRoomWithReason": "部屋の作成に失敗しました： {{reason}}",
-    "failedToJoinRoom": "何かがうまくいかなかった。部屋に参加できませんでした..."
-  },
-  "generalMessages": {
-    "enterRoomPassword": "部屋のパスワードを入力してください！",
-    "roomWithWarnings": {
-      "text1": "この部屋では、次の設定が有効になっています",
-      "text2": "参加してもよろしいですか？",
-      "dontShowAgain": "このメッセージを再度表示しないでください。"
-    },
-    "openingExternalLinks": "外部リンクを開く場合は注意してください。これを開いて本当によろしいですか？"
-  },
   "instrumentDock": {
+    "inputButtons": {
+      "slotMode": "スロットモード{{mode}}",
+      "tools": "ツール",
+      "tooltips": {
+        "transpose": "トランスポーズを設定します。クリックしてリセットします。",
+        "octave": "オクターブを設定します。クリックしてリセットします。",
+        "slotMode": "ピアノレイアウトのスロットモードを設定します",
+        "tools": "ツールと機能のリスト。"
+      }
+    },
     "toolNames": {
       "InstrumentSelection": "機器の選択",
       "ChannelDisplayMode": "チャンネル表示モード",
@@ -177,16 +169,27 @@
         "ClearInstruments": "ロードされているすべてのMIDIインストゥルメントをクリアします。",
         "ResetToDefault": "MIDIチャンネルとコントロールをデフォルト設定にリセットします。"
       }
-    },
-    "inputButtons": {
-      "slotMode": "スロットモード{{mode}}",
-      "tools": "ツール",
-      "tooltips": {
-        "transpose": "トランスポーズを設定します。クリックしてリセットします。",
-        "octave": "オクターブを設定します。クリックしてリセットします。",
-        "slotMode": "ピアノレイアウトのスロットモードを設定します",
-        "tools": "ツールと機能のリスト。"
-      }
+    }
+  },
+  "errorMessages": {
+    "failedToCreateRoomWithReason": "部屋の作成に失敗しました： {{reason}}",
+    "failedToJoinRoom": "何かがうまくいかなかった。部屋に参加できませんでした...",
+    "joinRoomFail": {
+      "RoomFull": "満員のため入室できませんでした。",
+      "QueuedToJoinRoom": "あなたはすでにこの部屋に参加するためにキューに入れられています。",
+      "AlreadyInRoom": "あなたはすでにこの部屋にいます。",
+      "NoGuests": "部屋にゲストが入室できないため、入場できませんでした。",
+      "IncorrectPassword": "パスワードが間違っているため、入力できませんでした。",
+      "NotAllowed": "許可されていないため、入力できませんでした。"
+    }
+  },
+  "generalMessages": {
+    "enterRoomPassword": "部屋のパスワードを入力してください！",
+    "openingExternalLinks": "外部リンクを開く場合は注意してください。これを開いて本当によろしいですか？",
+    "roomWithWarnings": {
+      "text1": "この部屋では、次の設定が有効になっています",
+      "text2": "参加してもよろしいですか？",
+      "dontShowAgain": "このメッセージを再度表示しないでください。"
     }
   }
 }

@@ -28,6 +28,7 @@
         "onlyOwnerCanPlay": "Solo il proprietario può giocare",
         "onlyOwnerCanChat": "Solo il proprietario può chattare",
         "allowGuests": "Consenti ospiti",
+        "allowBots": "Consenti bot",
         "onlyMods": "Consenti solo moderatori",
         "allowBlackMidi": "Consenti Midi nero",
         "maxPlayers": "Giocatori massimi",
@@ -60,22 +61,22 @@
     "usersTab": "Utenti",
     "friendsTab": "amici",
     "roomsTab": "Camere",
-    "tooltips": {
-      "usersTab": "Gli elenchi degli utenti nella stanza virtuale.",
-      "friendsTab": "L'elenco di tutti i tuoi amici!",
-      "roomsTab": "L'elenco di tutti i locali pubblici.",
-      "roomSelfHosted": "<br>Questa stanza è ospitata autonomamente da un utente.<br> La posizione è: <b>( {{continent}} , {{country}} )</b>",
-      "passwordProtected": "Protetto da password"
-    },
     "general": {
       "hasPendingFriendRequests": "Hai {{count}} richieste di amicizia in sospeso!",
+      "noFriendsFound": "Nessun amico trovato. Si sente male, fratello...",
       "noRoomsFound": "Nessuna stanza trovata...",
       "noFriends_line1": "Sembra un po' solo, qui.",
       "noFriends_line2_clientIsGuest": "Accedi per aggiungere alcuni amici!",
       "noFriends_line2_clientIsMember": "Aggiungi degli amici!",
-      "noFriendsFound": "Nessun amico trovato. Si sente male, fratello...",
       "searchRooms": "Cerca stanze...",
       "unknownLocation": "Siamo spiacenti, la posizione è sconosciuta."
+    },
+    "tooltips": {
+      "usersTab": "Gli elenchi degli utenti nella stanza virtuale.",
+      "friendsTab": "L'elenco di tutti i tuoi amici!",
+      "roomsTab": "L'elenco di tutti i locali pubblici.",
+      "passwordProtected": "Protetto da password",
+      "roomSelfHosted": "<br>Questa stanza è ospitata autonomamente da un utente.<br> La posizione è: <b>( {{continent}} , {{country}} )</b>"
     }
   },
   "bottomBar": {
@@ -85,6 +86,7 @@
       "settings": "Impostazioni",
       "midi": "MIDI",
       "modDashboard": "Cruscotto Mod",
+      "leaderboards": "Classifiche",
       "volume": "Volume",
       "sustain": "Sostenere",
       "logout": "Disconnettersi",
@@ -98,6 +100,7 @@
       "settings": "Modifica le impostazioni dell'utente",
       "midi": "Impostare l'I/O MIDI",
       "modDashboard": "Dashboard del moderatore",
+      "leaderboards": "Statistiche/Classifiche",
       "volume": "Fare clic su di me per attivare/disattivare l'audio!",
       "sustain": "Attiva/disattiva il sustain",
       "sustainActive": "Attivo",
@@ -137,28 +140,17 @@
       }
     }
   },
-  "errorMessages": {
-    "joinRoomFail": {
-      "RoomFull": "Impossibile entrare nella stanza perché è piena.",
-      "QueuedToJoinRoom": "Sei già in coda per entrare in questa stanza.",
-      "AlreadyInRoom": "Sei già in questa stanza.",
-      "NoGuests": "Impossibile entrare perché la camera non ammette ospiti.",
-      "IncorrectPassword": "Impossibile accedere a causa di una password errata.",
-      "NotAllowed": "Impossibile entrare perché non sei autorizzato."
-    },
-    "failedToCreateRoomWithReason": "Impossibile creare spazio: {{reason}}",
-    "failedToJoinRoom": "Qualcosa è andato storto. Impossibile entrare nella stanza..."
-  },
-  "generalMessages": {
-    "enterRoomPassword": "Per favore inserisci la password della camera!",
-    "roomWithWarnings": {
-      "text1": "Questa stanza ha le seguenti impostazioni abilitate",
-      "text2": "Sei sicuro di voler partecipare?",
-      "dontShowAgain": "Non mostrare più questo messaggio."
-    },
-    "openingExternalLinks": "Fai attenzione all'apertura di collegamenti esterni. Sei davvero sicuro di volerlo aprire?"
-  },
   "instrumentDock": {
+    "inputButtons": {
+      "slotMode": "Modalità slot {{mode}}",
+      "tools": "Utensili",
+      "tooltips": {
+        "transpose": "Imposta la trasposizione. Fare clic per ripristinare.",
+        "octave": "Imposta l'ottava. Fare clic per ripristinare.",
+        "slotMode": "Imposta la modalità slot per il layout del pianoforte",
+        "tools": "Un elenco di strumenti e funzionalità."
+      }
+    },
     "toolNames": {
       "InstrumentSelection": "Selezione dello strumento",
       "ChannelDisplayMode": "Modalità di visualizzazione del canale",
@@ -177,16 +169,27 @@
         "ClearInstruments": "Cancella tutti gli strumenti midi caricati.",
         "ResetToDefault": "Ripristina i canali e i controlli midi alla configurazione predefinita."
       }
-    },
-    "inputButtons": {
-      "slotMode": "Modalità slot {{mode}}",
-      "tools": "Utensili",
-      "tooltips": {
-        "transpose": "Imposta la trasposizione. Fare clic per ripristinare.",
-        "octave": "Imposta l'ottava. Fare clic per ripristinare.",
-        "slotMode": "Imposta la modalità slot per il layout del pianoforte",
-        "tools": "Un elenco di strumenti e funzionalità."
-      }
+    }
+  },
+  "errorMessages": {
+    "failedToCreateRoomWithReason": "Impossibile creare spazio: {{reason}}",
+    "failedToJoinRoom": "Qualcosa è andato storto. Impossibile entrare nella stanza...",
+    "joinRoomFail": {
+      "RoomFull": "Impossibile entrare nella stanza perché è piena.",
+      "QueuedToJoinRoom": "Sei già in coda per entrare in questa stanza.",
+      "AlreadyInRoom": "Sei già in questa stanza.",
+      "NoGuests": "Impossibile entrare perché la camera non ammette ospiti.",
+      "IncorrectPassword": "Impossibile accedere a causa di una password errata.",
+      "NotAllowed": "Impossibile entrare perché non sei autorizzato."
+    }
+  },
+  "generalMessages": {
+    "enterRoomPassword": "Per favore inserisci la password della camera!",
+    "openingExternalLinks": "Fai attenzione all'apertura di collegamenti esterni. Sei davvero sicuro di volerlo aprire?",
+    "roomWithWarnings": {
+      "text1": "Questa stanza ha le seguenti impostazioni abilitate",
+      "text2": "Sei sicuro di voler partecipare?",
+      "dontShowAgain": "Non mostrare più questo messaggio."
     }
   }
 }

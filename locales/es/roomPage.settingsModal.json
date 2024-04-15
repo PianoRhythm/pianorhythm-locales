@@ -151,7 +151,8 @@
             "sld_chatMsgsHeightOffset": "Desplazamiento de altura de los mensajes del chat",
             "sld_chatMsg2DOpacity": "Opacidad predeterminada de los mensajes del chat (modo 2D)",
             "sld_chatMsg3DOpacity": "Opacidad predeterminada de los mensajes del chat (modo 3D)",
-            "tgl_display3DStats": "Mostrar estadísticas 3D"
+            "tgl_display3DStats": "Mostrar estadísticas 3D",
+            "tgle_showEmbeddedLinks": "Mostrar enlaces incrustados"
           },
           "tooltips": {
             "hdr_displays": "Alterna las visualizaciones de ciertos elementos de la interfaz de usuario",
@@ -166,7 +167,8 @@
             "tgl_display3DStats": "Alternar la visualización de estadísticas/información adicional sobre la escena 3D",
             "tgle_keepChatInFocus": "Alterna mantener el chat enfocado después de enviar un mensaje",
             "sld_chatMsg2DOpacity": "Establece la opacidad predeterminada de los mensajes de chat cuando no está enfocado. (modo 2D)",
-            "sld_chatMsg3DOpacity": "Establece la opacidad predeterminada de los mensajes de chat cuando no está enfocado. (modo 3D)"
+            "sld_chatMsg3DOpacity": "Establece la opacidad predeterminada de los mensajes de chat cuando no está enfocado. (modo 3D)",
+            "tgle_showEmbeddedLinks": "Alternar si los enlaces muestran objetos incrustados, como imágenes o vídeos del enlace asociado."
           }
         },
         "blob": {
@@ -225,7 +227,12 @@
             "sld_velocityMuting": "Silenciar la velocidad",
             "tgl_enableVelocityBoost": "Habilitar el impulso de velocidad",
             "sld_velocityBoost": "Impulso de velocidad",
-            "lbl_metronome": "Muestra de audio del metrónomo"
+            "lbl_metronome": "Muestra de audio del metrónomo",
+            "tgl_enableV2Reverb": "Reverberación V2",
+            "tgl_listenToProgramChanges": "Escuche los cambios de programa",
+            "tgl_autoFillEmptyChannels": "Autocompletar canales vacíos",
+            "tgl_useDefaultBankWhenMissing": "Utilice el banco predeterminado cuando falte",
+            "tgl_enableStereoPanning": "Habilitar panorámica estéreo"
           },
           "tooltips": {
             "lbl_enableAudioToOutput": "Si está marcado y cualquier dispositivo de salida está activo, el audio solo se emitirá al dispositivo de salida y no dentro del !!!!motor!!!! de audio de PianoRhythm.",
@@ -235,7 +242,12 @@
             "sld_velocityMuting": "Silencia las notas con una velocidad menor o igual que el valor del medidor.",
             "tgl_enableVelocityBoost": "Aumenta los valores de velocidad entrantes",
             "sld_velocityBoost": "Agrega un impulso adicional a la velocidad bruta",
-            "lbl_metronome": "Selecciona el tipo de muestra de audio para usar con el metrónomo"
+            "lbl_metronome": "Selecciona el tipo de muestra de audio para usar con el metrónomo",
+            "tgl_enableV2Reverb": "Alternar si la reverberación está habilitada para el motor de audio V2",
+            "tgl_listenToProgramChanges": "Cambie si PianoRhythm debe escuchar los eventos de cambio de programa midi y actualice la base de instrumentos en consecuencia.",
+            "tgl_autoFillEmptyChannels": "Alterna si los canales vacíos en la base de instrumentos deben completarse automáticamente con el instrumento predeterminado cuando ocurre un evento de nota.",
+            "tgl_useDefaultBankWhenMissing": "Alterna si se usa el banco predeterminado (generalmente el banco 0) cuando una fuente sonora no tiene un banco en particular.",
+            "tgl_enableStereoPanning": "Cambie si el motor de audio admite la panorámica de la transmisión de audio hacia la izquierda o hacia la derecha.<br><br> Entonces, la posición del sonido de las notas será relativa a su posición en el piano.<br><br> Por ejemplo, las notas más cercanas a la derecha se escucharán más en el altavoz derecho. Lo mismo ocurre con la izquierda y los que estén cerca del medio se distribuirán entre ambos altavoces."
           }
         }
       }
@@ -253,20 +265,6 @@
           }
         }
       },
-      "messages": {
-        "autoRenewInfo": "Su suscripción se renovará automáticamente al <b style=\"color:white;\">{{billingDate}}</b> y se le cobrarán <b style=\"color:white;\">{{currencyText}} €.</b>",
-        "subText": "Aquí está tu suscripción actual. Puedes cancelarla o actualizarla en cualquier momento.",
-        "checkout_Created": "Se ha abierto una nueva pestaña. ¡Continúa el pagamento allí!",
-        "checkout_Success": "¡Pago exitoso!",
-        "checkout_Cancelled": "Has cancelado la sesión.",
-        "checkout_ResumePlan": "Está a punto de reanudar su suscripción cancelada. </br></br>¿Estás seguro?",
-        "checkout_Confirm": "Está a punto de pagar y suscribirse a un plan premium. </br></br>¿Estás seguro?",
-        "subscription_cancellationFail": "Perdón, algo salió mal. No se pudo cancelar la suscripción.",
-        "subscription_Updated": "¡Has actualizado correctamente tu plan de suscripción!",
-        "cancellation_InProcess": "Su suscripción actual ha sido <b>cancelada</b> y, por lo tanto, no se renovará automáticamente. Sin embargo, aún tendrá sus beneficios hasta el <b style=\"color:white;\">{{billingDate}}</b> .",
-        "cancellation_Confirm": "Sentimos que te vayas, {{username}} !.</br>Su suscripción al plan pro se pagará hasta el <b>{{planBillingDate}}</b> .</br></br> Si desea continuar con la cancelación de su suscripción, selecciona <b>&quot;Cancelar suscripción&quot; </b>a continuación.",
-        "cancellation_Success": "Has cancelado correctamente tu suscripción."
-      },
       "buttons": {
         "checkout": "Pagar con Stripe",
         "cancelSubscription": "Cancelar suscripción",
@@ -275,6 +273,20 @@
       "labels": {
         "billingInfo": "Datos de facturación",
         "cancelSubscription": "Cancelar suscripción"
+      },
+      "messages": {
+        "checkout_Created": "Se ha abierto una nueva pestaña. ¡Continúa el pagamento allí!",
+        "checkout_Success": "¡Pago exitoso!",
+        "checkout_Cancelled": "Has cancelado la sesión.",
+        "checkout_ResumePlan": "Está a punto de reanudar su suscripción cancelada. </br></br>¿Estás seguro?",
+        "checkout_Confirm": "Está a punto de pagar y suscribirse a un plan premium. </br></br>¿Estás seguro?",
+        "subscription_cancellationFail": "Perdón, algo salió mal. No se pudo cancelar la suscripción.",
+        "subscription_Updated": "¡Has actualizado correctamente tu plan de suscripción!",
+        "subText": "Aquí está tu suscripción actual. Puedes cancelarla o actualizarla en cualquier momento.",
+        "cancellation_InProcess": "Su suscripción actual ha sido <b>cancelada</b> y, por lo tanto, no se renovará automáticamente. Sin embargo, aún tendrá sus beneficios hasta el <b style=\"color:white;\">{{billingDate}}</b> .",
+        "autoRenewInfo": "Su suscripción se renovará automáticamente al <b style=\"color:white;\">{{billingDate}}</b> y se le cobrarán <b style=\"color:white;\">{{currencyText}} €.</b>",
+        "cancellation_Confirm": "Sentimos que te vayas, {{username}} !.</br>Su suscripción al plan pro se pagará hasta el <b>{{planBillingDate}}</b> .</br></br> Si desea continuar con la cancelación de su suscripción, selecciona <b>&quot;Cancelar suscripción&quot; </b>a continuación.",
+        "cancellation_Success": "Has cancelado correctamente tu suscripción."
       }
     },
     "other": {

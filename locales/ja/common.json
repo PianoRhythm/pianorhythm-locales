@@ -16,16 +16,16 @@
     "modal_Confirm2": "はい、お願いします！",
     "modal_Deny": "どうでも..."
   },
-  "errorMessages": {
-    "webGLNotSupported": "申し訳ありませんが、WebGLなどの特定の機能はブラウザでサポートされていません。<br>可能であればブラウザを更新してください。",
-    "midiFileSizeIsTooBig": "ファイルサイズが大きすぎます！",
-    "dropValidMidiFile": "有効なMIDIファイルをアップロードしてください！"
-  },
   "generalMessages": {
+    "dropAnyValidMidiFile": "有効な.midiファイルをドロップして再生してください！",
     "serverConnected": "{{appName}}接続",
     "passwordResetSuccess": "パスワードは正常に変更されました。ログインに進むことができます。 :)",
     "forgotPasswordSuccess": "そのメールに関連付けられているアカウントがある場合は、パスワードをリセットするためのメールが送信されます。ありがとう！",
-    "registerSuccess": "確認メールが送信されました。 SPAMフォルダも確認してください。",
-    "dropAnyValidMidiFile": "有効な.midiファイルをドロップして再生してください！"
+    "registerSuccess": "確認メールが送信されました。 SPAMフォルダも確認してください。"
+  },
+  "errorMessages": {
+    "midiFileSizeIsTooBig": "ファイルサイズが大きすぎます！",
+    "dropValidMidiFile": "有効なMIDIファイルをアップロードしてください！",
+    "webGLNotSupported": "申し訳ありませんが、WebGLなどの特定の機能はブラウザでサポートされていません。<br>可能であればブラウザを更新してください。"
   }
 }

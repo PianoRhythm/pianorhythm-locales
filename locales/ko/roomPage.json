@@ -28,6 +28,7 @@
         "onlyOwnerCanPlay": "소유자만 플레이할 수 있습니다.",
         "onlyOwnerCanChat": "소유자만 채팅할 수 있습니다.",
         "allowGuests": "손님 허용",
+        "allowBots": "봇 허용",
         "onlyMods": "중재자만 허용",
         "allowBlackMidi": "블랙 미디 허용",
         "maxPlayers": "최대 플레이어",
@@ -60,22 +61,22 @@
     "usersTab": "사용자",
     "friendsTab": "친구",
     "roomsTab": "객실",
-    "tooltips": {
-      "usersTab": "채팅방의 사용자 목록입니다.",
-      "friendsTab": "모든 친구 목록!",
-      "roomsTab": "모든 공용 공간의 목록입니다.",
-      "roomSelfHosted": "<br>이 방은 사용자가 직접 호스팅하고 있습니다.<br> 위치: <b>( {{continent}} , {{country}} )</b>",
-      "passwordProtected": "비밀번호로 보호됨"
-    },
     "general": {
       "hasPendingFriendRequests": "보류 중인 친구 요청이 {{count}}",
+      "noFriendsFound": "친구를 찾을 수 없습니다. 기분 나빠, 형...",
       "noRoomsFound": "검색된 방이 없습니다...",
       "noFriends_line1": "여기 좀 외로워 보이네요.",
       "noFriends_line2_clientIsGuest": "친구를 추가하려면 로그인하세요!",
       "noFriends_line2_clientIsMember": "친구 추가!",
-      "noFriendsFound": "친구를 찾을 수 없습니다. 기분 나빠, 형...",
       "searchRooms": "방 검색...",
       "unknownLocation": "죄송합니다. 위치를 알 수 없습니다."
+    },
+    "tooltips": {
+      "usersTab": "채팅방의 사용자 목록입니다.",
+      "friendsTab": "모든 친구 목록!",
+      "roomsTab": "모든 공용 공간의 목록입니다.",
+      "passwordProtected": "비밀번호로 보호됨",
+      "roomSelfHosted": "<br>이 방은 사용자가 직접 호스팅하고 있습니다.<br> 위치: <b>( {{continent}} , {{country}} )</b>"
     }
   },
   "bottomBar": {
@@ -85,6 +86,7 @@
       "settings": "설정",
       "midi": "미디",
       "modDashboard": "모드 대시보드",
+      "leaderboards": "리더보드",
       "volume": "용량",
       "sustain": "지속시키다",
       "logout": "로그 아웃",
@@ -98,6 +100,7 @@
       "settings": "사용자 설정 변경",
       "midi": "MIDI I/O 설정",
       "modDashboard": "중재자 대시보드",
+      "leaderboards": "통계 / 리더보드",
       "volume": "음소거를 전환하려면 저를 클릭하세요!",
       "sustain": "서스테인 전환",
       "sustainActive": "활동적인",
@@ -137,28 +140,17 @@
       }
     }
   },
-  "errorMessages": {
-    "joinRoomFail": {
-      "RoomFull": "방이 꽉 차서 들어가지 못했습니다.",
-      "QueuedToJoinRoom": "이 채팅방에 참여하기 위해 이미 대기 중입니다.",
-      "AlreadyInRoom": "당신은 이미 이 방에 있습니다.",
-      "NoGuests": "객실이 손님을 허용하지 않아 입장하지 못했습니다.",
-      "IncorrectPassword": "잘못된 비밀번호로 인해 입력에 실패했습니다.",
-      "NotAllowed": "허용되지 않아 입장하지 못했습니다."
-    },
-    "failedToCreateRoomWithReason": "방 생성 실패: {{reason}}",
-    "failedToJoinRoom": "문제가 발생했습니다. 채팅방에 참여하지 못했습니다..."
-  },
-  "generalMessages": {
-    "enterRoomPassword": "방의 비밀번호를 입력해주세요!",
-    "roomWithWarnings": {
-      "text1": "이 방에는 다음 설정이 사용 설정되어 있습니다.",
-      "text2": "가입하시겠습니까?",
-      "dontShowAgain": "이 메시지를 다시 표시하지 마십시오."
-    },
-    "openingExternalLinks": "외부 링크를 열 때 주의하십시오. 정말로 이것을 여시겠습니까?"
-  },
   "instrumentDock": {
+    "inputButtons": {
+      "slotMode": "슬롯 모드 {{mode}}",
+      "tools": "도구",
+      "tooltips": {
+        "transpose": "조옮김을 설정합니다. 재설정하려면 클릭하세요.",
+        "octave": "옥타브를 설정합니다. 재설정하려면 클릭하세요.",
+        "slotMode": "피아노 레이아웃에 대한 슬롯 모드 설정",
+        "tools": "도구 및 기능 목록입니다."
+      }
+    },
     "toolNames": {
       "InstrumentSelection": "악기 선택",
       "ChannelDisplayMode": "채널 표시 모드",
@@ -177,16 +169,27 @@
         "ClearInstruments": "로드된 모든 미디 악기를 지웁니다.",
         "ResetToDefault": "미디 채널과 컨트롤을 기본 구성으로 재설정합니다."
       }
-    },
-    "inputButtons": {
-      "slotMode": "슬롯 모드 {{mode}}",
-      "tools": "도구",
-      "tooltips": {
-        "transpose": "조옮김을 설정합니다. 재설정하려면 클릭하세요.",
-        "octave": "옥타브를 설정합니다. 재설정하려면 클릭하세요.",
-        "slotMode": "피아노 레이아웃에 대한 슬롯 모드 설정",
-        "tools": "도구 및 기능 목록입니다."
-      }
+    }
+  },
+  "errorMessages": {
+    "failedToCreateRoomWithReason": "방 생성 실패: {{reason}}",
+    "failedToJoinRoom": "문제가 발생했습니다. 채팅방에 참여하지 못했습니다...",
+    "joinRoomFail": {
+      "RoomFull": "방이 꽉 차서 들어가지 못했습니다.",
+      "QueuedToJoinRoom": "이 채팅방에 참여하기 위해 이미 대기 중입니다.",
+      "AlreadyInRoom": "당신은 이미 이 방에 있습니다.",
+      "NoGuests": "객실이 손님을 허용하지 않아 입장하지 못했습니다.",
+      "IncorrectPassword": "잘못된 비밀번호로 인해 입력에 실패했습니다.",
+      "NotAllowed": "허용되지 않아 입장하지 못했습니다."
+    }
+  },
+  "generalMessages": {
+    "enterRoomPassword": "방의 비밀번호를 입력해주세요!",
+    "openingExternalLinks": "외부 링크를 열 때 주의하십시오. 정말로 이것을 여시겠습니까?",
+    "roomWithWarnings": {
+      "text1": "이 방에는 다음 설정이 사용 설정되어 있습니다.",
+      "text2": "가입하시겠습니까?",
+      "dontShowAgain": "이 메시지를 다시 표시하지 마십시오."
     }
   }
 }

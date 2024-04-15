@@ -151,7 +151,8 @@
             "sld_chatMsgsHeightOffset": "Pomak visine poruka chata",
             "sld_chatMsg2DOpacity": "Zadana neprozirnost poruka chata (2D način)",
             "sld_chatMsg3DOpacity": "Zadana neprozirnost poruka chata (3D način)",
-            "tgl_display3DStats": "Prikaz 3D statistike"
+            "tgl_display3DStats": "Prikaz 3D statistike",
+            "tgle_showEmbeddedLinks": "Prikaži ugrađene veze"
           },
           "tooltips": {
             "hdr_displays": "Prebacite prikaze određenih elemenata korisničkog sučelja",
@@ -166,7 +167,8 @@
             "tgl_display3DStats": "Uključite prikaz dodatnih statistika/informacija o 3D sceni",
             "tgle_keepChatInFocus": "Uključite želite li chat ostati u fokusu nakon slanja poruke",
             "sld_chatMsg2DOpacity": "Postavite zadanu neprozirnost poruka chata kada nisu fokusirane. (2D način rada)",
-            "sld_chatMsg3DOpacity": "Postavite zadanu neprozirnost poruka chata kada nisu fokusirane. (3D način rada)"
+            "sld_chatMsg3DOpacity": "Postavite zadanu neprozirnost poruka chata kada nisu fokusirane. (3D način rada)",
+            "tgle_showEmbeddedLinks": "Odaberite hoće li veze prikazivati ugrađene objekte kao što su slike ili videozapisi pridružene veze"
           }
         },
         "blob": {
@@ -225,7 +227,12 @@
             "sld_velocityMuting": "Isključivanje jačine zvuka nota",
             "tgl_enableVelocityBoost": "Omogući povećanje jačine zvuka nota",
             "sld_velocityBoost": "Povećanje zvuka nota",
-            "lbl_metronome": "Audio uzorak metronoma"
+            "lbl_metronome": "Audio uzorak metronoma",
+            "tgl_enableV2Reverb": "V2 Reverb",
+            "tgl_listenToProgramChanges": "Slušajte promjene programa",
+            "tgl_autoFillEmptyChannels": "Automatsko popunjavanje praznih kanala",
+            "tgl_useDefaultBankWhenMissing": "Koristi zadanu banku kada nedostaje",
+            "tgl_enableStereoPanning": "Omogući stereo pomicanje"
           },
           "tooltips": {
             "lbl_enableAudioToOutput": "Ako je označeno i svi izlazni uređaji su aktivni, zvuk će se emitirati samo na izlazni uređaj, a ne unutar PianoRhythm-a audio motora",
@@ -235,7 +242,12 @@
             "sld_velocityMuting": "Isključite jačinu nota koja je manja ili jednaka vrijednosti metra.",
             "tgl_enableVelocityBoost": "Povećava ulazne sirove vrijednosti jačine nota",
             "sld_velocityBoost": "Dodaje dodatnu vrijednost sirovoj jačini nota",
-            "lbl_metronome": "Odaberite vrstu audio uzorka koji ćete koristiti za metronom"
+            "lbl_metronome": "Odaberite vrstu audio uzorka koji ćete koristiti za metronom",
+            "tgl_enableV2Reverb": "Odaberite je li reverb omogućen za V2 audio mehanizam",
+            "tgl_listenToProgramChanges": "Uključite treba li PianoRhythm slušati događaje promjene midi programa i ažurirati dock za instrumente, u skladu s tim.",
+            "tgl_autoFillEmptyChannels": "Odaberite hoće li se prazni kanali u podnožju instrumenta automatski popuniti zadanim instrumentom kada se dogodi bilješka o događaju.",
+            "tgl_useDefaultBankWhenMissing": "Odaberite hoće li se koristiti zadana banka (obično banka 0) kada zvučni font nema određenu banku.",
+            "tgl_enableStereoPanning": "Odaberite podržava li audio mehanizam pomicanje audio streama ulijevo ili udesno.<br><br> Dakle, zvučni položaj nota bit će relativan u odnosu na njihov položaj na klaviru.<br><br> Na primjer, note bliže desnoj će se više čuti na desnom zvučniku. Isto vrijedi i za lijevi, a oni blizu sredine bit će raspoređeni na oba zvučnika."
           }
         }
       }
@@ -253,20 +265,6 @@
           }
         }
       },
-      "messages": {
-        "autoRenewInfo": "Vaša će se pretplata automatski obnoviti <b style=\"color:white;\">{{billingDate}}</b> i bit će vam naplaćeno <b style=\"color:white;\">{{currencyText}} .</b>",
-        "subText": "Ovo su vaše trenutne pretplate. Možete ih otkazati ili ažurirati bilo kada.",
-        "checkout_Created": "Otvoren je novi prozor. Nastavite s naplatom tamo!",
-        "checkout_Success": "Uspješna naplata!",
-        "checkout_Cancelled": "Otkazali ste sesiju.",
-        "checkout_ResumePlan": "Upravo ćete obnoviti svoju otkazanu pretplatu. </br></br>Jeste li sigurni?",
-        "checkout_Confirm": "Upravo ćete završiti i pretplatiti se na premium plan. </br></br>Jeste li sigurni?",
-        "subscription_cancellationFail": "Oprostite, nešto je pošlo naopako. Otkazivanje pretplate nije uspjelo.",
-        "subscription_Updated": "Uspješno ste ažurirali svoj plan pretplate!",
-        "cancellation_InProcess": "Vaša trenutna pretplata je <b>otkazana</b> i stoga se neće automatski obnavljati. Međutim, i dalje ćete imati svoje pogodnosti do <b style=\"color:white;\">{{billingDate}}</b> .",
-        "cancellation_Confirm": "Žao nam je što odlazite, {{username}} !.</br>Vaša pretplata na pro plan plaća se do <b>{{planBillingDate}}</b> .</br></br> Ako želite nastaviti s otkazivanjem svoje pretplate, u nastavku odaberite <b>&quot;Otkaži pretplatu&quot;</b> .",
-        "cancellation_Success": "Uspješno ste otkazali svoju pretplatu."
-      },
       "buttons": {
         "checkout": "Naplata uz Stripe",
         "cancelSubscription": "Otkažite pretplatu",
@@ -275,6 +273,20 @@
       "labels": {
         "billingInfo": "Podaci o naplati",
         "cancelSubscription": "Otkažite pretplatu"
+      },
+      "messages": {
+        "checkout_Created": "Otvoren je novi prozor. Nastavite s naplatom tamo!",
+        "checkout_Success": "Uspješna naplata!",
+        "checkout_Cancelled": "Otkazali ste sesiju.",
+        "checkout_ResumePlan": "Upravo ćete obnoviti svoju otkazanu pretplatu. </br></br>Jeste li sigurni?",
+        "checkout_Confirm": "Upravo ćete završiti i pretplatiti se na premium plan. </br></br>Jeste li sigurni?",
+        "subscription_cancellationFail": "Oprostite, nešto je pošlo naopako. Otkazivanje pretplate nije uspjelo.",
+        "subscription_Updated": "Uspješno ste ažurirali svoj plan pretplate!",
+        "subText": "Ovo su vaše trenutne pretplate. Možete ih otkazati ili ažurirati bilo kada.",
+        "cancellation_InProcess": "Vaša trenutna pretplata je <b>otkazana</b> i stoga se neće automatski obnavljati. Međutim, i dalje ćete imati svoje pogodnosti do <b style=\"color:white;\">{{billingDate}}</b> .",
+        "autoRenewInfo": "Vaša će se pretplata automatski obnoviti <b style=\"color:white;\">{{billingDate}}</b> i bit će vam naplaćeno <b style=\"color:white;\">{{currencyText}} .</b>",
+        "cancellation_Confirm": "Žao nam je što odlazite, {{username}} !.</br>Vaša pretplata na pro plan plaća se do <b>{{planBillingDate}}</b> .</br></br> Ako želite nastaviti s otkazivanjem svoje pretplate, u nastavku odaberite <b>&quot;Otkaži pretplatu&quot;</b> .",
+        "cancellation_Success": "Uspješno ste otkazali svoju pretplatu."
       }
     },
     "other": {

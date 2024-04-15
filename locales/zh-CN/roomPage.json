@@ -28,6 +28,7 @@
         "onlyOwnerCanPlay": "只有主人可以玩",
         "onlyOwnerCanChat": "只有所有者可以聊天",
         "allowGuests": "允许客人",
+        "allowBots": "允许机器人",
         "onlyMods": "只允许版主",
         "allowBlackMidi": "允许黑色迷笛",
         "maxPlayers": "最大玩家",
@@ -60,22 +61,22 @@
     "usersTab": "用户",
     "friendsTab": "好朋友",
     "roomsTab": "房间",
-    "tooltips": {
-      "usersTab": "房间中的用户列表。",
-      "friendsTab": "你所有朋友的名单！",
-      "roomsTab": "所有公共房间的列表。",
-      "roomSelfHosted": "<br>该房间由用户自行托管。<br>位置是： <b>( {{continent}} , {{country}} )</b>",
-      "passwordProtected": "密码保护"
-    },
     "general": {
       "hasPendingFriendRequests": "您有{{count}}待处理的好友请求！",
+      "noFriendsFound": "没有找到朋友。心情不好，兄弟...",
       "noRoomsFound": "没有找到房间...",
       "noFriends_line1": "看这里，有点寂寞。",
       "noFriends_line2_clientIsGuest": "登录以添加一些朋友！",
       "noFriends_line2_clientIsMember": "添加一些朋友！",
-      "noFriendsFound": "没有找到朋友。心情不好，兄弟...",
       "searchRooms": "搜索房间...",
       "unknownLocation": "抱歉，地点不详。"
+    },
+    "tooltips": {
+      "usersTab": "房间中的用户列表。",
+      "friendsTab": "你所有朋友的名单！",
+      "roomsTab": "所有公共房间的列表。",
+      "passwordProtected": "密码保护",
+      "roomSelfHosted": "<br>该房间由用户自行托管。<br>位置是： <b>( {{continent}} , {{country}} )</b>"
     }
   },
   "bottomBar": {
@@ -85,6 +86,7 @@
       "settings": "设置",
       "midi": "MIDI",
       "modDashboard": "模组仪表板",
+      "leaderboards": "排行榜",
       "volume": "体积",
       "sustain": "维持",
       "logout": "登出",
@@ -98,6 +100,7 @@
       "settings": "更改用户设置",
       "midi": "设置 MIDI I/O",
       "modDashboard": "主持人仪表板",
+      "leaderboards": "统计数据/排行榜",
       "volume": "点击我切换静音！",
       "sustain": "切换延音",
       "sustainActive": "积极的",
@@ -137,28 +140,17 @@
       }
     }
   },
-  "errorMessages": {
-    "joinRoomFail": {
-      "RoomFull": "由于房间已满，无法进入房间。",
-      "QueuedToJoinRoom": "您已排队加入此房间。",
-      "AlreadyInRoom": "你已经在这个房间里了。",
-      "NoGuests": "由于房间不允许客人进入，因此无法进入。",
-      "IncorrectPassword": "由于密码错误，无法进入。",
-      "NotAllowed": "无法进入，因为您不被允许。"
-    },
-    "failedToCreateRoomWithReason": "创建房间失败： {{reason}}",
-    "failedToJoinRoom": "出问题了。加入房间失败..."
-  },
-  "generalMessages": {
-    "enterRoomPassword": "请输入房间密码！",
-    "roomWithWarnings": {
-      "text1": "此房间启用了以下设置",
-      "text2": "你确定要加入吗？",
-      "dontShowAgain": "不再显示此消息。"
-    },
-    "openingExternalLinks": "小心打开外部链接。你确定要打开这个吗？"
-  },
   "instrumentDock": {
+    "inputButtons": {
+      "slotMode": "插槽模式{{mode}}",
+      "tools": "工具",
+      "tooltips": {
+        "transpose": "设置转置。单击以重置。",
+        "octave": "设置八度。单击以重置。",
+        "slotMode": "设置钢琴布局的插槽模式",
+        "tools": "工具和功能列表。"
+      }
+    },
     "toolNames": {
       "InstrumentSelection": "仪器选择",
       "ChannelDisplayMode": "频道显示模式",
@@ -177,16 +169,27 @@
         "ClearInstruments": "清除所有加载的 MIDI 乐器。",
         "ResetToDefault": "将 MIDI 通道和控件重置为默认配置。"
       }
-    },
-    "inputButtons": {
-      "slotMode": "插槽模式{{mode}}",
-      "tools": "工具",
-      "tooltips": {
-        "transpose": "设置转置。单击以重置。",
-        "octave": "设置八度。单击以重置。",
-        "slotMode": "设置钢琴布局的插槽模式",
-        "tools": "工具和功能列表。"
-      }
+    }
+  },
+  "errorMessages": {
+    "failedToCreateRoomWithReason": "创建房间失败： {{reason}}",
+    "failedToJoinRoom": "出问题了。加入房间失败...",
+    "joinRoomFail": {
+      "RoomFull": "由于房间已满，无法进入房间。",
+      "QueuedToJoinRoom": "您已排队加入此房间。",
+      "AlreadyInRoom": "你已经在这个房间里了。",
+      "NoGuests": "由于房间不允许客人进入，因此无法进入。",
+      "IncorrectPassword": "由于密码错误，无法进入。",
+      "NotAllowed": "无法进入，因为您不被允许。"
+    }
+  },
+  "generalMessages": {
+    "enterRoomPassword": "请输入房间密码！",
+    "openingExternalLinks": "小心打开外部链接。你确定要打开这个吗？",
+    "roomWithWarnings": {
+      "text1": "此房间启用了以下设置",
+      "text2": "你确定要加入吗？",
+      "dontShowAgain": "不再显示此消息。"
     }
   }
 }

@@ -28,6 +28,7 @@
         "onlyOwnerCanPlay": "Sèlman mèt kay ka jwe",
         "onlyOwnerCanChat": "Sèl pwopriyetè ka koze",
         "allowGuests": "Pèmèt envite yo",
+        "allowBots": "Pèmèt Bots",
         "onlyMods": "Sèlman Pèmèt Moderatè",
         "allowBlackMidi": "Pèmèt Black Midi",
         "maxPlayers": "Max jwè yo",
@@ -60,22 +61,22 @@
     "usersTab": "Itilizatè yo",
     "friendsTab": "Zanmi",
     "roomsTab": "Chanm yo",
-    "tooltips": {
-      "usersTab": "Lis itilizatè yo nan sal la.",
-      "friendsTab": "Lis tout zanmi w yo!",
-      "roomsTab": "Lis tout chanm piblik yo.",
-      "roomSelfHosted": "<br>Sal sa a ap òganize pwòp tèt ou pa yon itilizatè.<br> Kote a se: <b>( {{continent}} , {{country}} )</b>",
-      "passwordProtected": "Modpas pwoteje"
-    },
     "general": {
       "hasPendingFriendRequests": "Ou gen {{count}} demann zanmi annatant!",
+      "noFriendsFound": "Pa gen zanmi jwenn. Santi w mal, frè...",
       "noRoomsFound": "Okenn chanm pa jwenn...",
       "noFriends_line1": "Li sanble yon ti jan poukont, isit la.",
       "noFriends_line2_clientIsGuest": "Konekte pou ajoute kèk zanmi!",
       "noFriends_line2_clientIsMember": "Ajoute kèk zanmi!",
-      "noFriendsFound": "Pa gen zanmi jwenn. Santi w mal, frè...",
       "searchRooms": "Chèche chanm...",
       "unknownLocation": "Padon, kote a pa konnen."
+    },
+    "tooltips": {
+      "usersTab": "Lis itilizatè yo nan sal la.",
+      "friendsTab": "Lis tout zanmi w yo!",
+      "roomsTab": "Lis tout chanm piblik yo.",
+      "passwordProtected": "Modpas pwoteje",
+      "roomSelfHosted": "<br>Sal sa a ap òganize pwòp tèt ou pa yon itilizatè.<br> Kote a se: <b>( {{continent}} , {{country}} )</b>"
     }
   },
   "bottomBar": {
@@ -85,6 +86,7 @@
       "settings": "Anviwònman",
       "midi": "MIDI",
       "modDashboard": "Mod tablodbò",
+      "leaderboards": "Leaderboards",
       "volume": "Volim",
       "sustain": "Soutni",
       "logout": "Dekonekte",
@@ -98,6 +100,7 @@
       "settings": "Chanje anviwònman itilizatè yo",
       "midi": "Mete MIDI I/O",
       "modDashboard": "Moderatè Dashboard",
+      "leaderboards": "Statistik / Leaderboards",
       "volume": "Klike m 'pou aktive mute!",
       "sustain": "Aktive soutni a",
       "sustainActive": "Aktif",
@@ -137,28 +140,17 @@
       }
     }
   },
-  "errorMessages": {
-    "joinRoomFail": {
-      "RoomFull": "Echwe pou antre nan chanm nan paske li plen.",
-      "QueuedToJoinRoom": "Ou deja nan keu pou w rantre nan chanm sa a.",
-      "AlreadyInRoom": "Ou deja nan chanm sa a.",
-      "NoGuests": "Echwe pou antre paske chanm nan pa pèmèt envite.",
-      "IncorrectPassword": "Echwe pou antre akòz yon modpas ki pa kòrèk.",
-      "NotAllowed": "Echwe pou antre paske ou pa gen dwa."
-    },
-    "failedToCreateRoomWithReason": "Echwe pou kreye chanm: {{reason}}",
-    "failedToJoinRoom": "Yon bagay ale mal. Echwe pou rantre nan chanm..."
-  },
-  "generalMessages": {
-    "enterRoomPassword": "Tanpri antre modpas chanm nan!",
-    "roomWithWarnings": {
-      "text1": "Chanm sa a gen paramèt sa yo aktive",
-      "text2": "Èske ou sèten ou vle rantre nan?",
-      "dontShowAgain": "Pa montre mesaj sa a ankò."
-    },
-    "openingExternalLinks": "Fè atansyon sou ouvèti lyen ekstèn. Èske ou reyèlman sèten ou vle louvri sa a?"
-  },
   "instrumentDock": {
+    "inputButtons": {
+      "slotMode": "Mòd plas {{mode}}",
+      "tools": "Zouti",
+      "tooltips": {
+        "transpose": "Mete transpozisyon an. Klike pou reset.",
+        "octave": "Mete oktav la. Klike pou reset.",
+        "slotMode": "Mete mòd nan plas pou Layout pyano a",
+        "tools": "Yon lis zouti ak karakteristik."
+      }
+    },
     "toolNames": {
       "InstrumentSelection": "Seleksyon enstriman",
       "ChannelDisplayMode": "Chèn ekspozisyon mòd",
@@ -177,16 +169,27 @@
         "ClearInstruments": "Efase tout enstriman mizik yo chaje.",
         "ResetToDefault": "Reyajiste chanèl midi ak kontwòl yo nan konfigirasyon default la."
       }
-    },
-    "inputButtons": {
-      "slotMode": "Mòd plas {{mode}}",
-      "tools": "Zouti",
-      "tooltips": {
-        "transpose": "Mete transpozisyon an. Klike pou reset.",
-        "octave": "Mete oktav la. Klike pou reset.",
-        "slotMode": "Mete mòd nan plas pou Layout pyano a",
-        "tools": "Yon lis zouti ak karakteristik."
-      }
+    }
+  },
+  "errorMessages": {
+    "failedToCreateRoomWithReason": "Echwe pou kreye chanm: {{reason}}",
+    "failedToJoinRoom": "Yon bagay ale mal. Echwe pou rantre nan chanm...",
+    "joinRoomFail": {
+      "RoomFull": "Echwe pou antre nan chanm nan paske li plen.",
+      "QueuedToJoinRoom": "Ou deja nan keu pou w rantre nan chanm sa a.",
+      "AlreadyInRoom": "Ou deja nan chanm sa a.",
+      "NoGuests": "Echwe pou antre paske chanm nan pa pèmèt envite.",
+      "IncorrectPassword": "Echwe pou antre akòz yon modpas ki pa kòrèk.",
+      "NotAllowed": "Echwe pou antre paske ou pa gen dwa."
+    }
+  },
+  "generalMessages": {
+    "enterRoomPassword": "Tanpri antre modpas chanm nan!",
+    "openingExternalLinks": "Fè atansyon sou ouvèti lyen ekstèn. Èske ou reyèlman sèten ou vle louvri sa a?",
+    "roomWithWarnings": {
+      "text1": "Chanm sa a gen paramèt sa yo aktive",
+      "text2": "Èske ou sèten ou vle rantre nan?",
+      "dontShowAgain": "Pa montre mesaj sa a ankò."
     }
   }
 }

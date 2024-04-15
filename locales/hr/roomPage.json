@@ -28,6 +28,7 @@
         "onlyOwnerCanPlay": "Samo vlasnik može svirati",
         "onlyOwnerCanChat": "Samo vlasnik može razgovarati",
         "allowGuests": "Dopustite gostima",
+        "allowBots": "Dopusti robote",
         "onlyMods": "Dopusti samo moderatore",
         "allowBlackMidi": "Dopusti black midi",
         "maxPlayers": "Maksimalno igrača",
@@ -60,22 +61,22 @@
     "usersTab": "Korisnici",
     "friendsTab": "Prijatelji",
     "roomsTab": "sobe",
-    "tooltips": {
-      "usersTab": "Popisi korisnika u sobi.",
-      "friendsTab": "Popis svih vaših prijatelja!",
-      "roomsTab": "Popis svih javnih soba.",
-      "roomSelfHosted": "<br>Ovu sobu sam hostira korisnik.<br> Lokacija je: <b>( {{continent}} , {{country}} )</b>",
-      "passwordProtected": "Lozinka zaštićena"
-    },
     "general": {
       "hasPendingFriendRequests": "Imate {{count}} zahtjeva za prijateljstvo na čekanju!",
+      "noFriendsFound": "Nisu pronađeni prijatelji. žao mi je stari....",
       "noRoomsFound": "Nisu pronađene sobe...",
       "noFriends_line1": "Ovdje izgleda malo usamljeno.",
       "noFriends_line2_clientIsGuest": "Prijavite se da dodate prijatelje!",
       "noFriends_line2_clientIsMember": "Dodajte prijatelje!",
-      "noFriendsFound": "Nisu pronađeni prijatelji. žao mi je stari....",
       "searchRooms": "Traži sobe...",
       "unknownLocation": "Nažalost, lokacija je nepoznata."
+    },
+    "tooltips": {
+      "usersTab": "Popisi korisnika u sobi.",
+      "friendsTab": "Popis svih vaših prijatelja!",
+      "roomsTab": "Popis svih javnih soba.",
+      "passwordProtected": "Lozinka zaštićena",
+      "roomSelfHosted": "<br>Ovu sobu sam hostira korisnik.<br> Lokacija je: <b>( {{continent}} , {{country}} )</b>"
     }
   },
   "bottomBar": {
@@ -85,6 +86,7 @@
       "settings": "Postavke",
       "midi": "MIDI",
       "modDashboard": "Nadzorna ploča",
+      "leaderboards": "Ploče s najboljim rezultatima",
       "volume": "Glasnoća",
       "sustain": "zadrži",
       "logout": "Odjava",
@@ -98,6 +100,7 @@
       "settings": "Promijenite korisničke postavke",
       "midi": "Postavite MIDI Ulaz/izlaz",
       "modDashboard": "Nadzorna ploča moderatora",
+      "leaderboards": "Statistika / Leaderboards",
       "volume": "Kliknite me da biste isključili zvuk!",
       "sustain": "Uključite zadržavanje zvuka",
       "sustainActive": "Aktivan",
@@ -137,28 +140,17 @@
       }
     }
   },
-  "errorMessages": {
-    "joinRoomFail": {
-      "RoomFull": "Ulazak u prostoriju nije uspio jer je puna.",
-      "QueuedToJoinRoom": "Već ste u redu čekanja da se pridružite ovoj prostoriji.",
-      "AlreadyInRoom": "Već ste u ovoj sobi.",
-      "NoGuests": "Ulazak nije uspio jer soba ne dopušta goste.",
-      "IncorrectPassword": "Ulazak nije uspio zbog netočne lozinke.",
-      "NotAllowed": "Ulazak nije uspio jer vam nije dopušteno."
-    },
-    "failedToCreateRoomWithReason": "Nije uspjelo kreiranje sobe: {{reason}}",
-    "failedToJoinRoom": "Nešto je pošlo po zlu. Pridruživanje sobi nije uspjelo..."
-  },
-  "generalMessages": {
-    "enterRoomPassword": "Molimo unesite lozinku sobe!",
-    "roomWithWarnings": {
-      "text1": "Ova soba ima omogućene sljedeće postavke",
-      "text2": "Jeste li sigurni da se želite pridružiti?",
-      "dontShowAgain": "Ne prikazuj više ovu poruku."
-    },
-    "openingExternalLinks": "Budite oprezni pri otvaranju vanjskih poveznica. Jeste li stvarno sigurni da ovo želite otvoriti?"
-  },
   "instrumentDock": {
+    "inputButtons": {
+      "slotMode": "Način rada utora {{mode}}",
+      "tools": "Alati",
+      "tooltips": {
+        "transpose": "Postavite tranpozaciju. Kliknite za resetiranje.",
+        "octave": "Postavite oktavu. Kliknite za resetiranje.",
+        "slotMode": "Postavite načina rada slotova za raspored klavira",
+        "tools": "Popis alata i značajki."
+      }
+    },
     "toolNames": {
       "InstrumentSelection": "Odabir instrumenata",
       "ChannelDisplayMode": "Način prikaza kanala",
@@ -177,16 +169,27 @@
         "ClearInstruments": "Očistite sve učitane midi instrumente.",
         "ResetToDefault": "Vratite midi kanale i kontrole na zadanu konfiguraciju."
       }
-    },
-    "inputButtons": {
-      "slotMode": "Način rada utora {{mode}}",
-      "tools": "Alati",
-      "tooltips": {
-        "transpose": "Postavite tranpozaciju. Kliknite za resetiranje.",
-        "octave": "Postavite oktavu. Kliknite za resetiranje.",
-        "slotMode": "Postavite načina rada slotova za raspored klavira",
-        "tools": "Popis alata i značajki."
-      }
+    }
+  },
+  "errorMessages": {
+    "failedToCreateRoomWithReason": "Nije uspjelo kreiranje sobe: {{reason}}",
+    "failedToJoinRoom": "Nešto je pošlo po zlu. Pridruživanje sobi nije uspjelo...",
+    "joinRoomFail": {
+      "RoomFull": "Ulazak u prostoriju nije uspio jer je puna.",
+      "QueuedToJoinRoom": "Već ste u redu čekanja da se pridružite ovoj prostoriji.",
+      "AlreadyInRoom": "Već ste u ovoj sobi.",
+      "NoGuests": "Ulazak nije uspio jer soba ne dopušta goste.",
+      "IncorrectPassword": "Ulazak nije uspio zbog netočne lozinke.",
+      "NotAllowed": "Ulazak nije uspio jer vam nije dopušteno."
+    }
+  },
+  "generalMessages": {
+    "enterRoomPassword": "Molimo unesite lozinku sobe!",
+    "openingExternalLinks": "Budite oprezni pri otvaranju vanjskih poveznica. Jeste li stvarno sigurni da ovo želite otvoriti?",
+    "roomWithWarnings": {
+      "text1": "Ova soba ima omogućene sljedeće postavke",
+      "text2": "Jeste li sigurni da se želite pridružiti?",
+      "dontShowAgain": "Ne prikazuj više ovu poruku."
     }
   }
 }

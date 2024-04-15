@@ -16,16 +16,16 @@
     "modal_Confirm2": "是的，请！",
     "modal_Deny": "没关系..."
   },
-  "errorMessages": {
-    "webGLNotSupported": "抱歉，您的浏览器不支持某些功能，例如 WebGL。<br>如果可以，请更新您的浏览器。",
-    "midiFileSizeIsTooBig": "文件太大了！",
-    "dropValidMidiFile": "请上传有效的midi文件！"
-  },
   "generalMessages": {
+    "dropAnyValidMidiFile": "放下一个有效的 .midi 文件来播放！",
     "serverConnected": "连接到{{appName}}",
     "passwordResetSuccess": "你的密码已成功更改。您可以继续登录。 :)",
     "forgotPasswordSuccess": "如果有与该电子邮件关联的帐户，则会发送一封用于重置密码的电子邮件。谢谢！",
-    "registerSuccess": "已发送验证电子邮件。还要检查您的垃圾邮件文件夹。",
-    "dropAnyValidMidiFile": "放下一个有效的 .midi 文件来播放！"
+    "registerSuccess": "已发送验证电子邮件。还要检查您的垃圾邮件文件夹。"
+  },
+  "errorMessages": {
+    "midiFileSizeIsTooBig": "文件太大了！",
+    "dropValidMidiFile": "请上传有效的midi文件！",
+    "webGLNotSupported": "抱歉，您的浏览器不支持某些功能，例如 WebGL。<br>如果可以，请更新您的浏览器。"
   }
 }

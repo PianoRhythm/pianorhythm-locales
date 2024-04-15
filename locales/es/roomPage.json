@@ -28,6 +28,7 @@
         "onlyOwnerCanPlay": "Solo el propietario de la sala puede jugar",
         "onlyOwnerCanChat": "Solo el propietario de la sala puede chatear",
         "allowGuests": "Permitir invitados",
+        "allowBots": "Permitir robots",
         "onlyMods": "Solo permitir moderadores",
         "allowBlackMidi": "Permitir Black MIDI",
         "maxPlayers": "Jugadores máximos",
@@ -62,11 +63,11 @@
     "roomsTab": "Salas",
     "general": {
       "hasPendingFriendRequests": "¡Tienes {{count}} solicitudes de amistad pendientes!",
+      "noFriendsFound": "No se encontró ningún amigo. Mala suerte bro...",
       "noRoomsFound": "No se encontró ninguna sala...",
       "noFriends_line1": "Esta muy vacío aquí.",
       "noFriends_line2_clientIsGuest": "¡Inicia sesión para agregar amigos!",
       "noFriends_line2_clientIsMember": "¡Agregua amigos!",
-      "noFriendsFound": "No se encontró ningún amigo. Mala suerte bro...",
       "searchRooms": "Buscar salas...",
       "unknownLocation": "Lo sentimos, la ubicación está desconocida."
     },
@@ -74,8 +75,8 @@
       "usersTab": "Las listas de usuarios en la sala.",
       "friendsTab": "¡La lista de todos tus amigos!",
       "roomsTab": "La lista de todas las salas públicas.",
-      "roomSelfHosted": "<br>Esta sala está siendo alojada por un usuario.<br> La ubicación es: <b>( {{continent}} , {{country}} )</b>",
-      "passwordProtected": "Contraseña protegida"
+      "passwordProtected": "Contraseña protegida",
+      "roomSelfHosted": "<br>Esta sala está siendo alojada por un usuario.<br> La ubicación es: <b>( {{continent}} , {{country}} )</b>"
     }
   },
   "bottomBar": {
@@ -85,6 +86,7 @@
       "settings": "Ajustes",
       "midi": "MIDI",
       "modDashboard": "Panel de mods",
+      "leaderboards": "Tablas de clasificación",
       "volume": "Volumen",
       "sustain": "Sostener",
       "logout": "Cerrar la sesión",
@@ -98,6 +100,7 @@
       "settings": "Cambiar la configuración del usuario",
       "midi": "Configurar el MIDI I/O",
       "modDashboard": "Panel de moderador",
+      "leaderboards": "Estadísticas/Tablas de clasificación",
       "volume": "¡Haz clic aquí para silenciar el volumen!",
       "sustain": "Alternar la sustención",
       "sustainActive": "Activo",
@@ -171,22 +174,22 @@
   "errorMessages": {
     "failedToCreateRoomWithReason": "No se pudo crear la sala: {{reason}}",
     "failedToJoinRoom": "Algo salió mal. No se pudo unir a la sala...",
-      "joinRoomFail": {
-        "RoomFull": "No se pudo unir a la sala porque está llena.",
-        "QueuedToJoinRoom": "Ya estás en cola para unirte a esta sala.",
-        "AlreadyInRoom": "Ya estás en esta sala.",
-        "NoGuests": "No se pudo unir porque la sala no permite invitados.",
-        "IncorrectPassword": "No se pudo unir debido a una contraseña incorrecta.",
-        "NotAllowed": "No se pudo unir porque no tienes permiso."
-      }
-    },
-    "generalMessages": {
-      "enterRoomPassword": "¡Por favor introduzca la contraseña de la sala!",
-      "openingExternalLinks": "Tenga cuidado en clicar enlaces externos. ¿Estás realmente seguro de que quieres abrir esto?",
-      "roomWithWarnings": {
-        "text1": "Esta sala tiene las siguientes configuraciones habilitadas",
-        "text2": "¿Estás seguro de que quieres unirte?",
-        "dontShowAgain": "No volver a mostrar este mensaje."
-      }
+    "joinRoomFail": {
+      "RoomFull": "No se pudo unir a la sala porque está llena.",
+      "QueuedToJoinRoom": "Ya estás en cola para unirte a esta sala.",
+      "AlreadyInRoom": "Ya estás en esta sala.",
+      "NoGuests": "No se pudo unir porque la sala no permite invitados.",
+      "IncorrectPassword": "No se pudo unir debido a una contraseña incorrecta.",
+      "NotAllowed": "No se pudo unir porque no tienes permiso."
+    }
+  },
+  "generalMessages": {
+    "enterRoomPassword": "¡Por favor introduzca la contraseña de la sala!",
+    "openingExternalLinks": "Tenga cuidado en clicar enlaces externos. ¿Estás realmente seguro de que quieres abrir esto?",
+    "roomWithWarnings": {
+      "text1": "Esta sala tiene las siguientes configuraciones habilitadas",
+      "text2": "¿Estás seguro de que quieres unirte?",
+      "dontShowAgain": "No volver a mostrar este mensaje."
     }
   }
+}

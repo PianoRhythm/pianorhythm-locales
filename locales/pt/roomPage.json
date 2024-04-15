@@ -28,6 +28,7 @@
         "onlyOwnerCanPlay": "Somente o dono pode tocar",
         "onlyOwnerCanChat": "Apenas o proprietário pode conversar",
         "allowGuests": "Permitir convidados",
+        "allowBots": "Permitir bots",
         "onlyMods": "Permitir apenas moderadores",
         "allowBlackMidi": "Permitir Black Midi",
         "maxPlayers": "Máximo de jogadores",
@@ -60,22 +61,22 @@
     "usersTab": "Usuários",
     "friendsTab": "Amigos",
     "roomsTab": "Salas",
-    "tooltips": {
-      "usersTab": "As listas de usuários na sala.",
-      "friendsTab": "A lista de todos os seus amigos!",
-      "roomsTab": "A lista de todas as salas públicas.",
-      "roomSelfHosted": "<br>Esta sala está sendo auto-hospedada por um usuário.<br> A localização é: <b>( {{continent}} , {{country}} )</b>",
-      "passwordProtected": "Protegida por senha"
-    },
     "general": {
       "hasPendingFriendRequests": "Você tem {{count}} solicitações de amizade pendentes!",
+      "noFriendsFound": "Nenhum amigo encontrado. Dá uma sensação ruim, irmão...",
       "noRoomsFound": "Nenhuma sala encontrada...",
       "noFriends_line1": "Parece um pouco solitário, aqui.",
       "noFriends_line2_clientIsGuest": "Faça login para adicionar alguns amigos!",
       "noFriends_line2_clientIsMember": "Adicione alguns amigos!",
-      "noFriendsFound": "Nenhum amigo encontrado. Dá uma sensação ruim, irmão...",
       "searchRooms": "Pesquisar salas...",
       "unknownLocation": "Desculpe, a localização é desconhecida."
+    },
+    "tooltips": {
+      "usersTab": "As listas de usuários na sala.",
+      "friendsTab": "A lista de todos os seus amigos!",
+      "roomsTab": "A lista de todas as salas públicas.",
+      "passwordProtected": "Protegida por senha",
+      "roomSelfHosted": "<br>Esta sala está sendo auto-hospedada por um usuário.<br> A localização é: <b>( {{continent}} , {{country}} )</b>"
     }
   },
   "bottomBar": {
@@ -85,6 +86,7 @@
       "settings": "Configurações",
       "midi": "MIDI",
       "modDashboard": "Painel de Mods",
+      "leaderboards": "Tabelas de classificação",
       "volume": "Volume",
       "sustain": "Sustenido",
       "logout": "Sair",
@@ -98,6 +100,7 @@
       "settings": "Alterar as configurações do usuário",
       "midi": "Defina a E/S MIDI",
       "modDashboard": "Painel do moderador",
+      "leaderboards": "Estatísticas / Tabelas de classificação",
       "volume": "Clique em mim para alternar o volume!",
       "sustain": "Alternar a sustentação",
       "sustainActive": "Ativo",
@@ -137,28 +140,17 @@
       }
     }
   },
-  "errorMessages": {
-    "joinRoomFail": {
-      "RoomFull": "Falha ao entrar na sala porque está cheia.",
-      "QueuedToJoinRoom": "Você já está na fila para entrar nesta sala.",
-      "AlreadyInRoom": "Você já está nesta sala.",
-      "NoGuests": "Falha ao entrar porque a sala não permite visitantes.",
-      "IncorrectPassword": "Falha ao entrar devido a uma senha incorreta.",
-      "NotAllowed": "Falha ao entrar porque você não tem permissão."
-    },
-    "failedToCreateRoomWithReason": "Falha ao criar sala: {{reason}}",
-    "failedToJoinRoom": "Algo deu errado. Falha ao entrar na sala..."
-  },
-  "generalMessages": {
-    "enterRoomPassword": "Por favor, digite a senha da sala!",
-    "roomWithWarnings": {
-      "text1": "Esta sala tem as seguintes configurações ativadas",
-      "text2": "Tem certeza de que deseja participar?",
-      "dontShowAgain": "Não mostre esta mensagem novamente."
-    },
-    "openingExternalLinks": "Tenha cuidado ao abrir links externos. Tem certeza de que deseja abrir isso?"
-  },
   "instrumentDock": {
+    "inputButtons": {
+      "slotMode": "Modo de slot {{mode}}",
+      "tools": "Ferramentas",
+      "tooltips": {
+        "transpose": "Defina a transposição. Clique para redefinir.",
+        "octave": "Defina a oitava. Clique para redefinir.",
+        "slotMode": "Defina o modo de slot para o layout do piano",
+        "tools": "Uma lista de ferramentas e recursos."
+      }
+    },
     "toolNames": {
       "InstrumentSelection": "Seleção de Instrumentos",
       "ChannelDisplayMode": "Modo de exibição de canal",
@@ -177,16 +169,27 @@
         "ClearInstruments": "Limpe todos os instrumentos midi carregados.",
         "ResetToDefault": "Redefina os canais e controles midi para a configuração padrão."
       }
-    },
-    "inputButtons": {
-      "slotMode": "Modo de slot {{mode}}",
-      "tools": "Ferramentas",
-      "tooltips": {
-        "transpose": "Defina a transposição. Clique para redefinir.",
-        "octave": "Defina a oitava. Clique para redefinir.",
-        "slotMode": "Defina o modo de slot para o layout do piano",
-        "tools": "Uma lista de ferramentas e recursos."
-      }
+    }
+  },
+  "errorMessages": {
+    "failedToCreateRoomWithReason": "Falha ao criar sala: {{reason}}",
+    "failedToJoinRoom": "Algo deu errado. Falha ao entrar na sala...",
+    "joinRoomFail": {
+      "RoomFull": "Falha ao entrar na sala porque está cheia.",
+      "QueuedToJoinRoom": "Você já está na fila para entrar nesta sala.",
+      "AlreadyInRoom": "Você já está nesta sala.",
+      "NoGuests": "Falha ao entrar porque a sala não permite visitantes.",
+      "IncorrectPassword": "Falha ao entrar devido a uma senha incorreta.",
+      "NotAllowed": "Falha ao entrar porque você não tem permissão."
+    }
+  },
+  "generalMessages": {
+    "enterRoomPassword": "Por favor, digite a senha da sala!",
+    "openingExternalLinks": "Tenha cuidado ao abrir links externos. Tem certeza de que deseja abrir isso?",
+    "roomWithWarnings": {
+      "text1": "Esta sala tem as seguintes configurações ativadas",
+      "text2": "Tem certeza de que deseja participar?",
+      "dontShowAgain": "Não mostre esta mensagem novamente."
     }
   }
 }

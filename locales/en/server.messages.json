@@ -1,4 +1,4 @@
-﻿{
+{
   "websocket": {
     "clientConnect_Init": "Connecting... Please wait!",
     "clientConnect_ResponseDelayed": "It's taking a bit longer than usual. Please hold on!",

@@ -151,7 +151,8 @@
             "sld_chatMsgsHeightOffset": "聊天消息高度偏移",
             "sld_chatMsg2DOpacity": "聊天消息默认不透明度（2D 模式）",
             "sld_chatMsg3DOpacity": "聊天消息默认不透明度（3D 模式）",
-            "tgl_display3DStats": "显示 3D 统计数据"
+            "tgl_display3DStats": "显示 3D 统计数据",
+            "tgle_showEmbeddedLinks": "显示嵌入链接"
           },
           "tooltips": {
             "hdr_displays": "切换某些 UI 元素的显示",
@@ -166,7 +167,8 @@
             "tgl_display3DStats": "切换显示有关 3d 场景的额外统计信息/信息",
             "tgle_keepChatInFocus": "切换是否在提交消息后保持聊天焦点",
             "sld_chatMsg2DOpacity": "设置聊天消息未聚焦时的默认不透明度。 （二维模式）",
-            "sld_chatMsg3DOpacity": "设置聊天消息未聚焦时的默认不透明度。 （3D模式）"
+            "sld_chatMsg3DOpacity": "设置聊天消息未聚焦时的默认不透明度。 （3D模式）",
+            "tgle_showEmbeddedLinks": "切换链接是否显示嵌入的对象，例如关联链接的图像或视频"
           }
         },
         "blob": {
@@ -225,7 +227,12 @@
             "sld_velocityMuting": "速度静音",
             "tgl_enableVelocityBoost": "启用速度提升",
             "sld_velocityBoost": "速度提升",
-            "lbl_metronome": "节拍器音频样本"
+            "lbl_metronome": "节拍器音频样本",
+            "tgl_enableV2Reverb": "V2 混响",
+            "tgl_listenToProgramChanges": "收听节目变更",
+            "tgl_autoFillEmptyChannels": "自动填充空通道",
+            "tgl_useDefaultBankWhenMissing": "缺失时使用默认银行",
+            "tgl_enableStereoPanning": "启用立体声声像"
           },
           "tooltips": {
             "lbl_enableAudioToOutput": "如果选中并且任何输出设备处于活动状态，则音频将仅发送到输出设备，而不是在 PianoRhythm 的音频引擎中",
@@ -235,7 +242,12 @@
             "sld_velocityMuting": "使速度小于或等于仪表值的音符静音。",
             "tgl_enableVelocityBoost": "提升传入的原始速度值",
             "sld_velocityBoost": "为原始速度增加附加值",
-            "lbl_metronome": "选择用于节拍器的音频样本类型"
+            "lbl_metronome": "选择用于节拍器的音频样本类型",
+            "tgl_enableV2Reverb": "切换是否为 V2 音频引擎启用混响",
+            "tgl_listenToProgramChanges": "切换 PianoRhythm 是否应该监听 midi 程序变化事件并相应地更新乐器底座。",
+            "tgl_autoFillEmptyChannels": "切换当事件发生时，乐器底座中的空通道是否应使用默认乐器自动填充。",
+            "tgl_useDefaultBankWhenMissing": "当音色没有特定的库时，切换是否使用默认库（通常为库 0）。",
+            "tgl_enableStereoPanning": "切换音频引擎是否支持向左或向右平移音频流。<br><br>因此，音符的声音位置将与其在钢琴上的位置相关。<br><br>例如，靠近右侧的音符在右侧扬声器上会听到更多。左侧也是如此，靠近中间的音符会分布在两个扬声器上。"
           }
         }
       }
@@ -253,20 +265,6 @@
           }
         }
       },
-      "messages": {
-        "autoRenewInfo": "您的订阅将在<b style=\"color:white;\">{{billingDate}}</b>自动续订，您需要支付<b style=\"color:white;\">{{currencyText}}费用。</b>",
-        "subText": "这是您当前的订阅。您可以随时取消或更新它。",
-        "checkout_Created": "已打开一个新选项卡。继续在那里结帐！",
-        "checkout_Success": "结账成功！",
-        "checkout_Cancelled": "您已取消会话。",
-        "checkout_ResumePlan": "您即将恢复已取消的订阅。 </br></br>你确定吗？",
-        "checkout_Confirm": "您即将签出并订阅高级计划。 </br></br>你确定吗？",
-        "subscription_cancellationFail": "抱歉，出了一些问题。取消订阅失败。",
-        "subscription_Updated": "您已成功更新订阅计划！",
-        "cancellation_InProcess": "您当前的订阅已被<b>取消</b>，因此不会自动续订。 <b style=\"color:white;\">{{billingDate}}</b>之前，您仍然可以享受福利。",
-        "cancellation_Confirm": "我们很遗憾看到你走了， {{username}} ！</br>您的专业计划订阅在<b>{{planBillingDate}}</b>之前支付。</br></br>如果您想继续取消订阅，请选择下方的<b>“取消订阅”。</b>",
-        "cancellation_Success": "您已成功取消订阅。"
-      },
       "buttons": {
         "checkout": "使用条纹结帐",
         "cancelSubscription": "取消订阅",
@@ -275,6 +273,20 @@
       "labels": {
         "billingInfo": "账单信息",
         "cancelSubscription": "取消订阅"
+      },
+      "messages": {
+        "checkout_Created": "已打开一个新选项卡。继续在那里结帐！",
+        "checkout_Success": "结账成功！",
+        "checkout_Cancelled": "您已取消会话。",
+        "checkout_ResumePlan": "您即将恢复已取消的订阅。 </br></br>你确定吗？",
+        "checkout_Confirm": "您即将签出并订阅高级计划。 </br></br>你确定吗？",
+        "subscription_cancellationFail": "抱歉，出了一些问题。取消订阅失败。",
+        "subscription_Updated": "您已成功更新订阅计划！",
+        "subText": "这是您当前的订阅。您可以随时取消或更新它。",
+        "cancellation_InProcess": "您当前的订阅已被<b>取消</b>，因此不会自动续订。 <b style=\"color:white;\">{{billingDate}}</b>之前，您仍然可以享受福利。",
+        "autoRenewInfo": "您的订阅将在<b style=\"color:white;\">{{billingDate}}</b>自动续订，您需要支付<b style=\"color:white;\">{{currencyText}}费用。</b>",
+        "cancellation_Confirm": "我们很遗憾看到你走了， {{username}} ！</br>您的专业计划订阅在<b>{{planBillingDate}}</b>之前支付。</br></br>如果您想继续取消订阅，请选择下方的<b>“取消订阅”。</b>",
+        "cancellation_Success": "您已成功取消订阅。"
       }
     },
     "other": {

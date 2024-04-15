@@ -151,7 +151,8 @@
             "sld_chatMsgsHeightOffset": "Chat Mesaj Tay Offset",
             "sld_chatMsg2DOpacity": "Mesaj Chat Opakite Default (Mòd 2D)",
             "sld_chatMsg3DOpacity": "Mesaj Chat Default Opakite (Mòd 3D)",
-            "tgl_display3DStats": "Montre Statistik 3D"
+            "tgl_display3DStats": "Montre Statistik 3D",
+            "tgle_showEmbeddedLinks": "Montre lyen entegre"
           },
           "tooltips": {
             "hdr_displays": "Aktive ekspozisyon sèten eleman UI",
@@ -166,7 +167,8 @@
             "tgl_display3DStats": "Deklanche montre estatistik siplemantè / enfòmasyon sou sèn nan 3D",
             "tgle_keepChatInFocus": "Chanje si w vle kenbe chat la konsantre apre w fin soumèt yon mesaj",
             "sld_chatMsg2DOpacity": "Mete opakite default mesaj chat yo lè li pa konsantre. (2D mòd)",
-            "sld_chatMsg3DOpacity": "Mete opakite default mesaj chat yo lè li pa konsantre. (mòd 3D)"
+            "sld_chatMsg3DOpacity": "Mete opakite default mesaj chat yo lè li pa konsantre. (mòd 3D)",
+            "tgle_showEmbeddedLinks": "Chanje si lyen yo montre objè entegre tankou imaj oswa videyo lyen ki asosye a"
           }
         },
         "blob": {
@@ -225,7 +227,12 @@
             "sld_velocityMuting": "Muting vitès",
             "tgl_enableVelocityBoost": "Pèmèt ogmantasyon vitès",
             "sld_velocityBoost": "Ogmante vitès",
-            "lbl_metronome": "Egzanp odyo metronom"
+            "lbl_metronome": "Egzanp odyo metronom",
+            "tgl_enableV2Reverb": "V2 Reverb",
+            "tgl_listenToProgramChanges": "Koute Chanjman Pwogram yo",
+            "tgl_autoFillEmptyChannels": "Oto ranpli chanèl vid yo",
+            "tgl_useDefaultBankWhenMissing": "Sèvi ak Default Bank lè w manke",
+            "tgl_enableStereoPanning": "Pèmèt Stereo panoramique"
           },
           "tooltips": {
             "lbl_enableAudioToOutput": "Si w tcheke epi nenpòt aparèy pwodiksyon aktif, odyo pral sèlman emèt nan aparèy pwodiksyon an epi li pa nan motè odyo PianoRhythm la.",
@@ -235,7 +242,12 @@
             "sld_velocityMuting": "Nòt bèbè ak yon vitès ki mwens pase oswa egal a valè mèt la.",
             "tgl_enableVelocityBoost": "Ranfòse valè vitès anvan tout koreksyon k ap vini yo",
             "sld_velocityBoost": "Ajoute valè adisyonèl nan vitès anvan tout koreksyon",
-            "lbl_metronome": "Chwazi kalite echantiyon odyo pou itilize pou metronom la"
+            "lbl_metronome": "Chwazi kalite echantiyon odyo pou itilize pou metronom la",
+            "tgl_enableV2Reverb": "Deklanche si reverb pèmèt pou motè odyo V2 la",
+            "tgl_listenToProgramChanges": "Chanje si PianoRhythm ta dwe koute evènman chanjman pwogram midi epi mete ajou waf enstriman an, kòmsadwa.",
+            "tgl_autoFillEmptyChannels": "Chanje si chanèl vid nan waf enstriman an ta dwe ranpli otomatikman ak enstriman default la lè yon nòt sou evènman an rive.",
+            "tgl_useDefaultBankWhenMissing": "Chanje si yo sèvi ak bank default la (anjeneral bank 0) lè yon soundfont pa gen yon bank patikilye.",
+            "tgl_enableStereoPanning": "Chanje si motè odyo a sipòte panoramique kouran odyo a goch oswa adwat.<br><br> Se konsa, pozisyon son nan nòt yo pral relatif nan pozisyon yo sou pyano a.<br><br> Pou egzanp, nòt ki pi pre adwat la pral tande plis konsa sou oratè dwat la. Menm bagay la tou ale pou bò gòch la ak moun ki toupre mitan an pral distribye atravè tou de moun ki pale."
           }
         }
       }
@@ -253,20 +265,6 @@
           }
         }
       },
-      "messages": {
-        "autoRenewInfo": "Abònman w ap renouvle otomatikman sou <b style=\"color:white;\">{{billingDate}}</b> epi w ap fè w peye <b style=\"color:white;\">{{currencyText}} .</b>",
-        "subText": "Men abònman ou ye kounye a. Ou ka anile oswa mete ajou li nenpòt ki lè.",
-        "checkout_Created": "Yon nouvo tab te louvri. Kontinye kesye la!",
-        "checkout_Success": "Siksè kesye!",
-        "checkout_Cancelled": "Ou te anile sesyon an.",
-        "checkout_ResumePlan": "Ou pral rekòmanse abònman ou anile. </br></br>Èske w sèten?",
-        "checkout_Confirm": "Ou pral tcheke deyò epi abònman nan yon plan prim. </br></br>Èske w sèten?",
-        "subscription_cancellationFail": "Padon, yon bagay ale mal. Echwe pou anile abònman.",
-        "subscription_Updated": "Ou te mete ajou plan abònman ou avèk siksè!",
-        "cancellation_InProcess": "<b>Yo anile</b> abònman ou ye kounye a e se poutèt sa, yo p ap renouvle otomatikman. Sepandan, w ap toujou gen avantaj ou yo jiska <b style=\"color:white;\">{{billingDate}}</b> .",
-        "cancellation_Confirm": "Nou regrèt wè ou ale, {{username}} !.</br>Abònman plan pro ou a peye jiska <b>{{planBillingDate}}</b> .</br></br> Si ou ta renmen kontinye ak anile abònman ou a, tanpri chwazi <b>&quot;Anile abònman&quot;</b> anba a.",
-        "cancellation_Success": "Ou te anile abònman ou avèk siksè."
-      },
       "buttons": {
         "checkout": "Kesye ak Stripe",
         "cancelSubscription": "Anile abònman",
@@ -275,6 +273,20 @@
       "labels": {
         "billingInfo": "Enfòmasyon sou bòdwo",
         "cancelSubscription": "Anile abònman"
+      },
+      "messages": {
+        "checkout_Created": "Yon nouvo tab te louvri. Kontinye kesye la!",
+        "checkout_Success": "Siksè kesye!",
+        "checkout_Cancelled": "Ou te anile sesyon an.",
+        "checkout_ResumePlan": "Ou pral rekòmanse abònman ou anile. </br></br>Èske w sèten?",
+        "checkout_Confirm": "Ou pral tcheke deyò epi abònman nan yon plan prim. </br></br>Èske w sèten?",
+        "subscription_cancellationFail": "Padon, yon bagay ale mal. Echwe pou anile abònman.",
+        "subscription_Updated": "Ou te mete ajou plan abònman ou avèk siksè!",
+        "subText": "Men abònman ou ye kounye a. Ou ka anile oswa mete ajou li nenpòt ki lè.",
+        "cancellation_InProcess": "<b>Yo anile</b> abònman ou ye kounye a e se poutèt sa, yo p ap renouvle otomatikman. Sepandan, w ap toujou gen avantaj ou yo jiska <b style=\"color:white;\">{{billingDate}}</b> .",
+        "autoRenewInfo": "Abònman w ap renouvle otomatikman sou <b style=\"color:white;\">{{billingDate}}</b> epi w ap fè w peye <b style=\"color:white;\">{{currencyText}} .</b>",
+        "cancellation_Confirm": "Nou regrèt wè ou ale, {{username}} !.</br>Abònman plan pro ou a peye jiska <b>{{planBillingDate}}</b> .</br></br> Si ou ta renmen kontinye ak anile abònman ou a, tanpri chwazi <b>&quot;Anile abònman&quot;</b> anba a.",
+        "cancellation_Success": "Ou te anile abònman ou avèk siksè."
       }
     },
     "other": {

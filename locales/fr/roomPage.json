@@ -28,6 +28,7 @@
         "onlyOwnerCanPlay": "Seul le propriétaire peut jouer",
         "onlyOwnerCanChat": "Seul le propriétaire peut discuter",
         "allowGuests": "Autoriser les invités",
+        "allowBots": "Autoriser les robots",
         "onlyMods": "Autoriser uniquement les modérateurs",
         "allowBlackMidi": "Autoriser le noir midi",
         "maxPlayers": "Le maximum de joueurs",
@@ -60,22 +61,22 @@
     "usersTab": "Utilisateurs",
     "friendsTab": "Copains",
     "roomsTab": "Pièces",
-    "tooltips": {
-      "usersTab": "Les listes d'utilisateurs dans la salle.",
-      "friendsTab": "La liste de tous vos amis !",
-      "roomsTab": "La liste de toutes les salles publiques.",
-      "roomSelfHosted": "<br>Cette salle est auto-hébergée par un utilisateur.<br> L&#39;emplacement est : <b>( {{continent}} , {{country}} )</b>",
-      "passwordProtected": "Protégé par mot de passe"
-    },
     "general": {
       "hasPendingFriendRequests": "Vous avez {{count}} demande(s) d&#39;ami en attente !",
+      "noFriendsFound": "Aucun ami trouvé. Ça fait mal, mon frère...",
       "noRoomsFound": "Aucune chambre trouvée...",
       "noFriends_line1": "Ça a l'air un peu solitaire, ici.",
       "noFriends_line2_clientIsGuest": "Connectez-vous pour ajouter des amis !",
       "noFriends_line2_clientIsMember": "Ajoutez des amis !",
-      "noFriendsFound": "Aucun ami trouvé. Ça fait mal, mon frère...",
       "searchRooms": "Rechercher des salles...",
       "unknownLocation": "Désolé, le lieu est inconnu."
+    },
+    "tooltips": {
+      "usersTab": "Les listes d'utilisateurs dans la salle.",
+      "friendsTab": "La liste de tous vos amis !",
+      "roomsTab": "La liste de toutes les salles publiques.",
+      "passwordProtected": "Protégé par mot de passe",
+      "roomSelfHosted": "<br>Cette salle est auto-hébergée par un utilisateur.<br> L&#39;emplacement est : <b>( {{continent}} , {{country}} )</b>"
     }
   },
   "bottomBar": {
@@ -85,6 +86,7 @@
       "settings": "Réglages",
       "midi": "MIDI",
       "modDashboard": "Tableau de bord des modules",
+      "leaderboards": "Classements",
       "volume": "Le volume",
       "sustain": "Soutenir",
       "logout": "Se déconnecter",
@@ -98,6 +100,7 @@
       "settings": "Modifier les paramètres utilisateur",
       "midi": "Réglez l'E/S MIDI",
       "modDashboard": "Tableau de bord du modérateur",
+      "leaderboards": "Statistiques / Classements",
       "volume": "Cliquez sur moi pour désactiver la mise en sourdine !",
       "sustain": "Basculer le maintien",
       "sustainActive": "actif",
@@ -137,28 +140,17 @@
       }
     }
   },
-  "errorMessages": {
-    "joinRoomFail": {
-      "RoomFull": "Impossible d'entrer dans la salle car elle est pleine.",
-      "QueuedToJoinRoom": "Vous êtes déjà dans la file d'attente pour rejoindre cette salle.",
-      "AlreadyInRoom": "Vous êtes déjà dans cette pièce.",
-      "NoGuests": "Échec de l'entrée car la salle n'accepte pas les invités.",
-      "IncorrectPassword": "Échec de la saisie en raison d'un mot de passe incorrect.",
-      "NotAllowed": "Impossible d'entrer car vous n'êtes pas autorisé."
-    },
-    "failedToCreateRoomWithReason": "Échec de la création de la salle : {{reason}}",
-    "failedToJoinRoom": "Quelque chose s'est mal passé. Échec de la connexion au salon..."
-  },
-  "generalMessages": {
-    "enterRoomPassword": "Veuillez saisir le mot de passe de la salle !",
-    "roomWithWarnings": {
-      "text1": "Cette salle a les paramètres suivants activés",
-      "text2": "Êtes-vous sûr de vouloir nous rejoindre ?",
-      "dontShowAgain": "Ne plus afficher ce message."
-    },
-    "openingExternalLinks": "Soyez prudent lorsque vous ouvrez des liens externes. Êtes-vous vraiment sûr de vouloir l'ouvrir ?"
-  },
   "instrumentDock": {
+    "inputButtons": {
+      "slotMode": "Mode fente {{mode}}",
+      "tools": "Outils",
+      "tooltips": {
+        "transpose": "Réglez la transposition. Cliquez pour réinitialiser.",
+        "octave": "Réglez l'octave. Cliquez pour réinitialiser.",
+        "slotMode": "Définir le mode de fente pour la disposition de piano",
+        "tools": "Une liste d'outils et de fonctionnalités."
+      }
+    },
     "toolNames": {
       "InstrumentSelection": "Sélection d'instruments",
       "ChannelDisplayMode": "Mode d'affichage du canal",
@@ -177,16 +169,27 @@
         "ClearInstruments": "Efface tous les instruments midi chargés.",
         "ResetToDefault": "Réinitialisez les canaux midi et les commandes à la configuration par défaut."
       }
-    },
-    "inputButtons": {
-      "slotMode": "Mode fente {{mode}}",
-      "tools": "Outils",
-      "tooltips": {
-        "transpose": "Réglez la transposition. Cliquez pour réinitialiser.",
-        "octave": "Réglez l'octave. Cliquez pour réinitialiser.",
-        "slotMode": "Définir le mode de fente pour la disposition de piano",
-        "tools": "Une liste d'outils et de fonctionnalités."
-      }
+    }
+  },
+  "errorMessages": {
+    "failedToCreateRoomWithReason": "Échec de la création de la salle : {{reason}}",
+    "failedToJoinRoom": "Quelque chose s'est mal passé. Échec de la connexion au salon...",
+    "joinRoomFail": {
+      "RoomFull": "Impossible d'entrer dans la salle car elle est pleine.",
+      "QueuedToJoinRoom": "Vous êtes déjà dans la file d'attente pour rejoindre cette salle.",
+      "AlreadyInRoom": "Vous êtes déjà dans cette pièce.",
+      "NoGuests": "Échec de l'entrée car la salle n'accepte pas les invités.",
+      "IncorrectPassword": "Échec de la saisie en raison d'un mot de passe incorrect.",
+      "NotAllowed": "Impossible d'entrer car vous n'êtes pas autorisé."
+    }
+  },
+  "generalMessages": {
+    "enterRoomPassword": "Veuillez saisir le mot de passe de la salle !",
+    "openingExternalLinks": "Soyez prudent lorsque vous ouvrez des liens externes. Êtes-vous vraiment sûr de vouloir l'ouvrir ?",
+    "roomWithWarnings": {
+      "text1": "Cette salle a les paramètres suivants activés",
+      "text2": "Êtes-vous sûr de vouloir nous rejoindre ?",
+      "dontShowAgain": "Ne plus afficher ce message."
     }
   }
 }
