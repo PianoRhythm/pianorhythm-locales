@@ -1,0 +1,47 @@
+{
+	"$schema": "https://inlang.com/schema/project-settings",
+	"sourceLanguageTag": "en",
+	"languageTags": [
+		"en",
+		"de",
+		"es",
+		"fr",
+		"hr",
+		"ht",
+		"it",
+		"ja",
+		"ko",
+		"nl",
+		"pt",
+		"ru",
+		"sr",
+		"zh-CN"
+	],
+	"modules": [
+		"https://cdn.jsdelivr.net/npm/@inlang/plugin-json@latest/dist/index.js",
+		"https://cdn.jsdelivr.net/npm/@inlang/plugin-t-function-matcher@latest/dist/index.js",
+		"https://cdn.jsdelivr.net/npm/@inlang/message-lint-rule-missing-translation@latest/dist/index.js",
+		"https://cdn.jsdelivr.net/npm/@inlang/message-lint-rule-empty-pattern@latest/dist/index.js",
+		"https://cdn.jsdelivr.net/npm/@inlang/message-lint-rule-without-source@latest/dist/index.js",
+		"https://cdn.jsdelivr.net/npm/@inlang/message-lint-rule-identical-pattern@latest/dist/index.js"
+	],
+	"messageLintRuleLevels": {
+		"messageLintRule.inlang.missingTranslation": "error"
+	},
+	"plugin.inlang.json": {
+		"pathPattern": {
+			"common": "./resources/{languageTag}/common.json",
+			"loginPage": "./resources/{languageTag}/loginPage.json",
+			"roomPage": "./resources/{languageTag}/roomPage.json",
+			"roomPage-settingsModal": "./resources/{languageTag}/roomPage.settingsModal.json",
+			"server-messages": "./resources/{languageTag}/server.messages.json"
+		},
+		"ignore": [
+			"node_modules"
+		],
+		"variableReferencePattern": [
+			"{",
+			"}"
+		]
+	}
+}
