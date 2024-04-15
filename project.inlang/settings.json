@@ -31,11 +31,11 @@
 	},
 	"plugin.inlang.json": {
 		"pathPattern": {
-			"common": "./resources/{languageTag}/common.json",
-			"loginPage": "./resources/{languageTag}/loginPage.json",
-			"roomPage": "./resources/{languageTag}/roomPage.json",
-			"roomPage-settingsModal": "./resources/{languageTag}/roomPage.settingsModal.json",
-			"server-messages": "./resources/{languageTag}/server.messages.json"
+			"common": "./locales/{languageTag}/common.json",
+			"loginPage": "./locales/{languageTag}/loginPage.json",
+			"roomPage": "./locales/{languageTag}/roomPage.json",
+			"roomPage-settingsModal": "./locales/{languageTag}/roomPage.settingsModal.json",
+			"server-messages": "./locales/{languageTag}/server.messages.json"
 		},
 		"ignore": [
 			"node_modules"
