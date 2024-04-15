@@ -191,5 +191,25 @@
       "text2": "Are you sure you want to join?",
       "dontShowAgain": "Don't show this message again."
     }
+  },
+  "actionWidgets": {
+    "cameraActions": {
+      "header": "Camera Actions"
+    },
+    "commonActions": {
+      "header": "Common Actions"
+    },
+    "roomOwnerActions": {
+      "header": "Room Owner Actions",
+      "buttons": {
+        "showKickedUsers": "Show Kicked Users"
+      }
+    },
+    "stageVisualEffects": {
+      "header": "Stage Visual Effects"
+    },
+    "stageAudioEffects": {
+      "header": "Stage Audio Effects"
+    }
   }
 }
