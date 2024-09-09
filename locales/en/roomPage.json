@@ -1,215 +1,249 @@
 {
-  "common": {
-    "labels": {
-      "transpose": "Transpose",
-      "octave": "Octave",
-      "tools": "Tools",
-      "room": "Room",
-      "create": "Create",
-      "update": "Update",
-      "roomName": "Name",
-      "roomID": "ID",
-      "roomOwner": "Owner",
-      "menuBasic": "Basic",
-      "menuAdvanced": "Advanced",
-      "created": "Created"
-    }
-  },
-  "modals": {
-    "roomInfo": {
-      "labels": {
-        "metaAutoRemove": "Auto Remove",
-        "metaPersistent": "Persistent",
-        "metaUnique": "Unique"
-      }
+    "common":
+    {
+        "labels":
+        {
+            "transpose": "Transpose",
+            "octave": "Octave",
+            "tools": "Tools",
+            "room": "Room",
+            "create": "Create",
+            "update": "Update",
+            "roomName": "Name",
+            "roomID": "ID",
+            "roomOwner": "Owner",
+            "menuBasic": "Basic",
+            "menuAdvanced": "Advanced",
+            "created": "Created"
+        }
     },
-    "room": {
-      "labels": {
-        "onlyOwnerCanPlay": "Only owner can play",
-        "onlyOwnerCanChat": "Only owner can chat",
-        "allowGuests": "Allow guests",
-        "allowBots": "Allow Bots",
-        "onlyMods": "Only Allow Moderators",
-        "allowBlackMidi": "Allow Black Midi",
-        "maxPlayers": "Max Players",
-        "makeRoomPrivate": "Make room private",
-        "filterProfanity": "Filter Profanity",
-        "welcomeMessage": "Welcome message",
-        "hostRoom": "Self Host Room",
-        "selfHostRegion": "Region",
-        "hostContinentCode": "Host Continent Code",
-        "hostCountryCode": "Host Country Code"
-      },
-      "tooltips": {
-        "onlyOwnerCanPlay": "Only owner can play music (work in progress). <br>(Other users can still play locally but only the owner will be heard by everyone)",
-        "onlyOwnerCanChat": "Only owner can send chat messages",
-        "allowGuests": "If disabled, prevents guests from entering your room",
-        "onlyMods": "Only allow moderators to join. (Option is not visibile to non moderators)",
-        "allowBlackMidi": "Enabling this will allow players to play black midis or play large amounts of notes without the server temporarily muting them for excessive playing. <br> <br>(Room owners have a higher note quota limit)",
-        "maxPlayers": "Set the max players that can be in the room",
-        "makeRoomPrivate": "Make room private",
-        "roomName": "(Optional) Set the name of the room.",
-        "roomPassword": "(Optional) Set a password for the room.",
-        "filterProfanity": "Filtered profanities such as curse words will be censored. They'll appear in asterisks. e.g,'****'",
-        "welcomeMessage": "This message will be displayed to users who enter your room. You can write some rules or say something warm and nice.",
-        "hostRoom": "Choose this option if you would rather host the room on your machine. This will create a P2P environment upon which users will connect directly to your machine.",
-        "selfHostRegion": "The general area that your machine is located. PianoRhythm will try to guess where you are but you can set it manually if you choose."
-      }
-    }
-  },
-  "sideBar": {
-    "usersTab": "Users",
-    "friendsTab": "Pals",
-    "roomsTab": "Rooms",
-    "general": {
-      "hasPendingFriendRequests": "You have {{count}} pending friend request(s)!",
-      "noFriendsFound": "No friends found. Feels bad, bro...",
-      "noRoomsFound": "No rooms found...",
-      "noFriends_line1": "Looks a bit lonely, here.",
-      "noFriends_line2_clientIsGuest": "Sign in to add some friends!",
-      "noFriends_line2_clientIsMember": "Add some friends!",
-      "searchRooms": "Search rooms...",
-      "unknownLocation": "Sorry, the location is unknown."
+    "modals":
+    {
+        "roomInfo":
+        {
+            "labels":
+            {
+                "metaAutoRemove": "Auto Remove",
+                "metaPersistent": "Persistent",
+                "metaUnique": "Unique"
+            }
+        },
+        "room":
+        {
+            "labels":
+            {
+                "onlyOwnerCanPlay": "Only owner can play",
+                "onlyOwnerCanChat": "Only owner can chat",
+                "allowGuests": "Allow guests",
+                "allowBots": "Allow Bots",
+                "onlyMods": "Only Allow Moderators",
+                "allowBlackMidi": "Allow Black Midi",
+                "maxPlayers": "Max Players",
+                "makeRoomPrivate": "Make room private",
+                "filterProfanity": "Filter Profanity",
+                "welcomeMessage": "Welcome message",
+                "hostRoom": "Self Host Room",
+                "selfHostRegion": "Region",
+                "hostContinentCode": "Host Continent Code",
+                "hostCountryCode": "Host Country Code"
+            },
+            "tooltips":
+            {
+                "onlyOwnerCanPlay": "Only owner can play music (work in progress). <br>(Other users can still play locally but only the owner will be heard by everyone)",
+                "onlyOwnerCanChat": "Only owner can send chat messages",
+                "allowGuests": "If disabled, prevents guests from entering your room",
+                "onlyMods": "Only allow moderators to join. (Option is not visibile to non moderators)",
+                "allowBlackMidi": "Enabling this will allow players to play black midis or play large amounts of notes without the server temporarily muting them for excessive playing. <br> <br>(Room owners have a higher note quota limit)",
+                "maxPlayers": "Set the max players that can be in the room",
+                "makeRoomPrivate": "Make room private",
+                "roomName": "(Optional) Set the name of the room.",
+                "roomPassword": "(Optional) Set a password for the room.",
+                "filterProfanity": "Filtered profanities such as curse words will be censored. They'll appear in asterisks. e.g,'****'",
+                "welcomeMessage": "This message will be displayed to users who enter your room. You can write some rules or say something warm and nice.",
+                "hostRoom": "Choose this option if you would rather host the room on your machine. This will create a P2P environment upon which users will connect directly to your machine.",
+                "selfHostRegion": "The general area that your machine is located. PianoRhythm will try to guess where you are but you can set it manually if you choose."
+            }
+        }
     },
-    "tooltips": {
-      "usersTab": "The lists of users in the room.",
-      "friendsTab": "The list of all of your friends!",
-      "roomsTab": "The list of all the public rooms.",
-      "passwordProtected": "Password protected",
-      "roomSelfHosted": "<br>This room is being self hosted by a user. <br>The location is: <b>({{continent}}, {{country}})</b>"
-    }
-  },
-  "bottomBar": {
-    "buttons": {
-      "newRoom": "New Room",
-      "roomSettings": "Room Settings",
-      "settings": "Settings",
-      "midi": "MIDI",
-      "modDashboard": "Mod Dashboard",
-      "leaderboards": "Leaderboards",
-      "volume": "Volume",
-      "sustain": "Sustain",
-      "logout": "Logout",
-      "sheetMusic": "Sheet Music",
-      "sheetMusicUpload": "Sheet Music - Upload",
-      "docs": "Documentation"
+    "sideBar":
+    {
+        "usersTab": "Users",
+        "friendsTab": "Pals",
+        "roomsTab": "Rooms",
+        "general":
+        {
+            "hasPendingFriendRequests": "You have {{count}} pending friend request(s)!",
+            "noFriendsFound": "No friends found. Feels bad, bro...",
+            "noRoomsFound": "No rooms found...",
+            "noFriends_line1": "Looks a bit lonely, here.",
+            "noFriends_line2_clientIsGuest": "Sign in to add some friends!",
+            "noFriends_line2_clientIsMember": "Add some friends!",
+            "searchRooms": "Search rooms...",
+            "unknownLocation": "Sorry, the location is unknown."
+        },
+        "tooltips":
+        {
+            "usersTab": "The lists of users in the room.",
+            "friendsTab": "The list of all of your friends!",
+            "roomsTab": "The list of all the public rooms.",
+            "passwordProtected": "Password protected",
+            "roomSelfHosted": "<br>This room is being self hosted by a user. <br>The location is: <b>({{continent}}, {{country}})</b>"
+        }
     },
-    "tooltips": {
-      "newRoom": "Create a new room",
-      "roomSettings": "Change the settings for the room",
-      "settings": "Change user settings",
-      "midi": "Set the MIDI I/O",
-      "modDashboard": "Moderator Dashboard",
-      "leaderboards": "Stats / Leaderboards",
-      "volume": "Click me to toggle muting!",
-      "sustain": "Toggle the sustain",
-      "sustainActive": "Active",
-      "logout": "Log out of",
-      "menu": "Click here for more menu items!",
-      "sheetMusic": "Display the sheet music repository",
-      "sheetMusicUpload": "Upload sheet music to the repository",
-      "docs": "Documentation/Help"
+    "bottomBar":
+    {
+        "buttons":
+        {
+            "newRoom": "New Room",
+            "roomSettings": "Room Settings",
+            "settings": "Settings",
+            "midi": "MIDI",
+            "modDashboard": "Mod Dashboard",
+            "leaderboards": "Leaderboards",
+            "volume": "Volume",
+            "sustain": "Sustain",
+            "logout": "Logout",
+            "sheetMusic": "Sheet Music",
+            "sheetMusicUpload": "Sheet Music - Upload",
+            "docs": "Documentation"
+        },
+        "tooltips":
+        {
+            "newRoom": "Create a new room",
+            "roomSettings": "Change the settings for the room",
+            "settings": "Change user settings",
+            "midi": "Set the MIDI I/O",
+            "modDashboard": "Moderator Dashboard",
+            "leaderboards": "Stats / Leaderboards",
+            "volume": "Click me to toggle muting!",
+            "sustain": "Toggle the sustain",
+            "sustainActive": "Active",
+            "logout": "Log out of",
+            "menu": "Click here for more menu items!",
+            "sheetMusic": "Display the sheet music repository",
+            "sheetMusicUpload": "Upload sheet music to the repository",
+            "docs": "Documentation/Help"
+        },
+        "messages":
+        {
+            "logoutPressed": "Are you sure you want to log out?",
+            "logoutPressed_Confirm": "Yes!",
+            "logoutPressed_Cancel": "No, sorry..."
+        }
     },
-    "messages": {
-      "logoutPressed": "Are you sure you want to log out?",
-      "logoutPressed_Confirm": "Yes!",
-      "logoutPressed_Cancel": "No, sorry..."
-    }
-  },
-  "components": {
-    "metronome": {
-      "tooltips": {
-        "player": "Click to play/pause the metronome",
-        "bpm_desc": "“Beats per minute” (or BPM) indicates the number of beats in one minute.",
-        "timesignature_desc": "A time signature tells you how the music is to be counted. <br><br>The top number of the time signature tells you <i>how many</i> beats to count. <br><br>The bottom number tells you what kind of note to count.",
-        "beat_remove": "Remove a beat from the measure",
-        "beat_add": "Add a beat to the measure",
-        "tempo_desc_general": "Describes the tempo (in italian). Tempo is the speed or pace of a given piece.",
-        "tempo_desc_larghissimo": "extremely slow, slower than largo",
-        "tempo_desc_largo": "very slow and broad",
-        "tempo_desc_grave": "very slow",
-        "tempo_desc_lento": "slow",
-        "tempo_desc_adagio": "slow",
-        "tempo_desc_andante": "walking pace",
-        "tempo_desc_moderato": "moderately",
-        "tempo_desc_allegretto": "moderately fast, slightly slower than allegro",
-        "tempo_desc_allegro": "fast",
-        "tempo_desc_vivace": "fast and lively",
-        "tempo_desc_presto": "very fast",
-        "tempo_desc_prestissimo": "extremely fast, faster than presto"
-      }
-    }
-  },
-  "instrumentDock": {
-    "inputButtons": {
-      "slotMode": "Slot Mode {{mode}}",
-      "tools": "Tools",
-      "tooltips": {
-        "transpose": "Set the transpose. Click to reset.",
-        "octave": "Set the octave. Click to reset.",
-        "slotMode": "Set the slot mode for the piano layout",
-        "tools": "A list of tools and features."
-      }
+    "components":
+    {
+        "metronome":
+        {
+            "tooltips":
+            {
+                "player": "Click to play/pause the metronome",
+                "bpm_desc": "“Beats per minute” (or BPM) indicates the number of beats in one minute.",
+                "timesignature_desc": "A time signature tells you how the music is to be counted. <br><br>The top number of the time signature tells you <i>how many</i> beats to count. <br><br>The bottom number tells you what kind of note to count.",
+                "beat_remove": "Remove a beat from the measure",
+                "beat_add": "Add a beat to the measure",
+                "tempo_desc_general": "Describes the tempo (in italian). Tempo is the speed or pace of a given piece.",
+                "tempo_desc_larghissimo": "extremely slow, slower than largo",
+                "tempo_desc_largo": "very slow and broad",
+                "tempo_desc_grave": "very slow",
+                "tempo_desc_lento": "slow",
+                "tempo_desc_adagio": "slow",
+                "tempo_desc_andante": "walking pace",
+                "tempo_desc_moderato": "moderately",
+                "tempo_desc_allegretto": "moderately fast, slightly slower than allegro",
+                "tempo_desc_allegro": "fast",
+                "tempo_desc_vivace": "fast and lively",
+                "tempo_desc_presto": "very fast",
+                "tempo_desc_prestissimo": "extremely fast, faster than presto"
+            }
+        }
     },
-    "toolNames": {
-      "InstrumentSelection": "Instrument Selection",
-      "ChannelDisplayMode": "Channel Display Mode",
-      "ClearInstruments": "Clear Instruments",
-      "ResetToDefault": "Reset to Default",
-      "ToggleKeyboardMappingDisplay": "Toggle Keyboard Map",
-      "ToggleMetronomeDisplay": "Toggle Metronome",
-      "ToggleSheetMusicViewer": "Toggle SheetMusic Viewer",
-      "MidiMusic": "MIDI Music",
-      "tooltips": {
-        "InstrumentSelection": "Display the instrument selection. {{key}}",
-        "ChannelDisplayMode": "Toggle the display of the channel slots. (4x4x4x4), (8x8), or (16)",
-        "ToggleKeyboardMappingDisplay": "Display a keyboard mapping overlay on the piano. {{key}}",
-        "ToggleMetronomeDisplay": "Toggle the display of the metronome. {{key}}",
-        "ToggleSheetMusicViewer": "Toggle the display of the sheet music viewer. {{key}}",
-        "ClearInstruments": "Clear all the midi instruments loaded.",
-        "ResetToDefault": "Reset the midi channels and controls to the default configuration."
-      }
-    }
-  },
-  "errorMessages": {
-    "failedToCreateRoomWithReason": "Failed to create room: {{reason}}",
-    "failedToJoinRoom": "Something went wrong. Failed to join room...",
-    "joinRoomFail": {
-      "RoomFull": "Failed to enter the room because it's full.",
-      "QueuedToJoinRoom": "You are already queued to join this room.",
-      "AlreadyInRoom": "You are already in this room.",
-      "NoGuests": "Failed to enter because the room does not allow guests.",
-      "IncorrectPassword": "Failed to enter because of an incorrect password.",
-      "NotAllowed": "Failed to enter because you're not allowed."
-    }
-  },
-  "generalMessages": {
-    "enterRoomPassword": "Please enter the room's password!",
-    "openingExternalLinks": "Be careful about opening external links. Are you really sure you want to open this?",
-    "roomWithWarnings": {
-      "text1": "This room has the following settings enabled",
-      "text2": "Are you sure you want to join?",
-      "dontShowAgain": "Don't show this message again."
-    }
-  },
-  "actionWidgets": {
-    "cameraActions": {
-      "header": "Camera Actions"
+    "instrumentDock":
+    {
+        "inputButtons":
+        {
+            "slotMode": "Slot Mode {{mode}}",
+            "tools": "Tools",
+            "tooltips":
+            {
+                "transpose": "Set the transpose. Click to reset.",
+                "octave": "Set the octave. Click to reset.",
+                "slotMode": "Set the slot mode for the piano layout",
+                "tools": "A list of tools and features."
+            }
+        },
+        "toolNames":
+        {
+            "InstrumentSelection": "Instrument Selection",
+            "ChannelDisplayMode": "Channel Display",
+            "ClearInstruments": "Clear Instruments",
+            "ResetToDefault": "Reset",
+            "ToggleKeyboardMappingDisplay": "Toggle Keyboard Map",
+            "ToggleMetronomeDisplay": "Toggle Metronome",
+            "ToggleSheetMusicViewer": "Toggle SheetMusic Viewer",
+            "MidiMusic": "MIDI Music",
+            "tooltips":
+            {
+                "InstrumentSelection": "Display the instrument selection. {{key}}",
+                "ChannelDisplayMode": "Toggle the display of the channel slots. (4x4x4x4), (8x8), or (16)",
+                "ToggleKeyboardMappingDisplay": "Display a keyboard mapping overlay on the piano. {{key}}",
+                "ToggleMetronomeDisplay": "Toggle the display of the metronome. {{key}}",
+                "ToggleSheetMusicViewer": "Toggle the display of the sheet music viewer. {{key}}",
+                "ClearInstruments": "Clear all the midi instruments loaded.",
+                "ResetToDefault": "Reset the midi channels and controls to the default configuration."
+            }
+        }
     },
-    "commonActions": {
-      "header": "Common Actions"
+    "errorMessages":
+    {
+        "failedToCreateRoomWithReason": "Failed to create room: {{reason}}",
+        "failedToJoinRoom": "Something went wrong. Failed to join room...",
+        "joinRoomFail":
+        {
+            "RoomFull": "Failed to enter the room because it's full.",
+            "QueuedToJoinRoom": "You are already queued to join this room.",
+            "AlreadyInRoom": "You are already in this room.",
+            "NoGuests": "Failed to enter because the room does not allow guests.",
+            "IncorrectPassword": "Failed to enter because of an incorrect password.",
+            "NotAllowed": "Failed to enter because you're not allowed."
+        }
     },
-    "roomOwnerActions": {
-      "header": "Room Owner Actions",
-      "buttons": {
-        "showKickedUsers": "Show Kicked Users"
-      }
+    "generalMessages":
+    {
+        "enterRoomPassword": "Please enter the room's password!",
+        "openingExternalLinks": "Be careful about opening external links. Are you really sure you want to open this?",
+        "roomWithWarnings":
+        {
+            "text1": "This room has the following settings enabled",
+            "text2": "Are you sure you want to join?",
+            "dontShowAgain": "Don't show this message again."
+        }
     },
-    "stageVisualEffects": {
-      "header": "Stage Visual Effects"
-    },
-    "stageAudioEffects": {
-      "header": "Stage Audio Effects"
+    "actionWidgets":
+    {
+        "cameraActions":
+        {
+            "header": "Camera Actions"
+        },
+        "commonActions":
+        {
+            "header": "Common Actions"
+        },
+        "roomOwnerActions":
+        {
+            "header": "Room Owner Actions",
+            "buttons":
+            {
+                "showKickedUsers": "Show Kicked Users"
+            }
+        },
+        "stageVisualEffects":
+        {
+            "header": "Stage Visual Effects"
+        },
+        "stageAudioEffects":
+        {
+            "header": "Stage Audio Effects"
+        }
     }
-  }
 }
