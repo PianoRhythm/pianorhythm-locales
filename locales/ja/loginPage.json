@@ -1,50 +1,82 @@
 {
-  "connectionStatus": "状態",
-  "playersOnline": "プレイヤー・オンライン",
+  "connectionStatus": "ステータス",
+  "playersOnline": "オンラインプレイヤー数",
+  "homeMeta": {
+    "offline": "オフライン",
+    "platform_web": "(Web)",
+    "platform_desktop": "(デスクトップ)",
+    "clientVersion": "クライアントバージョン",
+    "beta": "(ベータ版)",
+    "buildDate": "ビルド日付",
+    "stagingEnvironment": "ステージング環境",
+    "developmentBuild": "開発ビルド | モード：{{mode}}"
+  },
+  "downloadApp": {
+    "downloadDesktop": "PianoRhythm Desktop をダウンロード",
+    "showDownloads": "ダウンロードを表示...",
+    "modalTitle": "PianoRhythm ダウンロード",
+    "warning": "Windows と Linux のインストーラーは現在コード署名されていないか、認証されていません。インストール時にセキュリティ警告が表示される可能性がありますが、これは安全に無視してセットアップを進めることができます。将来的には解決されます。",
+    "table": {
+      "file": "ファイル",
+      "version": "バージョン",
+      "arch": "アーキテクチャ",
+      "size": "サイズ",
+      "released": "公開日"
+    },
+    "confirmDownload": {
+      "html": "<p>このファイルをダウンロードしてもよろしいですか？</p><br/><b>{{fileName}}</b>",
+      "cancel": "まあいいか、ごめん...",
+      "confirm": "はい！"
+    },
+    "errors": {
+      "fetchTitle": "取得失敗",
+      "fetchDescription": "ダウンロードリストの取得に失敗しました..."
+    }
+  },
   "hrefs": {
-    "createAccount": "アカウントの作成",
-    "forgotPassword": "パスワード忘れた？",
-    "enterAsGuest": "ゲストとして入れる",
-    "resendVerificationEmail": "確認メールを再送",
-    "haveAccount": "すでにアカウントをお持てるのか？",
+    "createAccount": "アカウント作成。",
+    "forgotPassword": "パスワードを忘れた場合？",
+    "enterAsGuest": "ゲストとして入室。",
+    "resendVerificationEmail": "確認メールを再送。",
+    "haveAccount": "すでにアカウントをお持ちですか？ ",
     "signIn": "ログイン",
-    "goHome": "トップページ"
+    "goHome": "トップへ戻る。"
   },
   "messages": {
     "attemptAutoLogin_WelcomeBack": "おかえりなさい",
-    "attemptAutoLogin_AttemptAuto": "再度ログインしようとしています...",
-    "attemptAutoLogin_Cancel": "ここをクリックとしてキャンセル"
+    "attemptAutoLogin_AttemptAuto": "自動的に再度ログインを試みている...",
+    "attemptAutoLogin_Cancel": "ここをクリックしてキャンセル"
   },
   "oAuthButton": {
-    "discord": "Discordをログインする",
-    "google": "Googleでサインイン"
+    "discord": "Discord でログイン",
+    "google": "Google でログイン"
   },
   "guestForm": {
-    "welcomeMessage": "PianoRhythmへようこそ!",
-    "usernameInputMessage": "ニックネーム",
+    "welcomeMessage": "PianoRhythm にようこそ！",
+    "usernameInputMessage": "ニックネームは何？",
     "buttons": {
-      "enter": "入れる",
+      "enter": "入室",
       "register": "登録",
       "login": "ログイン"
     }
   },
   "resendVerificationEmailForm": {
     "header": "確認メールを再送",
-    "onSubmitInfoToast": "入力されたメールに関連するアカウントがある場合は、確認メールが送信されます。ありがとうございました。"
+    "onSubmitInfoToast": "そのメールアドレスに関連付けられているアカウントがある場合、アカウント確認用のメールが送信されます。ありがとう。"
   },
   "forgotPasswordForm": {
-    "header": "パスワード忘れた"
+    "header": "パスワードを忘れた場合"
   },
   "loginForm": {
     "header": "ログイン"
   },
   "twoFactorAuth": {
-    "header": "二要素認証"
+    "header": "二段階認証"
   },
   "registerForm": {
     "labels": {
-      "tos1": "I agree that I'm at least 13 and I have read the",
-      "tos2": "Terms of Use and Conditions"
+      "tos1": "私は少なくとも 13 歳であることに同意し、次の Terms of Use and Conditions を読みました",
+      "tos2": "利用規約および条件"
     },
     "submitButton": "登録"
   }

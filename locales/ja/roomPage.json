@@ -5,9 +5,9 @@
       "octave": "オクターブ",
       "tools": "ツール",
       "room": "部屋",
-      "create": "Create",
-      "update": "Update",
-      "roomName": "名",
+      "create": "作成",
+      "update": "更新",
+      "roomName": "名前",
       "roomID": "ID",
       "roomOwner": "オーナー",
       "menuBasic": "基本",
@@ -19,120 +19,140 @@
     "roomInfo": {
       "labels": {
         "metaAutoRemove": "自動削除",
-        "metaPersistent": "持続的",
-        "metaUnique": "個性的"
+        "metaPersistent": "永続的",
+        "metaUnique": "独自"
       }
     },
     "room": {
       "labels": {
-        "onlyOwnerCanPlay": "所有者だけが弾きます",
-        "onlyOwnerCanChat": "所有者だけがチャット",
+        "onlyOwnerCanPlay": "所有者のみが演奏可能",
+        "onlyOwnerCanChat": "所有者のみがチャット可能",
         "allowGuests": "ゲストを許可する",
         "allowBots": "ボットを許可する",
-        "onlyMods": "モデレータだけを許可する",
-        "allowBlackMidi": "ブラックMIDIを許可する",
+        "onlyMods": "モデレーターのみを許可",
+        "allowBlackMidi": "ブラック MIDI を許可",
         "maxPlayers": "最大プレイヤー数",
-        "makeRoomPrivate": "部屋を見えなくする",
-        "filterProfanity": "冒とく的な表現をフィルタリングする",
+        "makeRoomPrivate": "部屋をプライベートにする",
+        "filterProfanity": "汚い言葉をフィルタリング",
         "welcomeMessage": "ウェルカムメッセージ",
         "hostRoom": "セルフホストルーム",
-        "selfHostRegion": "領域",
+        "selfHostRegion": "地域",
         "hostContinentCode": "ホスト大陸コード",
         "hostCountryCode": "ホスト国コード"
       },
       "tooltips": {
-        "onlyOwnerCanPlay": "Only owner can play music (work in progress). <br>(Other users can still play locally but only the owner will be heard by everyone)",
-        "onlyOwnerCanChat": "Only owner can send chat messages",
-        "allowGuests": "無効にすると、ゲストが部屋に入るのを防ぎます。",
-        "onlyMods": "Only allow moderators to join. (Option is not visibile to non moderators)",
-        "allowBlackMidi": "Enabling this will allow players to play black midis or play large amounts of notes without the server temporarily muting them for excessive playing. <br> <br>(Room owners have a higher note quota limit)",
-        "maxPlayers": "最大プレイヤー数を設定する",
-        "makeRoomPrivate": "部屋を見えなくする",
-        "roomName": "(オプショナル) 部屋の名を設定する.",
-        "roomPassword": "(オプショナル) 部屋のパスワードを設定する.",
-        "filterProfanity": "呪いの言葉などのフィルタリングされた冒とく的な表現は検閲されます。それらはアスタリスクで表示されます。例えば、'****'",
-        "welcomeMessage": "このメッセージは、あなたの部屋に入るユーザーに表示されます。あなたはいくつかのルールを書くか、暖かくて素敵なことを言うことができます。",
-        "hostRoom": "マシンで部屋をホストしたい場合は、このオプションを選択してください。これにより、ユーザーがマシンに直接接続するP2P環境が作成されます。",
-        "selfHostRegion": "マシンが配置されている一般的な領域。 PianoRhythmはあなたがどこにいるかを推測しようとしますが、必要に応じて手動で設定できます。"
+        "onlyOwnerCanPlay": "音楽の再生は所有者だけです（進行中）。<br>（他のユーザーもローカルで再生できますが、所有者だけが全員に聞こえます）",
+        "onlyOwnerCanChat": "チャットメッセージを送信する人は所有者のみ",
+        "allowGuests": "無効にすると、ゲストがあなたの部屋に入るのを防ぎます。",
+        "onlyMods": "モデレーターしか参加できません。（オプションは非モデレーターには表示されません）",
+        "allowBlackMidi": "これを有効にするか、プレイヤーはブラック MIDI を再生するか、またはサーバーが一時的にミュートするほどの大量のノートを再生できます。<br><br>（部屋の所有者にはノートクォータ制限が高くなります）",
+        "maxPlayers": "部屋に入れる最大プレイヤー数を設定します。",
+        "makeRoomPrivate": "部屋をプライベートにする。",
+        "roomName": "(オプション) 部屋の名前を設定します。",
+        "roomPassword": "(オプション) 部屋のパスワードを設定します。",
+        "filterProfanity": "呪いの言葉などの汚い言葉は検閲されます。アスタリスクで表示されます。例：'****'",
+        "welcomeMessage": "このメッセージはあなたの部屋に入るユーザーに表示されます。ルールをいくつか書き、暖かくて素敵なこと言えます。",
+        "hostRoom": "マシーンで部屋をホストしたい場合はこのオプションを選択してください。これにより、ユーザーがマシンに直接接続する P2P 環境が作成されます。",
+        "selfHostRegion": "マシンが置かれている一般的な地域です。PianoRhythm はあなたがどこにいるかを推測しようとしますが、必要に応じて手動で設定できます。"
       }
     }
   },
   "sideBar": {
     "usersTab": "ユーザー",
-    "friendsTab": "お友達",
+    "friendsTab": "友だち",
     "roomsTab": "部屋",
     "general": {
-      "hasPendingFriendRequests": "保留中の友達リクエストは{{count}}",
-      "noFriendsFound": "友達が見つかりません。気分が悪い、仲間...",
+      "hasPendingFriendRequests": "{{count}} の友達リクエストが保留中です！",
+      "noFriendsFound": "友達が見つかりません。寂しいですね...",
       "noRoomsFound": "部屋が見つかりません...",
-      "noFriends_line1": "ここで少し寂しいようです。",
-      "noFriends_line2_clientIsGuest": "サインインして友達を追加しましょう！",
-      "noFriends_line2_clientIsMember": "友達を追加してください！",
-      "searchRooms": "検索室...",
+      "noFriends_line1": "少しさびしそうに見えますね。",
+      "noFriends_line2_clientIsGuest": "ログインして友達を追加しましょう！",
+      "noFriends_line2_clientIsMember": "友達を追加しましょう！",
+      "searchRooms": "部屋の検索...",
       "unknownLocation": "申し訳ありませんが、場所は不明です。"
     },
     "tooltips": {
-      "usersTab": "部屋のユーザーのリスト。",
-      "friendsTab": "お友達全員のリスト！",
-      "roomsTab": "すべてのパブリックルームのリスト。",
-      "passwordProtected": "守られたパスワード",
-      "roomSelfHosted": "<br>この部屋はユーザーによって自己ホストされています。<br>場所は<b>：（ {{continent}} 、 {{country}} ）</b>"
+      "usersTab": "部屋のユーザー一覧。",
+      "friendsTab": "お友だち全員の一覧！",
+      "roomsTab": "すべてのパブリック部屋の一覧。",
+      "passwordProtected": "パスワード保護済み",
+      "roomSelfHosted": "<br>この部屋はユーザーによってセルフホストされています。<br>場所：<b>{{continent}}、{{country}}</b>"
     }
   },
   "bottomBar": {
     "buttons": {
-      "newRoom": "新しい部屋",
-      "roomSettings": "部屋の設定",
+      "newRoom": "新規部屋",
+      "roomSettings": "部屋設定",
       "settings": "設定",
       "midi": "MIDI",
-      "modDashboard": "モッドダッシュボード",
+      "modDashboard": "モデレーターダッシュボード",
       "leaderboards": "リーダーボード",
-      "volume": "ボリューム",
-      "sustain": "サスティーン",
+      "volume": "音量",
+      "sustain": "サステイン",
       "logout": "ログアウト",
       "sheetMusic": "楽譜",
-      "sheetMusicUpload": "楽譜-アップロード",
-      "docs": "ドキュメンテーション"
+      "sheetMusicUpload": "楽譜 - アップロード",
+      "docs": "ドキュメント",
+      "midiRepo": "MIDI リポジトリ"
     },
     "tooltips": {
-      "newRoom": "新しい部屋作る",
-      "roomSettings": "部屋の設定を変更する",
-      "settings": "ユーザーの設定を変更する",
-      "midi": "MIDIのI/Oを設定する",
-      "modDashboard": "モッドダッシュボード",
+      "newRoom": "新規部屋を作成",
+      "roomSettings": "部屋の設定を変更",
+      "settings": "ユーザー設定を変更",
+      "midi": "MIDI I/O を設定",
+      "modDashboard": "モデレーターダッシュボード",
       "leaderboards": "統計 / リーダーボード",
-      "volume": "ここにクリックしてミュートを切り替えます",
-      "sustain": "サスティーンをきりかえます",
+      "volume": "クリックでミュートを切り替えます！",
+      "sustain": "サステインを切り替える",
       "sustainActive": "アクティブ",
-      "logout": "Log out of",
-      "menu": "その他のメニューはこちら！",
-      "sheetMusic": "楽譜リポジトリを表示する",
-      "sheetMusicUpload": "楽譜をリポジトリにアップロードする",
-      "docs": "ドキュメント/ヘルプ"
+      "logout": "のログアウト",
+      "menu": "こちらからさらにメニュー項目をクリックしてください！",
+      "sheetMusic": "楽譜リポジトリを表示",
+      "sheetMusicUpload": "楽譜をリポジトリにアップロード",
+      "docs": "ドキュメント / ヘルプ",
+      "midiRepo": "MIDI リポジトリを表示"
     },
     "messages": {
-      "logoutPressed": "本当にログアウトするのか？",
-      "logoutPressed_Confirm": "はい",
-      "logoutPressed_Cancel": "いいえ"
+      "logoutPressed": "本当にログアウトしてもよろしいですか？",
+      "logoutPressed_Confirm": "はい！",
+      "logoutPressed_Cancel": "いいえ、ごめん..."
+    },
+    "popover": {
+      "newFeatureHeader": "新機能",
+      "newFeatureBody": "新しい楽譜リポジトリをチェックしてください！",
+      "newFeatureDeny": "了解、いいよ...",
+      "newFeatureConfirm": "見せてくれ！"
+    },
+    "moreOptions": {
+      "sheetMusicViewer": "楽譜 - ビューア",
+      "sheetMusicUpload": "楽譜 - アップロード",
+      "sheetMusicRepo": "楽譜 - リポジトリ",
+      "audioEqualizer": "オーディオイコライザー",
+      "openMidiFile": "MIDI ファイルを開く",
+      "docs": "ドキュメント",
+      "customizePiano": "ピアノのカスタマイズ"
+    },
+    "extras": {
+      "sustainInputHint": "(キーボード/マウス入力)"
     }
   },
   "components": {
     "metronome": {
       "tooltips": {
-        "player": "Click to play/pause the metronome",
-        "bpm_desc": "“Beats per minute” (or BPM) indicates the number of beats in one minute.",
-        "timesignature_desc": "A time signature tells you how the music is to be counted. <br><br>The top number of the time signature tells you <i>how many</i> beats to count. <br><br>The bottom number tells you what kind of note to count.",
-        "beat_remove": "Remove a beat from the measure",
-        "beat_add": "Add a beat to the measure",
-        "tempo_desc_general": "Describes the tempo (in italian). Tempo is the speed or pace of a given piece.",
-        "tempo_desc_larghissimo": "非常に遅い、ラルゴより遅い",
-        "tempo_desc_largo": "非常に遅くて広い",
-        "tempo_desc_grave": "非常に遅い",
+        "player": "クリックでメトロノームを再生/一時停止",
+        "bpm_desc": "\"ビート・パー・ミニッツ\"（または BPM）は 1 分間のビート数を示します。",
+        "timesignature_desc": "拍子記号は音楽の読み方を教えてくれます。<br><br>上の数字は<b>いくつ</b>のビートを数えるかを示します。<br><br>下の数字は何種類の音符を数えるかを示します。",
+        "beat_remove": "小節からビートを取り除く",
+        "beat_add": "小節にビートを追加",
+        "tempo_desc_general": "テンポ（イタリア語で）を説明します。テンポとは与えられた曲の速度またはペースです。",
+        "tempo_desc_larghissimo": "非常に遅い、ラルゴよりも遅い",
+        "tempo_desc_largo": "非常に遅くて幅広い",
+        "tempo_desc_grave": "非常に重い",
         "tempo_desc_lento": "遅い",
-        "tempo_desc_adagio": "遅い",
+        "tempo_desc_adagio": "ゆっくり",
         "tempo_desc_andante": "歩くペース",
         "tempo_desc_moderato": "適度に",
-        "tempo_desc_allegretto": "適度な速さ、アレグロより少し遅い",
+        "tempo_desc_allegretto": "やや速く、アレグロよりも少し遅い",
         "tempo_desc_allegro": "速い",
         "tempo_desc_vivace": "速くて活発",
         "tempo_desc_presto": "非常に速い",
@@ -142,52 +162,52 @@
   },
   "instrumentDock": {
     "inputButtons": {
-      "slotMode": "スロットモード{{mode}}",
+      "slotMode": "スロットモード {{mode}}",
       "tools": "ツール",
       "tooltips": {
         "transpose": "トランスポーズを設定します。クリックしてリセットします。",
         "octave": "オクターブを設定します。クリックしてリセットします。",
         "slotMode": "ピアノレイアウトのスロットモードを設定します",
-        "tools": "ツールと機能のリスト。"
+        "tools": "ツールと機能の一覧。"
       }
     },
     "toolNames": {
-      "InstrumentSelection": "機器の選択",
+      "InstrumentSelection": "楽器選択",
       "ChannelDisplayMode": "チャンネル表示モード",
-      "ClearInstruments": "クリアインスツルメント",
-      "ResetToDefault": "デフォルトにリセット",
-      "ToggleKeyboardMappingDisplay": "キーボードマップの切り替え",
-      "ToggleMetronomeDisplay": "メトロノームを切り替えます",
-      "ToggleSheetMusicViewer": "SheetMusicビューアを切り替えます",
-      "MidiMusic": "MIDIミュージック",
+      "ClearInstruments": "楽器をクリア",
+      "ResetToDefault": "デフォルトに戻す",
+      "ToggleKeyboardMappingDisplay": "キーボードマッピングの表示を切り替え",
+      "ToggleMetronomeDisplay": "メトロノーム表示を切り替え",
+      "ToggleSheetMusicViewer": "楽譜ビューアの表示を切り替え",
+      "MidiMusic": "MIDI ミュージック",
       "tooltips": {
-        "InstrumentSelection": "機器の選択を表示します。 {{key}}",
-        "ChannelDisplayMode": "チャンネルスロットの表示を切り替えます。 （4x4x4x4）、（8x8）、または（16）",
+        "InstrumentSelection": "楽器選択を表示します。 {{key}}",
+        "ChannelDisplayMode": "チャンネルスロットの表示を切り替えます。（4x4x4x4）、（8x8）、または（16）",
         "ToggleKeyboardMappingDisplay": "ピアノにキーボードマッピングオーバーレイを表示します。 {{key}}",
         "ToggleMetronomeDisplay": "メトロノームの表示を切り替えます。 {{key}}",
         "ToggleSheetMusicViewer": "楽譜ビューアの表示を切り替えます。 {{key}}",
-        "ClearInstruments": "ロードされているすべてのMIDIインストゥルメントをクリアします。",
-        "ResetToDefault": "MIDIチャンネルとコントロールをデフォルト設定にリセットします。"
+        "ClearInstruments": "ロードされているすべての MIDI インストゥルメントをクリアします。",
+        "ResetToDefault": "MIDI チャンネルとコントロールをデフォルト設定にリセットします。"
       }
     }
   },
   "errorMessages": {
-    "failedToCreateRoomWithReason": "部屋の作成に失敗しました： {{reason}}",
-    "failedToJoinRoom": "何かがうまくいかなかった。部屋に参加できませんでした...",
+    "failedToCreateRoomWithReason": "部屋の作成に失敗しました：{{reason}}",
+    "failedToJoinRoom": "何かうまくいかなくなりました。部屋に参加できませんでした...",
     "joinRoomFail": {
-      "RoomFull": "満員のため入室できませんでした。",
-      "QueuedToJoinRoom": "あなたはすでにこの部屋に参加するためにキューに入れられています。",
-      "AlreadyInRoom": "あなたはすでにこの部屋にいます。",
-      "NoGuests": "部屋にゲストが入室できないため、入場できませんでした。",
-      "IncorrectPassword": "パスワードが間違っているため、入力できませんでした。",
-      "NotAllowed": "許可されていないため、入力できませんでした。"
+      "RoomFull": "満員のため部屋に入りませんでした。",
+      "QueuedToJoinRoom": "すでにこの部屋への参加キューに入っています。",
+      "AlreadyInRoom": "すでにこの部屋の中にいます。",
+      "NoGuests": "ゲスト入室が許可されていないため入場できません。",
+      "IncorrectPassword": "パスワードが間違っているため、入場に失敗しました。",
+      "NotAllowed": "権限がないため入場できませんでした。"
     }
   },
   "generalMessages": {
     "enterRoomPassword": "部屋のパスワードを入力してください！",
-    "openingExternalLinks": "外部リンクを開く場合は注意してください。これを開いて本当によろしいですか？",
+    "openingExternalLinks": "外部リンクを開く際はご注意ください。本当に開いてよろしいですか？",
     "roomWithWarnings": {
-      "text1": "この部屋では、次の設定が有効になっています",
+      "text1": "この部屋では次の設定が有効になっています",
       "text2": "参加してもよろしいですか？",
       "dontShowAgain": "このメッセージを再度表示しないでください。"
     }
@@ -200,13 +220,13 @@
       "header": "一般的なアクション"
     },
     "roomOwnerActions": {
-      "header": "ルームオーナーのアクション",
+      "header": "部屋オーナーのアクション",
       "buttons": {
         "showKickedUsers": "キックされたユーザーを表示"
       }
     },
     "stageVisualEffects": {
-      "header": "舞台視覚効果"
+      "header": "ステージビジュアルエフェクト"
     },
     "stageAudioEffects": {
       "header": "ステージオーディオエフェクト"

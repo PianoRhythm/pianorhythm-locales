@@ -1,1 +1,31 @@
-{}
+{
+  "bar": {
+    "placeholder": "何か優しいことを書いてください...",
+    "sendMessage": "メッセージを送信"
+  },
+  "triggerList": {
+    "users": "ユーザー",
+    "rooms": "部屋"
+  },
+  "embeddable": {
+    "site": "サイト"
+  },
+  "externalLinkWarning": {
+    "cancel": "まあいいか、ごめん...",
+    "confirm": "はい！"
+  },
+  "contextMenu": {
+    "user": "ユーザー",
+    "id": "ID",
+    "date": "日付",
+    "copyMessage": "メッセージをコピー",
+    "copyMessageId": "メッセージ ID をコピー",
+    "copyTextSelection": "テキスト選択をコピー",
+    "reportMessage": "メッセージを報告",
+    "deleteMessage": "メッセージを削除",
+    "deleteAllByUser": "すべてのメッセージを削除（{{user}} の）"
+  },
+  "message": {
+    "editedSuffix": "(編集済み...)"
+  }
+}

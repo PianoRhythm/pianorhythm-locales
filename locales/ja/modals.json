@@ -1,1 +1,156 @@
-{}
+{
+  "common": {
+    "pleaseWait": "お待ちください..."
+  },
+  "newRoom": {
+    "menu": {
+      "header": "メニュー"
+    },
+    "headings": {
+      "general": "一般",
+      "description": "説明",
+      "roomStage": "部屋ステージ",
+      "roomMode": "部屋モード",
+      "welcomeMessage": "ウェルカムメッセージ",
+      "advancedSettings": "詳細設定",
+      "maxPlayers": "最大プレイヤー数",
+      "other": "その他"
+    },
+    "placeholders": {
+      "name": "名前",
+      "description": "部屋の説明を入力してください。",
+      "roomStage": "部屋ステージを選択",
+      "roomMode": "部屋モードを選択",
+      "welcomeMessage": "ウェルカムメッセージを入力してください..."
+    },
+    "tooltips": {
+      "generateRoomName": "クリックして新しい部屋名を生成",
+      "makeRoomPrivate": "部屋をプライベートにすると、グローバルルーム一覧から隠れます。",
+      "description": "部屋についての短い説明",
+      "roomStage": "プレ定義された 3D ステージを選択します。(2D モードでは無効)",
+      "roomMode_line1": "モードのバリエーションを選択してください。",
+      "roomMode_line2": "友達とピアノを弾いてから、さまざまなゲームを楽しむまで。",
+      "welcomeMessage_line1": "(オプション) ユーザーがあなたの部屋に入る際に表示されるウェルカムメッセージを設定します。",
+      "welcomeMessage_line2_pre": " ",
+      "welcomeMessage_line2_post": " は、あなたの部屋に入るユーザーの名前に入れ換えられる特別なトークンです。"
+    },
+    "labels": {
+      "rememberLastSettings": "最後の設定を記憶する"
+    },
+    "actions": {
+      "createRoom": "部屋を作成",
+      "updateRoom": "部屋を更新",
+      "resetToDefault": "デフォルトにリセット"
+    },
+    "errors": {
+      "failedToCreate": "部屋の作成に失敗しました",
+      "failedToUpdate": "部屋の更新に失敗しました",
+      "createRoomFailedDesc": "部屋の作成中に問題が発生しました。後で再度お試しください...",
+      "updateRoomFailedDesc": "部屋の更新中に問題が発生しました。後で再度お試しください...",
+      "validationErrorTitle": "バリデーションエラー",
+      "validationErrorDescription": "フォームにエラーがないか確認してください。"
+    }
+  },
+  "instrumentSelection": {
+    "title": "楽器選択",
+    "searchPlaceholder": "楽器を検索...",
+    "columns": {
+      "name": "名前",
+      "bank": "バンク",
+      "program": "プログラム"
+    },
+    "noResults": "コマンドが見つかりません..."
+  },
+  "audioSamples": {
+    "title": "オーディオサンプル",
+    "columns": {
+      "category": "カテゴリ"
+    },
+    "noResults": "サンプルが見つかりません...",
+    "unknownCategory": "不明"
+  },
+  "enterPassword": {
+    "headerPrefix": "{{name}} のパスワードを入力",
+    "inputPlaceholder": "部屋のパスワードを入力...",
+    "cancelConfirm": {
+      "html": "部屋のパスワード入力尝试をキャンセルしてもよろしいですか？ そうすると、次のロビーに移動されます。",
+      "cancel": "まあいいか、あとから挑戦する。",
+      "confirm": "はい！"
+    }
+  },
+  "credits": {
+    "title": "クレジット",
+    "fetchFailed": "クレジットの取得に失敗しました..."
+  },
+  "docs": {
+    "title": "ドキュメント"
+  },
+  "leaderboard": {
+    "title": "分析 / リーダーボード"
+  },
+  "imageUploader": {
+    "chooseImage": "画像を選択",
+    "errors": {
+      "fileSizeExceeds": "ファイルサイズが最大制限 {{limit}} を超えています。",
+      "tryDifferentFile": "別のファイルを試してください。"
+    }
+  },
+  "midiMusicUpload": {
+    "headerPrefix": "MIDI ミュージック",
+    "newUpload": "新規アップロード",
+    "unsavedChanges": "未保存の変更があります。閉じるにしてもよろしいですか？",
+    "fields": {
+      "title": "タイトル",
+      "artist": "アーティスト",
+      "album": "アルバム",
+      "description": "説明",
+      "tags": "タグ",
+      "difficulty": "難易度",
+      "privacyLevel": "プライバシーレベル"
+    },
+    "placeholders": {
+      "title": "タイトル",
+      "artist": "オリジナルアーティスト",
+      "album": "オリジナルアーティストのアルバム",
+      "tags": "いくつかのタグを選択...",
+      "difficulty": "適切な難易度を選択...",
+      "privacyLevel": "プライバシーレベルを選択"
+    },
+    "submitMessages": {
+      "reapprove": "提出後、変更を再承認する必要があります。",
+      "modAutoSubmit": "OK をクリックした時点で変更が提出されます！",
+      "pendingApproval": "アップロードは公開リストに表示される前に承認される必要があります。",
+      "success": "成功！",
+      "uploadFailed": "ああ、ごめん。MIDI のアップロードに失敗しました。<br><br><b>エラー：{{error}}</b><br><br>再度お試しください。"
+    }
+  },
+  "genericRepo": {
+    "badges": {
+      "views": "表示数",
+      "favorites": "お気に入りに追加"
+    },
+    "contextMenu": {
+      "id": "ID",
+      "title": "タイトル"
+    },
+    "bulkProcess": {
+      "confirmHtml": "選択された<b>{{total}}</b> アイテムのうち、<b style=\"color:lightgreen\">{{process}}</b> だけ処理されます。<br><br><b>続行しますか？</b>",
+      "confirm": "はい！",
+      "resultsSuffix": "結果",
+      "resultsHtml": "<b>{{total}}</b> アイテムのうち<b style=\"color:lightgreen\">{{success}}</b> が成功しました！"
+    },
+    "titles": {
+      "approveMultiple": "複数のアイテムを承認",
+      "disapproveMultiple": "複数のアイテムを否認",
+      "deleteMultiple": "複数のアイテムを削除"
+    },
+    "actions": {
+      "approve": "承認",
+      "disapprove": "否認",
+      "delete": "削除",
+      "upload": "アップロード",
+      "openViewer": "ビューアを開く"
+    },
+    "itemsSelected": "{{count}} アイテムを選択しました"
+  }
+}

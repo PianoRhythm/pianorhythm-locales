@@ -1,1 +1,73 @@
-{}
+{
+  "songEditor": {
+    "title": "ビートエディタ",
+    "tabs": {
+      "info": "情報",
+      "meta": "メタデータ",
+      "game": "ゲーム",
+      "notes": "ノート",
+      "score": "スコア"
+    },
+    "headers": {
+      "general": "一般",
+      "audio": "オーディオ",
+      "midi": "MIDI",
+      "settings": "設定"
+    },
+    "fields": {
+      "title": "タイトル",
+      "midiUrl": "MIDI URL",
+      "audioType": "オーディオタイプ",
+      "youtubeId": "YouTube ID",
+      "audioUrl": "オーディオ URL",
+      "startTime": "開始時間",
+      "playbackRate": "再生速度",
+      "volume": "音量",
+      "scrollSpeed": "スクロール速度",
+      "time": "時間",
+      "note": "ノート",
+      "midi": "MIDI"
+    },
+    "placeholders": {
+      "midiUrlOptional": "MIDI URL（オプション）",
+      "startTimeOptional": "開始時間（オプション）",
+      "audioPlaybackRateOptional": "オーディオ再生速度（オプション）",
+      "audioVolumeOptional": "オーディオ音量（オプション）",
+      "midiPlaybackRateOptional": "MIDI 再生速度（オプション）",
+      "noteScrollSpeed": "ノートスクロール速度",
+      "activeTime": "アクティブ時間",
+      "timeInterval": "時間間隔"
+    },
+    "tooltips": {
+      "midiUrl": "MIDI リソースの URL。",
+      "audioUrl": "オーディオリソースの URL。mp3 または YouTube ビデオへの直接リンク也可以是。",
+      "youtubeId_line1": "YouTube 動画の ID。",
+      "youtubeId_line2_pre": "例えば、次のような URL から： ",
+      "youtubeId_line3_pre": "ID は ",
+      "transcribeAudio": "機械学習を使用してオーディオを MIDI に変換！",
+      "loadScene": "MIDI URL 入力の URL にある MIDI データを読み込みます。"
+    },
+    "actions": {
+      "undo": "元に戻す",
+      "redo": "やり直す",
+      "midiIO": "MIDI I/O",
+      "restart": "再起動",
+      "test": "テスト",
+      "publish": "公開",
+      "transcribeAudio": "オーディオを MIDI に変換",
+      "loadScene": "シーンを読み込む",
+      "changeSheet": "楽譜を変更",
+      "update": "更新",
+      "duplicate": "複製",
+      "clear": "クリア"
+    },
+    "score": {
+      "type": "タイプ",
+      "total": "合計"
+    },
+    "editNote": {
+      "header": "ノート編集",
+      "notePrefix": "ノート"
+    }
+  }
+}

@@ -1,9 +1,27 @@
 {
   "messages": {
-    "audioSettingNotSupportedV3": "注意：今のところ、ほとんどのオーディオ設定はV3には適用されません。",
-    "changeWillTakeEffectOnNextRestart": "変更内容は次回の再起動時に反映されます。",
-    "changesSaved": "変更が保存されました",
-    "userColorUpdated": "ユーザーの色が正常に更新されました。"
+    "audioSettingNotSupportedV3": "注意：現時点では、ほとんどのオーディオ設定は V3 では適用できません。",
+    "changeWillTakeEffectOnNextRestart": "変更内容は次の再起動時に反映されます。",
+    "changesSaved": "変更が保存されました。",
+    "userColorUpdated": "ユーザーの色を正常に更新しました！",
+    "noContentAvailable": "まだコンテンツはありません。",
+    "failedToLoadContent": "コンテンツの読み込みに失敗しました..."
+  },
+  "badges": {
+    "new": "新規"
+  },
+  "search": {
+    "placeholder": "検索",
+    "clear": "検索をクリア"
+  },
+  "resetSettings": {
+    "header": "設定のリセット",
+    "buttonLabel": "設定をデフォルトにリセット",
+    "tooltip": "クリックして、あなたの {{name}} をすべてデフォルトに戻します。",
+    "confirmTitle": "設定をリセット",
+    "confirmHtml": "<b>{{name}}</b> をデフォルトに戻してもよろしいですか？この動作は取り消せません！",
+    "successTitle": "設定リセット完了",
+    "successHtml": "<b>{{name}}</b> は現在はデフォルトに設定されています。特定の反映にはアプリを再読み込みする必要がある場合があります。"
   },
   "menus": {
     "general": {
@@ -12,19 +30,47 @@
         "language": {
           "label": "言語",
           "elements": {
-            "lbl_languageSelect": "言語選択"
+            "lbl_languageSelect": "言語選択",
+            "hdr_contributing": "貢献",
+            "hdr_selectLanguage": "言語を選択",
+            "btn_openContributionGuide": "コントリビューションガイドを開く"
           },
           "tooltips": {
-            "lbl_languageSelect": "PianoRhythmの言語を設定する"
+            "lbl_languageSelect": "PianoRhythm のデフォルト言語を設定します。"
           }
         },
         "application": {
-          "label": "応用",
+          "label": "アプリケーション",
           "elements": {
-            "hdr_applicationSettings": "アプリケーションの設定",
+            "hdr_applicationSettings": "アプリケーション設定",
+            "hdr_general": "一般",
+            "hdr_advanced": "詳細",
             "lbl_resetSettingsModalTitleText": "設定をデフォルトにリセット",
-            "lbl_resetSettingsModalBodyText": "<b>これを実行してもよろしいですか？</b><br><br><p>これにより、すべての設定がデフォルトにリセットされ、元に戻すことはできません。</p>",
-            "btn_resetSettings": "設定をリセット"
+            "lbl_resetSettingsModalBodyText": "<b>これをしてもよろしいですか？</b><br><br><p>これにより、あなたのすべての設定がデフォルトに戻され、元に戻すことはできません。</p>",
+            "btn_resetSettings": "設定をリセット",
+            "tgl_checkForUpdates": "更新のチェック",
+            "tgl_enableDebugMode": "デバッグモードを有効にする",
+            "btn_openCookieManagement": "クッキー管理を開く",
+            "btn_exportLogFile": "ログファイルをエクスポート",
+            "btn_openAppDataFolder": "アプリデータフォルダーを開く"
+          },
+          "tooltips": {
+            "tgl_checkForUpdates": "アプリケーションが定期的に更新を照会するかどうか。",
+            "tgl_enableDebugMode": "PianoRhythm をデバッグモードに入れます。ログはより詳細になり、特定の機能は/またはよりデバッグフレンドリーになります。",
+            "btn_openCookieManagement": "クッキーの好みを管理するためにクリックしてください。",
+            "btn_exportLogFile": "PianoRhythm のログファイルの場所を選択するためにクリックします。",
+            "btn_openAppDataFolder": "PianoRhythm の App Data フォルダを開くためにクリックします。"
+          },
+          "messages": {
+            "noLogFile": "申し訳ありませんが、現在エクスポートできるログファイルはありません。後で再度お試しください。",
+            "saveLogTitle": "PianoRhythm ログファイルの保存",
+            "logFilesFilter": "ログファイル",
+            "logExportSuccess": "ログファイルを正常にエクスポートしました。",
+            "logExportError": "ログファイルのエクスポート中に問題が発生しました。さらに詳細についてはコンソールログを確認してください。",
+            "appDataFolderError": "App Data フォルダを開くことに問題が発生しました。さらに詳細についてはコンソールログを確認してください。",
+            "resetAllConfirmText": "設定をデフォルトに戻してもよろしいですか？この動作は取り消せません！",
+            "resetAllSuccessText": "設定は現在はデフォルトに設定されています。特定の反映にはアプリを再読み込みする必要がある場合があります。",
+            "reloadButton": "再読み込み"
           }
         }
       }
@@ -38,113 +84,273 @@
             "hdr_myAccount": "マイアカウント",
             "hdr_passwordAndAuthentication": "パスワードと認証",
             "hdr_accountManagement": "アカウント管理",
-            "hdr_security": "安全",
-            "tgl_enable2fa": "二要素認証",
-            "btn_changePassword": "パスワードを変更する",
-            "btn_deleteAccount": "アカウントを削除する",
-            "txt_passwordChangeSubText": "現在のパスワードと新しいパスワードを入力します",
+            "hdr_security": "セキュリティ",
+            "hdr_advanced": "詳細",
+            "hdr_generalSection": "一般",
+            "hdr_emailNotifications": "メール通知",
+            "hdr_profileColor": "プロファイルカラー",
+            "tgl_enable2fa": "二段階認証",
+            "tgl_allowUsersToNotifyMe": "ユーザーに通知を許可する",
+            "btn_changePassword": "パスワードを変更",
+            "btn_deleteAccount": "アカウントを削除",
+            "btn_userColorReset": "色をリセット",
+            "btn_userColorSubmit": "カラーを提出",
+            "btn_setRainbowColor": "虹色を設定",
+            "lbl_submitting": "提出中...",
+            "phr_color": "カラー",
+            "txt_passwordChangeSubText": "現在のパスワードと新しいパスワードを入力してください",
             "txt_deleteAccountSubText": "本当によろしいですか？すべてのアカウントデータは完全に削除されます",
             "txt_onIncorrectDeleteInputField": "入力フィールドに正しく入力したことを確認してください。",
             "txt_confirmPasswordSubText": "パスワードを入力して確認してください",
             "txt_emailChangeSubText": "新しいメールアドレスとパスワードを入力してください"
           },
           "tooltips": {
-            "hdr_myAccount": "口座情報",
-            "tgl_enable2fa": "2要素認証（2FA）を使用してセキュリティのレイヤーを追加します。",
+            "hdr_myAccount": "アカウント情報",
+            "tgl_enable2fa": "二段階認証（2FA）でセキュリティの追加レイヤーを追加します。",
             "hdr_passwordAndAuthentication": "パスワードと認証",
-            "hdr_accountManagement": "アカウント管理"
+            "hdr_accountManagement": "アカウント管理",
+            "tgl_allowUsersToNotifyMe": "ユーザーが @ で通知するときに通知を受け取るかどうかを切り替えます。",
+            "btn_deleteAccount": "これにより、PianoRhythm アカウントの永久削除プロセスが開始されます。",
+            "clickToHideEmail": "クリックしてメールアドレスを隠します...",
+            "clickToRevealEmail": "クリックしてメールアドレスを表示します...",
+            "clickToUploadProfileImage": "クリックしてプロフィール画像をアップロード！"
           },
           "messages": {
-            "on2faDisable": "二要素認証を無効にした後、アカウントにログインするには、パスワードのみの保護が必要になります。 2要素認証の無効化を続行しますか？"
+            "on2faDisable": "二段階認証を無効化した後、アカウントにログインするにはパスワードのみによる保護が必要です。二段階認証の無効化を続行しますか？",
+            "deleteAccountSuccess": "アカウントを正常に削除しました。<br><br>これで、現在のセッションは終了し、ログイン画面に遷移します。",
+            "requestError": "リクエストで問題が発生しました。",
+            "deleteAccountTitle": "あなたのアカウントを削除",
+            "deleteAccountIntro": "<p>さようならしたくありません！</p><br><p>このプロセスは最終であり、アカウントを復元する方法はありません。</p><br><p>アクティブなサブスクリプションもキャンセルされます。</p>",
+            "deleteAccountCancel": "まあいいか、私のアカウントを保つ",
+            "deleteAccountConfirm": "私のアカウントを削除する",
+            "confirmationRequired": "確認が必要",
+            "typeDeleteToConfirm": "<b style='color:red'>DELETE</b> を入力して確認してください",
+            "accountDeletionTitle": "アカウント削除",
+            "enterPasswordPlaceholder": "パスワードを入力",
+            "confirmPasswordPlaceholder": "パスワードを確認",
+            "bothFieldsValid": "両方のフィールドが有効であることを確認してください。"
           }
         },
         "multiplayer": {
-          "label": "ムルチプレイヤー",
+          "label": "マルチプレイヤー",
           "elements": {
-            "hdr_multiplayerSettings": "ムルチプレイヤーの設定",
-            "lbl_userColor": "ユーザーの色",
+            "hdr_multiplayerSettings": "マルチプレイヤー設定",
+            "lbl_userColor": "ユーザーカラー",
             "btn_userColorReset": "リセット",
-            "btn_userColorSubmit": "セットする",
+            "btn_userColorSubmit": "提出",
             "tgl_showMyCursor": "私のカーソルを表示",
-            "tgl_sendWhoistyping": "WhoIsTypingの送信",
+            "tgl_sendWhoistyping": "WhoIsTyping を送信",
             "tgl_disableWhispers": "ささやきを無効にする",
             "hdr_notifications": "通知",
-            "tgl_friendsOnlineStatus": "フレンズオンラインステータス",
-            "tgl_friendsOfflineStatus": "友達のオフラインステータス",
+            "tgl_friendsOnlineStatus": "友だちのオンラインステータス",
+            "tgl_friendsOfflineStatus": "友だちのオフラインステータス",
             "tgl_sheetMusicChanges": "楽譜の変更",
-            "tgl_emitMyStatusToFriends": "私のステータスを友達に送信する"
+            "tgl_emitMyStatusToFriends": "私のステータスを友達に送信"
           },
           "tooltips": {
-            "hdr_multiplayerSettings": "マルチプレイヤー関連の設定",
-            "lbl_userColor": "ユーザーの色を設定する",
-            "btn_userColorReset": "色をリセットする",
-            "btn_userColorSubmit": "色をアップデートしましょう！",
+            "hdr_multiplayerSettings": "マルチプレイヤー関連の設定を設定します。",
+            "lbl_userColor": "ユーザーカラーを設定する",
+            "btn_userColorReset": "自分の色をリセットする",
+            "btn_userColorSubmit": "自分の色の更新！",
             "hdr_notifications": "受信するサーバー通知を切り替えます。",
-            "tgl_showMyCursor": "他の人にカーソルを見せます。",
+            "tgl_showMyCursor": "カーソルが他の人に表示されているかどうかを切り替えます。",
             "tgl_sendWhoistyping": "入力しているときに他のユーザーが知っているかどうかを切り替えます。",
             "tgl_disableWhispers": "ささやきを無効にする。あなたは他人にささやくことはできないし、他人もあなたにささやくことはできません。",
-            "tgl_friendsOnlineStatus": "友達がオンラインになったときに通知を受け取る",
-            "tgl_friendsOfflineStatus": "友達がオフラインになったときに通知を受け取る",
-            "tgl_emitMyStatusToFriends": "友達にあなたのステータスの変化を知らせましょう。 （オンライン、オフラインなど）",
-            "tgl_sheetMusicChanges": "アップロードした楽譜に変更が発生するたびに通知メールを受け取ります。"
+            "tgl_friendsOnlineStatus": "友だちがオンラインになったときに通知を受け取る",
+            "tgl_friendsOfflineStatus": "友だちがオフラインになったときに通知を受け取る",
+            "tgl_emitMyStatusToFriends": "友達にあなたのステータスの変化を知らせる。（オンライン、オフラインなど）",
+            "tgl_sheetMusicChanges": "アップロードした楽譜に変更が発生するたびに通知メールを受信します。"
           }
         },
         "discord": {
           "label": "Discord",
           "elements": {
-            "hdr_discordSettings": "Discordの設定",
-            "swtch_syncDiscordMessages": "Discordのロビーメッセージを同期する"
+            "hdr_discordSettings": "Discord 設定",
+            "swtch_syncDiscordMessages": "Discord ロビーメッセージの同期"
           },
           "tooltips": {
-            "hdr_discordSettings": "Discord関連の設定",
-            "swtch_syncDiscordMessages": "ロビーでDiscordからのメッセージを表示するかどうかを設定します。"
+            "hdr_discordSettings": "Discord 関連の設定を設定します。",
+            "swtch_syncDiscordMessages": "メインロビーで Discord メッセージが同期されているかどうかを切り替えます。"
           }
         },
         "input": {
-          "label": "インプット",
+          "label": "入力",
           "elements": {
-            "hdr_keyboardSettings": "キーボードの設定",
-            "lbl_pianoKeylayout": "ピアノの鍵レイアウト",
-            "lbl_keyboardMaplayout": "キービードレイアウト",
-            "drp_keyboards": "レイアウト",
+            "hdr_keyboardSettings": "キーボード設定",
+            "hdr_advanced": "詳細",
+            "hdr_customizeLayoutKeys": "レイアウトキーのカスタマイズ",
+            "hdr_pressKeyCombo": "所望のキーコンビネーションを押し",
+            "hdr_keyboardShortcutBinding": "キーボードショートカットバインディング",
+            "hdr_customizeKeysOptions": "キーオプションのカスタマイズ",
+            "hdr_layoutImport": "レイアウトインポート",
+            "hdr_setOctave": "オクターブ設定",
+            "lbl_pianoKeylayout": "ピアノキーレイアウト",
+            "lbl_keyboardMaplayout": "キーボードマップレイアウト",
+            "lbl_unassigned": "未割り当て",
+            "lbl_warning": "警告",
+            "lbl_none": "なし",
+            "drp_keyboards": "キーボード",
             "lbl_shortcutBinds": "ショートカットバインド",
-            "btn_openKeybinder": "キーバインダー開けて",
-            "tgl_keyboard_toggleyz": "YキーとZキーを切り替える"
+            "btn_openKeybinder": "キーバインダーを開く",
+            "btn_clear": "クリア",
+            "btn_reset": "リセット",
+            "btn_options": "オプション",
+            "btn_test": "テスト",
+            "btn_stopTesting": "テストを停止",
+            "btn_saveAndExit": "保存して終了",
+            "btn_removeBinding": "バインドを削除",
+            "btn_resetToDefault": "デフォルトにリセット",
+            "btn_applyChanges": "変更を適用",
+            "btn_importLayoutFrom": "レイアウトからインポート",
+            "btn_increase": "増加+",
+            "btn_decrease": "減少-",
+            "btn_nahSorry": "まあいいか、ごめん...",
+            "phr_searchCommands": "コマンドを検索...",
+            "col_command": "コマンド",
+            "col_keyBind": "キーバインド",
+            "tip_clickToEdit": "クリックして編集",
+            "tip_clickToEditPrev": "クリックして編集（以前：{{prev}}）",
+            "tip_keyboardKeyCode": "キーボード KeyCode: {{code}}",
+            "msg_bindingConflict": "同じバインドを共有するコマンドがすでに存在します。",
+            "msg_resetLayoutConfirm": "レイアウトを元に戻してもよろしいですか？",
+            "msg_clearMappingConfirm": "現在のマッピングをクリアしてもよろしいですか？",
+            "msg_customKeysLayoutSaved": "カスタムキーボードレイアウトが保存されました！",
+            "msg_keyboardKeyHeader": "キーボードキー：<b>{{key}}{{noteOutput}}</b> | {{highlight}}",
+            "msg_highlightedNote": "ハイライトされた（ノート：{{note}} - キー：{{key}}）",
+            "msg_octaveIncreased": "マップされたキーノートは 1 オクターブ増加しました！",
+            "msg_octaveDecreased": "マップされたキーノートは 1 オクターブ減少しました！",
+            "msg_layoutImported": "{{layout}} レイアウトがインポートされました。",
+            "msg_changesSaved": "変更が保存されました！",
+            "msg_noCommandsFound": "コマンドが見つかりません...",
+            "tgl_keyboard_toggleyz": "Y キーと Z キーを切り替える",
+            "tgl_ctrlKeyLowersOctave": "Ctrl キーでオクターブを下げる",
+            "tgl_midiToVpQwertyLayout": "MIDI から VP/QWERTY レイアウトへ",
+            "tgl_useCapslockForMidiQwerty": "CapsLock を MIDI QWERTY Mod 用に使用",
+            "tgl_shiftKeyNoteOff": "Shift キーでノートオフ"
           },
           "tooltips": {
-            "hdr_keyboardSettings": "キーボード関連の設定",
-            "lbl_pianoKeylayout": "ピアノのキーボードレイアウト設定",
-            "lbl_keyboardMaplayout": "キーボード入力マップの設定",
-            "lbl_shortcutBinds": "キーボードショートカットのバインディング作成",
-            "tgl_keyboard_toggleyz": "特定のキーボードレイアウトでは、YキーボードとZキーボードのマッピングを切り替えるとより自然に調整されます。"
+            "hdr_keyboardSettings": "キーボード関連の設定を設定します。",
+            "lbl_pianoKeylayout": "ピアノのキーボードレイアウトを設定します。",
+            "lbl_keyboardMaplayout": "正しいキーボード入力マッピングを設定します。",
+            "lbl_shortcutBinds": "一般的なショートカットにバインドを作成します。",
+            "tgl_keyboard_toggleyz": "特定のキーボードレイアウトでは、Y キーと Z キーのマップを切り替えるとより自然に調整されます。",
+            "tgl_ctrlKeyLowersOctave": "Ctrl キーを押すとノートのオクターブが低下します。<br /><br /><i style=\"color:gray\">注意：MIDI から VP 用の変換ツールを使用している場合、この機能は無効になります。</i>",
+            "tgl_midiToVpQwertyLayout": "MIDI から VP/qwerty コンバーターツールの類似の拡張レイアウトを使用します。<img src=\"{{imagePath}}\"><br /><div style=\"color:gray\">リンク：<a href=\"https://arijanj.github.io/midi-converter/\" target=\"_blank\">MIDI 仮想ピアノコンバーター</a></div>",
+            "tgl_useCapslockForMidiQwerty": "ブラウザの特定のショートカットがデフォルトの Ctrl キーバインドと競合する可能性があるため、代替キーを提供するためです。例えば、Ctrl + W はほとんどのブラウザで現在のタブを閉じます。",
+            "tgl_shiftKeyNoteOff": "TODO：詳細"
           }
         }
       }
     },
     "graphics": {
-      "header": "グラフィックス",
+      "header": "グラフィック",
       "subMenus": {
         "general": {
           "label": "一般",
           "elements": {
             "hdr_engine": "グラフィックエンジン",
             "lbl_engine": "エンジン",
-            "lbl_maxFPS": "FPSマックス"
+            "lbl_maxFPS": "最大 FPS",
+            "hdr_general": "一般",
+            "hdr_renderingPipeline": "レンダリングパイプライン",
+            "hdr_webGpu": "Web GPU",
+            "hdr_advanced": "詳細",
+            "lbl_graphicsPreset": "グラフィックプリセット",
+            "phr_graphicsPreset": "グラフィックプリセットを選択...",
+            "lbl_graphicsRenderer": "3D グラフィックレンダラー",
+            "phr_graphicsRenderer": "グラフィックレンダラーを選択...",
+            "lbl_targetFPS": "ターゲット FPS",
+            "phr_targetFPS": "ターゲット FPS を選択...",
+            "lbl_mirrorTextureSampleSize": "ミラーテクスチャサンプルサイズ",
+            "phr_mirrorTextureSampleSize": "サンプルサイズを選択...",
+            "lbl_msaaSamples": "MSAA サンプル",
+            "phr_msaaSamples": "MSAA サンプルを選択...",
+            "lbl_webglPowerPreference": "WEBGL パワープレッファ런스",
+            "phr_webglPowerPreference": "パワープレッファンスを選択...",
+            "lbl_enginePerformancePriority": "エンジンパフォーマンス優先モード",
+            "phr_enginePerformancePriority": "パフォーマンスモードを選択...",
+            "tgl_enableGraphicsEngine": "グラフィックエンジンを有効にする",
+            "tgl_enableStage": "ステージを有効にする",
+            "tgl_enablePiano": "ピアノを有効にする",
+            "tgl_enablePianoBench": "ピアノベンチを有効にする",
+            "tgl_enableDrums": "ドラムを有効にする",
+            "tgl_enableMotionBlur": "モーションブラーを有効にする",
+            "tgl_enableAntialiasing": "アンチエイリアシングを有効にする",
+            "tgl_enableParticleSystem": "パーティクルシステムを有効にする",
+            "tgl_enableFog": "フォグを有効にする",
+            "tgl_enablePostProcessing": "ポストプロセッシングを有効にする",
+            "tgl_enableGlow": "発光を有効にする",
+            "tgl_enablePianoKeysGlow": "ピアノキーの発光を有効にする",
+            "tgl_enableShadows": "シャドウを有効にする",
+            "tgl_enableSoftShadows": "ソフトシャドウを有効にする",
+            "tgl_enableSpecialEffects": "特殊エフェクトを有効にする",
+            "tgl_enableAutoAnimateCamera": "カメラを自動アニメーション化する",
+            "tgl_enableOrchestraModels": "オーケストラモデルを有効にする",
+            "tgl_enableHDR": "HDR を有効にする",
+            "tgl_enableBloom": "ブloom を有効にする",
+            "tgl_enableToneMapping": "トーンマッピングを有効にする",
+            "tgl_enableDepthOfField": "景深を有効にする",
+            "tgl_enableAmbientOcclusion": "スクリーン空間環境遮蔽を有効にする",
+            "tgl_enableMirrorTextures": "ミラーテクスチャを有効にする",
+            "tgl_useWebGPU": "WebGPU を使用する",
+            "tgl_webgpuSnapshot": "WebGPU スナップショットレンダリング",
+            "tgl_webgpuNonCompatMode": "WebGPU 互換性非サポートモード",
+            "tgl_enableOfflineStorage": "オフラインストレージを有効にする",
+            "tgl_renderInBackground": "背景でレンダリングする",
+            "tgl_useOffscreenCanvas": "オフスクリーンキャンバスを有効にする",
+            "lbl_resetGraphicsSettings": "グラフィック設定"
           },
           "tooltips": {
-            "lbl_engine": "グラフィックスエンジンを2D、3D、なしのいずれかに切り替えます。",
-            "lbl_maxFPS": "レンダリングエンジンの最大フレームレートを選択します。"
+            "lbl_engine": "2D、3D、または無しのグラフィックエンジン之间に切り替えます。",
+            "lbl_maxFPS": "レンダリングエンジンの最大フレームレートを設定します。",
+            "lbl_graphicsPreset": "調整されたグラフ品質プリセット之间に素早く切り替える。プリセットを選択すると、複数のグラフオプションが一度に切り替えられます。<br/><br/><i>\"カスタム\" を選択したことは、現在の設定はビルトインプリセットと一致していないことを示しています。</i>",
+            "lbl_graphicsRenderer": "グラフィックレンダリングエンジンを設定します。<br/><br/><i>\"Bevy\" レンダラーは現在非常に実験的であり、\"Babylon.js\" レンダラーと同じ機能を持っているとは限りません。</i><br/><br/><i>注意：効果を反映するには再読み込みが必要です。</i>",
+            "lbl_targetFPS": "レンダリングエンジンのターゲット FPS を設定します。<br/><br/><i>注意：効果を反映するには再読み込みが必要です。</i>",
+            "lbl_mirrorTextureSampleSize": "ミラーテクスチャサンプルサイズ。サイズが大きいほど、反射の品質が良いです。<br/><br/><i>注意：効果を反映するには再読み込みが必要です。</i>",
+            "lbl_msaaSamples": "ピクセルあたりマルチサンプルアンチエイリアシングサンプル。高い値は GPU パフォーマンスとメモリ帯域幅のコストで滑らかなエッジを生み出します。<br/><br/><i>2x および 8x はすべてのデバイスでサポートされていない可能性があります。4x が Web で最も安全な選択です。</i>",
+            "lbl_webglPowerPreference": "WebGL に好ましいパワープレッファンスモードに関するヒントを提供します。<ul style='margin-top:10px; margin-left:5px'><li style='margin-bottom:10px'><b>デフォルト</b>に設定された場合、ブラウザが最も適した GPU 構成を決定します。</li><li style='margin-bottom:10px'><b>高性能</b>に設定された場合、レンダリングパフォーマンスを電力消費に優先する GPU 構成が選択されます。</li><li style='margin-bottom:10px'><b>低電力</b>に設定された場合、電力節約をレンダリングパフォーマンスに優先する GPU 構成が選択されます。</li></ul><i>注意：効果を反映するには再読み込みが必要です。</i>",
+            "lbl_enginePerformancePriority": "グラフィックシーンがバックワート互換性と使いやすさについてどのように処理するかを決定します。<ul style='margin-top:10px; margin-left:5px'><li style='margin-bottom:10px'><b>BackwardCompatible</b>に設定された場合、変更は単純にはありません。シーンは引き続き使いやすさとバックワート互換性を優先します。</li><li style='margin-bottom:10px'><b>中間</b>に設定された場合、パフォーマンスと使いやすさのバランスを取るよう試みるいくつかのパフォーマンスオプションがオンになります。</li><li style='margin-bottom:10px'><b>積極的</b>に設定された場合、パフォーマンスが最優先事項になります。</li></ul><i>注意：効果を反映するには再読み込みが必要です。<br/><br/><b>ソース：</b><a href='https://doc.babylonjs.com/features/featuresDeepDive/scene/optimize_your_scene#performance-priority-modes' target='_blank'>パフォーマンス優先モード</a></i>",
+            "tgl_enableGraphicsEngine": "グラフィックエンジンが初期化され、レンダリングに使用されているかどうかを切り替えます。<br/><br/><i>注意：効果を反映するには再読み込みが必要です。</i>",
+            "tgl_enableStage": "シーンでのメインステージの有効/無効切り替え。",
+            "tgl_enablePiano": "シーンでのメインピアノの有効/無効切り替え。",
+            "tgl_enablePianoBench": "シーンでのピアノベンチの有効/無効切り替え。",
+            "tgl_enableDrums": "ドラムセットの有効/無効切り替え（ドラムチャンネルのアクティビティがある場合にのみ表示されます）。</i>",
+            "tgl_enableMotionBlur": "モーションブラーは、主にカメラが特定の領域を素早く動かすときに周囲がスクリーン上でぼやけて見えるゲームで使用される効果です。",
+            "tgl_enableAntialiasing": "MSAA（マルチサンプルアンチエイリアシング）がキャンバスで有効になっているかどうかを定義します。これはコンピュータグラフィックスで鋸歯状のエッジを取り除くために使用される技術です。これを無効にするとパフォーマンスが向上する可能性があります。<br/><br/><i>注意：効果を反映するには再読み込みが必要です。</i>",
+            "tgl_enableParticleSystem": "パーティクルシステムは、集合的にフージーオブジェクトを表す多数の微小な粒子のコレクションです。<br/><br/><i>注意：無効にした場合、パーティクルはその寿命が完了するまで即座に消散しません。</i>",
+            "tgl_enableFog": "距離フォグは、3D コンピュータグラフィックスで遠方のオブジェクトを異なるシャドウで照らすことで距離感の認識を強化するために使用される技術です。",
+            "tgl_enablePostProcessing": "シーンでのポストプロセッシングエフェクトの有効/無効切り替え。",
+            "tgl_enableGlow": "特定のモデルへの発光エフェクトの有効/無効切り替え。",
+            "tgl_enablePianoKeysGlow": "ピアノキーに柔らかい光のハローを追加し、メイン発光設定とは独立しています。全体のシーンへの発光を適用せずにキーを強調表示するのに便利です。",
+            "tgl_enableShadows": "シーンのシャドウの有効/無効切り替え。",
+            "tgl_enableSoftShadows": "シーンのソフトシャドウの有効/無効切り替え。",
+            "tgl_enableSpecialEffects": "シーンでの特殊エフェクト（雨など）の有効/無効切り替え。",
+            "tgl_enableAutoAnimateCamera": "有効にした場合、カメラは十分に近い範囲内で楽器（カメラ、ドラムなど）にロックターゲットしてアニメートします。",
+            "tgl_enableOrchestraModels": "オーケストラモードで他のユーザーモデルが表示されるのを有効/無効にする。",
+            "tgl_enableHDR": "ハイダイナミックレンジレンダリングを有効にする。明るいハイライトと標準 [0,1] レンジを超えた豊かなカラーを提供し、パフォーマンスの一部のコストでより現実的な照明を生み出します。",
+            "tgl_enableBloom": "シーンでの明るい領域の周りに柔らかい光を追加し、実際のカメラと目が intense ライトに反応する方法をシミュレートします。HDR を有効にしたときに最適です。",
+            "tgl_enableToneMapping": "フィルミック曲で高ダイナミックレンジカラー値を表示可能な範囲にマップし、ハイライトおよびシャドウのディテールを保持します。HDR が有効になっているときに推奨されます。",
+            "tgl_enableDepthOfField": "これはフォトグラフのような現実味を達成するのを助ける事前定義されたポストプロセッシングチェーンです。",
+            "tgl_enableAmbientOcclusion": "これはスクリーン空間からシーンの環境遮蔽を計算するレンダリングパイプライン（連鎖ポストプロセス）です。<br/><br/>技術的定義：環境遮蔽は、ライトがオブジェクトにどのように落ちるかシミュレートするコンピュータグラフィックス技術です。遮蔽された領域への環境ライトの減衰を制御してモデルに現実味を加えるグローバル照明方法です。",
+            "tgl_enableMirrorTextures": "ミラーテクスチャはシーン内のミラーからの視点をシミュレートするために使用できます。それはダイナミックに各フレームでレンダリングされ、カメラのポイントオブビューに適応します。この場合、ピアノのようなモデルの地上または他の表面上での反射を表示するために使用されます。<br/><br/><i>注意：効果を反映するには再読み込みが必要です。</i>",
+            "tgl_useWebGPU": "WebGPU は新しい Web API で、現代のハードウェア機能にアクセスし、GPU 上でレンダリングおよび計算操作を実行することを可能にし、Direct3D 12、Metal、Vulkan に似ています。WebGL ファミリとは異なり、WebGPU はより進んだ GPU 機能へのアクセスを提供し、JavaScript からシステムグラフィックリソースに対する一般的な計算のための第一級サポートを提供します。<br/><br/>WebGPU の約束は、JavaScript を通じてシステムグラフィックリソースに対するより低いレベルの制御から提供される例外速度の API です。（まだ実験的であり、一部の機能が完全に機能しない可能性があります。多くのデバイスでもサポートされていない場合もあります。）<br/><br/><i>注意：効果を反映するには再読み込みが必要です。</i>",
+            "tgl_webgpuSnapshot": "スナップショットレンダリングは新しい...",
+            "tgl_webgpuNonCompatMode": "WebGPU 非互換モード",
+            "tgl_enableOfflineStorage": "オフラインストレージを有効にする",
+            "tgl_renderInBackground": "バックグラウンドでレンダリングする",
+            "tgl_useOffscreenCanvas": "オフスクリーンキャンバスを使用",
+            "lbl_resetGraphicsSettings": "グラフィック設定"
           }
         },
         "world": {
-          "label": "世界"
+          "label": "ワールド"
         },
         "ui": {
           "label": "UI",
           "elements": {
             "hdr_displays": "ディスプレイ",
             "tgl_fps": "FPS",
-            "tgl_ping": "レイテンシー",
+            "tgl_ping": "レイテンシ",
             "tgl_instDock": "楽器ドック",
             "tgl_userCursors": "ユーザーカーソル",
             "tgl_whoistyping": "WhoIsTyping",
@@ -152,26 +358,26 @@
             "tgle_displayChat": "チャットメッセージの表示",
             "tgle_keepChatInFocus": "チャットに焦点を合わせる",
             "sld_chatMsgsHeightOffset": "チャットメッセージの高さオフセット",
-            "sld_chatMsg2DOpacity": "チャットメッセージのデフォルトの不透明度（2Dモード）",
-            "sld_chatMsg3DOpacity": "チャットメッセージのデフォルトの不透明度（3Dモード）",
-            "tgl_display3DStats": "3D統計を表示する",
+            "sld_chatMsg2DOpacity": "チャットメッセージのデフォルトの不透明度（2D モード）",
+            "sld_chatMsg3DOpacity": "チャットメッセージのデフォルトの不透明度（3D モード）",
+            "tgl_display3DStats": "3D 統計を表示",
             "tgle_showEmbeddedLinks": "埋め込みリンクを表示"
           },
           "tooltips": {
-            "hdr_displays": "特定のUI要素の表示をトグルします。",
-            "tgl_fps": "FPSメーターの表示",
-            "tgl_ping": "レイテンシーの表示",
+            "hdr_displays": "特定の UI 要素の表示を切り替えます。",
+            "tgl_fps": "FPS メーターの表示",
+            "tgl_ping": "レイテンシの表示",
             "tgl_instDock": "楽器ドックの表示",
             "tgl_userCursors": "他のユーザーのカーソルを表示",
             "tgl_whoistyping": "他のユーザーが入力しているときに表示",
-            "hdr_chat": "チャットメッセージ関連のUI設定",
+            "hdr_chat": "チャットメッセージ関連の UI 設定",
             "tgle_displayChat": "チャットメッセージの表示",
-            "sld_chatMsgsHeightOffset": "チャットメッセージコンテナの高さオフセットを設定します",
-            "tgl_display3DStats": "3Dシーンに関する追加の統計/情報の表示を切り替えます",
-            "tgle_keepChatInFocus": "メッセージを送信した後、チャットのフォーカスを維持するかどうかを切り替えます",
-            "sld_chatMsg2DOpacity": "焦点が合っていないときのチャットメッセージのデフォルトの不透明度を設定します。 （2Dモード）",
-            "sld_chatMsg3DOpacity": "焦点が合っていないときのチャットメッセージのデフォルトの不透明度を設定します。 （3Dモード）",
-            "tgle_showEmbeddedLinks": "リンクに埋め込まれたオブジェクト（画像や動画など）を表示するかどうかを切り替えます"
+            "sld_chatMsgsHeightOffset": "チャットメッセージコンテナの高さオフセットを設定します。",
+            "tgl_display3DStats": "3D シーンに関する追加の統計/情報の表示を切り替えます。",
+            "tgle_keepChatInFocus": "メッセージを送信した後、チャットのフォーカスを維持するかどうかを切り替えます。",
+            "sld_chatMsg2DOpacity": "焦点が合っていないときのチャットメッセージのデフォルトの不透明度を設定します。（2D モード）",
+            "sld_chatMsg3DOpacity": "焦点が合っていないときのチャットメッセージのデフォルトの不透明度を設定します。（3D モード）",
+            "tgle_showEmbeddedLinks": "リンクに埋め込まれたオブジェクト（画像や動画など）を表示するかどうかを切り替えます。"
           }
         },
         "blob": {
@@ -195,7 +401,7 @@
         "soundfont": {
           "label": "サウンドフォント",
           "messages": {
-            "soundfontLoading": "サウンドフォントが読み込まれるまでお待ちください。"
+            "soundfontLoading": "サウンドフォントの読み込みにお待ちください。"
           },
           "elements": {
             "hdr_generalSettings": "一般設定",
@@ -203,66 +409,66 @@
             "tgl_enableDrums": "ドラムチャンネルを有効にする",
             "hdr_v3Audio": "V3・オーディオ",
             "lbl_soundfonts": "サウンドフォント",
-            "lbl_initalBuffersize": "初期Buffersize",
+            "lbl_initalBuffersize": "初期バッファサイズ",
             "tgl_showDebuglogs": "デバッグパフォーマンスログの表示",
-            "tgl_useAudioWorklet": "AudioWorkletを使う"
+            "tgl_useAudioWorklet": "AudioWorklet を使用"
           },
           "tooltips": {
-            "lbl_audioEngine": "オーディオエンジンの選択。<br>（次回の再起動時に反映されます。）",
-            "tgl_enableDrums": "有効にすると、チャンネル9でパーカッションの演奏が可能になります（ゼロインデックスベース）",
-            "hdr_v3Audio": "V3のオーディオエンジンに特化した設定",
-            "lbl_soundfonts": "サウンドフォントの選択",
-            "lbl_initalBuffersize": "まだ説明はありません。（次回の再起動時に反映されます。）",
+            "lbl_audioEngine": "オーディオエンジンの選択。<br>（次の再起動時に反映されます。）",
+            "tgl_enableDrums": "有効にすると、チャンネル 9 でパーカッションの演奏が可能になります（ゼロインデックスベース）。",
+            "hdr_v3Audio": "V3 オーディオエンジンに特化した設定。",
+            "lbl_soundfonts": "サウンドフォントを選択。",
+            "lbl_initalBuffersize": "まだ説明はありません。（次の再起動時に反映されます。）",
             "tgl_showDebuglogs": "有効にすると、パフォーマンスログをコンソールに表示します。",
-            "tgl_useAudioWorklet": "有効にすると、V3のオーディオエンジンを、オーディオワークレットプロセス内の別のスレッドにロードします。<br>パフォーマンスが向上するはずです。(Takes effect on app restart)"
+            "tgl_useAudioWorklet": "有効にすると、V3 オーディオエンジンをオーディオワークレットプロセス内の別のスレッドにロードします。<br>パフォーマンスが向上するはずです。(再起動時に効果があります)"
           }
         },
         "effects": {
-          "label": "効果"
+          "label": "エフェクト"
         },
         "bgMusic": {
-          "label": "BGミュージック"
+          "label": "BGM"
         },
         "midi": {
           "label": "MIDI",
           "elements": {
             "hdr_inputOutput": "I/O",
-            "lbl_enableAudioToOutput": "アウトプットだけにオーディオ",
-            "hrd_generalEffects": "一般効果",
+            "lbl_enableAudioToOutput": "オーディオのみを出力",
+            "hrd_generalEffects": "一般エフェクト",
             "tgl_mousePosVelocity": "マウスの位置でベロシティを決定",
             "sld_sustainCutoff": "サステインカットオフ",
-            "hdr_velocityEffects": "ベロシティ効果",
+            "hdr_velocityEffects": "ベロシティエフェクト",
             "tgl_enableVelocity": "ベロシティを有効にする",
             "sld_velocityMuting": "ベロシティ・ミューティング",
             "tgl_enableVelocityBoost": "ベロシティブーストを有効にする",
             "sld_velocityBoost": "ベロシティブースト",
             "lbl_metronome": "メトロノーム・オーディオ・サンプル",
             "tgl_enableV2Reverb": "V2 リバーブ",
-            "tgl_listenToProgramChanges": "プログラムの変更を聞く",
+            "tgl_listenToProgramChanges": "プログラム変更を聞く",
             "tgl_autoFillEmptyChannels": "空のチャンネルを自動入力",
-            "tgl_useDefaultBankWhenMissing": "見つからない場合はデフォルトのバンクを使用する",
+            "tgl_useDefaultBankWhenMissing": "見つからない場合はデフォルトのバンクを使用",
             "tgl_enableStereoPanning": "ステレオパンニングを有効にする"
           },
           "tooltips": {
-            "lbl_enableAudioToOutput": "この機能を有効にして出力デバイスをアクティブにすると、PianoRhythmのオーディオエンジン内ではなく、出力デバイスにのみ音声が出力されます。",
-            "tgl_mousePosVelocity": "有効にすると、マウスの位置がコンピュータのキーボード入力の速度を決定します。<br> <br>マウスがブラウザウィンドウの下部に近いほど、ノートの音は大きくなります。",
+            "lbl_enableAudioToOutput": "この機能を有効にして出力デバイスをアクティブにすると、PianoRhythm のオーディオエンジン内ではなく、出力デバイスにのみ音声が出ます。",
+            "tgl_mousePosVelocity": "有効にすると、マウスの位置がコンピュータのキーボード入力の速度を決定します。<br><br>マウスがブラウザウィンドウの下部に近いほど、ノートの音は大きくなります。",
             "sld_sustainCutoff": "持続音のリリースカットオフポイントを設定します。割合が高いほど持続時間が短くなります。",
             "tgl_enableVelocity": "無効の場合、ソースからのベロシティ値は無視されます。代わりに、最大値（127）が設定されます。",
-            "sld_velocityMuting": "指定した値以下または同様のベロシティの音をミュートする。。",
+            "sld_velocityMuting": "指定した値以下または同程度のベロシティの音をミュートします。。",
             "tgl_enableVelocityBoost": "有効にすると、入力のベロシティ値をブーストします。",
             "sld_velocityBoost": "インプットのベロシティ値をブーストします。",
             "lbl_metronome": "メトロノームに使用するオーディオサンプルを選択します。",
-            "tgl_enableV2Reverb": "V2オーディオエンジンでリバーブを有効にするかどうかを切り替えます",
+            "tgl_enableV2Reverb": "V2 オーディオエンジンでリバーブを有効にするかどうかを切り替えます。",
             "tgl_listenToProgramChanges": "PianoRhythm が MIDI プログラム変更イベントをリッスンし、それに応じて楽器ドックを更新するかどうかを切り替えます。",
-            "tgl_autoFillEmptyChannels": "ノートオン イベントが発生したときに、インストゥルメント ドックの空のチャンネルをデフォルトのインストゥルメントで自動入力するかどうかを切り替えます。",
-            "tgl_useDefaultBankWhenMissing": "サウンドフォントに特定のバンクがない場合に、デフォルトのバンク (通常はバンク 0) を使用するかどうかを切り替えます。",
-            "tgl_enableStereoPanning": "オーディオ エンジンがオーディオ ストリームの左または右へのパンをサポートするかどうかを切り替えます。<br><br>したがって、音符の音の位置はピアノ上の位置に応じて変わります。<br><br>たとえば、右側に近い音は右側のスピーカーでよりよく聞こえます。左側でも同様で、中央に近い音は両方のスピーカーに分散されます。"
+            "tgl_autoFillEmptyChannels": "ノートオンイベントが発生したときに、インストゥルメント ドックの空のチャンネルをデフォルトのインストゥルメントで自動入力するかどうかを切り替えます。",
+            "tgl_useDefaultBankWhenMissing": "サウンドフォントに特定のバンクがない場合に、デフォルトのバンク（通常はバンク 0）を使用するかどうかを切り替えます。",
+            "tgl_enableStereoPanning": "オーディオ エンジンがオーディオ ストリームの左または右へのパンをサポートするかどうかを切り替えます。<br><br>したがって、音符の音の位置はピアノ上の位置に応じて変わります。<br><br>例えば、右側に近い音は右側のスピーカーでよりよく聞こえます。左側でも同様で、中央に近い音は両方のスピーカーに分散されます。"
           }
         }
       }
     },
     "billing": {
-      "header": "請求する",
+      "header": "請求",
       "subMenus": {
         "subscription": {
           "label": "サブスクリプション",
@@ -270,31 +476,31 @@
             "lbl_languageSelect": "言語選択"
           },
           "tooltips": {
-            "lbl_languageSelect": "PianoRhythmのデフォルト言語を設定します。"
+            "lbl_languageSelect": "PianoRhythm のデフォルト言語を設定します。"
           }
         }
       },
       "buttons": {
-        "checkout": "Stripeでチェックアウト",
-        "cancelSubscription": "サブスクリプションをキャンセルする",
-        "cancellation_InProcess": "Stripeでサブスクリプションを再開します"
+        "checkout": "Stripe でチェックアウト",
+        "cancelSubscription": "サブスクリプションをキャンセル",
+        "cancellation_InProcess": "Stripe でサブスクリプションを再開"
       },
       "labels": {
-        "billingInfo": "課金情報",
-        "cancelSubscription": "サブスクリプションをキャンセルする"
+        "billingInfo": "請求情報",
+        "cancelSubscription": "サブスクリプションをキャンセル"
       },
       "messages": {
         "checkout_Created": "新しいタブが開きました。そこでチェックアウトを続けてください！",
         "checkout_Success": "チェックアウト成功！",
         "checkout_Cancelled": "セッションをキャンセルしました。",
-        "checkout_ResumePlan": "キャンセルしたサブスクリプションを再開しようとしています。 </br> </br>よろしいですか？",
-        "checkout_Confirm": "プレミアムプランをチェックアウトしてサブスクライブしようとしています。 </br> </br>よろしいですか？",
+        "checkout_ResumePlan": "キャンセルしたサブスクリプションを再開しようとしています。</br></br>よろしいですか？",
+        "checkout_Confirm": "プレミアムプランをチェックアウトしてサブスクライブしようとしています。</br></br>よろしいですか？",
         "subscription_cancellationFail": "申し訳ありませんが、問題が発生しました。サブスクリプションのキャンセルに失敗しました。",
-        "subscription_Updated": "サブスクリプションプランが正常に更新されました。",
+        "subscription_Updated": "サブスクリプションプランを正常に更新しました。",
         "subText": "これが現在のサブスクリプションです。いつでもキャンセルまたは更新できます。",
-        "cancellation_InProcess": "現在のサブスクリプションは<b>キャンセル</b>されているため、自動更新されません。 <b style=\"color:white;\">{{billingDate}}</b>までは引き続きメリットがあります。",
+        "cancellation_InProcess": "現在のサブスクリプションは<b>キャンセル</b>されているため、自動更新されません。<b style=\"color:white;\">{{billingDate}}</b>までは引き続きメリットがあります。",
         "autoRenewInfo": "<b style=\"color:white;\">{{billingDate}}</b>自動的に更新さ<b style=\"color:white;\">{{currencyText}}</b>が課金されます<b style=\"color:white;\">。</b>",
-        "cancellation_Confirm": "ご不便をおかけして申し訳ございません{{username}} ！</br>プロプランのサブスクリプションは<b>{{planBillingDate}}</b>まで支払われます。</br></br>サブスクリプションのキャンセルを続行する場合は、下の[<b>サブスクリプションのキャンセル]</b>を選択してください。",
+        "cancellation_Confirm": "ご不便をおかけして申し訳ございません {{username}} ！</br>プロプランのサブスクリプションは<b>{{planBillingDate}}</b>まで支払われます。</br></br>サブスクリプションのキャンセルを続行する場合は、下の [<b>サブスクリプションのキャンセル]</b>を選択してください。",
         "cancellation_Success": "サブスクリプションを正常にキャンセルしました。"
       }
     },
