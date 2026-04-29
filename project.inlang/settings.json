@@ -35,7 +35,11 @@
 			"loginPage": "./locales/{languageTag}/loginPage.json",
 			"roomPage": "./locales/{languageTag}/roomPage.json",
 			"roomPage-settingsModal": "./locales/{languageTag}/roomPage.settingsModal.json",
-			"server-messages": "./locales/{languageTag}/server.messages.json"
+			"server-messages": "./locales/{languageTag}/server.messages.json",
+			"chat": "./locales/{languageTag}/chat.json",
+			"modals": "./locales/{languageTag}/modals.json",
+			"mania": "./locales/{languageTag}/mania.json",
+			"modDashboard": "./locales/{languageTag}/modDashboard.json"
 		},
 		"ignore": [
 			"node_modules"

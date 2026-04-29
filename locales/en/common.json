@@ -12,6 +12,11 @@
     "reveal": "Reveal",
     "hide": "Hide",
     "edit": "Edit",
+    "save": "Save",
+    "cancel": "Cancel",
+    "close": "Close",
+    "delete": "Delete",
+    "deleteAll": "Delete All",
     "modal_Confirm": "Yes, let me in!",
     "modal_Confirm2": "Yes, please!",
     "modal_Deny": "Nevermind..."
@@ -21,11 +26,26 @@
     "serverConnected": "Connected to {{appName}}",
     "passwordResetSuccess": "Your password has been successfully changed. You may proceed to login. :)",
     "forgotPasswordSuccess": "If there's an account associated with that email, then an email to reset the password will be sent. Thank you!",
-    "registerSuccess": "A verification email has been sent. Check your SPAM folder as well."
+    "registerSuccess": "A verification email has been sent. Check your SPAM folder as well.",
+    "loading": "Loading..."
+  },
+  "confirmDialogs": {
+    "areYouSure": "Are you sure?",
+    "yes": "Yes",
+    "no": "No",
+    "ok": "OK",
+    "okay": "Okay",
+    "yesPlease": "Yes, please!",
+    "nevermind": "Nevermind...",
+    "unsavedChanges": "You have unsaved changes. Are you sure you want to continue?",
+    "cannotBeUndone": "This cannot be undone."
   },
   "errorMessages": {
     "midiFileSizeIsTooBig": "File size is too big!",
     "dropValidMidiFile": "Please upload a valid midi file!",
     "webGLNotSupported": "Sorry, certain features, such as WebGL, are not supported on your browser. <br>Please update your browser if you can."
+  },
+  "tooltips": {
+    "clickToReset": "Click to reset"
   }
 }

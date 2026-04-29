@@ -1,0 +1,73 @@
+{
+  "songEditor": {
+    "title": "Beat Editor",
+    "tabs": {
+      "info": "Info",
+      "meta": "Meta",
+      "game": "Game",
+      "notes": "Notes",
+      "score": "Score"
+    },
+    "headers": {
+      "general": "General",
+      "audio": "Audio",
+      "midi": "Midi",
+      "settings": "Settings"
+    },
+    "fields": {
+      "title": "Title",
+      "midiUrl": "Midi URL",
+      "audioType": "Audio Type",
+      "youtubeId": "YouTube ID",
+      "audioUrl": "Audio URL",
+      "startTime": "Start Time",
+      "playbackRate": "Playback Rate",
+      "volume": "Volume",
+      "scrollSpeed": "Scroll Speed",
+      "time": "Time",
+      "note": "Note",
+      "midi": "Midi"
+    },
+    "placeholders": {
+      "midiUrlOptional": "Midi URL (optional)",
+      "startTimeOptional": "Start time (optional)",
+      "audioPlaybackRateOptional": "Audio Playback Rate (optional)",
+      "audioVolumeOptional": "Audio Volume (optional)",
+      "midiPlaybackRateOptional": "Midi Playback Rate (optional)",
+      "noteScrollSpeed": "Note Scroll Speed",
+      "activeTime": "Active Time",
+      "timeInterval": "Time Interval"
+    },
+    "tooltips": {
+      "midiUrl": "The URL to a midi resource.",
+      "audioUrl": "The URL to an audio resource. Can be a direct link to an mp3 or Youtube video.",
+      "youtubeId_line1": "The YouTube Video ID.",
+      "youtubeId_line2_pre": "For example, from a url like this: ",
+      "youtubeId_line3_pre": "The ID would be ",
+      "transcribeAudio": "Transcribe the audio to midi by using machine learning!",
+      "loadScene": "Load the midi data from the provided url in the Midi URL input."
+    },
+    "actions": {
+      "undo": "Undo",
+      "redo": "Redo",
+      "midiIO": "Midi I/O",
+      "restart": "Restart",
+      "test": "Test",
+      "publish": "Publish",
+      "transcribeAudio": "Transcribe Audio to MIDI",
+      "loadScene": "Load Scene",
+      "changeSheet": "Change Sheet",
+      "update": "Update",
+      "duplicate": "Duplicate",
+      "clear": "Clear"
+    },
+    "score": {
+      "type": "Type",
+      "total": "Total"
+    },
+    "editNote": {
+      "header": "Edit Note",
+      "notePrefix": "Note"
+    }
+  }
+}

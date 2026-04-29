@@ -3,7 +3,12 @@
     "audioSettingNotSupportedV3": "Note: Currently, most audio settings are not applicable to v3",
     "changeWillTakeEffectOnNextRestart": "Changes will take effect on next restart.",
     "changesSaved": "Changes saved.",
-    "userColorUpdated": "You've successfully updated your user color!"
+    "userColorUpdated": "You've successfully updated your user color!",
+    "noContentAvailable": "No content available, yet.",
+    "failedToLoadContent": "Failed to load content..."
+  },
+  "badges": {
+    "new": "New"
   },
   "menus": {
     "general": {

@@ -1,0 +1,31 @@
+{
+  "bar": {
+    "placeholder": "Say something nice here...",
+    "sendMessage": "Send Message"
+  },
+  "triggerList": {
+    "users": "Users",
+    "rooms": "Rooms"
+  },
+  "embeddable": {
+    "site": "Site"
+  },
+  "externalLinkWarning": {
+    "cancel": "Nah, sorry...",
+    "confirm": "Yes!"
+  },
+  "contextMenu": {
+    "user": "User",
+    "id": "ID",
+    "date": "Date",
+    "copyMessage": "Copy Message",
+    "copyMessageId": "Copy Message ID",
+    "copyTextSelection": "Copy Text Selection",
+    "reportMessage": "Report Message",
+    "deleteMessage": "Delete Message",
+    "deleteAllByUser": "Delete All Message by"
+  },
+  "message": {
+    "editedSuffix": "(edited...)"
+  }
+}

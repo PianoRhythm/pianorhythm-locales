@@ -131,6 +131,27 @@
             "logoutPressed": "Are you sure you want to log out?",
             "logoutPressed_Confirm": "Yes!",
             "logoutPressed_Cancel": "No, sorry..."
+        },
+        "popover":
+        {
+            "newFeatureHeader": "New Feature",
+            "newFeatureBody": "Check out the new Sheet Music Repo!",
+            "newFeatureDeny": "Okay, whatever...",
+            "newFeatureConfirm": "Let me see!"
+        },
+        "moreOptions":
+        {
+            "sheetMusicViewer": "Sheet Music - Viewer",
+            "sheetMusicUpload": "Sheet Music - Upload",
+            "sheetMusicRepo": "Sheet Music - Repo",
+            "audioEqualizer": "Audio Equalizer",
+            "openMidiFile": "Open Midi File",
+            "docs": "Docs",
+            "customizePiano": "Customize Piano"
+        },
+        "extras":
+        {
+            "sustainInputHint": " (Keyboard/Mouse input)"
         }
     },
     "components":

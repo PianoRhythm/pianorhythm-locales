@@ -1,0 +1,156 @@
+{
+  "common": {
+    "pleaseWait": "Please wait..."
+  },
+  "newRoom": {
+    "menu": {
+      "header": "Menu"
+    },
+    "headings": {
+      "general": "General",
+      "description": "Description",
+      "roomStage": "Room Stage",
+      "roomMode": "Room Mode",
+      "welcomeMessage": "Welcome Message",
+      "advancedSettings": "Advanced Settings",
+      "maxPlayers": "Max Players",
+      "other": "Other"
+    },
+    "placeholders": {
+      "name": "name",
+      "description": "Type the room description here..",
+      "roomStage": "Select a room stage",
+      "roomMode": "Select a room mode",
+      "welcomeMessage": "Type a welcome message here..."
+    },
+    "tooltips": {
+      "generateRoomName": "Click to generate a new room name",
+      "makeRoomPrivate": "Making a room private will hide it from the global rooms list.",
+      "description": "A short description describing what your room is about",
+      "roomStage": "Select a predefined 3D stage for your room. (Disabled in 2D mode)",
+      "roomMode_line1": "Select a variety of modes.",
+      "roomMode_line2": "From playing the piano with friends to playing different games.",
+      "welcomeMessage_line1": "(Optional) Set the welcome message for when users enter your room.",
+      "welcomeMessage_line2_pre": "The ",
+      "welcomeMessage_line2_post": " is a special token that will be replaced with the name of the user that enters your room."
+    },
+    "labels": {
+      "rememberLastSettings": "Remember last settings"
+    },
+    "actions": {
+      "createRoom": "Create Room",
+      "updateRoom": "Update Room",
+      "resetToDefault": "Reset to Default"
+    },
+    "errors": {
+      "failedToCreate": "Failed to create room",
+      "failedToUpdate": "Failed to update room",
+      "createRoomFailedDesc": "Something went wrong when trying to create the room. Please try again later...",
+      "updateRoomFailedDesc": "Something went wrong when trying to update the room. Please try again later...",
+      "validationErrorTitle": "Validation Error",
+      "validationErrorDescription": "Please check the form for any errors."
+    }
+  },
+  "instrumentSelection": {
+    "title": "Instrument Selection",
+    "searchPlaceholder": "Search for instruments...",
+    "columns": {
+      "name": "Name",
+      "bank": "Bank",
+      "program": "Program"
+    },
+    "noResults": "No command(s) found..."
+  },
+  "audioSamples": {
+    "title": "Audio Samples",
+    "columns": {
+      "category": "Category"
+    },
+    "noResults": "No Samples(s) found...",
+    "unknownCategory": "Unknown"
+  },
+  "enterPassword": {
+    "headerPrefix": "Enter password for",
+    "inputPlaceholder": "Enter room password...",
+    "cancelConfirm": {
+      "html": "Are you sure want to cancel trying to enter this room's password? If so, you'll be directed to the next available lobby.",
+      "cancel": "Nah, I'll try again.",
+      "confirm": "Yes!"
+    }
+  },
+  "credits": {
+    "title": "Credits",
+    "fetchFailed": "Failed to get credits..."
+  },
+  "docs": {
+    "title": "Docs"
+  },
+  "leaderboard": {
+    "title": "Analytics / Leaderboards"
+  },
+  "imageUploader": {
+    "chooseImage": "Choose Image",
+    "errors": {
+      "fileSizeExceeds": "File size exceeds max limit of: {{limit}}",
+      "tryDifferentFile": "Please try a different file."
+    }
+  },
+  "midiMusicUpload": {
+    "headerPrefix": "Midi Music",
+    "newUpload": "New Upload",
+    "unsavedChanges": "You have unsaved changes. Are you sure you want to close?",
+    "fields": {
+      "title": "Title",
+      "artist": "Artist",
+      "album": "Album",
+      "description": "Description",
+      "tags": "Tags",
+      "difficulty": "Difficulty",
+      "privacyLevel": "Privacy Level"
+    },
+    "placeholders": {
+      "title": "title",
+      "artist": "original artist",
+      "album": "original artist's album",
+      "tags": "Choose some tags...",
+      "difficulty": "Choose an appropriate difficulty...",
+      "privacyLevel": "Choose a privacy level"
+    },
+    "submitMessages": {
+      "reapprove": "Your changes will have to be reapproved after submitting.",
+      "modAutoSubmit": "Your changes will be submitted once you click OK!",
+      "pendingApproval": "Your upload will have to be approved before it shows up on the public listing.",
+      "success": "Success!",
+      "uploadFailed": "Oof, sorry. Failed to upload the midi!<br><br><b>Error: {{error}} </b><br><br>Please try again."
+    }
+  },
+  "genericRepo": {
+    "badges": {
+      "views": "Views",
+      "favorites": "Favorites"
+    },
+    "contextMenu": {
+      "id": "Id",
+      "title": "Title"
+    },
+    "bulkProcess": {
+      "confirmHtml": "Out of the <b>{{total}}</b> selected item(s), only <b style=\"color:lightgreen\">{{process}}</b> will be processed.<br><br><b>Continue?</b>",
+      "confirm": "Yes!",
+      "resultsSuffix": "Results",
+      "resultsHtml": "Out of the <b>{{total}}</b> items processed, <b style=\"color:lightgreen\">{{success}}</b> were successful!"
+    },
+    "titles": {
+      "approveMultiple": "Approve Multiple Items",
+      "disapproveMultiple": "Disapprove Multiple Items",
+      "deleteMultiple": "Delete Multiple Items"
+    },
+    "actions": {
+      "approve": "Approve",
+      "disapprove": "Disapprove",
+      "delete": "Delete",
+      "upload": "Upload",
+      "openViewer": "Open Viewer"
+    },
+    "itemsSelected": "{{count}} items(s) Selected"
+  }
+}
