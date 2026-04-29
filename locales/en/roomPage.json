@@ -105,7 +105,8 @@
             "logout": "Logout",
             "sheetMusic": "Sheet Music",
             "sheetMusicUpload": "Sheet Music - Upload",
-            "docs": "Documentation"
+            "docs": "Documentation",
+            "midiRepo": "Midi Repo"
         },
         "tooltips":
         {
@@ -122,7 +123,8 @@
             "menu": "Click here for more menu items!",
             "sheetMusic": "Display the sheet music repository",
             "sheetMusicUpload": "Upload sheet music to the repository",
-            "docs": "Documentation/Help"
+            "docs": "Documentation/Help",
+            "midiRepo": "Display the midi repository"
         },
         "messages":
         {

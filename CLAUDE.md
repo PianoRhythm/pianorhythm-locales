@@ -30,3 +30,7 @@ CI: `bitbucket-pipelines.yml` runs `npm install && npm run validate` on every pu
 
 1. Add the tag to `project.inlang/settings.json` `languageTags`.
 2. Create `locales/{tag}/` and copy the five JSON files from `locales/en/` (or from `_empty_jsons/` to start blank), then translate.
+
+## References
+
+PianoRhythm Web/Desktop App folder: D:\Projects\pianorhythm
