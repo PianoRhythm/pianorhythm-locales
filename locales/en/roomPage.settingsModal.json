@@ -10,6 +10,19 @@
   "badges": {
     "new": "New"
   },
+  "search": {
+    "placeholder": "Search",
+    "clear": "Clear Search"
+  },
+  "resetSettings": {
+    "header": "Reset Settings",
+    "buttonLabel": "Reset Settings To Default",
+    "tooltip": "Click to reset all of your {{name}} to their default.",
+    "confirmTitle": "Reset Settings",
+    "confirmHtml": "Are you sure you want to reset your <b>{{name}}</b> to the default? This action is irreversible!",
+    "successTitle": "Reset Settings",
+    "successHtml": "<b>{{name}}</b> are now set to the default. You may have to reload the app to reflect certain changes."
+  },
   "menus": {
     "general": {
       "header": "General",
@@ -17,7 +30,10 @@
         "language": {
           "label": "Language",
           "elements": {
-            "lbl_languageSelect": "Language Select"
+            "lbl_languageSelect": "Language Select",
+            "hdr_contributing": "Contributing",
+            "hdr_selectLanguage": "Select a language",
+            "btn_openContributionGuide": "Open Contribution Guide"
           },
           "tooltips": {
             "lbl_languageSelect": "Set the default language for PianoRhythm."
@@ -27,9 +43,34 @@
           "label": "Application",
           "elements": {
             "hdr_applicationSettings": "Application Settings",
+            "hdr_general": "General",
+            "hdr_advanced": "Advanced",
             "lbl_resetSettingsModalTitleText": "Reset Settings to Default",
             "lbl_resetSettingsModalBodyText": "<b>Are you sure you want to do this?</b> <br><br><p>This will reset all your settings to the default and cannot be undone.</p>",
-            "btn_resetSettings": "Reset Settings"
+            "btn_resetSettings": "Reset Settings",
+            "tgl_checkForUpdates": "Check For Updates",
+            "tgl_enableDebugMode": "Enable Debug Mode",
+            "btn_openCookieManagement": "Open Cookie Management",
+            "btn_exportLogFile": "Export Log File",
+            "btn_openAppDataFolder": "Open App Data Folder"
+          },
+          "tooltips": {
+            "tgl_checkForUpdates": "Whether the application should check for updates periodically.",
+            "tgl_enableDebugMode": "Puts PianoRhythm in a kind of debug mode. Logging should be a bit more verbose and certain features should/will be more debug friendly.",
+            "btn_openCookieManagement": "Click to manage your cookie preferences.",
+            "btn_exportLogFile": "Click to choose a location for PianoRhythm's log file.",
+            "btn_openAppDataFolder": "Click to open PianoRhythm's App Data folder."
+          },
+          "messages": {
+            "noLogFile": "Sorry, there's no log file to export at the moment. Please try again later.",
+            "saveLogTitle": "Save PianoRhythm Log File",
+            "logFilesFilter": "Log Files",
+            "logExportSuccess": "Log file has been exported successfully.",
+            "logExportError": "Something went wrong trying to export the log file. Please check the console logs for more details.",
+            "appDataFolderError": "Something went wrong trying to open the App Data folder. Please check the console logs for more details.",
+            "resetAllConfirmText": "Are you sure you want to reset your settings to the default? This action is irreversible!",
+            "resetAllSuccessText": "Settings are now set to the default. You may have to reload the app to reflect certain changes.",
+            "reloadButton": "Reload"
           }
         }
       }
@@ -44,9 +85,19 @@
             "hdr_passwordAndAuthentication": "Password and Authentication",
             "hdr_accountManagement": "Account Management",
             "hdr_security": "Security",
+            "hdr_advanced": "Advanced",
+            "hdr_generalSection": "General",
+            "hdr_emailNotifications": "Email Notifications",
+            "hdr_profileColor": "Profile Color",
             "tgl_enable2fa": "Two-Factor Authentication",
+            "tgl_allowUsersToNotifyMe": "Allow users to notify me",
             "btn_changePassword": "Change Password",
             "btn_deleteAccount": "Delete Account",
+            "btn_userColorReset": "Reset Color",
+            "btn_userColorSubmit": "Submit Color",
+            "btn_setRainbowColor": "Set Rainbow Color",
+            "lbl_submitting": "Submitting...",
+            "phr_color": "color",
             "txt_passwordChangeSubText": "Enter your current password and the new password",
             "txt_deleteAccountSubText": "Are you really sure? All of your account data will be permanently deleted",
             "txt_onIncorrectDeleteInputField": "Please make sure you typed correctly in the input field.",
@@ -57,10 +108,27 @@
             "hdr_myAccount": "Account Information",
             "tgl_enable2fa": "Add an extra layer of security with two-factor authentication (2FA).",
             "hdr_passwordAndAuthentication": "Password and Authentication",
-            "hdr_accountManagement": "Account Management"
+            "hdr_accountManagement": "Account Management",
+            "tgl_allowUsersToNotifyMe": "Toggle whether you get notifications when users @ a.k.a notify you, in a message.",
+            "btn_deleteAccount": "This will trigger the process to permanently delete your PianoRhythm account.",
+            "clickToHideEmail": "Click to hide email...",
+            "clickToRevealEmail": "Click to reveal email...",
+            "clickToUploadProfileImage": "Click to upload a profile image!"
           },
           "messages": {
-            "on2faDisable": "After disabling two-factor authentication, logging in to your account will require password-only protection. Do you wish to continue with disabling two-factor authentication?"
+            "on2faDisable": "After disabling two-factor authentication, logging in to your account will require password-only protection. Do you wish to continue with disabling two-factor authentication?",
+            "deleteAccountSuccess": "You've successfully deleted your account!<br><br>After this, your current session will end and you'll be directed to the login screen.",
+            "requestError": "Something went wrong with the request.",
+            "deleteAccountTitle": "Delete your account",
+            "deleteAccountIntro": "<p>We're sorry to see you go!</p><br><p>Please note that this process is final and there'll be no way to restore your account.</p><br><p>Any active subscriptions will also be canceled.</p>",
+            "deleteAccountCancel": "Never mind, keep my account",
+            "deleteAccountConfirm": "Delete my account",
+            "confirmationRequired": "Confirmation Required",
+            "typeDeleteToConfirm": "Type <b style='color:red'>DELETE</b> to confirm",
+            "accountDeletionTitle": "Account Deletion",
+            "enterPasswordPlaceholder": "enter password",
+            "confirmPasswordPlaceholder": "confirm password",
+            "bothFieldsValid": "Please make sure both fields are valid."
           }
         },
         "multiplayer": {
@@ -109,19 +177,67 @@
           "label": "Input",
           "elements": {
             "hdr_keyboardSettings": "Keyboard Settings",
+            "hdr_advanced": "Advanced",
+            "hdr_customizeLayoutKeys": "Customize Layout Keys",
+            "hdr_pressKeyCombo": "Press desired key combination",
+            "hdr_keyboardShortcutBinding": "Keyboard Shortcut Binding",
+            "hdr_customizeKeysOptions": "Customize Keys Options",
+            "hdr_layoutImport": "Layout Import",
+            "hdr_setOctave": "Set Octave",
             "lbl_pianoKeylayout": "Piano Keys Layout",
             "lbl_keyboardMaplayout": "Keyboard Map Layout",
+            "lbl_unassigned": "UNASSIGNED",
+            "lbl_warning": "Warning",
+            "lbl_none": "None",
             "drp_keyboards": "Keyboards",
             "lbl_shortcutBinds": "Shortcut Binds",
             "btn_openKeybinder": "Open Keybinder",
-            "tgl_keyboard_toggleyz": "Switch Y and Z keys"
+            "btn_clear": "Clear",
+            "btn_reset": "Reset",
+            "btn_options": "Options",
+            "btn_test": "Test",
+            "btn_stopTesting": "Stop Testing",
+            "btn_saveAndExit": "Save and Exit",
+            "btn_removeBinding": "Remove Binding",
+            "btn_resetToDefault": "Reset to Default",
+            "btn_applyChanges": "Apply Changes",
+            "btn_importLayoutFrom": "Import Layout from",
+            "btn_increase": "Increase +",
+            "btn_decrease": "Decrease -",
+            "btn_nahSorry": "Nah, sorry...",
+            "phr_searchCommands": "Search for commands...",
+            "col_command": "Command",
+            "col_keyBind": "Key Bind",
+            "tip_clickToEdit": "Click to edit",
+            "tip_clickToEditPrev": "Click to edit (previously: {{prev}})",
+            "tip_keyboardKeyCode": "Keyboard KeyCode: {{code}}",
+            "msg_bindingConflict": "There's already a command that shares the same binding",
+            "msg_resetLayoutConfirm": "Are you sure you want to reset the layout to what you had initially?",
+            "msg_clearMappingConfirm": "Are you sure you want to clear the current mapping?",
+            "msg_customKeysLayoutSaved": "Custom Keys Layout Saved!",
+            "msg_keyboardKeyHeader": "Keyboard Key: <b>{{key}}{{noteOutput}}</b> | {{highlight}}",
+            "msg_highlightedNote": "Highlighted (Note: {{note}} - Key: {{key}})",
+            "msg_octaveIncreased": "Mapped Keys Notes have been increased by one octave!",
+            "msg_octaveDecreased": "Mapped Keys Notes have been decreased by one octave!",
+            "msg_layoutImported": "Imported {{layout}} layout.",
+            "msg_changesSaved": "Changes saved!",
+            "msg_noCommandsFound": "No command(s) found...",
+            "tgl_keyboard_toggleyz": "Switch Y and Z keys",
+            "tgl_ctrlKeyLowersOctave": "Ctrl Key Lowers Octave",
+            "tgl_midiToVpQwertyLayout": "MIDI to VP/QWERTY Layout",
+            "tgl_useCapslockForMidiQwerty": "Use capslock instead of ctrl for MIDI to QWERTY Mod",
+            "tgl_shiftKeyNoteOff": "Shift Key Note Off"
           },
           "tooltips": {
             "hdr_keyboardSettings": "Set keyboard related settings.",
             "lbl_pianoKeylayout": "Set the keyboard piano layout for the piano.",
             "lbl_keyboardMaplayout": "Set the correct keyboard input mapping.",
             "lbl_shortcutBinds": "Create bindings to common shortcuts.",
-            "tgl_keyboard_toggleyz": "For certain keyboard layouts, switching the mapping of the Y and Z keyboards aligns more naturally."
+            "tgl_keyboard_toggleyz": "For certain keyboard layouts, switching the mapping of the Y and Z keyboards aligns more naturally.",
+            "tgl_ctrlKeyLowersOctave": "Pressing the Ctrl key will lower the octave of the notes played.<br /><br /><i style=\"color:gray\">Note: This feature is disabled when using the midi to qwerty converter layout for VP.</i>",
+            "tgl_midiToVpQwertyLayout": "Use a similar extended layout compared the midi to VP/qwerty converter tool.<img src=\"{{imagePath}}\"><br /><div style=\"color:gray\">Link to: <a href=\"https://arijanj.github.io/midi-converter/\" target=\"_blank\">MIDI to Virtual Piano Converter</a></div>",
+            "tgl_useCapslockForMidiQwerty": "This is to provide an alternative key because certain shortcuts in the browser may conflict with the default ctrl key binding. For example, ctrl + w closes the current tab in most browsers.",
+            "tgl_shiftKeyNoteOff": "TODO: Details"
           }
         }
       }
@@ -134,33 +250,144 @@
           "elements": {
             "hdr_engine": "Graphics Engine",
             "lbl_engine": "Engine",
-            "lbl_maxFPS": "Max FPS"
+            "lbl_maxFPS": "Max FPS",
+            "hdr_general": "General",
+            "hdr_renderingPipeline": "Rendering Pipeline",
+            "hdr_webGpu": "Web GPU",
+            "hdr_advanced": "Advanced",
+            "lbl_graphicsPreset": "Graphics Preset",
+            "phr_graphicsPreset": "Select a graphics preset...",
+            "lbl_graphicsRenderer": "3D Graphics Renderer",
+            "phr_graphicsRenderer": "Select a graphics renderer...",
+            "lbl_targetFPS": "Target FPS",
+            "phr_targetFPS": "Select a target FPS...",
+            "lbl_mirrorTextureSampleSize": "Mirror Texture Sample Size",
+            "phr_mirrorTextureSampleSize": "Select a sample Size...",
+            "lbl_msaaSamples": "MSAA Samples",
+            "phr_msaaSamples": "Select MSAA samples...",
+            "lbl_webglPowerPreference": "WEBGL Power Preference",
+            "phr_webglPowerPreference": "Select a power preference...",
+            "lbl_enginePerformancePriority": "Engine Performance Priority Mode",
+            "phr_enginePerformancePriority": "Select a performance mode...",
+            "tgl_enableGraphicsEngine": "Enable Graphics Engine",
+            "tgl_enableStage": "Enable Stage",
+            "tgl_enablePiano": "Enable Piano",
+            "tgl_enablePianoBench": "Enable Piano Bench",
+            "tgl_enableDrums": "Enable Drums",
+            "tgl_enableMotionBlur": "Enable Motion Blur",
+            "tgl_enableAntialiasing": "Enable Anti-aliasing",
+            "tgl_enableParticleSystem": "Enable Particle System",
+            "tgl_enableFog": "Enable Fog",
+            "tgl_enablePostProcessing": "Enable Post Processing",
+            "tgl_enableGlow": "Enable Glow",
+            "tgl_enablePianoKeysGlow": "Enable Piano Keys Glow",
+            "tgl_enableShadows": "Enable Shadows",
+            "tgl_enableSoftShadows": "Enable Soft Shadows",
+            "tgl_enableSpecialEffects": "Enable Special Effects",
+            "tgl_enableAutoAnimateCamera": "Enable Auto Animate Camera To Instruments",
+            "tgl_enableOrchestraModels": "Enable Orchestra Models",
+            "tgl_enableHDR": "Enable HDR",
+            "tgl_enableBloom": "Enable Bloom",
+            "tgl_enableToneMapping": "Enable Tone Mapping",
+            "tgl_enableDepthOfField": "Enable Depth Of Field",
+            "tgl_enableAmbientOcclusion": "Enable Screen Space - Ambient Occlusion",
+            "tgl_enableMirrorTextures": "Enable Mirror Textures",
+            "tgl_useWebGPU": "Use WebGPU",
+            "tgl_webgpuSnapshot": "WebGPU Snapshot Rendering",
+            "tgl_webgpuNonCompatMode": "WebGPU Non Compatibility Mode",
+            "tgl_enableOfflineStorage": "Enable Offline Storage",
+            "tgl_renderInBackground": "Enable Rendering Even in Background",
+            "tgl_useOffscreenCanvas": "Enable Offscreen Canvas",
+            "lbl_resetGraphicsSettings": "Graphics Settings"
           },
           "tooltips": {
             "lbl_engine": "Toggle between 2D, 3D, or no graphics engine.",
-            "lbl_maxFPS": "Select the max frame rate of the rendering engine."
+            "lbl_maxFPS": "Select the max frame rate of the rendering engine.",
+            "lbl_graphicsPreset": "Quickly switch between curated graphics quality presets. Choosing a preset will toggle multiple graphics options at once.<br/><br/><i>Selecting \"Custom\" indicates the current settings don't match any built-in preset.</i>",
+            "lbl_graphicsRenderer": "Select the graphics rendering engine.<br/><br/><i>The \"Bevy\" renderer is currently very experimental and may not have the same features as the \"Babylon.js\" renderer.</i><br/><br/><i>NOTE: Requires a reload to take effect.</i>",
+            "lbl_targetFPS": "Select the target FPS for the rendering engine.<br/><br/><i>NOTE: Requires a reload to take effect.</i>",
+            "lbl_mirrorTextureSampleSize": "The mirror texture sample size. The larger the size, the better the quality of the reflection.<br/><br/><i>NOTE: Requires a reload to take effect.</i>",
+            "lbl_msaaSamples": "Multisample anti-aliasing samples per pixel. Higher values produce smoother edges at the cost of GPU performance and memory bandwidth.<br/><br/><i>2x and 8x may not be supported on all devices; 4x is the safest choice on the web.</i>",
+            "lbl_webglPowerPreference": "Provides a hint to WebGL regarding the preferred power preference mode.<ul style='margin-top:10px; margin-left:5px'><li style='margin-bottom:10px'>When set to <b>Default</b>, the browser decides which GPU configuration is most suitable.</li><li style='margin-bottom:10px'>When set to <b>High Performance</b>, a GPU configuration that prioritizes rendering performance over power consumption is selected.</li><li style='margin-bottom:10px'>When set to <b>Low Power</b>, a GPU configuration that prioritizes power saving over rendering performance is selected.</li></ul><i>NOTE: Requires a reload to take effect.</i>",
+            "lbl_enginePerformancePriority": "Determines how the graphics scene will treat performance regarding backward compatibility and ease of use.<ul style='margin-top:10px; margin-left:5px'><li style='margin-bottom:10px'>When set to <b>BackwardCompatible</b>, there is simply no change. The scene will keep prioritizing ease of use and backward compatibility.</li><li style='margin-bottom:10px'>When set to <b>Intermediate</b>, some performance options will be turned on trying to strike a balance between perf and ease of use.</li><li style='margin-bottom:10px'>When set to <b>Aggressive</b>, performance will be top priority.</li></ul><i>NOTE: Requires a reload to take effect.</i><br/><br/><b>Source: </b><a href='https://doc.babylonjs.com/features/featuresDeepDive/scene/optimize_your_scene#performance-priority-modes' target='_blank'>Performance Priority Modes</a>",
+            "tgl_enableGraphicsEngine": "Toggle whether the graphics engine is initialized and used for rendering.<br/><br/><i>NOTE: Requires a reload to take effect.</i>",
+            "tgl_enableStage": "Enable/disable the main stage in the scene.",
+            "tgl_enablePiano": "Enable/disable showing the main piano in the scene.",
+            "tgl_enablePianoBench": "Enable/disable showing the piano bench in the scene.",
+            "tgl_enableDrums": "Enable/disable showing the drum set (only will show when there's activity in the drum channel) in the scene.",
+            "tgl_enableMotionBlur": "Motion blur is an effect used primarily in games where the surroundings appear blurry on the screen as the camera moves quickly through a particular area.",
+            "tgl_enableAntialiasing": "Defines whether MSAA (Multisample anti-aliasing) is enabled on the canvas. This is a technique used in computer graphics to remove jagged edges. Disabling this may improve performance.<br/><br/><i>NOTE: Requires a reload to take effect.</i>",
+            "tgl_enableParticleSystem": "A particle system is a collection of many many minute particles that together represent a fuzzy object.<br/><br/><i>NOTE: When disabled, the particles won't immediately dissipate until their life time is complete.</i>",
+            "tgl_enableFog": "Distance fog is a technique used in 3D computer graphics to enhance the perception of distance by shading distant objects differently.",
+            "tgl_enablePostProcessing": "Enable/disable post processing effects in the scene.",
+            "tgl_enableGlow": "Enable/disable glow effects on certain models.",
+            "tgl_enablePianoKeysGlow": "Adds a soft glow halo to the piano keys, independent of the main glow setting above. Useful for highlighting the keys without applying glow to the rest of the scene.",
+            "tgl_enableShadows": "Enable/disable shadows in the scene.",
+            "tgl_enableSoftShadows": "Enable/disable soft shadows in the scene.",
+            "tgl_enableSpecialEffects": "Enable/disable special effects (like rain) in the scene.",
+            "tgl_enableAutoAnimateCamera": "If enabled, the camera will animate and lock target with the instruments (camera, drums, etc) when you get close enough within range of them.",
+            "tgl_enableOrchestraModels": "Enable/disable other user models being shown in Orchestra mode.",
+            "tgl_enableHDR": "Enable High Dynamic Range rendering. Allows brighter highlights and richer colors beyond the standard [0,1] range, producing more realistic lighting at the cost of some performance.",
+            "tgl_enableBloom": "Adds a soft glow around bright areas of the scene to simulate the way real cameras and eyes respond to intense light. Looks best with HDR enabled.",
+            "tgl_enableToneMapping": "Maps high-dynamic-range color values into the displayable range with a filmic curve, preserving highlight and shadow detail. Recommended when HDR is enabled.",
+            "tgl_enableDepthOfField": "This is a predefined chain of postprocesses that helps achieving photograph-like realism.",
+            "tgl_enableAmbientOcclusion": "This is a rendering pipeline (chained post-processes) that will compute the ambient occlusion of a given scene from the screen space.<br/><br/>Technical definition: Ambient occlusion is a computer graphics technique that simulates how light falls on an object. It's a global lighting method that adds realism to models by controlling the attenuation of ambient light due to occluded areas.",
+            "tgl_enableMirrorTextures": "Mirror textures can be used to simulate the view from a mirror in a scene. It will dynamically be rendered every frame to adapt to the camera point of view. In this case, it used to show a reflection of the models, such as the piano, on the ground or other surfaces.<br/><br/><i>NOTE: Requires a reload to take effect.</i>",
+            "tgl_useWebGPU": "WebGPU is a new API for the web, which exposes modern hardware capabilities and allows rendering and computation operations on a GPU, similar to Direct3D 12, Metal, and Vulkan. Unlike the WebGL family of APIs, WebGPU offers access to more advanced GPU features and provides first-class support for general computations on the GPU.<br/><br/>The promise behind WebGPU is an exceptionally faster API provided through lower level control to system graphics resources from JavaScript. (Still experimental and some features may not work completely. May also not be suppported by many devices.)<br/><br/><i>NOTE: Requires a reload to take effect.</i>",
+            "tgl_webgpuSnapshot": "Snapshot rendering is a new rendering mode available starting with Babylon.js v5.0. Only WebGPU supports it: activating this mode in WebGL has no effect.<br/><br/>Note that the performance improvement is on the javascript side only: the GPU perf will be more or less the same with or without SR enabled.<br/><br/>The perf improvements can be quite large, especially when using the fast SR mode.<br/><br/><b>Source: </b><a href='https://doc.babylonjs.com/setup/support/webGPU/webGPUOptimization/webGPUSnapshotRendering' target='_blank'>WebGPU Snapshot Rendering</a>",
+            "tgl_webgpuNonCompatMode": "WebGPU can be run in a non compatibility mode (NCM - also called fast path) that can allow for better performances, depending on your scene.<br/><br/>The WebGPUEngine.compatibilityMode property is a switch which is true by default. In this mode, the WebGPU engine is in a full compatibility mode (CM) with WebGL, meaning all scenes that can be rendered with WebGL can also be rendered by WebGPU without any changes on your side.<br/><br/>When setting this property to false you switch to the non compatibility mode (NCM), allowing the engine to use another code path which may improve performances at the cost of some possible re-organisation of your code.<br/><br/><b>Source: </b><a href='https://doc.babylonjs.com/setup/support/webGPU/webGPUOptimization/webGPUNonCompatibilityMode' target='_blank'>WebGPU Non Compatibility Mode</a>",
+            "tgl_enableOfflineStorage": "Indicate that you want to cache some of the 3D scene resources associated with PianoRhythm inside the local IndexedDB of the browser. It can enhance the gamer experience as the JSON and textures files can be directly loaded from the database rather than from the web.",
+            "tgl_renderInBackground": "Gets or sets a boolean indicating if the engine must keep rendering, even if the window is not in foreground.<br/><br/><i>(Mostly applies when not using the offscreen canvas)</i>",
+            "tgl_useOffscreenCanvas": "\"The OffscreenCanvas interface provides a canvas that can be rendered off screen, decoupling the DOM and the Canvas API so that the canvas element is no longer entirely dependent on the DOM.\"<br/><br/><i>(More of a performance improvement)</i><br/><br/><i>NOTE: Requires a reload to take effect.</i>"
           }
         },
         "world": {
-          "label": "World"
+          "label": "World",
+          "elements": {
+            "hdr_general": "General",
+            "tgl_enable3dAvatars": "Enable 3D Avatars",
+            "tgl_enablePhysicsEngine": "Enable Physics Engine"
+          },
+          "tooltips": {
+            "tgl_enable3dAvatars": "Toggle whether 3D avatars should show up in the scene.<br><br><i>NOTE: Requires a reload to take effect.</i>",
+            "tgl_enablePhysicsEngine": "Toggle the game world's physics engine.<br><br><i>NOTE: Requires a reload to take effect.</i>"
+          }
         },
         "ui": {
           "label": "UI",
           "elements": {
             "hdr_displays": "Displays",
+            "hdr_general": "General",
+            "hdr_graphicsEngine": "Graphics Engine",
+            "hdr_chat": "Chat",
+            "hdr_notifications": "Notifications",
+            "hdr_sidebar": "SideBar",
+            "hdr_advanced": "Advanced",
+            "lbl_theme": "Theme",
+            "phr_theme": "Select a theme...",
             "tgl_fps": "Toggle FPS",
             "tgl_ping": "Toggle ping",
             "tgl_instDock": "Toggle instrument dock",
             "tgl_userCursors": "Toggle user cursors",
             "tgl_whoistyping": "Toggle WhoIsTyping",
-            "hdr_chat": "Chat",
             "tgle_displayChat": "Display chat messages",
             "tgle_keepChatInFocus": "Keep Chat in Focus",
             "sld_chatMsgsHeightOffset": "Chat Messages Height Offset",
             "sld_chatMsg2DOpacity": "Chat Messages Default Opacity (2D Mode)",
             "sld_chatMsg3DOpacity": "Chat Messages Default Opacity (3D Mode)",
             "tgl_display3DStats": "Display 3D Stats",
-            "tgle_showEmbeddedLinks": "Show Embedded Links"
+            "tgle_showEmbeddedLinks": "Show Embedded Links",
+            "tgl_autoHideBottomBar": "Auto hide bottom bar",
+            "tgl_displaySideWidgetButtons": "Display Side Widget Buttons",
+            "tgl_displayFps": "Display FPS",
+            "tgl_displayRenderStats": "Display Render Stats",
+            "tgl_autoScrollChat": "Always Auto Scroll Chat",
+            "tgl_enableUrlPreview": "Enable URL Preview",
+            "tgl_disableChatMarkdown": "Disable Chat MarkDown",
+            "tgl_enableDesktopNotifications": "Enable Desktop Notifications",
+            "tgl_enableUserNoteActivities": "Enable User Note Activities",
+            "tgl_warnExternalLinks": "Warn about opening external links",
+            "tgl_enableSynthNoteActivities": "Enable Synth Note Activities"
           },
           "tooltips": {
             "hdr_displays": "Toggle the displays of certain UI elements",
@@ -176,7 +403,19 @@
             "tgle_keepChatInFocus": "Toggle whether to keep the chat in focus after submitting a message",
             "sld_chatMsg2DOpacity": "Set the default opacity of the chat messages when it's unfocused. (2D mode)",
             "sld_chatMsg3DOpacity": "Set the default opacity of the chat messages when it's unfocused. (3D mode)",
-            "tgle_showEmbeddedLinks": "Toggle whether links show embedded objects such as images or videos of the associated link"
+            "tgle_showEmbeddedLinks": "Toggle whether links show embedded objects such as images or videos of the associated link",
+            "lbl_theme": "UI theme presets.",
+            "tgl_autoHideBottomBar": "Toggle whether the menu bottom bar auto hides, once the cursor leaves the area",
+            "tgl_displaySideWidgetButtons": "Display the side widget buttons (on the right). A lot of common actions (locking camera, stage effects, etc) will appear here.",
+            "tgl_displayFps": "Display the FPS (frames per second) counter of the scene.",
+            "tgl_displayRenderStats": "Display rendering statistics about the current scene.",
+            "tgl_autoScrollChat": "Always auto scroll to the bottom for new messages",
+            "tgl_enableUrlPreview": "Enable showing url previews using meta info from the site.",
+            "tgl_disableChatMarkdown": "Disable Markdown (text formatting/markup) in chat messages. <br><br><i>Note: Takes effect on next restart.</i>",
+            "tgl_enableDesktopNotifications": "Toggle whether PianoRhythm can emit desktop notifications to you in your system tray.<br><br><i>Note: You must have Notifications enabled in your browser in order for it to work.</i>",
+            "tgl_enableUserNoteActivities": "Enable seeing any note activities being reflected (like the user icon going up and down) on the user item in the sidebar.",
+            "tgl_warnExternalLinks": "If enabled, a popup will be displayed about warning you about opening external links in chat.",
+            "tgl_enableSynthNoteActivities": "Enable seeing any note activities being reflected in certain UI components like the channels flashing in the instrument dock."
           }
         },
         "blob": {
@@ -200,17 +439,61 @@
         "soundfont": {
           "label": "Soundfont",
           "messages": {
-            "soundfontLoading": "Please wait while the soundfont loads!"
+            "soundfontLoading": "Please wait while the soundfont loads!",
+            "loadDefaultError": "Load Default Soundfont Error",
+            "unknownError": "Unknown error",
+            "fileTooLarge": "File is too large! Max 2GB. <br/><br/> File: {{name}}",
+            "unknownSoundfontName": "Unknown-Soundfont-Name",
+            "noResults": "Something went wrong! No results were found. <br/><br/> File: {{name}}",
+            "readError": "Failed to read soundfont. <br/><br/> File: {{name}}",
+            "loadAborted": "Soundfont file load was aborted! <br/><br/> File: {{name}}",
+            "clearCacheTitle": "Clear Soundfonts Cache",
+            "clearCacheConfirmText": "Are you sure you want to clear the soundfonts that have been cached? This action is irreversible.",
+            "clearCacheSuccessText": "Soundfonts cache has been cleared.",
+            "clearCacheErrorHtml": "Something went wrong trying to clear the Soundfonts cache!<br><br><b>Please check the console error logs for more info.</b>"
           },
           "elements": {
             "hdr_generalSettings": "General Settings",
+            "hdr_general": "General",
+            "hdr_equalizer": "Equalizer",
+            "hdr_reverb": "Reverb",
+            "hdr_caching": "Caching",
+            "hdr_advanced": "Advanced",
             "lbl_audioEngine": "Audio Engine",
             "tgl_enableDrums": "Enable Drum Channel",
             "hdr_v3Audio": "V3 Audio",
             "lbl_soundfonts": "Soundfonts",
             "lbl_initalBuffersize": "Initial Buffersize",
             "tgl_showDebuglogs": "Show Debug performance logs",
-            "tgl_useAudioWorklet": "Use AudioWorklet"
+            "tgl_useAudioWorklet": "Use AudioWorklet",
+            "lbl_size": "Size",
+            "lbl_custom": "Custom",
+            "opt_loadCustomSoundfont": "-- Load Custom Soundfont --",
+            "opt_loadCustomSfzSoundfont": "-- Load Custom SFZ Soundfont --",
+            "lbl_mainSoundfont": "Main Soundfont",
+            "phr_mainSoundfont": "Choose a soundfont...",
+            "btn_loadCustomSoundfont": "Load Custom Soundfont",
+            "btn_loadDefaultSoundfont": "Load Default Soundfont",
+            "lbl_audioSynthesizer": "Audio Synthesizer",
+            "phr_audioSynthesizer": "Select an synthesizer",
+            "lbl_audioSampleRate": "Audio Sample Rate",
+            "phr_audioSampleRate": "Select a sample rate...",
+            "sld_maxPolyphony": "max polyphony",
+            "sld_maxNoteOnTime": "max note on time",
+            "btn_openEqualizerSettings": "Open Equalizer Settings",
+            "tgl_enableReverb": "Enable Audio Reverb",
+            "btn_openReverbSettings": "Open Reverb Settings",
+            "tgl_cacheSoundfonts": "Cache Soundfonts Locally",
+            "btn_clearSoundfontsCache": "Clear Soundfonts Cache",
+            "lbl_interpolationMethod": "Interpolation Method",
+            "phr_interpolationMethod": "Select an interpolation method...",
+            "opt_interpNone": "Fastest, but questionable audio quality.",
+            "opt_interpLinear": "A bit slower, reasonable audio quality.",
+            "opt_interpFourthOrder": "Requires 50% of the whole DSP processing time, good quality (default)",
+            "opt_interpSeventhOrder": "Consumes more processing time but has highest quality.",
+            "lbl_resetSoundfontSettings": "Soundfont Settings",
+            "lbl_audioDevices": "Audio Devices",
+            "phr_audioDevices": "Select a device"
           },
           "tooltips": {
             "lbl_audioEngine": "Select the default audio engine. <br> (Takes effect on next restart)",
@@ -219,7 +502,18 @@
             "lbl_soundfonts": "Select the default soundfont",
             "lbl_initalBuffersize": "Explanation coming soon. (Takes effect on next restart)",
             "tgl_showDebuglogs": "When enabled, this will output performance logs to the console",
-            "tgl_useAudioWorklet": "When enabled, this will load V3's audio engine into a separate thread in a an audio worklet process. <br> Should improve performance. (Takes effect on app restart)"
+            "tgl_useAudioWorklet": "If enabled, the audio engine will use the AudioWorklet API for audio processing. This introduces some slight input latency but should provide better audio quality and stability.<br/><br/><i>NOTE: Requires a reload to take effect.</i>",
+            "btn_loadCustomSoundfont": "Click to load your own soundfont located on your machine.",
+            "btn_loadDefaultSoundfont": "Click to load the default soundfont.",
+            "lbl_audioSynthesizer": "The target audio synthesizer. If a soundfont doesn't sound proper, here's where you can try switching to a different synthesizer.<br><br><i>Certain synthesizers may be experimental or not be fully featured. Use at your own discretion.</i><br><br><i>NOTE: Requires a reload to take effect.</i>",
+            "lbl_audioSampleRate": "By default (AUTO), the AudioContext will pick a sample rate that matches the underlying device.<br/><br/>In developing an audio sound for computers or telecommunication, the sample rate is the number of samples of a sound that are taken per second to represent the event digitally. The more samples taken per second, the more accurate the digital representation of the sound can be.<br><br><i>NOTE: Requires a reload to take effect.</i>",
+            "sld_maxPolyphony": "Determines the max amount of distinct notes the audio engine can play at one time.",
+            "sld_maxNoteOnTime": "Determines the max amount of time (in seconds) that a sound can last, while a key is pressed.",
+            "tgl_enableReverb": "Enable audio reverb. Reverb is the persistence of sound after a sound is produced.",
+            "tgl_cacheSoundfonts": "Determines whether soundfonts loaded from PianoRhythm's cloud should be saved locally on your machine. This should help reduce load times.",
+            "btn_clearSoundfontsCache": "This will clear your cache. If you're on the web client, it will clear up the soundfonts stored in IndexedDB. If you're on desktop, it will clear the cached soundfonts saved in the app's data folder.",
+            "lbl_interpolationMethod": "Synthesis interpolation method. If you are experiencing any weird issues with certain soundfonts, messing around with this setting may help.",
+            "lbl_audioDevices": "The target audio device.<br><br><i>NOTE: Requires a reload to take effect.</i>"
           }
         },
         "effects": {
@@ -228,10 +522,38 @@
         "bgMusic": {
           "label": "BG Music"
         },
+        "bgmusic": {
+          "label": "BG Music",
+          "elements": {
+            "hdr_general": "General",
+            "tgl_enableBgMusic": "Enable Background Music"
+          },
+          "tooltips": {
+            "tgl_enableBgMusic": "If enabled, background piano music will play during certain screens."
+          }
+        },
+        "soundeffects": {
+          "label": "Sound Effects",
+          "elements": {
+            "hdr_general": "General",
+            "hdr_advanced": "Advanced",
+            "tgl_enableSoundEffects": "Enable Sound Effects",
+            "tgl_enableChatSoundEffects": "Enable Chat Sound Effects",
+            "sld_stageEffectsVolume": "Stage Effects Volume",
+            "lbl_resetSoundEffectsSettings": "Sound Effects Settings"
+          },
+          "tooltips": {
+            "tgl_enableSoundEffects": "If enabled, sound effects will be emitted throughout certain UI elements.",
+            "tgl_enableChatSoundEffects": "If enabled, sound effects will be emitted for related chat UI elements.",
+            "sld_stageEffectsVolume": "Determines the global volume for stage sound effects."
+          }
+        },
         "midi": {
           "label": "Midi",
           "elements": {
             "hdr_inputOutput": "Input / Output",
+            "hdr_general": "General",
+            "hdr_multiplayer": "Multiplayer",
             "lbl_enableAudioToOutput": "Enable audio to output only",
             "hrd_generalEffects": "General Effects",
             "tgl_mousePosVelocity": "Mouse position determines velocity",
@@ -246,7 +568,12 @@
             "tgl_listenToProgramChanges": "Listen to Program Changes",
             "tgl_autoFillEmptyChannels": "Auto Fill Empty Channels",
             "tgl_useDefaultBankWhenMissing": "Use Default Bank When Missing",
-            "tgl_enableStereoPanning": "Enable Stereo Panning"
+            "tgl_enableStereoPanning": "Enable Stereo Panning",
+            "sld_maxVelocity": "max velocity",
+            "sld_minVelocity": "min velocity",
+            "sld_maxMultiModeChannels": "max multi mode channels",
+            "tgl_outputOwnNotes": "Output own notes to MIDI Outputs",
+            "sld_globalUserVelocityPct": "Global User Velocity Percentage"
           },
           "tooltips": {
             "lbl_enableAudioToOutput": "If checked and any output devices are active, then audio will only be emitted to the output device and not within PianoRhythm's audio engine",
@@ -261,7 +588,12 @@
             "tgl_listenToProgramChanges": "Toggle whether PianoRhythm should listen to midi program change events and update the instrument dock, accordingly.",
             "tgl_autoFillEmptyChannels": "Toggle whether empty channels in the instrument dock should be autofilled with the default instrument when a note on event occurs.",
             "tgl_useDefaultBankWhenMissing": "Toggle whether to use the default bank (usually bank 0) when a soundfont does not have a particular bank.",
-            "tgl_enableStereoPanning": "Toggle whether the audio engine supports panning the audio stream left or right. <br><br>So, the sound position of the notes will be relative to their position on the piano. <br><br>For example, notes closer to the right will be heard more so on the right speaker. Same goes for the left and those near the middle will be distributed across both speakers."
+            "tgl_enableStereoPanning": "Toggle whether the audio engine supports panning the audio stream left or right. <br><br>So, the sound position of the notes will be relative to their position on the piano. <br><br>For example, notes closer to the right will be heard more so on the right speaker. Same goes for the left and those near the middle will be distributed across both speakers.",
+            "sld_maxVelocity": "Determines the max velocity of your midi notes.",
+            "sld_minVelocity": "Determines the minimum velocity of your midi notes.",
+            "sld_maxMultiModeChannels": "Determines the max amount channels to enable during multi mode.",
+            "tgl_outputOwnNotes": "If enabled, your own notes will be emitted to your MIDI Output devices.",
+            "sld_globalUserVelocityPct": "This controls the global total percentage of the raw velocity values that users emit onto your client."
           }
         }
       }
@@ -282,11 +614,27 @@
       "buttons": {
         "checkout": "Checkout with Stripe",
         "cancelSubscription": "Cancel Subscription",
-        "cancellation_InProcess": "Resume subscription with Stripe"
+        "cancellation_InProcess": "Resume subscription with Stripe",
+        "selected": "Selected",
+        "subscribe": "Click here to Subscribe!",
+        "confirmYes": "Yes!",
+        "nevermind": "Uh, nevermind...",
+        "cancelCheckoutSession": "Cancel Checkout Session"
       },
       "labels": {
         "billingInfo": "Billing Information",
-        "cancelSubscription": "Cancel Subscription"
+        "cancelSubscription": "Cancel Subscription",
+        "savePercent": "Save {{pct}}%",
+        "year": "year",
+        "month": "month",
+        "monthly": "Monthly",
+        "annually": "Annually"
+      },
+      "titles": {
+        "subscriptionUpdated": "Subscription Updated",
+        "subscriptionCanceled": "Subscription Canceled",
+        "checkOut": "Check Out",
+        "checkOutSession": "Check Out Session"
       },
       "messages": {
         "checkout_Created": "A new tab has been opened. Continue checkout there!",
@@ -300,7 +648,10 @@
         "cancellation_InProcess": "Your current subscription has been <b>canceled</b> and therefore, will not be auto renewed. </b> However, you will still have your benefits until <b style=\"color:white;\">{{billingDate}}</b>.",
         "autoRenewInfo": "Your subscription will automatically renew on <b style=\"color:white;\">{{billingDate}}</b> and you'll be charged <b style=\"color:white;\">{{currencyText}}.</b>",
         "cancellation_Confirm": "We're sorry to see you go, {{username}}!. </br> Your pro plan subscription is paid until <b>{{planBillingDate}}</b>. </br></br>If you would like to proceed with canceling your subscription, please select <b>\"Cancel Subscription\"</b> below.",
-        "cancellation_Success": "You've successfully canceled your subscription."
+        "cancellation_Success": "You've successfully canceled your subscription.",
+        "alreadySubscribed": "Sorry, looks like you're already subscribed to that plan.",
+        "checkoutFailed": "Sorry, something went wrong. Failed to check out.",
+        "mustBeMember": "🛑 You must be a member to access this page. Please login!"
       }
     },
     "other": {

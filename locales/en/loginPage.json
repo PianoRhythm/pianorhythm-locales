@@ -1,6 +1,38 @@
 {
   "connectionStatus": "Status",
   "playersOnline": "Players Online",
+  "homeMeta": {
+    "offline": "offline",
+    "platform_web": "(web) ",
+    "platform_desktop": "(desktop) ",
+    "clientVersion": "Client Version",
+    "beta": "(BETA)",
+    "buildDate": "Build Date",
+    "stagingEnvironment": "Staging Environment",
+    "developmentBuild": "Development Build | Mode: {{mode}}"
+  },
+  "downloadApp": {
+    "downloadDesktop": "Download PianoRhythm Desktop",
+    "showDownloads": "Show Downloads...",
+    "modalTitle": "PianoRhythm Downloads",
+    "warning": "Please note that the Windows and Linux installers are not currently code-signed or notarized; you may encounter a security warning upon installation, which you can safely bypass to proceed with the setup. This will eventually be resolved.",
+    "table": {
+      "file": "File",
+      "version": "Version",
+      "arch": "Arch",
+      "size": "Size",
+      "released": "Released"
+    },
+    "confirmDownload": {
+      "html": "<p>Are you sure you want to download this file?</p><br/><b>{{fileName}}</b>",
+      "cancel": "Nah, sorry...",
+      "confirm": "Yes!"
+    },
+    "errors": {
+      "fetchTitle": "Fetch Failed",
+      "fetchDescription": "Failed to get the list of downloads..."
+    }
+  },
   "hrefs": {
     "createAccount": "Create an account.",
     "forgotPassword": "Forgot password?",
