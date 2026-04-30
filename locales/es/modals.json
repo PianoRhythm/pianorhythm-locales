@@ -1,1 +1,156 @@
-{}
+{
+  "common": {
+    "pleaseWait": "Por favor espera..."
+  },
+  "newRoom": {
+    "menu": {
+      "header": "Menú"
+    },
+    "headings": {
+      "general": "General",
+      "description": "Descripción",
+      "roomStage": "Escenario de la sala",
+      "roomMode": "Modo de la sala",
+      "welcomeMessage": "Mensaje de bienvenida",
+      "advancedSettings": "Configuración avanzada",
+      "maxPlayers": "Máximo de jugadores",
+      "other": "Otros"
+    },
+    "placeholders": {
+      "name": "nombre",
+      "description": "Escribe la descripción de la sala aquí...",
+      "roomStage": "Selecciona un escenario para la sala",
+      "roomMode": "Selecciona un modo de sala",
+      "welcomeMessage": "Escribe un mensaje de bienvenida aquí..."
+    },
+    "tooltips": {
+      "generateRoomName": "Haz clic para generar un nombre de sala nuevo",
+      "makeRoomPrivate": "Hacer una sala privada la ocultará de la lista global de salas.",
+      "description": "Una breve descripción que explica qué es tu sala sobre",
+      "roomStage": "Selecciona un escenario 3D predefinido para tu sala. (Desactivado en modo 2D)",
+      "roomMode_line1": "Selecciona una variedad de modos.",
+      "roomMode_line2": "Desde tocar el piano con amigos hasta jugar juegos diferentes.",
+      "welcomeMessage_line1": "(Opcional) Configurar el mensaje de bienvenida para cuando los usuarios entran a tu sala.",
+      "welcomeMessage_line2_pre": "El ",
+      "welcomeMessage_line2_post": " es un token especial que será reemplazado con el nombre del usuario que entra a tu sala."
+    },
+    "labels": {
+      "rememberLastSettings": "Recordar última configuración"
+    },
+    "actions": {
+      "createRoom": "Crear sala",
+      "updateRoom": "Actualizar sala",
+      "resetToDefault": "Restablecer a predeterminado"
+    },
+    "errors": {
+      "failedToCreate": "Falló al crear la sala",
+      "failedToUpdate": "Falló al actualizar la sala",
+      "createRoomFailedDesc": "Algo salió mal al intentar crear la sala. Por favor intenta más tarde...",
+      "updateRoomFailedDesc": "Algo salió mal al intentar actualizar la sala. Por favor intenta más tarde...",
+      "validationErrorTitle": "Error de validación",
+      "validationErrorDescription": "Por favor revisa el formulario en busca de errores."
+    }
+  },
+  "instrumentSelection": {
+    "title": "Selección de Instrumentos",
+    "searchPlaceholder": "Buscar instrumentos...",
+    "columns": {
+      "name": "Nombre",
+      "bank": "Banco",
+      "program": "Programa"
+    },
+    "noResults": "No se encontraron comandos..."
+  },
+  "audioSamples": {
+    "title": "Muestras de Audio",
+    "columns": {
+      "category": "Categoría"
+    },
+    "noResults": "No se encontraron muestras...",
+    "unknownCategory": "Desconocido"
+  },
+  "enterPassword": {
+    "headerPrefix": "Introducir contraseña para",
+    "inputPlaceholder": "Introduce la contraseña de la sala...",
+    "cancelConfirm": {
+      "html": "¿Estás seguro de que quieres cancelar intentar introducir la contraseña de esta sala? De lo contrario, serás dirigido a la siguiente sala disponible.",
+      "cancel": "Nah, lo intentaré de nuevo.",
+      "confirm": "¡Sí!"
+    }
+  },
+  "credits": {
+    "title": "Créditos",
+    "fetchFailed": "Falló al obtener créditos..."
+  },
+  "docs": {
+    "title": "Documentación"
+  },
+  "leaderboard": {
+    "title": "Análisis / Clasificaciones"
+  },
+  "imageUploader": {
+    "chooseImage": "Elegir imagen",
+    "errors": {
+      "fileSizeExceeds": "El tamaño del archivo excede el límite máximo de: {{limit}}",
+      "tryDifferentFile": "Por favor intenta un archivo diferente."
+    }
+  },
+  "midiMusicUpload": {
+    "headerPrefix": "Música MIDI",
+    "newUpload": "Nueva subida",
+    "unsavedChanges": "Tienes cambios sin guardar. ¿Estás seguro de que quieres cerrar?",
+    "fields": {
+      "title": "Título",
+      "artist": "Artista",
+      "album": "Álbum",
+      "description": "Descripción",
+      "tags": "Etiquetas",
+      "difficulty": "Dificultad",
+      "privacyLevel": "Nivel de privacidad"
+    },
+    "placeholders": {
+      "title": "título",
+      "artist": "artista original",
+      "album": "álbum del artista original",
+      "tags": "Elige algunas etiquetas...",
+      "difficulty": "Elige una dificultad apropiada...",
+      "privacyLevel": "Elige un nivel de privacidad"
+    },
+    "submitMessages": {
+      "reapprove": "Tus cambios tendrán que ser re-aprobados después de enviar.",
+      "modAutoSubmit": "Tus cambios se enviarán una vez hagas clic en OK!",
+      "pendingApproval": "Tu subida tendrá que ser aprobada antes de aparecer en la lista pública.",
+      "success": "¡Éxito!",
+      "uploadFailed": "Oh, lo siento. Falló al subir el MIDI!<br><br><b>Error: {{error}} </b><br><br>Por favor intenta de nuevo."
+    }
+  },
+  "genericRepo": {
+    "badges": {
+      "views": "Vistas",
+      "favorites": "Favoritos"
+    },
+    "contextMenu": {
+      "id": "ID",
+      "title": "Título"
+    },
+    "bulkProcess": {
+      "confirmHtml": "De los <b>{{total}}</b> elementos seleccionados, solo <b style=\"color:lightgreen\">{{process}}</b> serán procesados.<br><br><b>¿Continuar?</b>",
+      "confirm": "¡Sí!",
+      "resultsSuffix": "Resultados",
+      "resultsHtml": "De los <b>{{total}}</b> elementos procesados, <b style=\"color:lightgreen\">{{success}}</b> fueron exitosos!"
+    },
+    "titles": {
+      "approveMultiple": "Aprobar múltiples elementos",
+      "disapproveMultiple": "Desaprobar múltiples elementos",
+      "deleteMultiple": "Eliminar múltiples elementos"
+    },
+    "actions": {
+      "approve": "Aprobar",
+      "disapprove": "Desaprobar",
+      "delete": "Eliminar",
+      "upload": "Subir",
+      "openViewer": "Abrir visualizador"
+    },
+    "itemsSelected": "{{count}} elemento(s) seleccionado(s)"
+  }
+}

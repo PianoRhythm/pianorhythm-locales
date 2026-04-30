@@ -1,1 +1,73 @@
-{}
+{
+  "songEditor": {
+    "title": "节拍编辑器",
+    "tabs": {
+      "info": "信息",
+      "meta": "元数据",
+      "game": "游戏",
+      "notes": "音符",
+      "score": "成绩"
+    },
+    "headers": {
+      "general": "通用",
+      "audio": "音频",
+      "midi": "Midi",
+      "settings": "设置"
+    },
+    "fields": {
+      "title": "标题",
+      "midiUrl": "Midi URL",
+      "audioType": "音频类型",
+      "youtubeId": "YouTube ID",
+      "audioUrl": "音频 URL",
+      "startTime": "开始时间",
+      "playbackRate": "播放速率",
+      "volume": "音量",
+      "scrollSpeed": "滚动速度",
+      "time": "时间",
+      "note": "音符",
+      "midi": "Midi"
+    },
+    "placeholders": {
+      "midiUrlOptional": "Midi URL（可选）",
+      "startTimeOptional": "开始时间（可选）",
+      "audioPlaybackRateOptional": "音频播放速率（可选）",
+      "audioVolumeOptional": "音频音量（可选）",
+      "midiPlaybackRateOptional": "Midi 播放速率（可选）",
+      "noteScrollSpeed": "音符滚动速度",
+      "activeTime": "活动时间",
+      "timeInterval": "时间间隔"
+    },
+    "tooltips": {
+      "midiUrl": "指向 Midi 资源的 URL。",
+      "audioUrl": "指向音频资源的 URL。可以是 mp3 文件或 YouTube 视频的直接链接。",
+      "youtubeId_line1": "YouTube 视频 ID。",
+      "youtubeId_line2_pre": "例如，从这个 url： ",
+      "youtubeId_line3_pre": "ID 会是 ",
+      "transcribeAudio": "使用机器学习将音频转换为 midi！",
+      "loadScene": "从 Midi URL 输入框中提供的 URL 加载 midi 数据。"
+    },
+    "actions": {
+      "undo": "撤销",
+      "redo": "重做",
+      "midiIO": "Midi I/O",
+      "restart": "重启",
+      "test": "测试",
+      "publish": "发布",
+      "transcribeAudio": "将音频转录为 MIDI",
+      "loadScene": "加载场景",
+      "changeSheet": "更改乐谱",
+      "update": "更新",
+      "duplicate": "复制",
+      "clear": "清除"
+    },
+    "score": {
+      "type": "类型",
+      "total": "总计"
+    },
+    "editNote": {
+      "header": "编辑音符",
+      "notePrefix": "音符"
+    }
+  }
+}

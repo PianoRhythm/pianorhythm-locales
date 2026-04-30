@@ -1,9 +1,27 @@
 {
   "messages": {
-    "audioSettingNotSupportedV3": "Nota: actualmente, la mayoría de las configuraciones de audio no se aplican al v3",
-    "changeWillTakeEffectOnNextRestart": "Los cambios tendrán efecto en el próximo reinicio.",
+    "audioSettingNotSupportedV3": "Nota: actualmente, la mayoría de configuraciones de audio no son aplicables a v3",
+    "changeWillTakeEffectOnNextRestart": "Los cambios tendrán efecto al próximo reinicio.",
     "changesSaved": "Cambios guardados.",
-    "userColorUpdated": "¡Has actualizado con éxito tu color de usuario!"
+    "userColorUpdated": "¡Has actualizado con éxito tu color de usuario!",
+    "noContentAvailable": "No hay contenido disponible aún.",
+    "failedToLoadContent": "Falló al cargar contenido..."
+  },
+  "badges": {
+    "new": "Nuevo"
+  },
+  "search": {
+    "placeholder": "Buscar",
+    "clear": "Limpiar búsqueda"
+  },
+  "resetSettings": {
+    "header": "Restablecer configuración",
+    "buttonLabel": "Restablecer configuración a predeterminado",
+    "tooltip": "Haz clic para restablecer todos tus {{name}} a los predeterminados.",
+    "confirmTitle": "Restablecer configuración",
+    "confirmHtml": "¿Estás seguro de que quieres restablecer tu <b>{{name}}</b> al predeterminado? ¡Esta acción es irreversible!",
+    "successTitle": "Restablecer configuración",
+    "successHtml": "<b>{{name}}</b> ahora están configurados como predeterminado. Puede tener que recargar la aplicación para reflejar ciertos cambios."
   },
   "menus": {
     "general": {
@@ -12,19 +30,47 @@
         "language": {
           "label": "Idioma",
           "elements": {
-            "lbl_languageSelect": "Selección de idioma"
+            "lbl_languageSelect": "Selección de idioma",
+            "hdr_contributing": "Contribuyendo",
+            "hdr_selectLanguage": "Seleccionar un idioma",
+            "btn_openContributionGuide": "Abrir guía de contribución"
           },
           "tooltips": {
-            "lbl_languageSelect": "Configura el idioma predeterminado para PianoRhythm."
+            "lbl_languageSelect": "Establecer el idioma predeterminado para PianoRhythm."
           }
         },
         "application": {
-          "label": "Solicitud",
+          "label": "Aplicación",
           "elements": {
             "hdr_applicationSettings": "Configuraciones de la aplicación",
-            "lbl_resetSettingsModalTitleText": "Restablecer la configuración a los valores predeterminados",
-            "lbl_resetSettingsModalBodyText": "<b>¿Seguro que quieres hacer esto?</b><br><br><p> Restablecerá todas sus configuraciones a los valores predeterminados, no se puede deshacer.</p>",
-            "btn_resetSettings": "Reiniciar ajustes"
+            "hdr_general": "General",
+            "hdr_advanced": "Avanzado",
+            "lbl_resetSettingsModalTitleText": "Restablecer configuración a predeterminado",
+            "lbl_resetSettingsModalBodyText": "<b>¿Estás seguro de que quieres hacer esto?</b> <br><br><p>Esto restablecerá todas tus configuraciones a los valores predeterminados y no puede ser deshacer.</p>",
+            "btn_resetSettings": "Restablecer configuración",
+            "tgl_checkForUpdates": "Buscar actualizaciones",
+            "tgl_enableDebugMode": "Habilitar modo depuración",
+            "btn_openCookieManagement": "Abrir gestión de cookies",
+            "btn_exportLogFile": "Exportar archivo de registro",
+            "btn_openAppDataFolder": "Abrir carpeta de datos de la aplicación"
+          },
+          "tooltips": {
+            "tgl_checkForUpdates": "Si la aplicación debe buscar actualizaciones periódicamente.",
+            "tgl_enableDebugMode": "Pone PianoRhythm en un tipo de modo de depuración. El registro debería ser algo más detallado y ciertas funciones deberían/sirven ser más amigables con la depuración.",
+            "btn_openCookieManagement": "Haz clic para gestionar tus preferencias de cookies.",
+            "btn_exportLogFile": "Haz clic para elegir una ubicación para el archivo de registro de PianoRhythm.",
+            "btn_openAppDataFolder": "Haz clic para abrir la carpeta de datos de la aplicación de PianoRhythm."
+          },
+          "messages": {
+            "noLogFile": "Lo sentimos, no hay archivo de registro para exportar en este momento. Por favor intenta más tarde.",
+            "saveLogTitle": "Guardar archivo de registro de PianoRhythm",
+            "logFilesFilter": "Archivos de registro",
+            "logExportSuccess": "El archivo de registro ha sido exportado con éxito.",
+            "logExportError": "Algo salió mal al intentar exportar el archivo de registro. Por favor verifica los registros de la consola para más detalles.",
+            "appDataFolderError": "Algo salió mal al intentar abrir la carpeta de datos de la aplicación. Por favor verifica los registros de la consola para más detalles.",
+            "resetAllConfirmText": "¿Estás seguro de que quieres restablecer tu configuración a los valores predeterminados? Esta acción es irreversible!",
+            "resetAllSuccessText": "Las configuraciones ahora están en los valores predeterminados. Puede tener que recargar la aplicación para reflejar ciertos cambios.",
+            "reloadButton": "Recargar"
           }
         }
       }
@@ -36,87 +82,162 @@
           "label": "Mi cuenta",
           "elements": {
             "hdr_myAccount": "Mi cuenta",
-            "hdr_passwordAndAuthentication": "Contraseña y Autenticación",
-            "hdr_accountManagement": "Administración de cuentas",
+            "hdr_passwordAndAuthentication": "Contraseña y autenticación",
+            "hdr_accountManagement": "Gestión de cuentas",
             "hdr_security": "Seguridad",
-            "tgl_enable2fa": "Autenticación de dos pasos",
-            "btn_changePassword": "Cambia la contraseña",
-            "btn_deleteAccount": "Borrar la cuenta",
-            "txt_passwordChangeSubText": "Entra tu contraseña actual y despues la nueva contraseña",
-            "txt_deleteAccountSubText": "¿Estas seguro? Todos los datos de tu cuenta se eliminarán de forma permanente.",
-            "txt_onIncorrectDeleteInputField": "Por favor, asegúrese de haber escrito correctamente en el campo de entrada.",
-            "txt_confirmPasswordSubText": "Por favor entra y confirma tu contraseña",
-            "txt_emailChangeSubText": "Introduzca la nueva dirección de correo electrónico y tu contraseña"
+            "hdr_advanced": "Avanzado",
+            "hdr_generalSection": "General",
+            "hdr_emailNotifications": "Notificaciones por correo electrónico",
+            "hdr_profileColor": "Color del perfil",
+            "tgl_enable2fa": "Autenticación de dos factores",
+            "tgl_allowUsersToNotifyMe": "Permitir que usuarios me notifiquen",
+            "btn_changePassword": "Cambiar contraseña",
+            "btn_deleteAccount": "Eliminar cuenta",
+            "btn_userColorReset": "Restablecer color",
+            "btn_userColorSubmit": "Enviar color",
+            "btn_setRainbowColor": "Establecer color arcoíris",
+            "lbl_submitting": "Enviando...",
+            "phr_color": "color",
+            "txt_passwordChangeSubText": "Introduce tu contraseña actual y la nueva contraseña",
+            "txt_deleteAccountSubText": "¿Estás realmente seguro? Todos los datos de tu cuenta se eliminarán permanentemente",
+            "txt_onIncorrectDeleteInputField": "Por favor asegúrate de haber escrito correctamente en el campo de entrada.",
+            "txt_confirmPasswordSubText": "Por favor introduce y confirma tu contraseña",
+            "txt_emailChangeSubText": "Introduce la nueva dirección de correo electrónico y tu contraseña"
           },
           "tooltips": {
-            "hdr_myAccount": "Información de la cuenta",
-            "tgl_enable2fa": "Agregua seguridad adicional con la autenticación de dos pasos (2FA).",
+            "hdr_myAccount": "Información de cuenta",
+            "tgl_enable2fa": "Agrega una capa extra de seguridad con autenticación de dos factores (2FA).",
             "hdr_passwordAndAuthentication": "Contraseña y Autenticación",
-            "hdr_accountManagement": "Administración de cuentas"
+            "hdr_accountManagement": "Gestión de cuentas",
+            "tgl_allowUsersToNotifyMe": "Alternar si recibes notificaciones cuando usuarios @ menciona notifican, en un mensaje.",
+            "btn_deleteAccount": "Esto iniciará el proceso para eliminar permanentemente tu cuenta de PianoRhythm.",
+            "clickToHideEmail": "Haz clic para ocultar correo...",
+            "clickToRevealEmail": "Haz clic para revelar correo...",
+            "clickToUploadProfileImage": "Haz clic para subir una imagen de perfil!"
           },
           "messages": {
-            "on2faDisable": "Después de deshabilitar la autenticación de dos pasos, al iniciar tu sesión, solo requerirá entrar la contraseña. ¿Desea continuar con la desactivación de la autenticación de dos pasos?"
+            "on2faDisable": "Después de deshabilitar la autenticación de dos factores, iniciar sesión en tu cuenta requerirá protección solo por contraseña. ¿Desea continuar con la desactivación de la autenticación de dos factores?",
+            "deleteAccountSuccess": "¡Has eliminado con éxito tu cuenta!<br><br>Después de esto, tu sesión actual finalizará y serás dirigido a la pantalla de inicio de sesión.",
+            "requestError": "Algo salió mal con la solicitud.",
+            "deleteAccountTitle": "Eliminar tu cuenta",
+            "deleteAccountIntro": "<p>Lamentamos que te vayas!</p><br><p>Tenga en cuenta que este proceso es final y no habrá forma de restaurar tu cuenta.</p><br><p>Cualquier suscripción activa también se cancelará.</p>",
+            "deleteAccountCancel": "Nada más, mantener mi cuenta",
+            "deleteAccountConfirm": "Eliminar mi cuenta",
+            "confirmationRequired": "Confirmación requerida",
+            "typeDeleteToConfirm": "Escribe <b style='color:red'>ELIMINAR</b> para confirmar",
+            "accountDeletionTitle": "Eliminación de cuenta",
+            "enterPasswordPlaceholder": "introduce contraseña",
+            "confirmPasswordPlaceholder": "confirma contraseña",
+            "bothFieldsValid": "Por favor asegúrate de que ambos campos son válidos."
           }
         },
         "multiplayer": {
-          "label": "multijugador",
+          "label": "Multijugador",
           "elements": {
             "hdr_multiplayerSettings": "Configuración multijugador",
-            "lbl_userColor": "Color del usuario",
-            "btn_userColorReset": "Restablecer el color",
-            "btn_userColorSubmit": "Enviar el color",
+            "lbl_userColor": "Color de usuario",
+            "btn_userColorReset": "Restablecer color",
+            "btn_userColorSubmit": "Enviar color",
             "tgl_showMyCursor": "Mostrar mi cursor",
             "tgl_sendWhoistyping": "Enviar WhoIsTyping",
-            "tgl_disableWhispers": "Deshabilitar murmullos",
+            "tgl_disableWhispers": "Deshabilitar susurros",
             "hdr_notifications": "Notificaciones",
-            "tgl_friendsOnlineStatus": "Estatus online de tús amigos",
-            "tgl_friendsOfflineStatus": "Estatus de desconexión de  tús amigos",
-            "tgl_sheetMusicChanges": "Cambios en las partituras",
-            "tgl_emitMyStatusToFriends": "Emitir mi estado a mis amigos"
+            "tgl_friendsOnlineStatus": "Estado de conexión de amigos",
+            "tgl_friendsOfflineStatus": "Estado de desconexión de amigos",
+            "tgl_sheetMusicChanges": "Cambios en partituras",
+            "tgl_emitMyStatusToFriends": "Emitir mi estado a amigos"
           },
           "tooltips": {
-            "hdr_multiplayerSettings": "Establece la configuración relacionada con el modo multijugador.",
+            "hdr_multiplayerSettings": "Establece configuraciones relacionadas con multijugador.",
             "lbl_userColor": "Establece tu color de usuario",
             "btn_userColorReset": "Restablece tu color",
             "btn_userColorSubmit": "¡Actualiza tu color!",
-            "hdr_notifications": "Cambia las notificaciones que recibes del servidor.",
-            "tgl_showMyCursor": "Alterna si tu cursor se muestra a otros usuarios.",
-            "tgl_sendWhoistyping": "Alterna si otros usuarios saben cuando estás escribiendo.",
-            "tgl_disableWhispers": "Deshabilitar murmullos. No podras susurrar a los demás y viceversa.",
-            "tgl_friendsOnlineStatus": "Recibe una notificación cuando un amigo se conecta",
-            "tgl_friendsOfflineStatus": "Recibe una notificación cuando un amigo se desconecta",
-            "tgl_emitMyStatusToFriends": "Permita que tus amigos sepan de tus cambios de estado. (En línea, fuera de línea, etc.)",
-            "tgl_sheetMusicChanges": "Recibe notificaciones por correo electrónico cada vez que ocurra un cambio en su partitura cargada."
+            "hdr_notifications": "Alternar qué notificaciones del servidor recibes.",
+            "tgl_showMyCursor": "Alternar si tu cursor se muestra a otros.",
+            "tgl_sendWhoistyping": "Alternar si otros usuarios saben cuando estás escribiendo.",
+            "tgl_disableWhispers": "Deshabilitar susurros. No puedes susurrar a otros y viceversa.",
+            "tgl_friendsOnlineStatus": "Recibe notificación cuando un amigo se conecta",
+            "tgl_friendsOfflineStatus": "Recibe notificación cuando un amigo se desconecta",
+            "tgl_emitMyStatusToFriends": "Permitir que amigos conozcan tus cambios de estado. (En línea, fuera de línea, etc.)",
+            "tgl_sheetMusicChanges": "Recibe correos electrónicos de notificación cada vez que ocurre un cambio en tu partitura subida."
           }
         },
         "discord": {
           "label": "Discord",
           "elements": {
             "hdr_discordSettings": "Configuración de Discord",
-            "swtch_syncDiscordMessages": "Sincronizar mensajes del lobby de Discord"
+            "swtch_syncDiscordMessages": "Sincronizar mensajes de lobby de Discord"
           },
           "tooltips": {
-            "hdr_discordSettings": "Establezca la configuración relacionada con Discord.",
-            "swtch_syncDiscordMessages": "Alterna si los mensajes de Discord se sincronizan en el lobby principal."
+            "hdr_discordSettings": "Establece configuraciones relacionadas con Discord.",
+            "swtch_syncDiscordMessages": "Alternar si los mensajes de Discord se sincronizan en el lobby principal."
           }
         },
         "input": {
-          "label": "Input",
+          "label": "Entrada",
           "elements": {
             "hdr_keyboardSettings": "Configuración del teclado",
-            "lbl_pianoKeylayout": "Distribución de las teclas del piano",
-            "lbl_keyboardMaplayout": "Distribución del mapa del teclado",
+            "hdr_advanced": "Avanzado",
+            "hdr_customizeLayoutKeys": "Personalizar teclas de diseño",
+            "hdr_pressKeyCombo": "Presionar combinación de tecla deseada",
+            "hdr_keyboardShortcutBinding": "Vinculación de acceso rápido al teclado",
+            "hdr_customizeKeysOptions": "Opciones de personalización de teclas",
+            "hdr_layoutImport": "Importación de diseño",
+            "hdr_setOctave": "Establecer octava",
+            "lbl_pianoKeylayout": "Diseño de teclas del piano",
+            "lbl_keyboardMaplayout": "Diseño de mapa de teclado",
+            "lbl_unassigned": "ASIGNADO NADA",
+            "lbl_warning": "Advertencia",
+            "lbl_none": "Ninguno",
             "drp_keyboards": "Teclados",
-            "lbl_shortcutBinds": "Enlaces de acceso directo",
-            "btn_openKeybinder": "Carpeta de teclas abiertas",
-            "tgl_keyboard_toggleyz": "Cambiar las teclas Y y Z"
+            "lbl_shortcutBinds": "Vinculaciones de acceso rápido",
+            "btn_openKeybinder": "Abrir gestor de teclas",
+            "btn_clear": "Limpiar",
+            "btn_reset": "Restablecer",
+            "btn_options": "Opciones",
+            "btn_test": "Probar",
+            "btn_stopTesting": "Detener prueba",
+            "btn_saveAndExit": "Guardar y salir",
+            "btn_removeBinding": "Eliminar vínculo",
+            "btn_resetToDefault": "Restablecer a predeterminado",
+            "btn_applyChanges": "Aplicar cambios",
+            "btn_importLayoutFrom": "Importar diseño de",
+            "btn_increase": "Aumentar +",
+            "btn_decrease": "Disminuir -",
+            "btn_nahSorry": "Nah, lo siento...",
+            "phr_searchCommands": "Buscar comandos...",
+            "col_command": "Comando",
+            "col_keyBind": "Vinculación de tecla",
+            "tip_clickToEdit": "Haz clic para editar",
+            "tip_clickToEditPrev": "Haz clic para editar (anteriormente: {{prev}})",
+            "tip_keyboardKeyCode": "Código de tecla del teclado: {{code}}",
+            "msg_bindingConflict": "Ya hay un comando que comparte la misma vinculación",
+            "msg_resetLayoutConfirm": "¿Estás seguro de que quieres restablecer el diseño a lo que tenías inicialmente?",
+            "msg_clearMappingConfirm": "¿Estás seguro de que quieres limpiar el mapeo actual?",
+            "msg_customKeysLayoutSaved": "¡Diseño de teclas personalizado guardado!",
+            "msg_keyboardKeyHeader": "Tecla del teclado: <b>{{key}}{{noteOutput}}</b> | {{highlight}}",
+            "msg_highlightedNote": "Resaltado (Nota: {{note}} - Tecla: {{key}})",
+            "msg_octaveIncreased": "Las notas de teclas mapeadas han aumentado una octava!",
+            "msg_octaveDecreased": "Las notas de teclas mapeadas han disminuido una octava!",
+            "msg_layoutImported": "Importado diseño {{layout}}.",
+            "msg_changesSaved": "¡Cambios guardados!",
+            "msg_noCommandsFound": "No se encontraron comandos...",
+            "tgl_keyboard_toggleyz": "Intercambiar teclas Y y Z",
+            "tgl_ctrlKeyLowersOctave": "Tecla Ctrl baja octava",
+            "tgl_midiToVpQwertyLayout": "MIDI a diseño VP/QWERTY",
+            "tgl_useCapslockForMidiQwerty": "Usar Caps Lock en lugar de Ctrl para MIDI-QWERTY mod",
+            "tgl_shiftKeyNoteOff": "Tecla Shift Note Off"
           },
           "tooltips": {
-            "hdr_keyboardSettings": "Estableze la configuración relacionada con el teclado.",
-            "lbl_pianoKeylayout": "Estableze el orden del teclado de piano para el piano.",
-            "lbl_keyboardMaplayout": "Estableze la asignación de entrada de teclado correcta.",
-            "lbl_shortcutBinds": "Crea enlaces a accesos directos comunes.",
-            "tgl_keyboard_toggleyz": "Para ciertos diseños de teclado, cambia la asignación de las teclas Y y Z para que se alinean de forma más natural."
+            "hdr_keyboardSettings": "Establece configuraciones relacionadas con el teclado.",
+            "lbl_pianoKeylayout": "Establece el diseño de piano del teclado para el piano.",
+            "lbl_keyboardMaplayout": "Establece el mapeo correcto de entrada del teclado.",
+            "lbl_shortcutBinds": "Crea vinculaciones a accesos directos comunes.",
+            "tgl_keyboard_toggleyz": "Para ciertos diseños de teclado, cambiar el mapeo de las teclas Y y Z se alinea más naturalmente.",
+            "tgl_ctrlKeyLowersOctave": "Presionar la tecla Ctrl bajará la octava de las notas tocadas.<br /><br /><i style=\"color:gray\">Nota: Esta función está deshabilitada cuando se usa el diseño MIDI a conversor QWERTY para VP.</i>",
+            "tgl_midiToVpQwertyLayout": "Usar un diseño similar extendido comparado con la herramienta de conversor MIDI a VP/qwerty.<img src=\"{{imagePath}}\"><br /><div style=\"color:gray\">Enlace a: <a href=\"https://arijanj.github.io/midi-converter/\" target=\"_blank\">MIDI Virtual Piano Converter</a></div>",
+            "tgl_useCapslockForMidiQwerty": "Esto proporciona una tecla alternativa porque ciertos accesos directos en el navegador pueden entrar en conflicto con la vinculación predeterminada de Ctrl. Por ejemplo, ctrl + w cierra la pestaña actual en la mayoría de los navegadores.",
+            "tgl_shiftKeyNoteOff": "Pendiente: Detalles"
           }
         }
       }
@@ -127,13 +248,98 @@
         "general": {
           "label": "General",
           "elements": {
-            "hdr_engine": "Módulo gráfico",
-            "lbl_engine": "Módulo",
-            "lbl_maxFPS": "FPS máximos."
+            "hdr_engine": "Motor gráfico",
+            "lbl_engine": "Motor",
+            "lbl_maxFPS": "FPS máximos.",
+            "hdr_general": "General",
+            "hdr_renderingPipeline": "P tubería de renderizado",
+            "hdr_webGpu": "GPU Web",
+            "hdr_advanced": "Avanzado",
+            "lbl_graphicsPreset": "Ajuste gráfico",
+            "phr_graphicsPreset": "Seleccionar un ajuste gráfico...",
+            "lbl_graphicsRenderer": "Motor de renderizado 3D",
+            "phr_graphicsRenderer": "Seleccionar un motor de renderizado gráfico...",
+            "lbl_targetFPS": "FPS objetivo",
+            "phr_targetFPS": "Seleccionar FPS objetivo...",
+            "lbl_mirrorTextureSampleSize": "Tamaño de muestra de textura espejo",
+            "phr_mirrorTextureSampleSize": "Seleccionar tamaño de muestra...",
+            "lbl_msaaSamples": "Muestras MSAA",
+            "phr_msaaSamples": "Seleccionar muestras MSAA...",
+            "lbl_webglPowerPreference": "Preferencia de energía WebGL",
+            "phr_webglPowerPreference": "Seleccionar preferencia de energía...",
+            "lbl_enginePerformancePriority": "Modo de prioridad de rendimiento del motor",
+            "phr_enginePerformancePriority": "Seleccionar modo de rendimiento...",
+            "tgl_enableGraphicsEngine": "Habilitar motor gráfico",
+            "tgl_enableStage": "Habilitar escenario",
+            "tgl_enablePiano": "Habilitar piano",
+            "tgl_enablePianoBench": "Habilitar banco de piano",
+            "tgl_enableDrums": "Habilitar batería",
+            "tgl_enableMotionBlur": "Habilitar desenfoque de movimiento",
+            "tgl_enableAntialiasing": "Habilitar anti-aliasing",
+            "tgl_enableParticleSystem": "Habilitar sistema de partículas",
+            "tgl_enableFog": "Habilitar niebla",
+            "tgl_enablePostProcessing": "Habilitar post-procesamiento",
+            "tgl_enableGlow": "Habilitar resplandor",
+            "tgl_enablePianoKeysGlow": "Habilitar resplandor de teclas del piano",
+            "tgl_enableShadows": "Habilitar sombras",
+            "tgl_enableSoftShadows": "Habilitar sombras suaves",
+            "tgl_enableSpecialEffects": "Habilitar efectos especiales",
+            "tgl_enableAutoAnimateCamera": "Habilitar cámara de animación automática a instrumentos",
+            "tgl_enableOrchestraModels": "Habilitar modelos orquestales",
+            "tgl_enableHDR": "Habilitar HDR",
+            "tgl_enableBloom": "Habilitar brillo",
+            "tgl_enableToneMapping": "Habilitar mapeo de tonos",
+            "tgl_enableDepthOfField": "Habilitar profundidad de campo",
+            "tgl_enableAmbientOcclusion": "Habilitarclusión ambiental de pantalla -",
+            "tgl_enableMirrorTextures": "Habilitar texturas espejo",
+            "tgl_useWebGPU": "Usar WebGPU",
+            "tgl_webgpuSnapshot": "Renderizado instantáneo de WebGPU",
+            "tgl_webgpuNonCompatMode": "Modo incompatibilidad de WebGPU",
+            "tgl_enableOfflineStorage": "Habilitar almacenamiento en línea",
+            "tgl_renderInBackground": "Habilitar renderizado incluso en fondo",
+            "tgl_useOffscreenCanvas": "Habilitar lienzo sin pantalla",
+            "lbl_resetGraphicsSettings": "Configuración gráfica"
           },
           "tooltips": {
-            "lbl_engine": "Alterna entre 2D, 3D o sin el módulo gráfico.",
-            "lbl_maxFPS": "Selecciona la velocidad de FPS máxima de la renderización del módulo."
+            "lbl_engine": "Alternar entre 2D, 3D o ningún motor gráfico.",
+            "lbl_maxFPS": "Selecciona la velocidad de fotogramas máxima del motor de renderizado.",
+            "lbl_graphicsPreset": "Cambiar rápidamente entre ajustes de calidad gráfica curados. Elegir un ajuste activará múltiples opciones gráficas a la vez.<br/><br/><i>Seleccionar \"Personalizado\" indica que los ajustes actuales no coinciden con ningún ajuste incorporado.</i>",
+            "lbl_graphicsRenderer": "Selecciona el motor de renderizado gráfico.<br/><br/><i>El renderizador \"Bevy\" es actualmente muy experimental y puede no tener las mismas características que el renderizador \"Babylon.js\".</i><br/><br/><i>NOTA: Requiere recarga para tener efecto.</i>",
+            "lbl_targetFPS": "Seleccionar FPS objetivo para el motor de renderizado.<br/><br/><i>NOTA: Requiere recarga para tomar efecto.</i>",
+            "lbl_mirrorTextureSampleSize": "El tamaño de muestra de textura espejo. Cuanto más grande sea el tamaño, mejor la calidad de la reflexión.<br/><br/><i>NOTA: Requiere recarga para tener efecto.</i>",
+            "lbl_msaaSamples": "Muestras anti-aliasing multisample por píxel. Los valores más altos producen bordes más suaves a cambio del rendimiento de GPU y ancho de banda de memoria.<br/><br/><i>2x y 8x pueden no ser compatibles en todos los dispositivos; 4x es la opción más segura en la web.</i>",
+            "lbl_webglPowerPreference": "Proporciona una pista a WebGL sobre la preferencia de modo de energía preferida.<ul style='margin-top:10px; margin-left:5px'><li style='margin-bottom:10px'>Cuando se establece a <b>Por defecto</b>, el navegador decide qué configuración de GPU es más adecuada.</li><li style='margin-bottom:10px'>Cuando se establece a <b>Rendimiento Alto</b>, se selecciona una configuración de GPU que prioriza el rendimiento de renderizado sobre el consumo de energía.</li><li style='margin-bottom:10px'>Cuando se establece a <b>Bajo Consumo</b>, se selecciona una configuración de GPU que prioriza el ahorro de energía sobre el rendimiento de renderizado.</li></ul><i>NOTA: Requiere recarga para tener efecto.</i>",
+            "lbl_enginePerformancePriority": "Determina cómo el escena gráfica tratará el rendimiento en relación con la compatibilidad hacia atrás y la facilidad de uso.<ul style='margin-top:10px; margin-left:5px'><li style='margin-bottom:10px'>Cuando se establece a <b>CompatibleHaciaAtrás</b>, simplemente no hay cambio. El escena mantendrá priorizando la facilidad de uso y compatibilidad hacia atrás.</li><li style='margin-bottom:10px'>Cuando se establece a <b>Intermedio</b>, algunas opciones de rendimiento se activarán tratando de equilibrar el rendimiento y facilidad de uso.</li><li style='margin-bottom:10px'>Cuando se establece a <b>Agresivo</b>, el rendimiento será la máxima prioridad.</li></ul><i>NOTA: Requiere recarga para tomar efecto.</i><br/><br/><b>Fuente: </b><a href='https://doc.babylonjs.com/features/featuresDeepDive/scene/optimize_your_scene#performance-priority-modes' target='_blank'>Modos de prioridad de rendimiento</a>",
+            "tgl_enableGraphicsEngine": "Alternar si el motor gráfico se inicializa y usa para renderizado.<br/><br/><i>NOTA: Requiere recarga para tener efecto.</i>",
+            "tgl_enableStage": "Habilitar/desactivar el escenario principal en la escena.",
+            "tgl_enablePiano": "Habilitar/deshabilitar mostrar el piano principal en la escena.",
+            "tgl_enablePianoBench": "Habilitar/deshabilitar mostrar banco de piano en la escena.",
+            "tgl_enableDrums": "Habilitar/deshabilitar mostrar juego de batería (solo se mostrará cuando haya actividad en el canal de batería) en la escena.",
+            "tgl_enableMotionBlur": "Desenfoque de movimiento es un efecto usado principalmente en videojuegos donde los alrededores aparecen borrosos en la pantalla mientras la cámara se mueve rápidamente a través de un área particular.",
+            "tgl_enableAntialiasing": "Define si MSAA (anti-aliasing multisample) está habilitado en el lienzo. Esta es una técnica usada en gráficos informáticos para eliminar bordes dentados. Deshabilitar esto puede mejorar el rendimiento.<br/><br/><i>NOTA: Requiere recarga para tener efecto.</i>",
+            "tgl_enableParticleSystem": "Un sistema de partículas es una colección de muchas partículas minúsculas que juntos representan un objeto borroso.<br/><br/><i>NOTA: Cuando deshabilitado, las partículas no se disiparán inmediatamente hasta que su tiempo de vida sea completo.</i>",
+            "tgl_enableFog": "Niebla de distancia es una técnica usada en gráficos informáticos 3D para mejorar la percepción de distancia sombreado objetos distantes de manera diferente.",
+            "tgl_enablePostProcessing": "Habilitar/deshabilitar efectos post-procesamiento en la escena.",
+            "tgl_enableGlow": "Habilitar/deshabilitar efectos de resplandor en ciertos modelos.",
+            "tgl_enablePianoKeysGlow": "Añade una aureola suave a las teclas del piano, independiente del ajuste principal de resplandor anterior. Útil para destacar las teclas sin aplicar resplandor al resto de la escena.",
+            "tgl_enableShadows": "Habilitar/deshabilitar sombras en la escena.",
+            "tgl_enableSoftShadows": "Habilitar/deshabilitar sombras suaves en la escena.",
+            "tgl_enableSpecialEffects": "Habilitar/deshabilitar efectos especiales (como lluvia) en la escena.",
+            "tgl_enableAutoAnimateCamera": "Si habilitado, la cámara se animará y bloqueará el objetivo con los instrumentos (cámara, batería, etc.) cuando estés lo bastante cerca dentro de su rango.",
+            "tgl_enableOrchestraModels": "Habilitar/deshabilitar otros modelos de usuario que se muestran en modo orquesta.",
+            "tgl_enableHDR": "Habilitar renderizado de Alto Rango Dinámico. Permite brillos más brillantes y colores más ricos más allá del rango estándar [0,1], produciendo iluminación más realista a cambio de algún rendimiento.",
+            "tgl_enableBloom": "Añade un resplandor suave alrededor de áreas brillantes de la escena para simular cómo responden cámaras reales y ojos a luz intensa. Se ve mejor con HDR habilitado.",
+            "tgl_enableToneMapping": "Mapea valores de color de rango alto en el rango mostrable con una curva filmica, preservando detalle de resplandor y sombra. Recomendado cuando HDR está habilitado.",
+            "tgl_enableDepthOfField": "Esto es una cadena predefinida de postprocesos que ayuda a lograr realismo fotográfico.",
+            "tgl_enableAmbientOcclusion": "Esto es un pipeline de renderizado (post-procesos encadenados) que calculará la oclusión ambiental de una escena dada desde el espacio de pantalla.<br/><br/>Definición técnica: La oclusión ambiental es una técnica de gráficos informáticos que simula cómo cae la luz sobre un objeto. Es un método de iluminación global que añade realismo a modelos controlando atenuación de luz ambiental debido a áreas ocluidas.",
+            "tgl_enableMirrorTextures": "Las texturas espejo pueden usarse para simular la vista desde un espejo en una escena. Se renderizará dinámicamente cada cuadro para adaptarse al punto de vista de la cámara. En este caso, se usa para mostrar reflexión de modelos, como el piano, en suelo u otras superficies.<br/><br/><i>NOTA: Requiere recarga para tener efecto.</i>",
+            "tgl_useWebGPU": "WebGPU es una API nueva para la web, que expone capacidades de hardware moderno y permite operaciones de renderizado y cómputo en GPU, similar a Direct3D 12, Metal y Vulkan. A diferencia de la familia de APIs WebGL, WebGPU ofrece acceso a características de GPU más avanzadas y proporciona soporte de primera clase para cómputos generales en la GPU.<br/><br/>La promesa detrás de WebGPU es una API excepcionalmente rápida proporcionada a través de control inferior de recursos gráficos del sistema desde JavaScript. (Aún experimental y algunas características pueden no funcionar completamente. También puede no ser compatible con muchos dispositivos.)<br/><br/><i>NOTA: Requiere recarga para tener efecto.</i>",
+            "tgl_webgpuSnapshot": "El renderizado instantáneo es un nuevo ren... (truncado por longitud)",
+            "tgl_webgpuNonCompatMode": "Modo no compatibilidad de WebGPU",
+            "tgl_enableOfflineStorage": "Habilitar almacenamiento en línea",
+            "tgl_renderInBackground": "Habilitar renderizado incluso en fondo",
+            "tgl_useOffscreenCanvas": "Habilitar lienzo sin pantalla",
+            "lbl_resetGraphicsSettings": "Restablecer configuración gráfica a predeterminados"
           }
         },
         "world": {
@@ -142,49 +348,49 @@
         "ui": {
           "label": "Interfaz de Usuario",
           "elements": {
-            "hdr_displays": "Pantallas",
+            "hdr_displays": "Visualizaciones",
             "tgl_fps": "Alternar FPS",
-            "tgl_ping": "Alternar EL Ping",
-            "tgl_instDock": "Alternar la base de instrumentos",
-            "tgl_userCursors": "Alternar los cursores del usuario",
-            "tgl_whoistyping": "Alterna quién está escribiendo",
+            "tgl_ping": "Alternar Ping",
+            "tgl_instDock": "Alternar muelle de instrumentos",
+            "tgl_userCursors": "Alternar cursores de usuario",
+            "tgl_whoistyping": "Alternar WhoIsTyping",
             "hdr_chat": "Chat",
-            "tgle_displayChat": "Mostrar mensajes del chat",
-            "tgle_keepChatInFocus": "Mantener el chat en foco",
-            "sld_chatMsgsHeightOffset": "Desplazamiento de altura de los mensajes del chat",
-            "sld_chatMsg2DOpacity": "Opacidad predeterminada de los mensajes del chat (modo 2D)",
-            "sld_chatMsg3DOpacity": "Opacidad predeterminada de los mensajes del chat (modo 3D)",
+            "tgle_displayChat": "Mostrar mensajes de chat",
+            "tgle_keepChatInFocus": "Mantener chat en foco",
+            "sld_chatMsgsHeightOffset": "Desplazamiento de altura de mensajes de chat",
+            "sld_chatMsg2DOpacity": "Opacidad predeterminada de mensajes de chat (modo 2D)",
+            "sld_chatMsg3DOpacity": "Opacidad predeterminada de mensajes de chat (modo 3D)",
             "tgl_display3DStats": "Mostrar estadísticas 3D",
             "tgle_showEmbeddedLinks": "Mostrar enlaces incrustados"
           },
           "tooltips": {
-            "hdr_displays": "Alterna las visualizaciones de ciertos elementos de la interfaz de usuario",
-            "tgl_fps": "Alternar el contador de FPS",
-            "tgl_ping": "Alternar el contador de ping",
-            "tgl_instDock": "Alternar la visualización de la base de instrumentos",
-            "tgl_userCursors": "Alternar la visualización de los cursores de otros usuarios",
-            "tgl_whoistyping": "Alternar la visualización cuando otros usuarios están escribiendo",
-            "hdr_chat": "Configuraciones de la IU relacionadas a mensajes de chat",
-            "tgle_displayChat": "Alternar la visualización de mensajes de chat",
-            "sld_chatMsgsHeightOffset": "Establece la altura del contenedor de mensajes del chat",
-            "tgl_display3DStats": "Alternar la visualización de estadísticas/información adicional sobre la escena 3D",
-            "tgle_keepChatInFocus": "Alterna mantener el chat enfocado después de enviar un mensaje",
-            "sld_chatMsg2DOpacity": "Establece la opacidad predeterminada de los mensajes de chat cuando no está enfocado. (modo 2D)",
-            "sld_chatMsg3DOpacity": "Establece la opacidad predeterminada de los mensajes de chat cuando no está enfocado. (modo 3D)",
-            "tgle_showEmbeddedLinks": "Alternar si los enlaces muestran objetos incrustados, como imágenes o vídeos del enlace asociado."
+            "hdr_displays": "Alternar visualizaciones de ciertos elementos de interfaz de usuario",
+            "tgl_fps": "Alternar contador de FPS",
+            "tgl_ping": "Alternar contador de ping",
+            "tgl_instDock": "Alternar visualización del muelle de instrumentos",
+            "tgl_userCursors": "Alternar visualización de cursores de otros usuarios",
+            "tgl_whoistyping": "Alternar visualización cuando otros usuarios están escribiendo",
+            "hdr_chat": "Configuración UI relacionada con mensajes de chat",
+            "tgle_displayChat": "Alternar visualización de mensajes de chat",
+            "sld_chatMsgsHeightOffset": "Establece la altura del contenedor de mensajes de chat",
+            "tgl_display3DStats": "Alternar visualización de estadísticas/información adicional sobre escena 3D",
+            "tgle_keepChatInFocus": "Alternar mantener chat enfocado después de enviar mensaje",
+            "sld_chatMsg2DOpacity": "Establece opacidad predeterminada de mensajes de chat cuando no está enfocado. (modo 2D)",
+            "sld_chatMsg3DOpacity": "Establece opacidad predeterminada de mensajes de chat cuando no está enfocado. (modo 3D)",
+            "tgle_showEmbeddedLinks": "Alternar si enlaces muestran objetos incrustados, como imágenes o videos del enlace asociado."
           }
         },
         "blob": {
           "label": "Blob",
           "elements": {
-            "hdr_displays": "Pantallas",
-            "tgl_blobs": "Alternar el blob",
-            "tgl_garden": "Alternar el jardín"
+            "hdr_displays": "Visualizaciones",
+            "tgl_blobs": "Alternar blobs",
+            "tgl_garden": "Alternar jardín"
           },
           "tooltips": {
-            "hdr_displays": "Alterna las visualizaciones de ciertos elementos relacionados con blobs.",
-            "tgl_blobs": "Alternar la visualización de los blobs.",
-            "tgl_garden": "Alterna la visualización del jardín."
+            "hdr_displays": "Alternar visualizaciones de ciertos elementos relacionados con blobs.",
+            "tgl_blobs": "Alternar visualización de blobs.",
+            "tgl_garden": "Alternar visualización de jardín."
           }
         }
       }
@@ -193,70 +399,70 @@
       "header": "Audio",
       "subMenus": {
         "soundfont": {
-          "label": "fuente de sonido",
+          "label": "Fuente de sonido",
           "messages": {
-            "soundfontLoading": "¡Espera mientras se carga la fuente de sonido!"
+            "soundfontLoading": "¡Espera mientras carga fuente de sonido!"
           },
           "elements": {
             "hdr_generalSettings": "Configuración general",
-            "lbl_audioEngine": "Módulo de sonido",
-            "tgl_enableDrums": "Habilitar el canal de la batería",
-            "hdr_v3Audio": "Sonido V3",
+            "lbl_audioEngine": "Motor de audio",
+            "tgl_enableDrums": "Habilitar canal de batería",
+            "hdr_v3Audio": "Audio V3",
             "lbl_soundfonts": "Fuentes de sonido",
-            "lbl_initalBuffersize": "Tamaño del búfer inicial",
-            "tgl_showDebuglogs": "Mostra los registros debug de rendimiento",
+            "lbl_initalBuffersize": "Tamaño de búfer inicial",
+            "tgl_showDebuglogs": "Mostrar registros de depuración de rendimiento",
             "tgl_useAudioWorklet": "Usar AudioWorklet"
           },
           "tooltips": {
-            "lbl_audioEngine": "Selecciona el módulo de audio predeterminado.<br> (Tendrá efecto en el próximo reinicio)",
-            "tgl_enableDrums": "Cuando está habilitado, esto permitirá que los sonidos de percusión se reproduzcan en el canal 9 (base de índice cero)",
-            "hdr_v3Audio": "Ajustes específicos del módulo de audio V3",
-            "lbl_soundfonts": "Selecciona la fuente de sonido predeterminada",
-            "lbl_initalBuffersize": "Explicación próximamente. (Tendrá efecto en el próximo reinicio)",
-            "tgl_showDebuglogs": "Cuando esté habilitado, generará registros de rendimiento en la consola",
-            "tgl_useAudioWorklet": "Cuando esté habilitado, cargará el módulo de audio V3 en un subproceso separado en un proceso de trabajo de audio.<br> Debería mejorar el rendimiento. (Tendrá efecto en el próximo reinicio)"
+            "lbl_audioEngine": "Selecciona motor de audio predeterminado.<br> (Tendrá efecto en próximo reinicio)",
+            "tgl_enableDrums": "Cuando habilitado, esto permitirá que sonidos de percusión se reproduzcan en canal 9 (base de índice cero)",
+            "hdr_v3Audio": "Ajustes específicos de motor de audio V3",
+            "lbl_soundfonts": "Selecciona fuente de sonido predeterminada",
+            "lbl_initalBuffersize": "Explicación próximamente. (Tendrá efecto en próximo reinicio)",
+            "tgl_showDebuglogs": "Cuando habilitado, generará registros de rendimiento en consola",
+            "tgl_useAudioWorklet": "Cuando habilitado, cargará motor de audio V3 en hilo separado en proceso de trabajo de audio.<br> Debería mejorar rendimiento. (Tendrá efecto en próximo reinicio)"
           }
         },
         "effects": {
           "label": "Efectos"
         },
         "bgMusic": {
-          "label": "música bg"
+          "label": "Música bg"
         },
         "midi": {
           "label": "Midi",
           "elements": {
             "hdr_inputOutput": "Entrada y salida",
-            "lbl_enableAudioToOutput": "Habilitar el audio solo para la salida",
+            "lbl_enableAudioToOutput": "Habilitar audio solo para salida",
             "hrd_generalEffects": "Efectos Generales",
-            "tgl_mousePosVelocity": "La posición del ratón determina la velocidad",
-            "sld_sustainCutoff": "Sostenido corto",
+            "tgl_mousePosVelocity": "Posición del ratón determina velocidad",
+            "sld_sustainCutoff": "Corte sostenido",
             "hdr_velocityEffects": "Efectos de velocidad",
             "tgl_enableVelocity": "Habilitar velocidad",
-            "sld_velocityMuting": "Silenciar la velocidad",
-            "tgl_enableVelocityBoost": "Habilitar el impulso de velocidad",
+            "sld_velocityMuting": "Silenciar velocidad",
+            "tgl_enableVelocityBoost": "Habilitar impulso de velocidad",
             "sld_velocityBoost": "Impulso de velocidad",
-            "lbl_metronome": "Muestra de audio del metrónomo",
+            "lbl_metronome": "Mostrar audio de metrónomo",
             "tgl_enableV2Reverb": "Reverberación V2",
-            "tgl_listenToProgramChanges": "Escuche los cambios de programa",
+            "tgl_listenToProgramChanges": "Escuchar cambios de programa",
             "tgl_autoFillEmptyChannels": "Autocompletar canales vacíos",
-            "tgl_useDefaultBankWhenMissing": "Utilice el banco predeterminado cuando falte",
+            "tgl_useDefaultBankWhenMissing": "Usar banco predeterminado cuando falte",
             "tgl_enableStereoPanning": "Habilitar panorámica estéreo"
           },
           "tooltips": {
-            "lbl_enableAudioToOutput": "Si está marcado y cualquier dispositivo de salida está activo, el audio solo se emitirá al dispositivo de salida y no dentro del !!!!motor!!!! de audio de PianoRhythm.",
-            "tgl_mousePosVelocity": "Esto permitirá que la posición del ratón determine la velocidad de entrada del teclado.<br><br> Cuanto más cerca esté el ratón a la parte inferior de la ventana del navegador, tus notas serán más fuertes",
-            "sld_sustainCutoff": "Establezca el punto de corte de liberación para notas sostenidas. (Porcentaje más alto = sostenido más corto)",
-            "tgl_enableVelocity": "Si no se marca, no se utilizarán los valores de velocidad de la fuente. En su lugar, se establecerá en el valor máximo (127)",
-            "sld_velocityMuting": "Silencia las notas con una velocidad menor o igual que el valor del medidor.",
-            "tgl_enableVelocityBoost": "Aumenta los valores de velocidad entrantes",
-            "sld_velocityBoost": "Agrega un impulso adicional a la velocidad bruta",
-            "lbl_metronome": "Selecciona el tipo de muestra de audio para usar con el metrónomo",
-            "tgl_enableV2Reverb": "Alternar si la reverberación está habilitada para el motor de audio V2",
-            "tgl_listenToProgramChanges": "Cambie si PianoRhythm debe escuchar los eventos de cambio de programa midi y actualice la base de instrumentos en consecuencia.",
-            "tgl_autoFillEmptyChannels": "Alterna si los canales vacíos en la base de instrumentos deben completarse automáticamente con el instrumento predeterminado cuando ocurre un evento de nota.",
-            "tgl_useDefaultBankWhenMissing": "Alterna si se usa el banco predeterminado (generalmente el banco 0) cuando una fuente sonora no tiene un banco en particular.",
-            "tgl_enableStereoPanning": "Cambie si el motor de audio admite la panorámica de la transmisión de audio hacia la izquierda o hacia la derecha.<br><br> Entonces, la posición del sonido de las notas será relativa a su posición en el piano.<br><br> Por ejemplo, las notas más cercanas a la derecha se escucharán más en el altavoz derecho. Lo mismo ocurre con la izquierda y los que estén cerca del medio se distribuirán entre ambos altavoces."
+            "lbl_enableAudioToOutput": "Si está marcado y cualquier dispositivo de salida está activo, audio solo se emitirá al dispositivo de salida y no dentro del !!!!motor!!!! de audio de PianoRhythm.",
+            "tgl_mousePosVelocity": "Esto permitirá que posición del ratón determine velocidad de entrada de teclado.<br><br> Cuanto más cerca esté el ratón a parte inferior de ventana del navegador, tus notas serán más fuertes",
+            "sld_sustainCutoff": "Establece punto de corte de liberación para notas sostenidas. (Porcentaje más alto = sostenido más corto)",
+            "tgl_enableVelocity": "Si no está marcado, no se usarán valores de velocidad de fuente. En su lugar, se establecerá en valor máximo (127)",
+            "sld_velocityMuting": "Silencia notas con velocidad menor o igual que valor del medidor.",
+            "tgl_enableVelocityBoost": "Aumenta valores de velocidad entrantes",
+            "sld_velocityBoost": "Agrega impulso adicional a velocidad bruta",
+            "lbl_metronome": "Selecciona tipo de muestra de audio para usar con metrónomo",
+            "tgl_enableV2Reverb": "Alternar si reverberación está habilitada para motor de audio V2",
+            "tgl_listenToProgramChanges": "Cambia si PianoRhythm debe escuchar eventos de cambio de programa midi y actualizar banco de instrumentos en consecuencia.",
+            "tgl_autoFillEmptyChannels": "Alternar si canales vacíos en banco de instrumentos deben completarse automáticamente con instrumento predeterminado cuando ocurre evento de nota.",
+            "tgl_useDefaultBankWhenMissing": "Alternar si se usa banco predeterminado (generalmente banco 0) cuando fuente sonora no tiene banco particular.",
+            "tgl_enableStereoPanning": "Cambia si motor de audio admite panorámica de transmisión de audio hacia izquierda o derecha.<br><br> Entonces, posición del sonido de notas será relativa a su posición en piano.<br><br> Por ejemplo, notas más cercanas a derecha se escucharán más en altavoz derecho. Lo mismo ocurre con izquierda y los que estén cerca del medio se distribuirán entre ambos altavoces."
           }
         }
       }
@@ -270,7 +476,7 @@
             "lbl_languageSelect": "Selección de idioma"
           },
           "tooltips": {
-            "lbl_languageSelect": "Configure el idioma predeterminado para PianoRhythm."
+            "lbl_languageSelect": "Configura idioma predeterminado para PianoRhythm."
           }
         }
       },
@@ -280,21 +486,21 @@
         "cancellation_InProcess": "Reanudar suscripción con Stripe"
       },
       "labels": {
-        "billingInfo": "Datos de facturación",
+        "billingInfo": "Información de facturación",
         "cancelSubscription": "Cancelar suscripción"
       },
       "messages": {
-        "checkout_Created": "Se ha abierto una nueva pestaña. ¡Continúa el pagamento allí!",
+        "checkout_Created": "Se ha abierto nueva pestaña. ¡Completa el pago allí!",
         "checkout_Success": "¡Pago exitoso!",
         "checkout_Cancelled": "Has cancelado la sesión.",
-        "checkout_ResumePlan": "Está a punto de reanudar su suscripción cancelada. </br></br>¿Estás seguro?",
-        "checkout_Confirm": "Está a punto de pagar y suscribirse a un plan premium. </br></br>¿Estás seguro?",
-        "subscription_cancellationFail": "Perdón, algo salió mal. No se pudo cancelar la suscripción.",
+        "checkout_ResumePlan": "Estás a punto de reanudar tu suscripción cancelada. </br></br>¿Estás seguro?",
+        "checkout_Confirm": "Estás a punto de pagar y suscribirte a plan premium. </br></br>¿Estás seguro?",
+        "subscription_cancellationFail": "Perdón, algo salió mal. No se pudo cancelar suscripción.",
         "subscription_Updated": "¡Has actualizado correctamente tu plan de suscripción!",
         "subText": "Aquí está tu suscripción actual. Puedes cancelarla o actualizarla en cualquier momento.",
-        "cancellation_InProcess": "Su suscripción actual ha sido <b>cancelada</b> y, por lo tanto, no se renovará automáticamente. Sin embargo, aún tendrá sus beneficios hasta el <b style=\"color:white;\">{{billingDate}}</b> .",
-        "autoRenewInfo": "Su suscripción se renovará automáticamente al <b style=\"color:white;\">{{billingDate}}</b> y se le cobrarán <b style=\"color:white;\">{{currencyText}} €.</b>",
-        "cancellation_Confirm": "Sentimos que te vayas, {{username}} !.</br>Su suscripción al plan pro se pagará hasta el <b>{{planBillingDate}}</b> .</br></br> Si desea continuar con la cancelación de su suscripción, selecciona <b>&quot;Cancelar suscripción&quot; </b>a continuación.",
+        "cancellation_InProcess": "Tu suscripción actual ha sido <b>cancelada</b> y, por lo tanto, no se renovará automáticamente. Sin embargo, aún tendrás tus beneficios hasta el <b style=\"color:white;\">{{billingDate}}</b> .",
+        "autoRenewInfo": "Tu suscripción se renovará automáticamente al <b style=\"color:white;\">{{billingDate}}</b> y te cobraremos <b style=\"color:white;\">{{currencyText}} €.</b>",
+        "cancellation_Confirm": "Lamentamos que te vayas, {{username}} !.</br>Tu suscripción al plan pro se pagará hasta el <b>{{planBillingDate}}</b> .</br></br> Si deseas continuar con cancelación de tu suscripción, selecciona <b>&quot;Cancelar suscripción&quot;</b> a continuación.",
         "cancellation_Success": "Has cancelado correctamente tu suscripción."
       }
     },

@@ -2,30 +2,50 @@
   "labels": {
     "username": "用户名",
     "password": "密码",
-    "email": "电子邮件",
+    "email": "邮箱",
     "confirmpassword": "确认密码",
-    "on": "在",
-    "off": "离开"
+    "on": "开",
+    "off": "关"
   },
   "buttons": {
     "submit": "提交",
-    "reveal": "揭示",
+    "reveal": "显示",
     "hide": "隐藏",
     "edit": "编辑",
-    "modal_Confirm": "对，让我进去！",
-    "modal_Confirm2": "是的，请！",
-    "modal_Deny": "没关系..."
+    "save": "保存",
+    "cancel": "取消",
+    "close": "关闭",
+    "delete": "删除",
+    "deleteAll": "全部删除",
+    "modal_Confirm": "好，让我进去！",
+    "modal_Confirm2": "好的，谢谢！",
+    "modal_Deny": "算了吧..."
   },
   "generalMessages": {
-    "dropAnyValidMidiFile": "放下一个有效的 .midi 文件来播放！",
-    "serverConnected": "连接到{{appName}}",
-    "passwordResetSuccess": "你的密码已成功更改。您可以继续登录。 :)",
-    "forgotPasswordSuccess": "如果有与该电子邮件关联的帐户，则会发送一封用于重置密码的电子邮件。谢谢！",
-    "registerSuccess": "已发送验证电子邮件。还要检查您的垃圾邮件文件夹。"
+    "dropAnyValidMidiFile": "拖放一个有效的 .midi 文件来播放！",
+    "serverConnected": "已连接到 {{appName}}",
+    "passwordResetSuccess": "您的密码已成功更改。您可以继续登录了 :) ",
+    "forgotPasswordSuccess": "如果该邮箱有关联的账户，则重置密码的邮件将发送过去。谢谢！",
+    "registerSuccess": "已发送验证邮件。请检查垃圾邮件文件夹。",
+    "loading": "加载中..."
+  },
+  "confirmDialogs": {
+    "areYouSure": "确定吗？",
+    "yes": "是",
+    "no": "否",
+    "ok": "确定",
+    "okay": "好的",
+    "yesPlease": "好的，谢谢！",
+    "nevermind": "算了...",
+    "unsavedChanges": "您有未保存的更改。确定要继续吗？",
+    "cannotBeUndone": "此操作无法撤销。"
   },
   "errorMessages": {
-    "midiFileSizeIsTooBig": "文件太大了！",
-    "dropValidMidiFile": "请上传有效的midi文件！",
-    "webGLNotSupported": "抱歉，您的浏览器不支持某些功能，例如 WebGL。<br>如果可以，请更新您的浏览器。"
+    "midiFileSizeIsTooBig": "文件大小过大！",
+    "dropValidMidiFile": "请上传有效的 midi 文件！",
+    "webGLNotSupported": "抱歉，某些功能（如 WebGL）在当前浏览器中不受支持。<br>如果可能，请升级您的浏览器。"
+  },
+  "tooltips": {
+    "clickToReset": "点击重置"
   }
 }

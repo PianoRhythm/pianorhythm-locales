@@ -1,1 +1,73 @@
-{}
+{
+  "songEditor": {
+    "title": "Editor de Ritmo",
+    "tabs": {
+      "info": "Información",
+      "meta": "Meta",
+      "game": "Juego",
+      "notes": "Notas",
+      "score": "Puntuación"
+    },
+    "headers": {
+      "general": "General",
+      "audio": "Audio",
+      "midi": "MIDI",
+      "settings": "Configuración"
+    },
+    "fields": {
+      "title": "Título",
+      "midiUrl": "URL de MIDI",
+      "audioType": "Tipo de Audio",
+      "youtubeId": "ID de YouTube",
+      "audioUrl": "URL de audio",
+      "startTime": "Hora de inicio",
+      "playbackRate": "Velocidad de reproducción",
+      "volume": "Volumen",
+      "scrollSpeed": "Velocidad de desplazamiento",
+      "time": "Tiempo",
+      "note": "Nota",
+      "midi": "MIDI"
+    },
+    "placeholders": {
+      "midiUrlOptional": "URL de MIDI (opcional)",
+      "startTimeOptional": "Hora de inicio (opcional)",
+      "audioPlaybackRateOptional": "Velocidad de reproducción de audio (opcional)",
+      "audioVolumeOptional": "Volumen de audio (opcional)",
+      "midiPlaybackRateOptional": "Velocidad de reproducción de MIDI (opcional)",
+      "noteScrollSpeed": "Velocidad de desplazamiento de notas",
+      "activeTime": "Tiempo activo",
+      "timeInterval": "Intervalo de tiempo"
+    },
+    "tooltips": {
+      "midiUrl": "La URL de un recurso MIDI.",
+      "audioUrl": "La URL de un recurso de audio. Puede ser un enlace directo a un mp3 o video de YouTube.",
+      "youtubeId_line1": "El ID del video de YouTube.",
+      "youtubeId_line2_pre": "Por ejemplo, de una url como esta: ",
+      "youtubeId_line3_pre": "El ID sería ",
+      "transcribeAudio": "Transcribir el audio a MIDI usando aprendizaje automático!",
+      "loadScene": "Cargar los datos de MIDI desde la URL proporcionada en el campo de entrada URL de MIDI."
+    },
+    "actions": {
+      "undo": "Deshacer",
+      "redo": "Rehacer",
+      "midiIO": "MIDI I/O",
+      "restart": "Reiniciar",
+      "test": "Probar",
+      "publish": "Publicar",
+      "transcribeAudio": "Transcribir Audio a MIDI",
+      "loadScene": "Cargar escena",
+      "changeSheet": "Cambiar hoja",
+      "update": "Actualizar",
+      "duplicate": "Duplicar",
+      "clear": "Limpiar"
+    },
+    "score": {
+      "type": "Tipo",
+      "total": "Total"
+    },
+    "editNote": {
+      "header": "Editar nota",
+      "notePrefix": "Nota"
+    }
+  }
+}

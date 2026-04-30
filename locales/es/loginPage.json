@@ -1,23 +1,55 @@
 {
-  "connectionStatus": "Estatus",
-  "playersOnline": "Jugadores online",
+  "connectionStatus": "Estado",
+  "playersOnline": "Jugadores en línea",
+  "homeMeta": {
+    "offline": "fuera de línea",
+    "platform_web": "(web) ",
+    "platform_desktop": "(escritorio) ",
+    "clientVersion": "Versión del cliente",
+    "beta": "(BETA)",
+    "buildDate": "Fecha de compilación",
+    "stagingEnvironment": "Entorno de pruebas",
+    "developmentBuild": "Compilación de desarrollo | Modo: {{mode}}"
+  },
+  "downloadApp": {
+    "downloadDesktop": "Descargar PianoRhythm Escritorio",
+    "showDownloads": "Ver descargas...",
+    "modalTitle": "Descargas de PianoRhythm",
+    "warning": "Tenga en cuenta que los instaladores para Windows y Linux no están actualmente firmados con código ni norotizados; puede encontrar una advertencia de seguridad durante la instalación, que puede ignorar con seguridad para continuar. Esto se resolverá eventualmente.",
+    "table": {
+      "file": "Archivo",
+      "version": "Versión",
+      "arch": "Arquitectura",
+      "size": "Tamaño",
+      "released": "Lanzado"
+    },
+    "confirmDownload": {
+      "html": "<p>¿Estás seguro de que quieres descargar este archivo?</p><br/><b>{{fileName}}</b>",
+      "cancel": "Nah, lo siento...",
+      "confirm": "¡Sí!"
+    },
+    "errors": {
+      "fetchTitle": "Error al obtener",
+      "fetchDescription": "Falló al obtener la lista de descargas..."
+    }
+  },
   "hrefs": {
     "createAccount": "Crear una cuenta.",
-    "forgotPassword": "¿Se te olvidó tu contraseña?",
-    "enterAsGuest": "Entra como invitado.",
-    "resendVerificationEmail": "Reenvia el correo electrónico de verificación.",
-    "haveAccount": "¿Ya tienes una cuenta?",
-    "signIn": "Registrarse",
+    "forgotPassword": "¿Te olvidaste tu contraseña?",
+    "enterAsGuest": "Entrar como invitado.",
+    "resendVerificationEmail": "Reenviar correo electrónico de verificación.",
+    "haveAccount": "¿Ya tienes una cuenta? ",
+    "signIn": "Iniciar sesión",
     "goHome": "Volver al inicio."
   },
   "messages": {
     "attemptAutoLogin_WelcomeBack": "Bienvenido de nuevo",
-    "attemptAutoLogin_AttemptAuto": "Intentando volver a iniciar la sesión automáticamente...",
-    "attemptAutoLogin_Cancel": "Haga clic aquí para cancelar"
+    "attemptAutoLogin_AttemptAuto": "Intentando iniciar sesión automáticamente de nuevo...",
+    "attemptAutoLogin_Cancel": "Haz clic aquí para cancelar"
   },
   "oAuthButton": {
     "discord": "Iniciar sesión con Discord",
-    "google": "Inicia sesión con Google"
+    "google": "Iniciar sesión con Google"
   },
   "guestForm": {
     "welcomeMessage": "¡Bienvenido a PianoRhythm!",
@@ -25,26 +57,26 @@
     "buttons": {
       "enter": "Entrar",
       "register": "Registrarse",
-      "login": "Iniciar la sessión"
+      "login": "Iniciar sesión"
     }
   },
   "resendVerificationEmailForm": {
-    "header": "Reenviar la verificación de correo electrónico",
-    "onSubmitInfoToast": "Si hay una cuenta asociada con este correo electrónico, se enviará un correo de verificación. Gracias."
+    "header": "Reenviar verificación de correo electrónico",
+    "onSubmitInfoToast": "Si hay una cuenta asociada con ese correo electrónico, se enviará un correo electrónico para verificar la cuenta. ¡Gracias."
   },
   "forgotPasswordForm": {
     "header": "¿Has olvidado tu contraseña?"
   },
   "loginForm": {
-    "header": "Acceso"
+    "header": "Iniciar sesión"
   },
   "twoFactorAuth": {
-    "header": "Autenticación de dos pasos"
+    "header": "Autenticación de dos factores"
   },
   "registerForm": {
     "labels": {
       "tos1": "Acepto que tengo al menos 13 años y he leído los",
-      "tos2": "Términos de uso y las condiciones"
+      "tos2": "Términos de uso y condiciones"
     },
     "submitButton": "Registrarse"
   }

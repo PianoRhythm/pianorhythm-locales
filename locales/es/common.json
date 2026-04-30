@@ -2,30 +2,50 @@
   "labels": {
     "username": "nombre de usuario",
     "password": "contraseña",
-    "email": "Email",
-    "confirmpassword": "Confirma tú contraseña",
+    "email": "correo electrónico",
+    "confirmpassword": "confirmar contraseña",
     "on": "Activado",
     "off": "Apagado"
   },
   "buttons": {
-    "submit": "Entregar",
+    "submit": "Enviar",
     "reveal": "Revelar",
-    "hide": "Esconder",
+    "hide": "Ocultar",
     "edit": "Editar",
-    "modal_Confirm": "¡Sí, quiero entrar!",
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "close": "Cerrar",
+    "delete": "Eliminar",
+    "deleteAll": "Eliminar Todo",
+    "modal_Confirm": "¡Sí, déjame entrar!",
     "modal_Confirm2": "¡Sí, por favor!",
-    "modal_Deny": "No me importa..."
+    "modal_Deny": "Nada más..."
   },
   "generalMessages": {
-    "dropAnyValidMidiFile": "¡Suelta un archivo .midi válido para jugar!",
+    "dropAnyValidMidiFile": "¡Suelta un archivo .midi válido para reproducir!",
     "serverConnected": "Conectado a {{appName}}",
-    "passwordResetSuccess": "Su contraseña ha sido cambiada con éxito. Ya puedes iniciar la sesión :)",
-    "forgotPasswordSuccess": "Si hay una cuenta asociada a ese correo electrónico, se enviará un correo electrónico para restablecer la contraseña. Gracias.",
-    "registerSuccess": "Se ha enviado un correo electrónico de verificación. Revisa tu carpeta de SPAM también."
+    "passwordResetSuccess": "Tu contraseña ha sido cambiada con éxito. Puedes proceder a iniciar sesión :)",
+    "forgotPasswordSuccess": "Si hay una cuenta asociada con ese correo electrónico, se enviará un correo electrónico para restablecer la contraseña. ¡Gracias!",
+    "registerSuccess": "Se ha enviado un correo electrónico de verificación. Revisa tu carpeta de SPAM también.",
+    "loading": "Cargando..."
+  },
+  "confirmDialogs": {
+    "areYouSure": "¿Estás seguro?",
+    "yes": "Sí",
+    "no": "No",
+    "ok": "OK",
+    "okay": "De acuerdo",
+    "yesPlease": "¡Sí, por favor!",
+    "nevermind": "Nada más...",
+    "unsavedChanges": "Tienes cambios sin guardar. ¿Estás seguro de que quieres continuar?",
+    "cannotBeUndone": "Esto no puede ser deshacer."
   },
   "errorMessages": {
     "midiFileSizeIsTooBig": "¡El tamaño del archivo es demasiado grande!",
-    "dropValidMidiFile": "¡Sube un archivo midi válido!",
-    "webGLNotSupported": "Lo sentimos, ciertas funciones, como WebGL, no son compatibles con su navegador.<br> Actualiza tu navegador si puedes."
+    "dropValidMidiFile": "¡Por favor sube un archivo MIDI válido!",
+    "webGLNotSupported": "Lo sentimos, ciertas funciones, como WebGL, no son compatibles con tu navegador. <br>Actualiza tu navegador si puedes."
+  },
+  "tooltips": {
+    "clickToReset": "Haz clic para reiniciar"
   }
 }

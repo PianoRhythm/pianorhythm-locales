@@ -1,1 +1,31 @@
-{}
+{
+  "bar": {
+    "placeholder": "Di algo amable aquí...",
+    "sendMessage": "Enviar Mensaje"
+  },
+  "triggerList": {
+    "users": "Usuarios",
+    "rooms": "Salas"
+  },
+  "embeddable": {
+    "site": "Sitio"
+  },
+  "externalLinkWarning": {
+    "cancel": "Nah, lo siento...",
+    "confirm": "¡Sí!"
+  },
+  "contextMenu": {
+    "user": "Usuario",
+    "id": "ID",
+    "date": "Fecha",
+    "copyMessage": "Copiar Mensaje",
+    "copyMessageId": "Copiar ID de Mensaje",
+    "copyTextSelection": "Copiar Selección de Texto",
+    "reportMessage": "Reportar Mensaje",
+    "deleteMessage": "Eliminar Mensaje",
+    "deleteAllByUser": "Eliminar todos los mensajes de"
+  },
+  "message": {
+    "editedSuffix": "(editado...)"
+  }
+}

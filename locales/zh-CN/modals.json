@@ -1,1 +1,156 @@
-{}
+{
+  "common": {
+    "pleaseWait": "请稍候..."
+  },
+  "newRoom": {
+    "menu": {
+      "header": "菜单"
+    },
+    "headings": {
+      "general": "通用",
+      "description": "描述",
+      "roomStage": "房间舞台",
+      "roomMode": "房间模式",
+      "welcomeMessage": "欢迎消息",
+      "advancedSettings": "高级设置",
+      "maxPlayers": "最大玩家数",
+      "other": "其他"
+    },
+    "placeholders": {
+      "name": "名称",
+      "description": "在此输入房间描述...",
+      "roomStage": "选择一个房间舞台",
+      "roomMode": "选择一个房间模式",
+      "welcomeMessage": "在此输入欢迎消息..."
+    },
+    "tooltips": {
+      "generateRoomName": "点击生成新房间名称",
+      "makeRoomPrivate": "将房间设为私密后，它将从全局房间列表中隐藏。",
+      "description": "简短描述您的房间是关于什么的",
+      "roomStage": "为您的房间选择一个预定义的 3D 舞台。（2D 模式下已禁用）",
+      "roomMode_line1": "选择多种模式。",
+      "roomMode_line2": "从与朋友一起弹钢琴到玩不同的游戏。",
+      "welcomeMessage_line1": "（可选）设置用户进入您的房间时的欢迎消息。",
+      "welcomeMessage_line2_pre": "",
+      "welcomeMessage_line2_post": " 是用于替换进入您房间的用户名称的特殊标记。"
+    },
+    "labels": {
+      "rememberLastSettings": "记住上次设置"
+    },
+    "actions": {
+      "createRoom": "创建房间",
+      "updateRoom": "更新房间",
+      "resetToDefault": "重置为默认"
+    },
+    "errors": {
+      "failedToCreate": "创建房间失败",
+      "failedToUpdate": "更新房间失败",
+      "createRoomFailedDesc": "在尝试创建房间时出错了。请稍后重试...",
+      "updateRoomFailedDesc": "在尝试更新房间时出错了。请稍后重试...",
+      "validationErrorTitle": "验证错误",
+      "validationErrorDescription": "请检查表单中的任何错误。"
+    }
+  },
+  "instrumentSelection": {
+    "title": "乐器选择",
+    "searchPlaceholder": "搜索乐器...",
+    "columns": {
+      "name": "名称",
+      "bank": "音源库",
+      "program": "节目"
+    },
+    "noResults": "未找到任何命令..."
+  },
+  "audioSamples": {
+    "title": "音频采样",
+    "columns": {
+      "category": "类别"
+    },
+    "noResults": "未找到任何采样...",
+    "unknownCategory": "未知"
+  },
+  "enterPassword": {
+    "headerPrefix": "输入以下内容的密码：",
+    "inputPlaceholder": "输入房间密码...",
+    "cancelConfirm": {
+      "html": "您确定要取消尝试输入此房间的密码吗？如果是，您将被引导至下一个可用大厅。",
+      "cancel": "算了，我再试一次。",
+      "confirm": "好的！"
+    }
+  },
+  "credits": {
+    "title": "致谢",
+    "fetchFailed": "无法获取致谢信息..."
+  },
+  "docs": {
+    "title": "文档"
+  },
+  "leaderboard": {
+    "title": "分析 / 排行榜"
+  },
+  "imageUploader": {
+    "chooseImage": "选择图片",
+    "errors": {
+      "fileSizeExceeds": "文件大小超过最大限制：{{limit}}",
+      "tryDifferentFile": "请尝试使用不同的文件。"
+    }
+  },
+  "midiMusicUpload": {
+    "headerPrefix": "Midi 音乐",
+    "newUpload": "新上传",
+    "unsavedChanges": "您有未保存的更改。确定要关闭吗？",
+    "fields": {
+      "title": "标题",
+      "artist": "艺术家",
+      "album": "专辑",
+      "description": "描述",
+      "tags": "标签",
+      "difficulty": "难度",
+      "privacyLevel": "隐私级别"
+    },
+    "placeholders": {
+      "title": "标题",
+      "artist": "原始艺术家",
+      "album": "原始艺术家的专辑",
+      "tags": "选择一些标签...",
+      "difficulty": "选择合适的难度...",
+      "privacyLevel": "选择一个隐私级别"
+    },
+    "submitMessages": {
+      "reapprove": "提交后您的更改需要重新批准。",
+      "modAutoSubmit": "点击确定后您的更改将被提交！",
+      "pendingApproval": "您的上传需要批准后才能出现在公开列表中。",
+      "success": "成功！",
+      "uploadFailed": "哎呀，抱歉。上传 midi 失败。<br><br><b>错误：{{error}} </b><br><br>请重试。"
+    }
+  },
+  "genericRepo": {
+    "badges": {
+      "views": "查看次数",
+      "favorites": "收藏夹"
+    },
+    "contextMenu": {
+      "id": "ID",
+      "title": "标题"
+    },
+    "bulkProcess": {
+      "confirmHtml": "在选中的 <b>{{total}}</b> 项目中，仅处理 <b style=\"color:lightgreen\">{{process}}</b>。<br><br><b>继续吗？</b>",
+      "confirm": "好的！",
+      "resultsSuffix": "结果",
+      "resultsHtml": "在处理的 <b>{{total}}</b> 项目中，<b style=\"color:lightgreen\">{{success}}</b> 个项目成功！"
+    },
+    "titles": {
+      "approveMultiple": "批准多项项目",
+      "disapproveMultiple": "拒绝多项项目",
+      "deleteMultiple": "删除多项项目"
+    },
+    "actions": {
+      "approve": "批准",
+      "disapprove": "拒绝",
+      "delete": "删除",
+      "upload": "上传",
+      "openViewer": "打开查看器"
+    },
+    "itemsSelected": "已选择 {{count}} 个项目"
+  }
+}

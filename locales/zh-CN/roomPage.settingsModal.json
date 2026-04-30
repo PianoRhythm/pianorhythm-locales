@@ -1,61 +1,134 @@
 {
   "messages": {
-    "audioSettingNotSupportedV3": "注意：目前大部分音频设置不适用于 v3",
-    "changeWillTakeEffectOnNextRestart": "更改将在下次重新启动时生效。",
+    "audioSettingNotSupportedV3": "注意：目前大多数音频设置不适用于 v3",
+    "changeWillTakeEffectOnNextRestart": "更改将在下次重启时生效。",
     "changesSaved": "更改已保存。",
-    "userColorUpdated": "您已成功更新用户颜色！"
+    "userColorUpdated": "您已成功更新了用户颜色！",
+    "noContentAvailable": "尚无可用内容。",
+    "failedToLoadContent": "加载内容失败..."
+  },
+  "badges": {
+    "new": "新"
+  },
+  "search": {
+    "placeholder": "搜索",
+    "clear": "清除搜索"
+  },
+  "resetSettings": {
+    "header": "重置设置",
+    "buttonLabel": "重置设置为默认",
+    "tooltip": "点击将所有 {{name}} 重置为默认值。",
+    "confirmTitle": "重置设置",
+    "confirmHtml": "您确定要将 <b>{{name}}</b> 重置为默认值吗？此操作不可逆！",
+    "successTitle": "重置设置",
+    "successHtml": "<b>{{name}}</b> 已设置为默认值。您可能需要重新加载应用程序以反映某些更改。"
   },
   "menus": {
     "general": {
-      "header": "一般的",
+      "header": "通用",
       "subMenus": {
         "language": {
-          "label": "语",
+          "label": "语言",
           "elements": {
-            "lbl_languageSelect": "语言选择"
+            "lbl_languageSelect": "语言选择",
+            "hdr_contributing": "贡献",
+            "hdr_selectLanguage": "选择一种语言",
+            "btn_openContributionGuide": "打开贡献指南"
           },
           "tooltips": {
-            "lbl_languageSelect": "设置 PianoRhythm 的默认语言。"
+            "lbl_languageSelect": "为 PianoRhythm 设置默认语言。"
           }
         },
         "application": {
           "label": "应用",
           "elements": {
-            "hdr_applicationSettings": "应用程序设置",
-            "lbl_resetSettingsModalTitleText": "将设置重置为默认值",
-            "lbl_resetSettingsModalBodyText": "<b>你确定要这么做吗？</b><br><br><p>这会将您的所有设置重置为默认设置，并且无法撤消。</p>",
-            "btn_resetSettings": "重新设置"
+            "hdr_applicationSettings": "应用设置",
+            "hdr_general": "通用",
+            "hdr_advanced": "高级",
+            "lbl_resetSettingsModalTitleText": "重置设置为默认",
+            "lbl_resetSettingsModalBodyText": "<b>您确定要这样做吗？</b> <br><br><p>这将将所有您的设置重置为默认值，且无法撤销。</p>",
+            "btn_resetSettings": "重置设置",
+            "tgl_checkForUpdates": "检查更新",
+            "tgl_enableDebugMode": "启用调试模式",
+            "btn_openCookieManagement": "打开 Cookie 管理",
+            "btn_exportLogFile": "导出日志文件",
+            "btn_openAppDataFolder": "打开应用数据文件夹"
+          },
+          "tooltips": {
+            "tgl_checkForUpdates": "应用程序是否应定期检查更新。",
+            "tgl_enableDebugMode": "将 PianoRhythm 置于某种调试模式。日志记录将更加详细，某些功能将更加适合调试。",
+            "btn_openCookieManagement": "点击管理您的 Cookie 偏好设置。",
+            "btn_exportLogFile": "点击为 PianoRhythm 的日志文件选择位置。",
+            "btn_openAppDataFolder": "点击打开 PianoRhythm 的应用数据文件夹。"
+          },
+          "messages": {
+            "noLogFile": "抱歉，当前没有可导出的日志文件。请稍后重试。",
+            "saveLogTitle": "保存 PianoRhythm 日志文件",
+            "logFilesFilter": "日志文件",
+            "logExportSuccess": "日志文件已成功导出。",
+            "logExportError": "导出日志文件时出错。请检查控制台日志以获取更多信息。",
+            "appDataFolderError": "打开应用数据文件夹时出错。请检查控制台日志以获取更多信息。",
+            "resetAllConfirmText": "您确定要将设置重置为默认值吗？此操作不可逆！",
+            "resetAllSuccessText": "设置已设置为默认值。您可能需要重新加载应用程序以反映某些更改。",
+            "reloadButton": "重新加载"
           }
         }
       }
     },
     "online": {
-      "header": "在线的",
+      "header": "在线",
       "subMenus": {
         "my account": {
-          "label": "我的帐户",
+          "label": "我的账户",
           "elements": {
-            "hdr_myAccount": "我的帐户",
-            "hdr_passwordAndAuthentication": "密码和身份验证",
-            "hdr_accountManagement": "帐户管理",
+            "hdr_myAccount": "我的账户",
+            "hdr_passwordAndAuthentication": "密码和认证",
+            "hdr_accountManagement": "账户管理",
             "hdr_security": "安全",
-            "tgl_enable2fa": "双重身份验证",
-            "btn_changePassword": "更改密码",
-            "btn_deleteAccount": "删除帐户",
-            "txt_passwordChangeSubText": "输入您的当前密码和新密码",
-            "txt_deleteAccountSubText": "你真的确定吗？您的所有帐户数据将被永久删除",
-            "txt_onIncorrectDeleteInputField": "请确保您在输入字段中输入正确。",
+            "hdr_advanced": "高级",
+            "hdr_generalSection": "通用",
+            "hdr_emailNotifications": "邮件通知",
+            "hdr_profileColor": "个人资料颜色",
+            "tgl_enable2fa": "两步验证",
+            "tgl_allowUsersToNotifyMe": "允许用户通知我",
+            "btn_changePassword": "修改密码",
+            "btn_deleteAccount": "删除账户",
+            "btn_userColorReset": "重置颜色",
+            "btn_userColorSubmit": "提交颜色",
+            "btn_setRainbowColor": "设置彩虹色",
+            "lbl_submitting": "提交中...",
+            "phr_color": "颜色",
+            "txt_passwordChangeSubText": "输入当前密码和新密码",
+            "txt_deleteAccountSubText": "您真的确定吗？您的所有账户数据将被永久删除",
+            "txt_onIncorrectDeleteInputField": "请确保您在输入框中输入正确。",
             "txt_confirmPasswordSubText": "请输入并确认您的密码",
-            "txt_emailChangeSubText": "输入新的电子邮件地址和密码"
+            "txt_emailChangeSubText": "输入新邮箱地址和您的密码"
           },
           "tooltips": {
-            "hdr_myAccount": "帐户信息",
-            "tgl_enable2fa": "通过双重身份验证 (2FA) 添加额外的安全层。",
-            "hdr_passwordAndAuthentication": "密码和身份验证",
-            "hdr_accountManagement": "帐户管理"
+            "hdr_myAccount": "账户信息",
+            "tgl_enable2fa": "通过两步验证 (2FA) 添加额外的安全层。",
+            "hdr_passwordAndAuthentication": "密码和认证",
+            "hdr_accountManagement": "账户管理",
+            "tgl_allowUsersToNotifyMe": "切换是否在收到用户 @您（通知）时获取通知。",
+            "btn_deleteAccount": "这将触发永久删除您的 PianoRhythm 账户的过程。",
+            "clickToHideEmail": "点击隐藏邮箱...",
+            "clickToRevealEmail": "点击显示邮箱...",
+            "clickToUploadProfileImage": "点击上传个人资料图片！"
           },
           "messages": {
-            "on2faDisable": "禁用双重身份验证后，登录您的帐户将需要仅密码保护。您希望继续禁用两因素身份验证吗？"
+            "on2faDisable": "禁用两步验证后，登录您的账户将仅需要密码保护。您是否要继续禁用两步验证？",
+            "deleteAccountSuccess": "您已成功删除了账户！<br><br>此后，您的当前会话将结束，您将重定向至登录屏幕。",
+            "requestError": "请求出错了。",
+            "deleteAccountTitle": "删除您的账户",
+            "deleteAccountIntro": "<p>很遗憾您即将离开！</p><br><p>请注意，此过程是最终的，且将无法恢复您的账户。</p><br><p>任何活动的订阅也将被取消。</p>",
+            "deleteAccountCancel": "算了，保留我的账户",
+            "deleteAccountConfirm": "删除我的账户",
+            "confirmationRequired": "需要确认",
+            "typeDeleteToConfirm": "输入 <b style='color:red'>DELETE</b> 进行确认",
+            "accountDeletionTitle": "账户删除",
+            "enterPasswordPlaceholder": "输入密码",
+            "confirmPasswordPlaceholder": "确认密码",
+            "bothFieldsValid": "请确保两个字段都有效。"
           }
         },
         "multiplayer": {
@@ -66,57 +139,105 @@
             "btn_userColorReset": "重置颜色",
             "btn_userColorSubmit": "提交颜色",
             "tgl_showMyCursor": "显示我的光标",
-            "tgl_sendWhoistyping": "发送 WhoIsTyping",
+            "tgl_sendWhoistyping": "发送正在输入中",
             "tgl_disableWhispers": "禁用耳语",
             "hdr_notifications": "通知",
             "tgl_friendsOnlineStatus": "好友在线状态",
             "tgl_friendsOfflineStatus": "好友离线状态",
             "tgl_sheetMusicChanges": "乐谱更改",
-            "tgl_emitMyStatusToFriends": "将我的状态发送给朋友"
+            "tgl_emitMyStatusToFriends": "向我发送状态"
           },
           "tooltips": {
-            "hdr_multiplayerSettings": "设置多人游戏相关设置。",
-            "lbl_userColor": "设置你的用户颜色",
-            "btn_userColorReset": "重置你的颜色",
-            "btn_userColorSubmit": "更新你的颜色！",
-            "hdr_notifications": "切换您收到的服务器通知。",
-            "tgl_showMyCursor": "切换您的光标是否显示给其他人。",
-            "tgl_sendWhoistyping": "切换其他用户是否知道您何时输入。",
-            "tgl_disableWhispers": "禁用窃窃私语。你不能对别人耳语，反之亦然。",
-            "tgl_friendsOnlineStatus": "当朋友上线时收到通知",
-            "tgl_friendsOfflineStatus": "当朋友离线时收到通知",
-            "tgl_emitMyStatusToFriends": "让朋友知道您的状态变化。 （在线、离线等）",
-            "tgl_sheetMusicChanges": "每当您上传的乐谱发生更改时，都会收到通知电子邮件。"
+            "hdr_multiplayerSettings": "设置多人游戏相关的设置。",
+            "lbl_userColor": "设置您的用户颜色",
+            "btn_userColorReset": "重置您的颜色",
+            "btn_userColorSubmit": "更新您的颜色！",
+            "hdr_notifications": "切换接收的服务器通知。",
+            "tgl_showMyCursor": "切换是否向他人显示您的光标。",
+            "tgl_sendWhoistyping": "切换其他人是否知道您正在输入。",
+            "tgl_disableWhispers": "禁用耳语。您不能向他人耳语，反之亦然。",
+            "tgl_friendsOnlineStatus": "好友上线时获取通知",
+            "tgl_friendsOfflineStatus": "好友离线时获取通知",
+            "tgl_emitMyStatusToFriends": "允许好友了解您的状态更改。（在线、离线等）",
+            "tgl_sheetMusicChanges": "每当上传的乐谱发生更改时获取通知邮件。"
           }
         },
         "discord": {
-          "label": "不和谐",
+          "label": "Discord",
           "elements": {
-            "hdr_discordSettings": "不和谐设置",
+            "hdr_discordSettings": "Discord 设置",
             "swtch_syncDiscordMessages": "同步 Discord 大厅消息"
           },
           "tooltips": {
-            "hdr_discordSettings": "设置 Discord 相关设置。",
-            "swtch_syncDiscordMessages": "切换 Discord 消息是否在主大厅同步。"
+            "hdr_discordSettings": "设置 Discord 相关的设置。",
+            "swtch_syncDiscordMessages": "切换是否在大厅中同步 Discord 消息。"
           }
         },
         "input": {
           "label": "输入",
           "elements": {
             "hdr_keyboardSettings": "键盘设置",
+            "hdr_advanced": "高级",
+            "hdr_customizeLayoutKeys": "自定义布局键",
+            "hdr_pressKeyCombo": "按下所需的按键组合",
+            "hdr_keyboardShortcutBinding": "键盘快捷键绑定",
+            "hdr_customizeKeysOptions": "自定义按键选项",
+            "hdr_layoutImport": "布局导入",
+            "hdr_setOctave": "设置八度",
             "lbl_pianoKeylayout": "钢琴键布局",
-            "lbl_keyboardMaplayout": "键盘地图布局",
+            "lbl_keyboardMaplayout": "键盘映射布局",
+            "lbl_unassigned": "未分配",
+            "lbl_warning": "警告",
+            "lbl_none": "无",
             "drp_keyboards": "键盘",
-            "lbl_shortcutBinds": "快捷方式绑定",
-            "btn_openKeybinder": "打开键盘绑定器",
-            "tgl_keyboard_toggleyz": "切换 Y 和 Z 键"
+            "lbl_shortcutBinds": "快捷键绑定",
+            "btn_openKeybinder": "打开 Keybinder",
+            "btn_clear": "清除",
+            "btn_reset": "重置",
+            "btn_options": "选项",
+            "btn_test": "测试",
+            "btn_stopTesting": "停止测试",
+            "btn_saveAndExit": "保存并退出",
+            "btn_removeBinding": "移除绑定",
+            "btn_resetToDefault": "重置为默认",
+            "btn_applyChanges": "应用更改",
+            "btn_importLayoutFrom": "从导入布局",
+            "btn_increase": "增加 +",
+            "btn_decrease": "减少 -",
+            "btn_nahSorry": "算了，抱歉...",
+            "phr_searchCommands": "搜索命令...",
+            "col_command": "命令",
+            "col_keyBind": "键绑定",
+            "tip_clickToEdit": "点击编辑",
+            "tip_clickToEditPrev": "点击编辑（之前：{{prev}}）",
+            "tip_keyboardKeyCode": "键盘 KeyCode: {{code}}",
+            "msg_bindingConflict": "已有命令共享相同的绑定",
+            "msg_resetLayoutConfirm": "您确定要将布局重置为您最初拥有的内容吗？",
+            "msg_clearMappingConfirm": "您确定要清除当前映射吗？",
+            "msg_customKeysLayoutSaved": "自定义键布局已保存！",
+            "msg_keyboardKeyHeader": "键盘键：<b>{{key}}{{noteOutput}}</b> | {{highlight}}",
+            "msg_highlightedNote": "高亮（音符：{{note}} - 键：{{key}}）",
+            "msg_octaveIncreased": "映射键的音符已增加一个八度！",
+            "msg_octaveDecreased": "映射键的音符已减少一个八度！",
+            "msg_layoutImported": "已导入 {{layout}} 布局。",
+            "msg_changesSaved": "更改已保存！",
+            "msg_noCommandsFound": "未找到任何命令...",
+            "tgl_keyboard_toggleyz": "切换 Y 和 Z 键",
+            "tgl_ctrlKeyLowersOctave": "Ctrl 键降低八度",
+            "tgl_midiToVpQwertyLayout": "MIDI 到 VP/QWERTY 布局",
+            "tgl_useCapslockForMidiQwerty": "为 MIDI 到 QWERTY Mod 使用大写锁定而非 Ctrl",
+            "tgl_shiftKeyNoteOff": "Shift 键音符关闭"
           },
           "tooltips": {
-            "hdr_keyboardSettings": "设置键盘相关设置。",
-            "lbl_pianoKeylayout": "设置钢琴的键盘钢琴布局。",
+            "hdr_keyboardSettings": "设置键盘相关的设置。",
+            "lbl_pianoKeylayout": "为钢琴设置键盘钢琴布局。",
             "lbl_keyboardMaplayout": "设置正确的键盘输入映射。",
-            "lbl_shortcutBinds": "创建与常用快捷方式的绑定。",
-            "tgl_keyboard_toggleyz": "对于某些键盘布局，切换 Y 和 Z 键盘的映射会更自然地对齐。"
+            "lbl_shortcutBinds": "为常用快捷键创建绑定。",
+            "tgl_keyboard_toggleyz": "对于某些键盘布局，切换 Y 和 Z 键盘的映射会更自然地对齐。",
+            "tgl_ctrlKeyLowersOctave": "按下 Ctrl 键将降低所演奏音符的八度。<br /><br /><i style=\"color:gray\">注意：使用 VP 的 MIDI 到 qwerty 转换器布局时，此功能已禁用。</i>",
+            "tgl_midiToVpQwertyLayout": "与 MIDI 到 VP/qwerty 转换器工具相比，使用类似的扩展布局。<img src=\"{{imagePath}}\"><br /><div style=\"color:gray\">链接至：<a href=\"https://arijanj.github.io/midi-converter/\" target=\"_blank\">MIDI 到虚拟钢琴转换器</a></div>",
+            "tgl_useCapslockForMidiQwerty": "这是为了提供一个替代键，因为浏览器中的某些快捷键可能与默认的 Ctrl 键绑定冲突。例如，ctrl + w 会在大多数浏览器中关闭当前标签页。",
+            "tgl_shiftKeyNoteOff": "TODO: 详情"
           }
         }
       }
@@ -125,144 +246,401 @@
       "header": "图形",
       "subMenus": {
         "general": {
-          "label": "一般的",
+          "label": "通用",
           "elements": {
             "hdr_engine": "图形引擎",
             "lbl_engine": "引擎",
-            "lbl_maxFPS": "最大 FPS"
+            "lbl_maxFPS": "最大帧率",
+            "hdr_general": "通用",
+            "hdr_renderingPipeline": "渲染管线",
+            "hdr_webGpu": "Web GPU",
+            "hdr_advanced": "高级",
+            "lbl_graphicsPreset": "图形预设",
+            "phr_graphicsPreset": "选择图形预设...",
+            "lbl_graphicsRenderer": "3D 图形渲染器",
+            "phr_graphicsRenderer": "选择图形渲染器...",
+            "lbl_targetFPS": "目标帧率",
+            "phr_targetFPS": "选择目标帧率...",
+            "lbl_mirrorTextureSampleSize": "镜像纹理采样大小",
+            "phr_mirrorTextureSampleSize": "选择采样大小...",
+            "lbl_msaaSamples": "MSAA 采样",
+            "phr_msaaSamples": "选择 MSAA 采样数...",
+            "lbl_webglPowerPreference": "WEBGL 电源偏好",
+            "phr_webglPowerPreference": "选择电源偏好...",
+            "lbl_enginePerformancePriority": "引擎性能优先模式",
+            "phr_enginePerformancePriority": "选择性能模式...",
+            "tgl_enableGraphicsEngine": "启用图形引擎",
+            "tgl_enableStage": "启用舞台",
+            "tgl_enablePiano": "启用钢琴",
+            "tgl_enablePianoBench": "启用钢琴凳",
+            "tgl_enableDrums": "启用鼓组",
+            "tgl_enableMotionBlur": "启用运动模糊",
+            "tgl_enableAntialiasing": "启用抗锯齿",
+            "tgl_enableParticleSystem": "启用粒子系统",
+            "tgl_enableFog": "启用雾效果",
+            "tgl_enablePostProcessing": "启用后期处理",
+            "tgl_enableGlow": "启用发光效果",
+            "tgl_enablePianoKeysGlow": "启用钢琴键发光",
+            "tgl_enableShadows": "启用阴影",
+            "tgl_enableSoftShadows": "启用柔和阴影",
+            "tgl_enableSpecialEffects": "启用特殊效果",
+            "tgl_enableAutoAnimateCamera": "启用自动动画相机到乐器",
+            "tgl_enableOrchestraModels": "启用乐团模型",
+            "tgl_enableHDR": "启用 HDR",
+            "tgl_enableBloom": "启用辉光",
+            "tgl_enableToneMapping": "启用色调映射",
+            "tgl_enableDepthOfField": "启用景深",
+            "tgl_enableAmbientOcclusion": "启用屏幕空间 - 环境遮挡",
+            "tgl_enableMirrorTextures": "启用镜像纹理",
+            "tgl_useWebGPU": "使用 WebGPU",
+            "tgl_webgpuSnapshot": "WebGPU 快照渲染",
+            "tgl_webgpuNonCompatMode": "WebGPU 非兼容模式",
+            "tgl_enableOfflineStorage": "启用离线存储",
+            "tgl_renderInBackground": "即使处于背景中也启用渲染",
+            "tgl_useOffscreenCanvas": "启用离屏画布",
+            "lbl_resetGraphicsSettings": "图形设置"
           },
           "tooltips": {
-            "lbl_engine": "在 2D、3D 或无图形引擎之间切换。",
-            "lbl_maxFPS": "选择渲染引擎的最大帧率。"
+            "lbl_engine": "在 2D、3D 或不使用图形引擎之间切换。",
+            "lbl_maxFPS": "选择渲染引擎的最大帧率。",
+            "lbl_graphicsPreset": "快速切换经过策划的图形质量预设。选择预设将同时切换多个图形选项。<br/><br/><i>选择“自定义”表示当前设置与任何内置预设都不匹配。</i>",
+            "lbl_graphicsRenderer": "选择图形渲染引擎。<br/><br/><i>"Bevy" 渲染器目前非常实验性，可能不具有与"Babylon.js" 渲染器相同的特性。</i><br/><br/><i>注意：需要重新加载才能生效。</i></i>",
+            "lbl_targetFPS": "选择渲染引擎的目标帧率。<br/><br/><i>注意：需要重新加载才能生效。</i></i>",
+            "lbl_mirrorTextureSampleSize": "镜像纹理采样大小。越大反射质量越好。<br/><br/><i>注意：需要重新加载才能生效。</i></i>",
+            "lbl_msaaSamples": "每像素的多采样抗锯齿样本数。较高的值会产生更平滑的边缘，但会消耗 GPU 性能和内存带宽。<br/><br/><i>2x 和 8x 可能不支持所有设备；4x 是网络上的安全选择。</i></i>",
+            "lbl_webglPowerPreference": "为 WebGL 提供首选电源偏好模式的提示。<ul style='margin-top:10px; margin-left:5px'><li style='margin-bottom:10px'>当设置为<b>默认</b>时，浏览器决定哪种 GPU 配置最合适。</li><li style='margin-bottom:10px'>当设置为<b>高性能</b>时，选择优先考虑渲染性能而非功耗的 GPU 配置。</li><li style='margin-bottom:10px'>当设置为<b>低功耗</b>时，选择优先考虑省电而非渲染性能的 GPU 配置。</li></ul><i>注意：需要重新加载才能生效。</i></i>",
+            "lbl_enginePerformancePriority": "确定图形场景如何处理性能以及向后兼容性和易用性。<ul style='margin-top:10px; margin-left:5px'><li style='margin-bottom:10px'>当设置为<b>向后兼容</b>时，没有任何变化。场景将继续优先考虑易用性和向后兼容性。</li><li style='margin-bottom:10px'>当设置为<b>中间</b>时，一些性能选项将打开，试图在性能和易用性之间取得平衡。</li><li style='margin-bottom:10px'>当设置为<b>激进</b>时，性能将是首要任务。</li></ul><i>注意：需要重新加载才能生效。</i><br/><br/><b>来源：</b><a href='https://doc.babylonjs.com/features/featuresDeepDive/scene/optimize_your_scene#performance-priority-modes' target='_blank'>性能优先模式</a></i>",
+            "tgl_enableGraphicsEngine": "切换是否初始化并使用图形引擎进行渲染。<br/><br/><i>注意：需要重新加载才能生效。</i></i>",
+            "tgl_enableStage": "启用/禁用场景中的主舞台。",
+            "tgl_enablePiano": "启用/禁用显示场景中的主钢琴。",
+            "tgl_enablePianoBench": "启用/禁用显示场景中的钢琴凳。",
+            "tgl_enableDrums": "启用/禁用显示鼓组（仅在鼓通道有活动时显示）在场景中。",
+            "tgl_enableMotionBlur": "运动模糊是一种主要用于游戏的效果，当相机快速通过特定区域时，周围环境在屏幕上显得模糊。",
+            "tgl_enableAntialiasing": "定义是否在画布上启用 MSAA（多采样抗锯齿）。这是一种用于计算机图形学的技术，用于去除锯齿边缘。禁用此选项可能会提高性能。<br/><br/><i>注意：需要重新加载才能生效。</i></i>",
+            "tgl_enableParticleSystem": "粒子系统是由许多微小粒子组成的集合，这些粒子共同代表一个模糊的物体。<br/><br/><i>注意：禁用时，粒子不会立即消散，直到其寿命完成。</i></i>",
+            "tgl_enableFog": "距离雾是一种用于增强 3D 计算机图形学中距离感知感知的技术，通过对远距离物体进行不同的阴影处理。",
+            "tgl_enablePostProcessing": "启用/禁用场景中的后期处理效果。",
+            "tgl_enableGlow": "启用/禁用某些模型的发光效果。",
+            "tgl_enablePianoKeysGlow": "为钢琴键添加柔和的发光光晕，独立于上方的主要发光设置。可用于突出显示按键，而不对场景的其他部分应用发光。",
+            "tgl_enableShadows": "启用/禁用场景中的阴影。",
+            "tgl_enableSoftShadows": "启用/禁用场景中的柔和阴影。",
+            "tgl_enableSpecialEffects": "启用/禁用场景中的特殊效果（如雨）。",
+            "tgl_enableAutoAnimateCamera": "如果启用，当您接近乐器（相机、鼓等）范围内的足够距离时，相机会动画并锁定目标。",
+            "tgl_enableOrchestraModels": "启用/禁用在乐团模式下显示其他用户模型。",
+            "tgl_enableHDR": "启用高动态范围渲染。允许更亮的亮点和超出标准 [0,1] 范围的丰富颜色，在产生更真实的照明的同时消耗一些性能。",
+            "tgl_enableBloom": "为场景的明亮区域添加柔和的光晕，以模拟真实相机和眼睛对强烈光线的反应。启用 HDR 时效果最好。",
+            "tgl_enableToneMapping": "使用电影曲线将高动态范围颜色值映射到可显示的范围，保留亮点和阴影细节。启用 HDR 时推荐使用。",
+            "tgl_enableDepthOfField": "这是有助于实现照片般真实感的一系列预定义后处理。",
+            "tgl_enableAmbientOcclusion": "这是一个渲染管线（级联后处理），将从屏幕空间计算给定场景的环境遮挡。<br/><br/>技术定义：环境遮挡是一种计算机图形学技术，用于模拟光线如何落在物体上。它是一种全局照明方法，通过控制被遮挡区域的环境光衰减为模型添加真实感。</i>",
+            "tgl_enableMirrorTextures": "镜像纹理可用于模拟场景中镜子的视图。它将动态地每帧渲染一次以适应相机的视角。在这种情况下，它用于显示模型（如钢琴）在地面或其他表面上的反射。<br/><br/><i>注意：需要重新加载才能生效。</i></i>",
+            "tgl_useWebGPU": "WebGPU 是 Web 的新 API，它暴露现代硬件功能并允许在 GPU 上进行渲染和计算操作，类似于 Direct3D 12、Metal 和 Vulkan。与 WebGL API 家族不同，WebGPU 提供了对更先进的 GPU 功能的访问，并为 GPU 上的一般计算提供了一级支持。<br/><br/>WebGPU 背后的承诺是通过 JavaScript 对系统图形资源的低级控制提供的异常更快的 API。（仍然是实验性的，某些功能可能无法完全工作。也可能不被许多设备支持。）<br/><br/><i>注意：需要重新加载才能生效。</i></i>",
+            "tgl_webgpuSnapshot": "快照渲染是一种自 Babylon.js v5.0 起可用的新渲染模式。只有 WebGPU 支持它：在 WebGL 中激活此模式无效。<br/><br/>请注意，性能改进仅在 JavaScript 一侧：启用或不启用 SR，GPU 性能将更多或更少相同。<br/><br/>性能改进可能相当大，特别是在使用快速 SR 模式时。<br/><br/><b>来源：</b><a href='https://doc.babylonjs.com/setup/support/webGPU/webGPUOptimization/webGPUSnapshotRendering' target='_blank'>WebGPU 快照渲染</a>",
+            "tgl_webgpuNonCompatMode": "WebGPU 可以在非兼容模式（NCM - 也称为快速路径）下运行，根据您的场景可以实现更好的性能。<br/><br/>WebGPUEngine.compatibilityMode 属性是一个开关，默认为 true。在此模式下，WebGPU 引擎处于完全兼容模式（CM）与 WebGL，意味着所有可以使用 WebGL 渲染的场景也可以由 WebGPU 渲染，无需您做出任何更改。<br/><br/>当将此属性设置为 false 时，您将切换到非兼容模式（NCM），允许引擎使用另一个代码路径，这可能以某些可能的代码重组为代价提高性能。<br/><br/><b>来源：</b><a href='https://doc.babylonjs.com/setup/support/webGPU/webGPUOptimization/webGPUNonCompatibilityMode' target='_blank'>WebGPU 非兼容模式</a>",
+            "tgl_enableOfflineStorage": "表示您希望将某些与 PianoRhythm 相关的 3D 场景资源缓存在浏览器的本地 IndexedDB 中。它可以增强游戏体验，因为 JSON 和纹理文件可以直接从数据库加载，而不是从网络加载。</i>",
+            "tgl_renderInBackground": "获取或设置一个布尔值，指示引擎是否必须继续渲染，即使窗口不在前景。<br/><br/><i>（主要在未使用离屏画布时适用）</i></i>",
+            "tgl_useOffscreenCanvas": "“离屏画布接口提供了一个可以在屏幕外渲染的画布，解耦 DOM 和 Canvas API，使得画布元素不再完全依赖于 DOM。”<br/><br/><i>（更多是性能改进）</i><br/><br/><i>注意：需要重新加载才能生效。</i></i>",
+            "lbl_resetGraphicsSettings": "图形设置"
+          },
+          "tooltips": {
+            "lbl_engine": "在 2D、3D 或不使用图形引擎之间切换。",
+            "lbl_maxFPS": "选择渲染引擎的最大帧率。",
+            "lbl_graphicsPreset": "快速切换经过策划的图形质量预设。选择预设将同时切换多个图形选项。<br/><br/><i>选择“自定义”表示当前设置与任何内置预设都不匹配。</i></i>",
+            "lbl_graphicsRenderer": "选择图形渲染引擎。<br/><br/><i>"Bevy" 渲染器目前非常实验性，可能不具有与"Babylon.js" 渲染器相同的特性。</i><br/><br/><i>注意：需要重新加载才能生效。</i></i>",
+            "lbl_targetFPS": "选择渲染引擎的目标帧率。<br/><br/><i>注意：需要重新加载才能生效。</i></i>",
+            "lbl_mirrorTextureSampleSize": "镜像纹理采样大小。越大反射质量越好。<br/><br/><i>注意：需要重新加载才能生效。</i></i>",
+            "lbl_msaaSamples": "每像素的多采样抗锯齿样本数。较高的值会产生更平滑的边缘，但会消耗 GPU 性能和内存带宽。<br/><br/><i>2x 和 8x 可能不支持所有设备；4x 是网络上的安全选择。</i></i>",
+            "lbl_webglPowerPreference": "为 WebGL 提供首选电源偏好模式的提示。<ul style='margin-top:10px; margin-left:5px'><li style='margin-bottom:10px'>当设置为<b>默认</b>时，浏览器决定哪种 GPU 配置最合适。</li><li style='margin-bottom:10px'>当设置为<b>高性能</b>时，选择优先考虑渲染性能而非功耗的 GPU 配置。</li><li style='margin-bottom:10px'>当设置为<b>低功耗</b>时，选择优先考虑省电而非渲染性能的 GPU 配置。</li></ul><i>注意：需要重新加载才能生效。</i></i>",
+            "lbl_enginePerformancePriority": "确定图形场景如何处理性能以及向后兼容性和易用性。<ul style='margin-top:10px; margin-left:5px'><li style='margin-bottom:10px'>当设置为<b>向后兼容</b>时，没有任何变化。场景将继续优先考虑易用性和向后兼容性。</li><li style='margin-bottom:10px'>当设置为<b>中间</b>时，一些性能选项将打开，试图在性能和易用性之间取得平衡。</li><li style='margin-bottom:10px'>当设置为<b>激进</b>时，性能将是首要任务。</li></ul><i>注意：需要重新加载才能生效。</i><br/><br/><b>来源：</b><a href='https://doc.babylonjs.com/features/featuresDeepDive/scene/optimize_your_scene#performance-priority-modes' target='_blank'>性能优先模式</a></i>",
+            "tgl_enableGraphicsEngine": "切换是否初始化并使用图形引擎进行渲染。<br/><br/><i>注意：需要重新加载才能生效。</i></i>",
+            "tgl_enableStage": "启用/禁用场景中的主舞台。",
+            "tgl_enablePiano": "启用/禁用显示场景中的主钢琴。",
+            "tgl_enablePianoBench": "启用/禁用显示场景中的钢琴凳。",
+            "tgl_enableDrums": "启用/禁用显示鼓组（仅在鼓通道有活动时显示）在场景中。",
+            "tgl_enableMotionBlur": "运动模糊是一种主要用于游戏的效果，当相机快速通过特定区域时，周围环境在屏幕上显得模糊。",
+            "tgl_enableAntialiasing": "定义是否在画布上启用 MSAA（多采样抗锯齿）。这是一种用于计算机图形学的技术，用于去除锯齿边缘。禁用此选项可能会提高性能。<br/><br/><i>注意：需要重新加载才能生效。</i></i>",
+            "tgl_enableParticleSystem": "粒子系统是由许多微小粒子组成的集合，这些粒子共同代表一个模糊的物体。<br/><br/><i>注意：禁用时，粒子不会立即消散，直到其寿命完成。</i></i>",
+            "tgl_enableFog": "距离雾是一种用于增强 3D 计算机图形学中距离感知感知的技术，通过对远距离物体进行不同的阴影处理。",
+            "tgl_enablePostProcessing": "启用/禁用场景中的后期处理效果。",
+            "tgl_enableGlow": "启用/禁用某些模型的发光效果。",
+            "tgl_enablePianoKeysGlow": "为钢琴键添加柔和的发光光晕，独立于上方的主要发光设置。可用于突出显示按键，而不对场景的其他部分应用发光。",
+            "tgl_enableShadows": "启用/禁用场景中的阴影。",
+            "tgl_enableSoftShadows": "启用/禁用场景中的柔和阴影。",
+            "tgl_enableSpecialEffects": "启用/禁用场景中的特殊效果（如雨）。",
+            "tgl_enableAutoAnimateCamera": "如果启用，当您接近乐器（相机、鼓等）范围内的足够距离时，相机会动画并锁定目标。",
+            "tgl_enableOrchestraModels": "启用/禁用在乐团模式下显示其他用户模型。",
+            "tgl_enableHDR": "启用高动态范围渲染。允许更亮的亮点和超出标准 [0,1] 范围的丰富颜色，在产生更真实的照明的同时消耗一些性能。",
+            "tgl_enableBloom": "为场景的明亮区域添加柔和的光晕，以模拟真实相机和眼睛对强烈光线的反应。启用 HDR 时效果最好。",
+            "tgl_enableToneMapping": "使用电影曲线将高动态范围颜色值映射到可显示的范围，保留亮点和阴影细节。启用 HDR 时推荐使用。",
+            "tgl_enableDepthOfField": "这是有助于实现照片般真实感的一系列预定义后处理。",
+            "tgl_enableAmbientOcclusion": "这是一个渲染管线（级联后处理），将从屏幕空间计算给定场景的环境遮挡。<br/><br/>技术定义：环境遮挡是一种计算机图形学技术，用于模拟光线如何落在物体上。它是一种全局照明方法，通过控制被遮挡区域的环境光衰减为模型添加真实感。</i>",
+            "tgl_enableMirrorTextures": "镜像纹理可用于模拟场景中镜子的视图。它将动态地每帧渲染一次以适应相机的视角。在这种情况下，它用于显示模型（如钢琴）在地面或其他表面上的反射。<br/><br/><i>注意：需要重新加载才能生效。</i></i>",
+            "tgl_useWebGPU": "WebGPU 是 Web 的新 API，它暴露现代硬件功能并允许在 GPU 上进行渲染和计算操作，类似于 Direct3D 12、Metal 和 Vulkan。与 WebGL API 家族不同，WebGPU 提供了对更先进的 GPU 功能的访问，并为 GPU 上的一般计算提供了一级支持。<br/><br/>WebGPU 背后的承诺是通过 JavaScript 对系统图形资源的低级控制提供的异常更快的 API。（仍然是实验性的，某些功能可能无法完全工作。也可能不被许多设备支持。）<br/><br/><i>注意：需要重新加载才能生效。</i></i>",
+            "tgl_webgpuSnapshot": "快照渲染是一种自 Babylon.js v5.0 起可用的新渲染模式。只有 WebGPU 支持它：在 WebGL 中激活此模式无效。<br/><br/>请注意，性能改进仅在 JavaScript 一侧：启用或不启用 SR，GPU 性能将更多或更少相同。<br/><br/>性能改进可能相当大，特别是在使用快速 SR 模式时。<br/><br/><b>来源：</b><a href='https://doc.babylonjs.com/setup/support/webGPU/webGPUOptimization/webGPUSnapshotRendering' target='_blank'>WebGPU 快照渲染</a>",
+            "tgl_webgpuNonCompatMode": "WebGPU 可以在非兼容模式（NCM - 也称为快速路径）下运行，根据您的场景可以实现更好的性能。<br/><br/>WebGPUEngine.compatibilityMode 属性是一个开关，默认为 true。在此模式下，WebGPU 引擎处于完全兼容模式（CM）与 WebGL，意味着所有可以使用 WebGL 渲染的场景也可以由 WebGPU 渲染，无需您做出任何更改。<br/><br/>当将此属性设置为 false 时，您将切换到非兼容模式（NCM），允许引擎使用另一个代码路径，这可能以某些可能的代码重组为代价提高性能。<br/><br/><b>来源：</b><a href='https://doc.babylonjs.com/setup/support/webGPU/webGPUOptimization/webGPUNonCompatibilityMode' target='_blank'>WebGPU 非兼容模式</a>",
+            "tgl_enableOfflineStorage": "表示您希望将某些与 PianoRhythm 相关的 3D 场景资源缓存在浏览器的本地 IndexedDB 中。它可以增强游戏体验，因为 JSON 和纹理文件可以直接从数据库加载，而不是从网络加载。</i>",
+            "tgl_renderInBackground": "获取或设置一个布尔值，指示引擎是否必须继续渲染，即使窗口不在前景。<br/><br/><i>（主要在未使用离屏画布时适用）</i></i>",
+            "tgl_useOffscreenCanvas": "“离屏画布接口提供了一个可以在屏幕外渲染的画布，解耦 DOM 和 Canvas API，使得画布元素不再完全依赖于 DOM。”<br/><br/><i>（更多是性能改进）</i><br/><br/><i>注意：需要重新加载才能生效。</i></i>"
           }
         },
         "world": {
-          "label": "世界"
+          "label": "世界",
+          "elements": {
+            "hdr_general": "通用",
+            "tgl_enable3dAvatars": "启用 3D 头像",
+            "tgl_enablePhysicsEngine": "启用物理引擎"
+          },
+          "tooltips": {
+            "tgl_enable3dAvatars": "切换是否让 3D 头像出现在场景中。<br><br><i>注意：需要重新加载才能生效。</i></i>",
+            "tgl_enablePhysicsEngine": "切换游戏世界的物理引擎。<br><br><i>注意：需要重新加载才能生效。</i></i>"
+          }
         },
         "ui": {
-          "label": "用户界面",
+          "label": "UI",
           "elements": {
-            "hdr_displays": "显示器",
-            "tgl_fps": "切换 FPS",
-            "tgl_ping": "切换 ping",
-            "tgl_instDock": "切换仪器底座",
-            "tgl_userCursors": "切换用户光标",
-            "tgl_whoistyping": "切换 WhoIsTyping",
+            "hdr_displays": "显示",
+            "hdr_general": "通用",
+            "hdr_graphicsEngine": "图形引擎",
             "hdr_chat": "聊天",
+            "hdr_notifications": "通知",
+            "hdr_sidebar": "侧边栏",
+            "hdr_advanced": "高级",
+            "lbl_theme": "主题",
+            "phr_theme": "选择主题...",
+            "tgl_fps": "切换帧率显示",
+            "tgl_ping": "切换 Ping 显示",
+            "tgl_instDock": "切换乐器停靠",
+            "tgl_userCursors": "切换用户光标",
+            "tgl_whoistyping": "切换正在输入中",
             "tgle_displayChat": "显示聊天消息",
             "tgle_keepChatInFocus": "保持聊天焦点",
             "sld_chatMsgsHeightOffset": "聊天消息高度偏移",
             "sld_chatMsg2DOpacity": "聊天消息默认不透明度（2D 模式）",
             "sld_chatMsg3DOpacity": "聊天消息默认不透明度（3D 模式）",
-            "tgl_display3DStats": "显示 3D 统计数据",
-            "tgle_showEmbeddedLinks": "显示嵌入链接"
+            "tgl_display3DStats": "显示 3D 统计",
+            "tgle_showEmbeddedLinks": "显示嵌入链接",
+            "tgl_autoHideBottomBar": "自动隐藏底部栏",
+            "tgl_displaySideWidgetButtons": "显示侧边组件按钮",
+            "tgl_displayFps": "显示帧率",
+            "tgl_displayRenderStats": "显示渲染统计",
+            "tgl_autoScrollChat": "始终自动滚动聊天",
+            "tgl_enableUrlPreview": "启用 URL 预览",
+            "tgl_disableChatMarkdown": "禁用聊天 Markdown",
+            "tgl_enableDesktopNotifications": "启用桌面通知",
+            "tgl_enableUserNoteActivities": "启用用户音符活动",
+            "tgl_warnExternalLinks": "警告关于打开外部链接",
+            "tgl_enableSynthNoteActivities": "启用合成音符活动"
           },
           "tooltips": {
             "hdr_displays": "切换某些 UI 元素的显示",
-            "tgl_fps": "切换 FPS 显示仪表",
+            "tgl_fps": "切换帧率显示计數器",
             "tgl_ping": "切换 Ping 显示",
-            "tgl_instDock": "切换仪器底座显示",
+            "tgl_instDock": "切换乐器停靠显示",
             "tgl_userCursors": "切换显示其他用户的光标",
-            "tgl_whoistyping": "当其他用户正在输入时切换显示",
-            "hdr_chat": "聊天消息的相关 UI 设置",
-            "tgle_displayChat": "切换显示聊天消息",
+            "tgl_whoistyping": "切换显示何时其他用户正在输入",
+            "hdr_chat": "聊天消息相关的 UI 设置",
+            "tgle_displayChat": "切换是否显示聊天消息",
             "sld_chatMsgsHeightOffset": "设置聊天消息容器的高度偏移",
-            "tgl_display3DStats": "切换显示有关 3d 场景的额外统计信息/信息",
+            "tgl_display3DStats": "切换显示关于 3D 场景的额外统计/信息",
             "tgle_keepChatInFocus": "切换是否在提交消息后保持聊天焦点",
-            "sld_chatMsg2DOpacity": "设置聊天消息未聚焦时的默认不透明度。 （二维模式）",
-            "sld_chatMsg3DOpacity": "设置聊天消息未聚焦时的默认不透明度。 （3D模式）",
-            "tgle_showEmbeddedLinks": "切换链接是否显示嵌入的对象，例如关联链接的图像或视频"
+            "sld_chatMsg2DOpacity": "设置当聊天失去焦点时聊天消息的默认不透明度。（2D 模式）",
+            "sld_chatMsg3DOpacity": "设置当聊天失去焦点时聊天消息的默认不透明度。（3D 模式）",
+            "tgle_showEmbeddedLinks": "切换是否显示链接中嵌入的对象，如关联链接的图片或视频",
+            "lbl_theme": "UI 主题预设。",
+            "tgl_autoHideBottomBar": "切换菜单底部栏是否在鼠标离开区域时自动隐藏",
+            "tgl_displaySideWidgetButtons": "显示侧边组件按钮（在右侧）。许多通用操作（锁定相机、舞台效果等）将出现在这里。",
+            "tgl_displayFps": "显示场景的帧率（每秒帧数）计数器。",
+            "tgl_displayRenderStats": "显示当前场景的渲染统计信息。",
+            "tgl_autoScrollChat": "始终自动滚动到底部以查看新消息",
+            "tgl_enableUrlPreview": "启用使用网站元信息显示 URL 预览",
+            "tgl_disableChatMarkdown": "禁用聊天消息中的 Markdown（文本格式/标记）。<br><br><i>注意：下次重启时生效。</i></i>",
+            "tgl_enableDesktopNotifications": "切换 PianoRhythm 是否可以在系统托盘中向您发出桌面通知。<br><br><i>注意：您的浏览器必须启用通知才能使其工作。</i></i>",
+            "tgl_enableUserNoteActivities": "启用查看任何音符活动（如用户图标上下移动）在侧边栏的用户项目上反映。",
+            "tgl_warnExternalLinks": "如果启用，将弹出窗口显示关于警告您打开聊天中的外部链接。",
+            "tgl_enableSynthNoteActivities": "启用查看某些 UI 组件（如乐器停靠中的通道闪烁）中反射的音符活动。"
           }
         },
         "blob": {
-          "label": "斑点",
+          "label": "Blob",
           "elements": {
-            "hdr_displays": "显示器",
-            "tgl_blobs": "切换 blob",
+            "hdr_displays": "显示",
+            "tgl_blobs": "切换 Blob",
             "tgl_garden": "切换花园"
           },
           "tooltips": {
-            "hdr_displays": "切换某些 blob 相关元素的显示。",
-            "tgl_blobs": "切换显示 blob。",
-            "tgl_garden": "切换显示 blob 的花园。"
+            "hdr_displays": "切换某些与 Blob 相关元素的显示。",
+            "tgl_blobs": "切换显示 Blob。",
+            "tgl_garden": "切换显示 Blob 的花园。"
           }
         }
       }
     },
     "audio": {
-      "header": "声音的",
+      "header": "音频",
       "subMenus": {
         "soundfont": {
-          "label": "声音字体",
+          "label": "Soundfont",
           "messages": {
-            "soundfontLoading": "正在加载声音字体，请稍候！"
+            "soundfontLoading": "请稍候，正在加载 soundfont！",
+            "loadDefaultError": "加载默认 Soundfont 错误",
+            "unknownError": "未知错误",
+            "fileTooLarge": "文件太大！最大 2GB。<br/><br/>文件：{{name}}",
+            "unknownSoundfontName": "未知-Soundfont-名称",
+            "noResults": "出错了！未找到结果。<br/><br/>文件：{{name}}",
+            "readError": "读取 soundfont 失败。<br/><br/>文件：{{name}}",
+            "loadAborted": "Soundfont 文件加载已中止！<br/><br/>文件：{{name}}",
+            "clearCacheTitle": "清除 Soundfonts 缓存",
+            "clearCacheConfirmText": "您确定要清除已缓存的 soundfonts 吗？此操作不可逆。",
+            "clearCacheSuccessText": "Soundfonts 缓存已清除。",
+            "clearCacheErrorHtml": "清除 Soundfonts 缓存时出错了！<br><br><b>请检查控制台错误日志以获取更多信息。</b>"
           },
           "elements": {
-            "hdr_generalSettings": "常规设置",
+            "hdr_generalSettings": "通用设置",
+            "hdr_general": "通用",
+            "hdr_equalizer": "均衡器",
+            "hdr_reverb": "混响",
+            "hdr_caching": "缓存",
+            "hdr_advanced": "高级",
             "lbl_audioEngine": "音频引擎",
             "tgl_enableDrums": "启用鼓通道",
             "hdr_v3Audio": "V3 音频",
-            "lbl_soundfonts": "声音字体",
+            "lbl_soundfonts": "Soundfonts",
             "lbl_initalBuffersize": "初始缓冲区大小",
             "tgl_showDebuglogs": "显示调试性能日志",
-            "tgl_useAudioWorklet": "使用 AudioWorklet"
+            "tgl_useAudioWorklet": "使用 AudioWorklet",
+            "lbl_size": "大小",
+            "lbl_custom": "自定义",
+            "opt_loadCustomSoundfont": "-- 加载自定义 Soundfont --",
+            "opt_loadCustomSfzSoundfont": "-- 加载自定义 SFZ Soundfont --",
+            "lbl_mainSoundfont": "主要 Soundfont",
+            "phr_mainSoundfont": "选择 Soundfont...",
+            "btn_loadCustomSoundfont": "加载自定义 Soundfont",
+            "btn_loadDefaultSoundfont": "加载默认 Soundfont",
+            "lbl_audioSynthesizer": "音频合成器",
+            "phr_audioSynthesizer": "选择合成器",
+            "lbl_audioSampleRate": "音频采样率",
+            "phr_audioSampleRate": "选择采样率...",
+            "sld_maxPolyphony": "最大多音性",
+            "sld_maxNoteOnTime": "最大音符开启时间",
+            "btn_openEqualizerSettings": "打开均衡器设置",
+            "tgl_enableReverb": "启用音频混响",
+            "btn_openReverbSettings": "打开混响设置",
+            "tgl_cacheSoundfonts": "本地缓存 Soundfonts",
+            "btn_clearSoundfontsCache": "清除 Soundfonts 缓存",
+            "lbl_interpolationMethod": "插值方法",
+            "phr_interpolationMethod": "选择插值方法...",
+            "opt_interpNone": "最快，但音质可疑。",
+            "opt_interpLinear": "稍慢，音质合理。",
+            "opt_interpFourthOrder": "需要 50% 的整个 DSP 处理时间，质量好（默认）",
+            "opt_interpSeventhOrder": "消耗更多处理时间，但质量最高。",
+            "lbl_resetSoundfontSettings": "Soundfont 设置",
+            "lbl_audioDevices": "音频设备",
+            "phr_audioDevices": "选择设备"
           },
           "tooltips": {
-            "lbl_audioEngine": "选择默认音频引擎。<br> （下次重启生效）",
-            "tgl_enableDrums": "启用后，这将允许在通道 9（零索引基础）上播放打击乐声音",
+            "lbl_audioEngine": "选择默认音频引擎。<br>（下次重启时生效）",
+            "tgl_enableDrums": "启用后，这将允许在通道 9（零索引基础）上演奏打击乐声音",
             "hdr_v3Audio": "特定于 V3 音频引擎的设置",
-            "lbl_soundfonts": "选择默认的声音字体",
-            "lbl_initalBuffersize": "解释即将到来。 （下次重启生效）",
-            "tgl_showDebuglogs": "启用后，这会将性能日志输出到控制台",
-            "tgl_useAudioWorklet": "启用后，这会将 V3 的音频引擎加载到音频工作集进程中的单独线程中。<br>应该提高性能。 （在应用重启时生效）"
+            "lbl_soundfonts": "选择默认 Soundfont",
+            "lbl_initalBuffersize": "解释即将到来。（下次重启时生效）",
+            "tgl_showDebuglogs": "启用后，这将向控制台输出性能日志",
+            "tgl_useAudioWorklet": "如果启用，音频引擎将使用 AudioWorklet API 进行音频处理。这会引入一些轻微的输入延迟，但应提供更好的音质和稳定性。<br/><br/><i>注意：需要重新加载才能生效。</i></i>",
+            "btn_loadCustomSoundfont": "点击加载您位于机器上的自己的 Soundfont。",
+            "btn_loadDefaultSoundfont": "点击加载默认 Soundfont。",
+            "lbl_audioSynthesizer": "目标音频合成器。如果 Soundfont 声音不正确，您可以在这里尝试切换到不同的合成器。<br><br><i>某些合成器可能是实验性的或不完全具备功能。请自行判断使用。</i><br><br><i>注意：需要重新加载才能生效。</i></i>",
+            "lbl_audioSampleRate": "默认（自动）情况下，AudioContext 将选择一个与底层设备匹配的采样率。<br/><br/>在开发用于计算机或电信的音频时，采样率是每秒提取的用于代表事件的数字声音样本数。每秒提取的样本越多，声音的数字表示越准确。<br><br><i>注意：需要重新加载才能生效。</i></i>",
+            "sld_maxPolyphony": "确定音频引擎可以一次播放的不同音符的最大数量。",
+            "sld_maxNoteOnTime": "确定声音持续时间的最大时间（以秒为单位），同时按下键。",
+            "tgl_enableReverb": "启用音频混响。混响是声音产生后的持续性。",
+            "tgl_cacheSoundfonts": "确定是否应该将来自 PianoRhythm 云加载的 Soundfonts 保存在您的机器上本地。这应有助于减少加载时间。",
+            "btn_clearSoundfontsCache": "这将清除您的缓存。如果您在网络客户端上，它将清除 IndexedDB 中存储的 Soundfonts。如果您在桌面上，它将清除应用程序数据文件夹中保存的缓存 Soundfonts。",
+            "lbl_interpolationMethod": "合成插值方法。如果您与某些 Soundfont 体验任何奇怪的问题，更改此设置可能会有所帮助。",
+            "lbl_audioDevices": "目标音频设备。<br><br><i>注意：需要重新加载才能生效。</i></i>"
           }
         },
         "effects": {
           "label": "效果"
         },
         "bgMusic": {
-          "label": "BG音乐"
+          "label": "背景音乐"
         },
-        "midi": {
-          "label": "迷笛",
+        "bgmusic": {
+          "label": "背景音乐",
           "elements": {
-            "hdr_inputOutput": "输入输出",
-            "lbl_enableAudioToOutput": "启用音频仅输出",
-            "hrd_generalEffects": "一般效果",
-            "tgl_mousePosVelocity": "鼠标位置决定速度",
-            "sld_sustainCutoff": "维持截止",
-            "hdr_velocityEffects": "速度效应",
-            "tgl_enableVelocity": "启用速度",
-            "sld_velocityMuting": "速度静音",
-            "tgl_enableVelocityBoost": "启用速度提升",
-            "sld_velocityBoost": "速度提升",
-            "lbl_metronome": "节拍器音频样本",
-            "tgl_enableV2Reverb": "V2 混响",
-            "tgl_listenToProgramChanges": "收听节目变更",
-            "tgl_autoFillEmptyChannels": "自动填充空通道",
-            "tgl_useDefaultBankWhenMissing": "缺失时使用默认银行",
-            "tgl_enableStereoPanning": "启用立体声声像"
+            "hdr_general": "通用",
+            "tgl_enableBgMusic": "启用背景音乐"
           },
           "tooltips": {
-            "lbl_enableAudioToOutput": "如果选中并且任何输出设备处于活动状态，则音频将仅发送到输出设备，而不是在 PianoRhythm 的音频引擎中",
-            "tgl_mousePosVelocity": "这将使鼠标位置能够确定计算机键盘输入的速度。<br><br>你的鼠标越靠近浏览器窗口的底部，你的笔记就会越响亮",
-            "sld_sustainCutoff": "设置持续音符的释放截止点。 （更高的百分比 = 更短的延音）",
-            "tgl_enableVelocity": "如果未选中，则不会使用来自源的原始速度值。相反，它将被设置为最大值 (127)",
-            "sld_velocityMuting": "使速度小于或等于仪表值的音符静音。",
-            "tgl_enableVelocityBoost": "提升传入的原始速度值",
-            "sld_velocityBoost": "为原始速度增加附加值",
-            "lbl_metronome": "选择用于节拍器的音频样本类型",
-            "tgl_enableV2Reverb": "切换是否为 V2 音频引擎启用混响",
-            "tgl_listenToProgramChanges": "切换 PianoRhythm 是否应该监听 midi 程序变化事件并相应地更新乐器底座。",
-            "tgl_autoFillEmptyChannels": "切换当事件发生时，乐器底座中的空通道是否应使用默认乐器自动填充。",
-            "tgl_useDefaultBankWhenMissing": "当音色没有特定的库时，切换是否使用默认库（通常为库 0）。",
-            "tgl_enableStereoPanning": "切换音频引擎是否支持向左或向右平移音频流。<br><br>因此，音符的声音位置将与其在钢琴上的位置相关。<br><br>例如，靠近右侧的音符在右侧扬声器上会听到更多。左侧也是如此，靠近中间的音符会分布在两个扬声器上。"
+            "tgl_enableBgMusic": "如果启用，某些屏幕期间将播放背景钢琴音乐。"
+          }
+        },
+        "soundeffects": {
+          "label": "音效",
+          "elements": {
+            "hdr_general": "通用",
+            "hdr_advanced": "高级",
+            "tgl_enableSoundEffects": "启用音效",
+            "tgl_enableChatSoundEffects": "启用聊天音效",
+            "sld_stageEffectsVolume": "舞台效果音量",
+            "lbl_resetSoundEffectsSettings": "音效设置"
+          },
+          "tooltips": {
+            "tgl_enableSoundEffects": "如果启用，音效将在整个某些 UI 元素中发出。",
+            "tgl_enableChatSoundEffects": "如果启用，将为相关的聊天 UI 元素发出音效。",
+            "sld_stageEffectsVolume": "确定舞台音效的全局音量。"
+          }
+        },
+        "midi": {
+          "label": "MIDI",
+          "elements": {
+            "hdr_inputOutput": "输入/输出",
+            "hdr_general": "通用",
+            "hdr_multiplayer": "多人游戏",
+            "lbl_enableAudioToOutput": "仅启用音频到输出",
+            "hrd_generalEffects": "通用效果",
+            "tgl_mousePosVelocity": "鼠标位置确定速度",
+            "sld_sustainCutoff": "延音截止",
+            "hdr_velocityEffects": "速度效果",
+            "tgl_enableVelocity": "启用速度",
+            "sld_velocityMuting": "速度静音",
+            "tgl_enableVelocityBoost": "启用速度增强",
+            "sld_velocityBoost": "速度增强",
+            "lbl_metronome": "节拍器音频采样",
+            "tgl_enableV2Reverb": "V2 混响",
+            "tgl_listenToProgramChanges": "收听程序更改",
+            "tgl_autoFillEmptyChannels": "自动填充空通道",
+            "tgl_useDefaultBankWhenMissing": "缺失时使用默认音源库",
+            "tgl_enableStereoPanning": "启用立体声混音",
+            "sld_maxVelocity": "最大速度",
+            "sld_minVelocity": "最小速度",
+            "sld_maxMultiModeChannels": "最多多人模式通道",
+            "tgl_outputOwnNotes": "将自音符输出到 MIDI 输出",
+            "sld_globalUserVelocityPct": "全局用户速度百分比"
+          },
+          "tooltips": {
+            "lbl_enableAudioToOutput": "如果选中并且任何输出设备处于活动状态，则音频将仅发送到输出设备而不是 PianoRhythm 的音频引擎内",
+            "tgl_mousePosVelocity": "这将启用鼠标位置确定计算机键盘输入的速度。<br> <br>您的鼠标越接近浏览器窗口底部，音符就会越大",
+            "sld_sustainCutoff": "设置延音音符的释放截止点。（较高的百分比 = 较短的延音）",
+            "tgl_enableVelocity": "如果未选中，将不使用来自源源的原始速度值。相反它将被设置为最大值（127）",
+            "sld_velocityMuting": "静音速度小于或等于度量值速度的音符。",
+            "tgl_enableVelocityBoost": "增强传入的原始速度值",
+            "sld_velocityBoost": "为原始速度添加附加值",
+            "lbl_metronome": "选择要用于节拍器的音频采样类型",
+            "tgl_enableV2Reverb": "切换是否启用 V2 音频引擎的混响",
+            "tgl_listenToProgramChanges": "切换 PianoRhythm 是否应收听 MIDI 程序更改事件并相应更新乐器停靠。",
+            "tgl_autoFillEmptyChannels": "切换当音符开启事件发生时，是否在乐器停靠中用默认乐器自动填充空通道。",
+            "tgl_useDefaultBankWhenMissing": "切换是否在 Soundfont 没有特定音源库时使用默认音源库（通常是音源库 0）。",
+            "tgl_enableStereoPanning": "切换音频引擎是否支持向左或向右混音音频流。<br><br>因此，音符的声源位置将相对于它们在钢琴上的位置。<br><br>例如，靠近右侧的音符将在右扬声器上更明显。同样适用于左侧和中间附近，将分布在两个扬声器之间。",
+            "sld_maxVelocity": "确定您的 MIDI 音符的最大速度。",
+            "sld_minVelocity": "确定您的 MIDI 音符的最小速度。",
+            "sld_maxMultiModeChannels": "确定多人模式下允许的最大通道数量。",
+            "tgl_outputOwnNotes": "如果启用，您的自音符将发送到您的 MIDI 输出设备。",
+            "sld_globalUserVelocityPct": "这控制用户对客户端发出的原始速度值的全球总百分比。"
           }
         }
       }
     },
     "billing": {
-      "header": "计费",
+      "header": "账单",
       "subMenus": {
         "subscription": {
           "label": "订阅",
@@ -270,42 +648,61 @@
             "lbl_languageSelect": "语言选择"
           },
           "tooltips": {
-            "lbl_languageSelect": "设置 PianoRhythm 的默认语言。"
+            "lbl_languageSelect": "为 PianoRhythm 设置默认语言。"
           }
         }
       },
       "buttons": {
-        "checkout": "使用条纹结帐",
+        "checkout": "使用 Stripe 结账",
         "cancelSubscription": "取消订阅",
-        "cancellation_InProcess": "使用 Stripe 恢复订阅"
+        "cancellation_InProcess": "使用 Stripe 恢复订阅",
+        "selected": "已选择",
+        "subscribe": "点击此处订阅！",
+        "confirmYes": "好的！",
+        "nevermind": "嗯，算了...",
+        "cancelCheckoutSession": "取消结账会话"
       },
       "labels": {
         "billingInfo": "账单信息",
-        "cancelSubscription": "取消订阅"
+        "cancelSubscription": "取消订阅",
+        "savePercent": "节省 {{pct}}%",
+        "year": "年",
+        "month": "月",
+        "monthly": "每月",
+        "annually": "每年"
+      },
+      "titles": {
+        "subscriptionUpdated": "订阅已更新",
+        "subscriptionCanceled": "订阅已取消",
+        "checkOut": "结账",
+        "checkOutSession": "结账会话"
       },
       "messages": {
-        "checkout_Created": "已打开一个新选项卡。继续在那里结帐！",
+        "checkout_Created": "已打开一个新标签页。在那里继续结账！",
         "checkout_Success": "结账成功！",
         "checkout_Cancelled": "您已取消会话。",
-        "checkout_ResumePlan": "您即将恢复已取消的订阅。 </br></br>你确定吗？",
-        "checkout_Confirm": "您即将签出并订阅高级计划。 </br></br>你确定吗？",
-        "subscription_cancellationFail": "抱歉，出了一些问题。取消订阅失败。",
-        "subscription_Updated": "您已成功更新订阅计划！",
+        "checkout_ResumePlan": "您即将恢复已取消的订阅。 </br></br>确定吗？",
+        "checkout_Confirm": "您即将结账并订阅高级计划。 </br></br>确定吗？",
+        "subscription_cancellationFail": "抱歉，出错了。无法取消订阅。",
+        "subscription_Updated": "您已成功更新了订阅计划！",
         "subText": "这是您当前的订阅。您可以随时取消或更新它。",
-        "cancellation_InProcess": "您当前的订阅已被<b>取消</b>，因此不会自动续订。 <b style=\"color:white;\">{{billingDate}}</b>之前，您仍然可以享受福利。",
-        "autoRenewInfo": "您的订阅将在<b style=\"color:white;\">{{billingDate}}</b>自动续订，您需要支付<b style=\"color:white;\">{{currencyText}}费用。</b>",
-        "cancellation_Confirm": "我们很遗憾看到你走了， {{username}} ！</br>您的专业计划订阅在<b>{{planBillingDate}}</b>之前支付。</br></br>如果您想继续取消订阅，请选择下方的<b>“取消订阅”。</b>",
-        "cancellation_Success": "您已成功取消订阅。"
+        "cancellation_InProcess": "您当前的订阅已<b>取消</b>，因此将不会自动续订。 </b> 但您将一直拥有您的福利直到 <b style=\"color:white;\">{{billingDate}}</b>。",
+        "autoRenewInfo": "您的订阅将在 <b style=\"color:white;\">{{billingDate}}</b> 自动续订，并将收取 <b style=\"color:white;\">{{currencyText}}.</b>",
+        "cancellation_Confirm": "很遗憾您即将离开，{{username}}！。 </br> 您的高级计划订阅已付款至 <b>{{planBillingDate}}</b>。 </br></br>如果您要继续取消订阅，请选择下方的<b>"Cancel Subscription"</b>。",
+        "cancellation_Success": "您已成功取消了订阅。",
+        "alreadySubscribed": "抱歉，看起来您已经订阅了该计划。",
+        "checkoutFailed": "抱歉，出错了。结账失败。",
+        "mustBeMember": "🛑 您必须是会员才能访问此页面。请登录！"
       }
     },
     "other": {
       "header": "其他",
       "subMenus": {
         "changelog": {
-          "label": "变更日志"
+          "label": "发布说明"
         },
         "credits": {
-          "label": "学分",
+          "label": "致谢",
           "messages": {
             "error_FailedToGetData": "获取数据失败..."
           }

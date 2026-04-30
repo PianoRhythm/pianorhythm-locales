@@ -1,1 +1,31 @@
-{}
+{
+  "bar": {
+    "placeholder": "说点友好的话...",
+    "sendMessage": "发送消息"
+  },
+  "triggerList": {
+    "users": "用户",
+    "rooms": "房间"
+  },
+  "embeddable": {
+    "site": "网站"
+  },
+  "externalLinkWarning": {
+    "cancel": "算了，抱歉...",
+    "confirm": "好的！"
+  },
+  "contextMenu": {
+    "user": "用户",
+    "id": "ID",
+    "date": "日期",
+    "copyMessage": "复制消息",
+    "copyMessageId": "复制消息 ID",
+    "copyTextSelection": "复制文本选择",
+    "reportMessage": "举报消息",
+    "deleteMessage": "删除消息",
+    "deleteAllByUser": "删除所有用户消息"
+  },
+  "message": {
+    "editedSuffix": "(已编辑...)"
+  }
+}
