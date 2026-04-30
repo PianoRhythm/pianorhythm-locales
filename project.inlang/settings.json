@@ -15,7 +15,7 @@
 		"pt",
 		"ru",
 		"sr",
-		"zh-CN"
+		"zh"
 	],
 	"modules": [
 		"https://cdn.jsdelivr.net/npm/@inlang/plugin-json@latest/dist/index.js",
